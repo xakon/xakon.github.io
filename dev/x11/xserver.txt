@@ -1,0 +1,23 @@
+X Server
+========
+
+Some notes about this beast that I ignore.  There are many options, programs,
+settings and libraries to study about.
+
+
+## Fonts
+
+There are X core fonts and FreeType fonts (supplied by Pango).
+To generate an X core font description, xfontsel(1).
+
+A FreeType font description is composed by a font family, a style, a weight,
+a variant, a stretch and a size.
+
+## Keyboard
+
+Key layouts are supplied by xmodmap(1).
+
+To get the current mapping of the keyboard, use `xmodmap -pke`.
+To interactively enter a key and see what keysym it is configured to,
+use `xev`.
+

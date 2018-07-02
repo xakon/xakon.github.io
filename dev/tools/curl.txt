@@ -1,0 +1,7 @@
+-X	Specify Request Method (default is GET)
+-H	Set custom Request Headers
+-d	Send Request Body.  Can be used with @file directive (read data from file)
+-F	POST HTML Multipart or File Forms
+-i	View Response Headers
+
+Nice test server for HTTP commands is http://echo.httpkit.com/

@@ -1,0 +1,96 @@
+Erlang
+======
+
+Some notes I need to keep while reading about http://www.erlang.org/[Erlang].
+
+
+Syntax
+------
+
+Comments start with +%+, statements terminate with +.+.
+
+Number literals can be defined using any base in the form +Base#Value+.
+Arithmetic operators are:  +++, +-+, +*+, +/+, +div+, +rem+.
+
+Atoms should begin with a lowercase letter and can contain [a-zA-Z0-9_@].
+We can also enclose an atom in single quotes.  In this case it contain any
+character.
+
+Boolean values are the 2 reserved atoms: +true+, +false+.
+The boolean operators are:  +and+, +or+, +xor+, +not+.
+The short-circuit boolean operators are:  +andalso+, +orelse+.
+
+Variable names should begin with a capital letter or underscore.
+They can be assigned a value only once.
+
+Tuples can are defined like this:  +{a, b, c}+.
+They can contain any number of values.
+
+
+References
+----------
+
+Web
+~~~
+
+ - http://www.erlang.org/[Erlang - Official site]
+ - http://www.erlang.org/doc.html[Official Online Documentation]
+ - http://www.erlang-factory.com/[Erlang Factory - Community]
+
+ - http://www.erlang.org/articles[Official Articles]
+
+ - http://www.erlangpatterns.org/patterns.html[Erlang Patterns]
+
+ - http://erldocs.com[Erlang Docs]
+ - http://demo.erlang.org
+
+ - http://erlang.org/doc/apps/eunit/chapter.html[EUnit - Lightweight Unit Testing Framework]
+
+
+Books
+~~~~~
+
+Some recommended books about Erland are:
+
+ - Programming Erlang: Software for a Concurrent World, 2/e
+   Joe Armstrong
+   Pragmatic Programmers, 2013
+
+ - Erlang Programming
+   F. Cesarini, S. Thompson
+   O'Reilly, 2009
+
+ - Learn You Some Erlang for Great Good!
+   F. Hérbert
+   No Starch Press, 2013
+
+ - 7 Concurrency Models in & Weeks
+   Paul Butcher
+   The Pragmatic Bookshelf
+
+ - Erlang and OTP in Action
+   M. Logan, E. Merritt, R. Carlsson
+   Manning, 2010
+
+ - Programming Elixir
+   Dave Thomas
+   The Pragmatic Bookshelf
+
+ - Elixir in Action
+   Saša Jurić
+   Manning
+
+ - OTP Design Principles[http://www.erlang.org/doc/design_principles/]
+
+ - Mnesia User's Guide[http://www.erlang.org/doc/apps/mnesia/]
+
+Projects
+~~~~~~~~
+
+Open-source projects are always a great reference point to study about
+a language and its applications.
+
+ - dgol[https://github.com/MirkoBonadei/dgol]: A Distributed Game of Life.
+
+
+-- vim: set filetype=asciidoc:

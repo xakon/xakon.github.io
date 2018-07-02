@@ -1,0 +1,236 @@
+Syntax
+------
+
+Haskell's syntax reminds of Lisp and Python:  it omits the parentheses of Lisp,
+whitespace does matter, as in Python.
+
+In a sequence of definitions, each definition must begin in precily the same
+column.  Or explicitly declared as a block, using `{}` (not recommended style).
+
+Function and argument names must begin with lowercase letter.
+By convention, list arguments usually have a suffix of `s` on their name.
+
+Any binary operator/function can be written with backticks and infix notation,
+otherwise all functions use Lisp's prefix notation, where the parentheses are
+implied.
+
+Comments
+~~~~~~~~
+
+There are two types of comments:
+ - 'Ordinary' comments:  single-line, start with `--` until the end of line.
+ - 'Nested' comments:  multi-line, can nest each other, using symbols `{-` and `-}`.
+
+Names
+~~~~~
+
+There are six kinds of names in Haskell:
+
+ - Variables
+ - Constructors
+ - Type Variables
+ - Type Constructors
+ - Type Classes
+ - Module Names
+
+Variables and Type Variables must begin with lowercase or `_`.
+The rest must begin with a Capital letter.
+
+Expressions
+~~~~~~~~~~~
+
+Everything in Haskell is an expression or declaration.
+Expressions may be values, combinations of values, and/or functions
+applied to values.  They evaluate to a result.
+
+**Normal Form**:  Expressions are in *normal form* when there are no more
+evaluation steps to be performed.  We say that these expressions have
+reached an irreducible form.  *Reducible expressions*, also called
+*redexes*.  The process of evaluation or reduction can also be seen
+as *normalizing* or *executing* an expression.
+
+The (=) operator is to define values and/or functions.
+We need the `let` declaration in order to define a function at the REPL.
+Functions and variables are lowercase.  Modules and types start with an uppercase.
+
+Declarations
+~~~~~~~~~~~~
+
+Top-level bindings which let us give names to expressions.
+
+The 'data declarations' introduce new types in the program.
+See section about 'Types' for more information.
+
+Conditional Expressions
+~~~~~~~~~~~~~~~~~~~~~~~
+
+These are *expressions*, not statements.  The `else` part is not optional.
+
+[source,haskell]
+----
+abs   :: Int -> Int
+abs n =  if n >= 0 then n else -n
+----
+
+Guarded Equations
+~~~~~~~~~~~~~~~~~
+
+The main benefit of 'guarded equations' over 'conditional expressions' is that
+definitions with multiple guards are easier to read.
+
+[source,haskell]
+----
+abs n | n >= 0		= n
+      | otherwise	= -n
+----
+
+`otherwise` is defined to be an alias of `true`.
+
+Pattern Matching
+~~~~~~~~~~~~~~~~
+
+[source,haskell]
+----
+(^)		:: Bool -> Bool -> Bool
+True ^ b	=  b
+_    ^ _	=  False
+----
+
+'Tuple patterns' are itself patterns, which match any tuple of the same arity
+whose components all match the corresponding patterns in order.
+
+[source,haskell]
+----
+fst		:: (a, b) -> a
+fst (x, _)	= x
+snd		:: (a, b) -> b
+snd (_, y)	= y
+----
+
+'List patterns' are patterns, which match any list of the same length whose
+elements all match the corresponding patterns in order.
+
+[source,haskell]
+----
+test		:: [Char] -> Bool
+test ['a', _, _] = True
+test _		 = False
+----
+
+A better alternative to this syntax is the usage of the 'cons' operator `(:)`.
+
+[source,haskell]
+----
+test		:: [Char] -> Bool
+test ['a' : _]	 = True
+test _		 = False
+
+null		:: [a] -> Bool
+null []		= True
+null (_:_)	= False
+
+head		:: [a] -> a
+head (x:_)	= x
+
+tail		:: [a] -> [a]
+tail (_:xs)	= xs
+----
+
+'Integer patterns' is a special case that is sometimes useful.  Haskell allows
+integer patterns of the form `n + k`, where `n` is an integer variable and
+`k > 0` is an integer constant.
+
+[source,haskell]
+----
+pred	   :: Int -> Int
+pred 0	   =  0
+pred (n+1) = n
+----
+
+'Integer patterns' can only match integers where `>= k`, and they must be
+parenthesised, because of the low priority of the function application.
+
+Lambda Expressions
+~~~~~~~~~~~~~~~~~~
+
+`λx -> x + x`
+
+The syntax of a 'Lambda Expression' is: `\ [params] -> [expression]`.
+
+Sections
+~~~~~~~~
+
+Applicable to functions that accept 2 arguments, especially 'operators'.
+They are similar to 'partial functions' in Python.
+We can place in parentheses the operator/function and omit any of the 2 parameters,
+which will be completed at run-time using currying.
+
+[source,haskell]
+----
+(o)	= λx -> (λy -> x o y)
+(xo)	= λy -> x o y
+(oy)	= λx -> x o y
+----
+
+'Sections' have three main applications.  Can be used to construct a number
+of simple but useful functions in a particularly compact way:
+
+ - `(+)`	is the addition function
+ - `(1+)`	is the successor function
+ - `(1/)`	is the reciprocation function
+ - `(*2)`	is the doubling function
+ - `(/2)`	is the halving function
+
+They are also necessary when stating the type of operators, and, finally,
+when using operators as arguments to other functions.
+
+`let` and `where`
+~~~~~~~~~~~~~~~~~
+
+We can use `let` and `where` to introduce names for expressions.
+`let` introduces an expression, whereas `where` clauses are not.
+They introduce only local scope.
+
+See also the Haskell wiki about them:  https://wiki.haskell.org/Let_vs._Where
+
+`case` statement
+~~~~~~~~~~~~~~~~
+
+Not my favourite.  Here is an example of its syntax:
+
+[source,haskell]
+----
+hello x =
+   case x of
+      Cat -> "meeow"
+      Dog -> "woof"
+      Fish -> "bubble"
+      _ -> "anything else"
+----
+
+Reporting Errors
+~~~~~~~~~~~~~~~~
+
+Errors in Haskell are propagated to the caller with the standard function, `error`:
+
+[source,haskell]
+----
+error :: String -> a
+----
+
+More specifically, if an error condition is signaled, an exception will be raised.
+
+I/O and Monads
+~~~~~~~~~~~~~~
+
+I/O operations need to be sequenced (compiler can't reorder the operations and
+execute them in random, order does matter).  The `do` statement is used for this reason.
+
+Functions that perform I/O need to have a specific type of `IO ()`.
+Functions that return strings from I/O (like `getLine`) have a specific type of `IO String`.
+We associate I/O results to values (inside a `do` statement) using the `<-` operator.
+
+
+////
+# vim: set ft=asciidoc:
+////

@@ -1,0 +1,148 @@
+Syntax
+------
+
+Some notes here are mine, but the (great) examples are borrowed from
+Erlang's documentation and, more specifically, from Erlang's Course.
+
+_Comments_ start with +%+, _statements_ terminate with +.+.
+_Sequence of statements_ are separated by +,+.
+
+The values in Erlang are one of the six following types:
+
+ - Numbers
+ - Atoms
+ - Booleans
+ - Tuples and Lists
+ - Strings
+ - Functions
+
+_Arithmetic operators_ are:  +++, +-+, +*+, +/+, +div+, +rem+.
+
+_Boolean_ values are the 2 special, reserved atoms: +true+, +false+.
+The boolean operators are:  +and+, +or+, +xor+, +not+.
+The short-circuit boolean operators are:  +andalso+, +orelse+.
+
+_Functions_ and _modules_ are atoms, thus they begin with lowercase letters.
+
+
+Numbers
+~~~~~~~
+
+_Number_ literals can be defined using any base in the form +Base#Value+.
+
+Numbers can be either _Integers_ or _Floats_.  Integers are ``bignums''.
+The syntax +$Char+ gives the ASCII number of the character.
+
+```erlang
+10
+-234
+16#AB10F
+16#ab10f
+2#110111010
+$A
+
+17.368
+-56.654
+12.3E-10
+```
+
+Atoms
+~~~~~
+
+An _atom_ is just a piece of data, evaluating to themselves.
+
+_Atoms_ should begin with a lowercase letter and can contain [a-zA-Z0-9_@].
+We can also enclose an atom in single quotes.
+In this case it can contain any character.
+Indefinite length atoms are allowed.
+Any character code is allowed within an atom.
+
+```erlang
+abcef
+start_with_a_lower_case_letter
+'Blanks can be quoted'
+'Anything inside quotes \n\012'
+```
+
+Tuples
+~~~~~~
+
+_Tuples_ can are defined like this:  +{a, b, c}+.
+
+They can contain any number of values and can be of any size.
+Typically, they are heterogeneous.
+They are used to store a fixed number of items.
+
+An Erlang's idiom is to use the first field of a tuple to indicate what sort
+of data is represented by the tuple.
+
+```erlang
+{123, bcd}
+{123, def, abc}
+{person, 'Joe', 'Armostrong'}
+{abc, {def, 123}, jkl}
+{}
+```
+
+Lists
+~~~~~
+
+A _List_ is a collection of values and, thus, it is always homogeneous.
+Lists can be defined inside brackets:  +["Joe", "Armstrong"]+.
+They are used to store a variable number of items.
+Lists are dynamically sized.
+
+```erlang
+[123, xyz]
+[123, def, abc]
+[{person, 'Joe', 'Armstrong'},
+ {person, 'Robert', 'Virding'},
+ {person, 'Mike', "Williams'}
+]
+"abcdefghi"		% becomes -- [97, 98, 99, 100, 101, 102, 103, 104, 105]
+""			% becomes -- []
+```
+
+
+Strings
+~~~~~~~
+
+_Strings_ are just lists of characters.  If we want the ASCII code of a character,
+we can prepend its atom with +$+:  +[$a, $b, $c] == "abc"+.
+
+Strings must be placed inside double quotes as in +"string"+.
+
+Variables
+~~~~~~~~~
+
+_Variables_ must start with an Upper Case Letter or an underscore.
+There are no "funny characters".
+Variables are used to store values of data structures.
+Variables can only be bound once!
+The value of a variable can never be changed once it has been set (bound).
+
+```erlang
+Abc
+A_long_variable_name
+AnObjectOrientatedVariableName
+```
+
+Functions
+~~~~~~~~~
+
+As Erlang is a functional language, _functions_ can be obviously be data,
+input and output from other functions.  A function can be declared using
+the lambda (fun) syntax or the function one.
+
+Erlang also supports specifications, which look very similar to functions,
+but they declare only types.
+
+```erlang
+-spec take(integer(), [T]) -> [T].
+```
+
+Modules
+~~~~~~~
+
+
+-- vim: set filetype=asciidoc:

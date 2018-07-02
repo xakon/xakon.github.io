@@ -1,0 +1,69 @@
+Functions
+---------
+
+A 'function' is a mapping from one type to another.  For example,
+   `add :: (Int, Int) -> Int`
+
+A 'function' is an expression that is applied to an argument (or parameter)
+and always returns a result.  Since they are pure expressions, they evaluate
+always the same result.
+
+A function name should start with lowercase letter.
+Camel back syntax is common for functions.
+Modules and types start with uppercase letters.
+Variables are lowercase.
+
+'Curry functions' are ones that take an argument and return another function,
+bound to the first argument, which operates on the rest (usually on the first)
+of arguments.  Haskell is optimized on working on curry functions, which they
+are mostly preferred in place of functions that work on tuples.
+
+'Polymorphic functions' are the same as generic functions of Java or template
+functions of C++.  They can operate on any type.  An example of a polymorphic
+function is `length`:  `length :: [a] -> Int`.
+
+'Overloaded functions' are polymorphic functions with restricted type-classes.
+For example, `sum :: Num a => [a] -> a`.
+
+'Higher-Order Functions' are called any function that takes as an argument or
+returns another function.  Classic examples of higher-order functions are
+`map`, `filter`, `reduce`.
+
+
+Defining Functions
+~~~~~~~~~~~~~~~~~~
+
+The most straightforward way to define a new function is using the equation
+operator.
+
+Operators
+~~~~~~~~~
+
+'Operators' are also functions, but they are usually used in *infix* notation.
+In Haskell, functions are usually used in *prefix* notation.
+Using backticks, we can use a function in *infix* notation, as well.
+The operator `div` is the most common case.
+
+```haskell
+   10 `div` 4
+   div 10 4
+```
+
+ - ($)	-- is the most "dummy" operator.  Its definition is:
+   `f $ a = f a`
+   and its usage is to change the order of evaluation in an expression:
+   instead of left-to-right evaluation and it performs right-to-left.
+   We can achieve the same result, of course, by using parentheses on
+   the right expression, but this syntax is considered more Haskell and
+   dense.
+
+ - (:) -- the "cons" operator, build a list from a head and a tail.
+
+ - (++) -- concatenate 2 lists
+
+ - (!!) -- return the element that is in the specified position in list.
+
+
+////
+# vim: set ft=asciidoc:
+////

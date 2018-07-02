@@ -1,0 +1,25 @@
+Modules
+-------
+
+*Modules* help to organize code.  So, place relevant functions in the same module.
+Modules have on the top a couple of attributes (metadata).
+Some of them are:  +module+, +export+, +import+, +author+, and others.
+You can see these metadata using the +module_info/0+, provided by the compiler.
+
+An Erlang's module must start with a +-module().+ statement,
+supplying the module's name to the system, and then with the +-export().+ statement,
+that declares all symbols exported by this module.  Any symbol not exported by
+a module can't be used outside of it.
+
+During the declaration of the exported symbols, we need to specify the required
+arguments of that symbol.  For example, the statement
+
+```erlang
+-export([mult/2, double/1]).
+```
+
+will export a +mult+ function that accepts 2 arguments and a +double+ function
+that accepts only one argument.
+
+
+-- vim: set filetype=asciidoc:

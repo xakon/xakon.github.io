@@ -1,0 +1,12 @@
+Books
+-----
+
+I'm reading the http://learnyousomeerlang.com[Learn You an Erlang For Good].
+Some recommented books in this order are:
+
+ - Programming Erlang, by Joe Armstrong
+ - Erlang Programming, by Francesco Cesarini, Simon Thompson
+ - Erlang and OTP in Action (advanced material)
+
+ - The Beam Book[https://github.com/happi/theBeamBook]:
+   The internals of Erlang and its VM.

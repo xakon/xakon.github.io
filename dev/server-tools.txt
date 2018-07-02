@@ -1,0 +1,133 @@
+16 Server Monitoring Tools
+==========================
+
+This document has been found at:
+   http://h30565.www3.hp.com/t5/Feature-Articles/16-Linux-Server-Monitoring-Commands-You-Really-Need-To-Know/
+
+ - iostat
+   The iostat command shows in detail what your storage subsystem is up to. You
+   usually use iostat to monitor how well your storage sub-systems are working
+   in general and to spot slow input/output problems before your clients notice
+   that the server is running slowly. Trust me, you want to spot these problems
+   before your users do!
+
+ - /proc/meminfo and free
+   Meminfo gives you a detailed list of what's going on in memory. Typically
+   you access meminfo's data by using another program such as cat or grep.
+   For example,
+
+      cat /proc/meminfo
+
+   gives you the details of what's going on in your server’s memory at any given moment.
+
+   For a quick “just the facts” look at memory, you can use the free command.
+   In short, free gives you the overview; meminfo gives you the details.
+
+ - mpstat
+   The mpstat command reports on the activities of each of the available CPUs
+   on a multi-processor server. These days, thanks to multi-core processors,
+   that’s almost all servers. mpstat also reports on the average activities of
+   all your server's CPUs. It enables you to display overall CPU statistics per
+   system or per processor. This overview can alert you to possible application
+   problems before they get to the point of annoying users.
+
+ - netstat
+   Netstat, like ps, is a Linux tool that administrators use every day. It
+   displays a lot of network related information, such as socket usage,
+   routing, interface, protocol, network statistics, and more.
+
+ - nmon
+   Nmon, short for Nigel's Monitor, is a popular open-source tool to monitor
+   Linux systems performance. Nmon watches the performance information for
+   several subsystems, such as processor utilization, memory utilization, run
+   queue information, disk I/O statistics, network I/O statistics, paging
+   activity, and process metrics. You can then view nmon's real-time system
+   measurements via its curses “graphical” interface.
+
+   To run nmon, you start the tool from the shell. Once up, you select the
+   subsystems to monitor by typing in its one-key commands. For example, to get
+   CPU, memory, and disk statistics, you type c, m, and d. You can also use
+   nmon with the -f flag to save performance statistics to a CSV file for later
+   analysis.
+
+   For day to day server monitoring I find nmon to be the single most useful
+   program in my Linux system management tool-kit.
+
+ - pmap
+   The pmap command reports the amount of memory that your server's processes
+   are using. You can use this tool to determine which processes on the server
+   are being allocated memory and whether any of these processes are being
+   piggy with RAM.
+
+ - ps and pstree
+   The ps and pstree commands are two of the Linux administrator’s best
+   friends. They both provide a list of all currently running processes. Ps
+   tells you how much memory and processor time the server’s programs are
+   using. Pstree shows less information, but highlights which processes are the
+   children of other processes. Armed with this information, you can spot
+   out–of-control processes and kill them off with Linux's “take no prisoners”
+   kill command.
+
+ - sar
+   The sar program is a Swiss-army knife of a system monitoring tool. The sar
+   command is actually made up of three programs: sar, which displays the data,
+   and sa1 and sa2, which collect and store it. Once installed, sar creates a
+   detailed overview of CPU utilization, memory paging, network I/O and
+   transfer statistics, process creation activity, and storage device activity.
+   The big difference between sar and nmon is that the former is better at
+   long-term system monitoring, while I find nmon to be better at giving me a
+   quick read on my server's status.
+
+ - strace
+   strace is often thought of a programmer's debugging tool, but it's more than
+   that. It intercepts and records the system calls that are called by a
+   process. This makes it a useful diagnostic, instructional, and debugging
+   tool. For example, you can use strace to find out which configuration file a
+   program is actually using when it starts up.
+
+   Strace does have one flaw though. When it's checking out a specific process,
+   that process' performance will fall through the floor. Thus, I only use
+   strace when I already have a darned good reason to think that that program
+   is causing trouble.
+
+ - tcpdump
+   Tcpdump is a simple, robust network monitoring utility. Its basic protocol
+   analyzing capability enables you to get a rough view of what is happening on
+   your network. To really dig into what's going on with your network however,
+   you'll want to use Wireshark.
+
+ - top
+   The top command shows what's going on with your active processes.  By
+   default, it displays the most CPU-intensive tasks running on the server and
+   updates the list every five seconds. You can sort the processes by PID
+   (Process ID); age, newest first; time, by cumulative time; and resident
+   memory usage and total time it's been using the CPU since startup. I find
+   this a fast and easy way to see if any process is starting to go out of
+   control and about to get into trouble.
+
+ - uptime
+   Use uptime to see how long the server has been running and how many users
+   are logged on. It also gives you an overview of the average server load.
+   The optimal value of the load is 1 or less, which means that each process
+   has immediate access to the CPU and there are no CPU cycles lost.
+
+ - vmstat
+   For the most part, you use vmstat to monitor what's going on with virtual
+   memory. Linux constantly uses virtual memory to get the best possible
+   storage performance.
+
+   If your applications are taking up too much memory you get excessive
+   page-outs — programs moving from RAM to your system's swap space, which is
+   on the hard drive. Your server can reach a point where it's spending more
+   time managing memory paging than running your applications, a condition
+   called thrashing. When your computer is thrashing, its performance falls
+   through the floor. Vmstat, which can display either average data or actual
+   samples, can help you spot memory pig programs and processes before they
+   bring your server to a crawl.
+
+ - Wireshark
+   Wireshark, formerly known as Ethereal (and still often referred to that
+   way), is tcpdump's big brother, though it is more sophisticated and with far
+   more advanced protocol analyzing and reporting. Wireshark has both a GUI
+   interface and a shell interface. If you do any serious network
+   administration, you must use ethereal.

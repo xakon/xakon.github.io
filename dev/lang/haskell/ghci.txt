@@ -1,0 +1,33 @@
+https://github.com/takenobu-hs/haskell-ghc-illustrated[GHC Illustrated]
+provides some nice (although un-official) presentations about the internals
+of GHC.
+
+Commands can be abbreviated to single letter.
+
+:q or :quit
+:l or :load	load a new file
+:r or :reload	reload last loaded file
+:i or :info	associativity/precedence of operators and functions
+:t or :type	find the type of an expression
+:set		enable specific features of GHCi
+
+Features of GHCi that can be enabled at run-time are:
+ - `+t`		print the type of `it`
+ - `-Wall`	enable more warnings and checks
+
+At GHCi the latest evaluated expression is stored in the value of `it` and
+can be freely used in the next expression.
+
+Change its prompt (by default it's `Prelude>` with:
+
+////
+# Haskell
+////
+
+   :set prompt "GHCi> "
+   :set prompt "λ> "
+
+
+////
+# vim: set ft=asciidoc:
+////

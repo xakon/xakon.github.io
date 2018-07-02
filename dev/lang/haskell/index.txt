@@ -1,0 +1,91 @@
+Haskell
+=======
+
+Some notes and links for this famous, pure functional language.
+
+
+First of all, consult the https://github.com/bitemyapp/learnhaskell[Learn Haskell]
+on which path I should follow while learning the language and its ecosystem.
+
+
+Resources
+---------
+
+ - http://www.haskell.org/[Official Site]
+ - http://www.haskell.org/onlinereport/[Haskell Report].  Latest standard is 2010.
+ - http://research.microsoft.com/en-us/um/people/simonpj/papers/haskell-tutorial/TasteOfHaskell.pdf[Taste of Haskell]
+ - IRC channels: #haskell, #nothaskell, #haskell-beginners
+ - http://haskellformac.com/[Haskell for Mac]
+ - http://haskellstack.org[Haskell Stack]
+ - http://haskelliseasy.com/[Haskell IS Easy]
+ - http://www.stephendiehl.com/posts/essential_haskell.html[Haskell Reading List]
+ - http://www.stephendiehl.com/posts/vim_2016.html[Vim and Haskell in 2016]
+ - https://ncatlab.org/nlab/show/HomePage[nLab]:  Wiki for Category Theory
+
+Platforms
+~~~~~~~~~
+
+ - http://www.haskell.org/ghc/[GHC]:  the most popular way to work in the Haskell language.
+ - https://www.haskell.org/cabal/[Cabal]:  project management and dependency resolution.
+ - http://tryhaskell.org/[Try Haskell!]:  online Haskell interpreter.
+   Code for the application can be found at https://github.com/chrisdone/tryhaskell[Github].
+ - https://docs.haskellstack.org/[Stack]:  The modern Haskell package and project manager.
+ - http://hackage.haskell.org/platform/[Haskell Platform]:
+   Old way of installing a full Haskell environment.
+
+Tools
+~~~~~
+
+ - https://docs.haskellstack.org/[Stack]:  Package and Project Manager for Haskell.
+ - https://github.com/ndmitchell/hlint[HLint]:  Lint for Haskell.
+ - https://github.com/rgleichman/glance[Glance]:  A visual syntax Haskell.
+ - http://haskelltools.org/[Haskell Tools]: GHC based toolset for Haskell programming.
+
+Tutorials
+~~~~~~~~~
+
+ - http://learn.hfm.io/[Learning Haskell]
+ - https://www.fpcomplete.com/school/starting-with-haskell/basics-of-haskell[Basics of Haskell]
+ - http://www.cs.uu.nl/research/techreps/repo/CS-2015/2015-019.pdf[Ask-Elle: an adaptable programming tutor for Haskell]
+ - http://www.stephendiehl.com/posts.html[Stephen Diehl].
+   He also has some nice writings about Haskell at:
+   http://www.stephendiehl.com/pages/writings.html.
+ - http://www.crsr.net/Programming_Languages/SoftwareTools/[Software Tools in Haskell].
+ - https://haskell-at-work.com/[Haskell at Work]:
+   A nice series of screen-casts about Haskell and some advanced features.
+
+Books
+~~~~~
+
+ - http://www.learnyouahaskell.com/[Learn You a Haskell for Great Good!]
+ - http://haskellbook.com[Haskell Programming]
+ - https://www.haskell.org/tutorial/[Gentle Introduction to Haskell 98]
+ - https://www.vacationlabs.com/haskell/[Haskell without the theory]
+ - Haskell 98 Report (Cambridge Press)
+
+Papers
+~~~~~~
+
+Some tutorials about Lambda Calculus:
+
+ - http://www.inf.fu-berlin.de/lehre/WS03/alpi/lambda.pdf[Tutorial Introduction to the Lambda Calculus]
+ - http://www.cse.chalmers.se/research/group/logic/TypesSS05/Extra/geuvers.pdf[Introduction to Lambda Calculus]
+ - http://www.paultaylor.eu/stable/prot.pdf[Proofs and Types]
+
+
+Libraries
+~~~~~~~~~
+
+ - http://www.cse.chalmers.se/~rjmh/QuickCheck/[QuickCheck]:
+   Library for exhaustive testing.
+
+ - https://github.com/hspec/HUnit[HUnit]:
+   Unit Testing framework.
+
+ - https://documentup.com/feuerbach/tasty[Tasty]:
+   Unit Testing framework.
+
+ - https://hspec.github.io/[HSpec]:
+   Behavorial Testing framework.
+
+-- vim: set filetype=asciidoc:

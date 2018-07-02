@@ -1,0 +1,40 @@
+### Built-in Functions
+
+They are defined in the `erlang` module and described in the BIFs manual.
+In general, they modify the behaviour of the system and they perform tasks
+that cannot be done (or is difficult to) in Erlang.
+
+Here is a short list of them:
+
+ - length()		-- return the length of a list
+ - size()		-- return the size of a tuple
+ - atom_to_list()	-- create a list with the characters of the atom
+ - integer_to_list()	-- convert an integer to a string
+ - list_to_tuple()
+ - date()		-- return system's current date
+ - time()		-- return system's current time
+
+ - io:format/2
+
+### Guards
+
+*Guards* can appear in a function clause.
+They are introduced with the `when` keyword.
+They can't be user-defined functions.
+All variables in a guard must be bound.
+
+A simple list of guards (more can be found in User's Guide):
+
+ - number(X)
+ - integer(X)
+ - float(X)
+ - atom(X)
+ - tuple(X)
+ - list(X)
+
+ - length(X) == 3
+ - size(X) == 2
+
+ - X > Y + Z
+ - X == Y
+ - X =:= Y

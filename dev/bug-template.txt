@@ -1,0 +1,26 @@
+Date:
+<#DATE>
+
+Symptom:
+<#SYMPTOM>
+
+Cause:
+<#CAUSE>
+
+How found:
+<#DISCOVERY>
+
+Fix:
+<#FIX>
+
+Fixed in file(s):
+<#FILES>
+
+Caused by:
+Me
+
+Time taken to resolve bug:
+<#TIME>
+
+Lessons:
+<#LESSONS>

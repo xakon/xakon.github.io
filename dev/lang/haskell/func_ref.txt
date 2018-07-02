@@ -1,0 +1,303 @@
+Reference
+---------
+
+These functions belong in The Standard Prelude.  I keep a short reference here.
+
+Classes
+~~~~~~~
+
+See the types.txt for more functions on these classes.
+
+ - `Eq`		- Check for object equality
+ - `Ord`	- Ordered types
+ - `Show`	- Printable to `String` types
+ - `Read`	- Types that can be converted from a `String`
+ - `Num`	- Numeric types
+ - `Integral`	- Integer types
+ - `Fractional`	- Floating-point types
+ - `Monad`	- Monadic types
+
+Types
+~~~~~
+
+See the types.txt for more functions on these types.
+
+ - `Bool`	- Logical values
+ - `Char`	- Unicode characters
+ - `String`	- List of characters
+ - `Int`	- Fixed-precision integers
+ - `Integer`	- Integers with no precision
+ - `Float`	- Single-precision floating-point numbers
+ - `Double`	- Double-precision floating-point numbers
+
+Lists
+~~~~~
+
+ - `null`	- Decide if a list is empty
+ - `elem`	- Decide if a value is an element of a list
+ - `length`	- Calculate the length of a list (linear)
+ - `reverse`	- Reverse a list
+ - `head`	- Select the first element from a list
+ - `tail`	- Remove the first element from a list
+ - `init`	- Select all elements of a list except the last one
+ - `last`	- Select the last element from a list
+ - `take`	- Select the first n elements from a list
+ - `drop`	- Remove the first n elements from a list
+ - `concat`	- Concatenate lists, passed inside a list
+ - `replicate`	- Produce a list of identical elements
+ - `map`	- Apply a function on every element of a list
+ - `filter`	- Select every element from a list that satisfies a predicate
+ - `foldr`	- Fold from the right (recursion)
+ - `foldr1`	- Fold a non-empty list from the right (recursion)
+ - `foldl`	- Fold from the left (iteration)
+ - `foldl1`	- Fold a non-empty list from the left (iteration)
+ - `sum`	- Calculate the sum of a list of numbers
+ - `product`	- Calculate the product of a list of numbers
+ - `all`	- Decide if every element of a list satisfies given predicate
+ - `any`	- Decide if at least one element of a list satisfies given predicate
+ - `and`	- Decide if all logical values in a list are `True`
+ - `or`		- Decide if any logical value in a list is `True`
+ - `takeWhile`	- Select elements from list while a predicate holds for all elements
+ - `dropWhile`	- Remove elements from list while a predicate holds for all elements
+ - `splitAt`	- Split a list at the nth element
+ - `span`	- Split a list using a predicate
+ - `(!!)`	- Select the nth element from a list (linear)
+ - `(++)`	- Append two lists
+ - `minimum`	- Minimum element of a list
+ - `maximum`	- Maximum element of a list
+ - `zip`	- Combine elements of 2 lists into tuples
+ - `cycle`	- Replicate elements of a list indefinitely
+ - `repeat`	- Repeat an element idefinitely
+ - `replicate`	- Create a list of `n` times the argument
+ - `iterate`	- Produce an infinite list by iterating a function over a value
+
+Tuples
+~~~~~~
+
+ - `(,)`	- Create a tuple
+ - `fst`	- First item in a pair
+ - `snd`	- Second item in a pair
+ - `swap`	- Swap 2 elements of a pair (`Data.Tuple`)
+
+Boolean
+~~~~~~~
+
+ - `&&`		- Logical conjunction
+ - `||`		- Logical disjunction
+ - `not`	- Logical negation
+ - `otherwise`	- Guard that always succeeds
+
+Characters
+~~~~~~~~~~
+
+ - `isLower`	- Decide if a character is lower-case letter
+ - `isUpper`	- Decide if a character is upper-case letter
+ - `isAlpha`	- Decide if a character is alphabetic
+ - `isDigit`	- Decide if a character is a digit
+ - `isAlphaNum`	- Decide if a character is alpha-numeric
+ - `isSpace`	- Decide if a character is spacing
+ - `ord`	- Convert a character to a Unicode number
+ - `chr`	- Convert a Unicode number to a character
+ - `digitToInt`	- Convert a digit to an integer
+ - `intToDigit`	- Convert an integer to a digit
+ - `toLower`	- Convert a letter to lower-case
+ - `toUpper`	- Convert a letter to upper-case
+
+Numbers
+~~~~~~~
+
+ - `even`	- Decide if an integer is even
+ - `odd`	- Decide if an integer is odd
+ - `^`		- Exponentiation
+
+
+Functions
+~~~~~~~~~
+
+ - `id`		- Return the same element
+ - `(.)`	- Composition of 2 functions: `f(g(x))`
+ - `const`	- Constant functions (return the same element for any argument)
+ - `flip`	- Reverse order of binary function's arguments
+ - `curry`	- Convert a function o pairs to a curried function
+ - `uncurry`	- Convert a curried function to a function on pairs
+
+Math
+~~~~
+
+ - `not`	- Inverse a boolean expression
+ - `negate`	- Negate an arithmetic expression
+ - `min`	- Minimum of 2 numbers
+ - `max`	- Maximum of 2 numbers
+
+Misc
+~~~~
+ - `succ`	- Argument's successor
+ - `fmap`	- Unwrap a `Functor` type and use it with its `func` argument
+ - `(<$>)`	- Synonym of `fmap`
+
+I/O
+~~~
+
+ - `getChar`	- Read a character from the keyboard
+ - `getLine`	- Read a string from the keyboard
+ - `readLn`	- Read a value from the keyboard
+ - `putChar`	- Write a character to the screen
+ - `putStr`	- Print string to standard output
+ - `putStrLn`	- Print string to standard output with a newline appended
+ - `print`	- Print type to standard output (converted to `IO String`)
+ - `read`	- Convert strings into types
+ - `show`	- Convert a value into a string
+ - `error`	- Display an error message and terminate the program
+
+Strings
+~~~~~~~
+
+ - `lines`	- Split a String into multiple lines
+
+DataTypes
+~~~~~~~~~
+
+ - `minBound`	- smaller number to use with a datatype
+ - `maxBound`	- larger number to use with a datatype
+ - `fromIntegral` - convert an `Integral` into a `Num`
+
+
+Examples
+--------
+
+[source,haskell]
+----
+-- Select the first element from a list
+head :: [a] -> a
+> head [1,2,3,4,5]
+1
+
+-- Remove the first element from a list
+tail :: [a] -> [a]
+> tail [1,2,3,4,5]
+[2,3,4,5]
+
+-- Select the nth element of a list (linear)
+(!!) :: [a] -> Int -> a
+> [1,2,3,4,5] !! 2
+3
+
+-- Select the first n elements of a list
+take :: Int -> [a] -> [a]
+> take 3 [1,2,3,4,5]
+[1,2,3]
+
+-- Remove the first n elements from a list
+drop :: Int -> [a] -> [a]
+> drop 3 [1,2,3,4,5]
+[4,5]
+
+-- Calculate the length of a list (linear)
+length :: [a] -> Int
+> length [1,2,3,4,5]
+5
+
+-- Produce a list of identical elements
+replicate :: Int -> a -> [a]
+> replicate 3 True
+[True, True, True]
+
+-- Calculate the sum of a list of numbers
+sum Num a => [a] -> a
+> sum [1,2,3,4,5]
+15
+
+-- Calculate the product of a list of numbers
+product Num a => [a] -> a
+> product [1,2,3,4,5]
+120
+
+-- Append two lists
+(++) :: [a] -> [a] -> [a]
+> [1,2,3] ++ [4,5]
+[1,2,3,4,5]
+
+-- Reverse a list
+reverse :: [a] -> [a]
+> reverse [1,2,3,4,5]
+[5,4,3,2,1]
+
+-- Concatenate a list of lists, using generators
+-- (first select a list, then iterator over the elements of this list)
+concat		:: [[a]] -> [a]
+concat xss	= [x | xs <- xss, x <- xs]
+
+-- First item in a tuple
+fst :: (a, b) -> a
+> fst (1, 4)
+1
+
+-- Second item in a tuple
+snd :: (a, b) -> b
+> snd (1, 4)
+4
+
+-- Swap two elements of a tuple (Data.Tuple)
+swap :: (a, b) -> (b, a)
+> swap (1, "blah")
+("blah", 1)
+
+-- Combine elements of 2 lists into tuples
+zip :: [a] -> [b] -> [(a, b)]
+
+-- Return the same element
+id :: a -> a
+
+-- Negate an expression
+not :: Bool -> Bool
+
+-- Is a character a digit?
+isDigit :: Char -> Bool
+
+fromIntegral :: (Num b, Integral a) => a -> b
+> 6 / length [1,2,3] -- is invalid
+> 6 / fromIntegral (length [1,2,3])
+2.0
+
+-- Apply a function to every element of a list
+map :: (a -> b) -> [a] -> [b]
+
+-- Select every element from a list that satisfies a predicate
+filter :: (a -> Bool) -> [a] -> [a]
+
+-- Fold from the right
+foldr :: (a -> b -> b) -> b -> [a] -> b
+
+-- Composition of 2 functions: f(g(x))
+(.)	:: (b -> c) -> (a -> b) -> (a -> c)
+f . g	 = \x -> f (g x)
+
+-- Decide if every element of a list satisfies a given predicate
+all	:: (a -> Bool) -> [a] -> Bool
+all p xs = and [p x | x <- xs]
+
+-- Decide if at least one element of a list satisfies a given predicate
+any	:: (a -> Bool) -> [a] -> Bool
+any p xs = or [p x | x <- xs]
+
+-- Select elements from a list while a predicate holds of all the elements
+takeWhile	  :: (a -> Bool) -> [a] -> [a]
+takeWhile p []	   = []
+takeWhile p (x:xs) | p x	= x : takeWhile p xs
+		   | otherwise	= []
+
+-- Remove elements from a list while a predicate holds of all the elements
+dropWhile	  :: (a -> Bool) -> [a] -> [a]
+dropWhile p []	   = []
+dropWhile p (x:xs) | p x	= dropWhile p xs
+		   | otherwise	= x:xs
+
+-- Print strings to standard output
+-- putStrLn
+-- putStr
+----
+
+
+////
+# vim: set ft=asciidoc:
+////

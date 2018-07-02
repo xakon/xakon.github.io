@@ -1,0 +1,145 @@
+Types
+-----
+
+Every value in Haskell has a type.  The type of each value is computed at
+compile-time through a system called 'type inference'.
+
+Some basic types are:
+
+ - Bool		- logical values
+ - Char		- single characters
+ - String	- strings (lists) of characters
+ - Int		- fixed-precision integers
+ - Integer	- arbitrary-precision integers
+ - Float	- single-precision, floating-point numbers
+ - Double	- double-precision, floating-point numbers
+ - Rational	- fractional number (`1/2`)
+ - Scientific	- space-efficient, almost-arbitrary precision scientific number
+ - List		- sequence of same types ([Bool], or [Int])
+ - Tuple	- sequence of different types, often used as Pairs (Bool, Int)
+ - Function	- mapping from 1 type to another
+
+Apart from these types we can also have some specialized types, like `Int8`,
+`Int16`, `Int32`, found in separate packages (`GHC.Int`).
+Functions `maxBound` and `minBound` help to find out limits of integral numbers.
+
+Every 'type' starts with an uppercase letter.  'Polymorphic types' (or type classes)
+are distinguished by concrete types, because they start with a lowercase,
+exactly like any other identifier.  They are usually named `a`, `b`, `c`, etc.
+
+Lists have indefinite number of elements, tuples have specific number of
+elements and is coupled with the type of the tuple.  Or, the type of a tuple
+encodes its size.
+
+Tuples in Haskell can't be singleton, but there is an empty tuple,
+called 'unit', and defined as `()`.
+
+A 'type alias' introduces a new synonym for another type.
+We use the `type` declaration to introduce the new alias.
+It can be used in the same places as the original type,
+but clarifies meanings, usages, or provides shortcuts for long-named types.
+
+
+Data Declarations
+~~~~~~~~~~~~~~~~~
+
+'Data declarations' are how data types are defined.
+Their syntax is:  the `data` keyword, then the 'type constructor'
+(the name of the type), the `=` symbol and then the `data constructors`
+(the possible values that the type can have).
+Both constructors can have optional arguments.
+I find the two terms pretty similar and, thus, confusing.
+
+A data declaration always contains a type constructor,
+but may not create any new data constructors.
+
+[source,Haskell]
+----
+type Name = String
+data Pet = Cat | Dog Name
+----
+
+NOTE:  It might help if we knew a bit of _Type Theory_, where there are terms
+       of _Algebraic Sums_ data-types for enumerations and _Algebraic Products_
+       data-types for record-type ones.
+
+Polymorphism
+------------
+
+Polymorphism in Haskell is either *parametric* or *constrained*:
+it allows function to work on *any* type or on *some* types.
+
+Classes
+-------
+
+Similar to every 'type' that is a collection of similar values,
+every 'class' is a collection of types that support certain overloaded
+operations called 'methods'.  'Typeclasses' is also a synonym for classes.
+Essentially, a `class` is an interface of `types`.
+
+A `class` might depend on another `class`, essentially inheriting its own
+functions.  A `type` thus needs to implement all the functions that belong
+to both `classes`.  Essentially, this is interface-inheriting.
+For example, the `Num` class extends/depends on the `Eq` class, which means
+that `Int`, which implements `Num`, needs to also implement the functions of
+the `Eq` class.
+
+Some basic classes are:
+
+ - Eq	-- equality types
+      (==), (/=) :: a -> a -> Bool
+
+ - Ord	-- ordered types
+      (<), (<=), (>), (>=) :: a -> a -> Bool
+      min, max		   :: a -> a -> Bool
+      compare		   :: a -> a -> Ordering
+
+ - Bounded  -- instances with lower and higher bound
+      minBound, maxBound :: a
+
+ - Enum	-- sequentially ordered types
+      succ :: a -> a
+
+ - Show	-- showable types
+      show :: a -> String
+
+ - Read	-- readable types
+      read :: String -> a
+
+ - Num	-- numeric types
+      (+), (-), (*)	   :: a -> a -> a
+      negate, abs, signum  :: a -> a
+      fromInteger	   :: Integer -> a
+
+ - Integral -- integral types
+      quot, rem, div, mod	:: a -> a -> a
+      quotRem, divMod		:: a -> a -> (a, a)
+      toInteger :: a -> Integer
+
+ - Fractional -- fractional types
+      (/)	   :: a -> a -> a
+      recip	   :: a -> a
+      fromRational :: Rational -> a
+
+ - Functor -- functors
+      fmap :: 
+
+
+Strings
+-------
+
+There are 5 different types of Strings in Haskell:
+
+ - `String`: an alias for `[Char]`, a linked-list of Unicode characters.
+    It is rather inefficient.
+ - `Data.Text.Text`: in 'strict' and 'lazy' forms, very compact representation.
+    Allows 'fuse' operations, which means less allocations if possible.
+ - `Data.Text.ByteString`: again in 'strict' and 'lazy' forms
+    A lower-level representation of a String, suitable for serialization.
+
+All of them (and even new, custom types) belong to the `IsString` typeclass.
+
+
+////
+# vim: set ft=asciidoc:
+////

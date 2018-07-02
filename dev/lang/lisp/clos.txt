@@ -1,0 +1,46 @@
+= CLOS (Common Lisp Object System)
+================================
+
+A very powerful Object-Oriented implementation, the default and standard of
+http://common-lisp.net/[ANSI Common Lisp] (there are many others).
+
+
+References
+----------
+
+Object-Oriented Programming with Common LISP
+
+
+Definitions
+-----------
+
+class::  description of types
+instance::  each specific object of a _class_ (object)
+superclass::  the parent of a class (CLOS supports multiple inheritance)
+subclass::  a derived class
+direct superclass/subclass::  the immediate ancestor/successor
+class precedence list::  the Inheritance network, which superclasses take precedence
+over others
+
+slots::  variables belonging to an instance (data member, instance variable)
+local slots:: variables belonging to a single instance
+shared slots:: variables belonging to the class, shared between instances
+
+generic functions::  functions that operate on a class (member function, interface method)
+Generic functions specify only the interface of the method.
+The _private methods_ are the implementation for each class.
+In essence, all CLOS methods are virtual.
+methods::  the implementation of each _generic function_
+primary methods::  main implementation of a _method_
+before/after/around methods::  extend/adapt _primary methods_
+multi-dispatch::  selecting the appropriate _generic function_ depending on the
+types of the callers.
+constructor::  a factory-function, to create instances through a function with
+type-checking.
+
+
+Functions
+---------
+
+`defclass`::  create a new class.
+`make-instance`::  create a new instance.

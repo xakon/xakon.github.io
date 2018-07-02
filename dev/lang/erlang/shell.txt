@@ -1,0 +1,15 @@
+Shell
+-----
+
+Enter Erlang's interpreter by typing +erl+.
+
+*All* shell commands start with lower characters:
+ - q():		quit shell
+ - f():		forget, unbound a variable or all variables
+ - c():		compile program
+ - h():		history.  Print the last 20 commands
+ - b():		bindings.  See all variable bindings.
+ - e(n):	evaluate.  Evaluate the nth command in history
+ - e(-1):	evaluate the previous command
+
+-- vim: set filetype=asciidoc:

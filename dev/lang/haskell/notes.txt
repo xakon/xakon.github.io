@@ -1,0 +1,94 @@
+Haskell
+=======
+
+Some notes I take during my learning of http://haskell.org[Haskell].
+
+_Haskell_ is a *purely functional* programming language, *statically typed*,
+using *type inference* mechanism, with *lazy evaluation*.
+Haskell is said to be *elegant and concise*.
+
+Interpreter
+-----------
+
+The most common platform to run and test Haskell is the Glasgow Haskell Compiler.
+The GHC compiler has also an interactive interpreter, GHCi, where we can test
+our modules while developing them.
+Another useful tool that accompanies a Haskell installation is also
+https://www.haskell.org/cabal/[Cabal], a Haskell Package Manager.
+It is recommended to also install this, besides the GHC.
+
+The GHC compiler can be installed from various sources, either as a Debian
+package or as an independent binary distribution.  One of these distributions
+is the http://hackage.haskell.org/platform/[Haskell Platform], but it is not
+recommended anymore for installation.  Another distribution source is
+https://docs.haskellstack.org/[The Haskell Tool Stack], or simply _Stack_.
+This is the latest recommended way of installing a Haskell environment,
+together with the compiler, libraries, and documentation.  _Stack_ also
+supports isolated development environments and different versions of GHC to
+coexist in the system.  For more information about it, see the relevant
+section.
+
+Some commands of the interpreter are:
+
+   :load [MODULE]
+   :reload
+   :type
+
+Change its prompt (by default it's `Prelude>` with:
+
+[source,haskell]
+----
+
+   :set prompt "GHCi> "
+   :set prompt "λ> "
+----
+
+Compiler
+--------
+
+At this https://functor.tokyo/blog/2017-07-28-ghc-warnings-you-should-enable[useful article]
+it is recommended to use the `-Wall` flag to the compiler, but also the
+following ones:
+
+ - `-Wall`
+ - `-Wincomplete-uni-patterns`
+ - `-Wincomplete-record-updates`
+ - `-Wmissing-import-lists`
+
+
+Stack
+-----
+
+Use `stack build --file-watch` to automatically rebuild project, when a file changes.
+Combine with `-O0` or `--fast` (turn-off optimizations) for fast compilation.
+Use `--pedantic` to fix all warnings.
+
+Stack is documented https://docs.haskellstack.org/[here].
+
+
+include::syntax.txt[]
+include::types.txt[]
+include::functions.txt[]
+include::lists.txt[]
+
+include::ghci.txt[]
+include::func_ref.txt[]
+
+
+Misc
+----
+
+Monad Laws
+~~~~~~~~~~
+
+[source,haskell]
+----
+   return a >>= f  ≡ f a
+   m >>= return	   ≡ m
+   (m >>= f) >>= g ≡ m >>= (\x -> f x >>= g)
+----
+
+
+////
+# vim: set ft=asciidoc:
+////
