@@ -1,6 +1,10 @@
 Games
 =====
 
+At <http://archive.org> there is a huge collection of [MS-DOS Games][dos-games].
+
+[dos-games]:	https://archive.org/details/softwarelibrary_msdos_games
+
 
 Retro
 -----
@@ -35,14 +39,6 @@ Retro
    Now, I can play Zelda and Super Mario on my browser!
 
 
-Board Games
------------
-
-### Monopoly
-
- - [Monopoly Rules](http://monopoly.wikia.com/)
-
-
 ### Others
 
  - [OpenClonk](http://www.openclonk.org)
@@ -56,7 +52,44 @@ Board Games
    board game.
 
 
+### Adventure
+
+ - [Gone Home](http://www.gonehomegame.com/): Ατμοσφαιρικό adventure που θυμίζει
+   πολύ το Mist.  Μόνο καλά λόγια έχω ακούσει από πολλούς.
+
+ - Broken Age:  The official site contains both Act 1 and Act 2 combined in a
+   single title.
+
+
+Android
+-------
+
+- [Android Games](http://minotaurproject.co.uk/Minotaur/donate.php)
+
+
+
+Linux
+-----
+
+ - Nethack
+ - Angband
+ - Battle of Wesnoth
+ - PlaneShift
+ - 0 A.D.
+ - [Pingus](https://pingus.seul.org/):  a [Lemmings][lemmings]-clone.
+
+
+[lemmings]:	http://en.wikipedia.org/wiki/Lemmings
+
 New Games
 ---------
 
  - DiRT Rally: (Linux, Codemasters)
+
+
+Board Games
+-----------
+
+### Monopoly
+
+ - [Monopoly Rules](http://monopoly.wikia.com/)
