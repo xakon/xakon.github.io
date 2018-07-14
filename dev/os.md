@@ -9,7 +9,11 @@ Resources
 
  - [Redox](http://www.redox-os.org/):
    Unix-like Operating System written in Rust, aiming to bring the innovations
-   of Rust to a modern microkernel and full set of applications.
+   of Rust to a modern micro-kernel and full set of applications.
+
+   Actually, I read a very nice article, introduction to Redox, and got
+   immediately sold with it!  The article can be found at:
+   [Programming for Redox OS](https://dev.to/legolord208/programming-for-redox-os-4124).
 
  - [How to write a simple Operating System][mikeos-guide]:
    [MikeOS][mikeos] is a simple, x86-based OS, written in Assembly and with a
