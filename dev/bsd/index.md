@@ -63,3 +63,12 @@ No Starch Press, 2007
 [freebsd]:		https://www.freebsd.org/
 [openbsd]:		http://www.openbsd.org/
 [netbsd]:		http://netbsd.org/
+
+
+### Sources
+
+At <http://minnie.tuhs.org/>, I found archives of the early versions of BSD.
+For example, I can get the sources of the
+[1BSD](http://minnie.tuhs.org/Archive/Distributions/UCB/1bsd.tar.gz),
+by Bill Joy himself!  There is a ton of interesting material there to study,
+including manual/help pages, Pascal interpreter, and other utilities.
