@@ -63,27 +63,3 @@ No Starch Press, 2007
 [freebsd]:		https://www.freebsd.org/
 [openbsd]:		http://www.openbsd.org/
 [netbsd]:		http://netbsd.org/
-
-
-FreeBSD
--------
-
-## Testing
-
-FreeBSD started a test project, the [FreeBSD Testing Project](https://wiki.freebsd.org/TestSuite).
-There are some [tutorials on how to write tests](https://wiki.freebsd.org/TestSuite/DeveloperHowTo),
-and some sample tests.
-
-It is the perfect opportunity for somebody to jump into the project and become an advanced
-BSD developer!
-
-
-OpenBSD
--------
-
- - [The official page][openbsd]
- - [OpenBSD Foundation](https://www.openbsdfoundation.org):
-   A Canadian non-profit foundation
- - [The OpenBSD Journal](http://undeadly.org/)
-
- - [Getting started with OpenBSD device-driver development](https://www.openbsd.org/papers/eurobsdcon2017-device-drivers.pdf)
