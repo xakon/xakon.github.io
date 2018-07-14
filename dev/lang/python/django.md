@@ -29,6 +29,9 @@ Resources
    Many useful resources for programming in general, famous for their online
    [tutorial](http://tutorial.djangogirls.org/)
 
+ - [Django for Beginners](http://djangoforbeginners.com/):
+   Online book with some chapters free.  Demos of sample Django applications.
+
 
 Applications
 ------------
