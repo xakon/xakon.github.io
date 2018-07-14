@@ -36,3 +36,7 @@ Here how I can install it on older Ubuntu systems:
    sudo apt-get update
    sudo apt-get upgrade
 ```
+
+Also, have a look at the article: [Install Vim 8.0 on Ubuntu][3]:
+
+[3]:	http://tipsonubuntu.com/2016/09/13/vim-8-0-released-install-ubuntu-16-04/
