@@ -25,6 +25,9 @@ Resources
  - [Getting Started with Django](http://www.gettingstartedwithdjango.com/):
    A list of videos teaching basic and advanced use of Django.
 
+ - [Django Girls](https://djangogirls.org/):
+   Many useful resources for programming in general, famous for their online
+   [tutorial](http://tutorial.djangogirls.org/)
 
 
 Applications
