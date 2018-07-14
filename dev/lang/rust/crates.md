@@ -32,6 +32,30 @@ tools can be found at the main [Crates.io](https://crates.io/) site.
    A wrapper around `clap`, that uses macros to describe the command-line
    interface.
 
+ - [termion](https://github.com/ticki/termion):
+   Low-level terminal stuff.
+
+ - [linefeed](https://github.com/murarth/linefeed):
+   Interactive input reader.
+
+ - [prettytable](https://github.com/phsym/prettytable-rs):
+   Ouptut tables.
+
+ - [exitcode](https://github.com/benwilber/exitcode):
+   Standard UNIX exit codes.
+
+ - [chan-signal](https://github.com/BurntSushi/chan-signal):
+   Handling OS signals.
+
+
+### Files
+
+ - [tempfile](https://github.com/Stebalien/tempfile).
+
+ - [glob](https://github.com/rust-lang-nursery/glob).
+
+ - [csv](https://github.com/BurntSushi/rust-csv).
+
 
 ### Web Development
 
@@ -44,6 +68,8 @@ tools can be found at the main [Crates.io](https://crates.io/) site.
  - [Maud](https://github.com/lfairy/maud):
    An incredible fast, Template Engine.
 
+ - [reqwest](https://github.com/seanmonstar/reqwest):
+   An HTTP client.
 
 
 ### Parsers
