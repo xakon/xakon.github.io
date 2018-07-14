@@ -89,6 +89,42 @@ Monad Laws
 ----
 
 
+Maybe Operators
+~~~~~~~~~~~~~~~
+
+The best mnemonic I saw about the operators and usages of `Maybe` types,
+comes from the https://typeclasses.com/javascript/operators[Type Classes]
+site.  In short, the `<|>` is equivalent to the `||` operator in JavaScript.
+Similarly, it works the same with `&&` and `*>` (there is also a `<*` operator):
+
+
+[source,haskell]
+----
+λ> Nothing <|> Nothing <|> Just 2 <|> Just 3 <|> Nothing
+Just 2
+
+λ> Just 1 *> Just 2 *> Just 3
+Just 3
+
+λ> Just 1 *> Nothing *> Just 3
+Nothing
+----
+
+The equivalent code in JavaScript might be:
+
+[source,javascript]
+----
+> null || null || undefined || 2 || 3 || null
+2
+
+> 1 && 2 && 3
+3
+
+> 1 && null && 3
+null
+----
+
+
 ////
 # vim: set ft=asciidoc:
 ////
