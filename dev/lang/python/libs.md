@@ -154,3 +154,12 @@ Another list of useful Python frameworks and libraries that I can use in project
  - [npyscreen](http://npyscreen.readthedocs.io/):
    A powerful library to easily create TUI programs using an architecture
    similar to wxWidgets, GTK+, or Qt.
+
+ - [ReportLab]()
+
+ - [pdfrw](https://github.com/pmaupin/pdfrw)
+
+ - [PyPDF2](https://pythonhosted.org/PyPDF2/),
+   [Github page](https://github.com/mstamy2/PyPDF2):
+   A library to manage PDFs, extract/change metadata and other stuff.
+   It seems that PyPDF2 is a fork of pyPDF.
