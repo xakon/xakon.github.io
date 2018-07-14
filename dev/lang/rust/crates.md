@@ -18,6 +18,10 @@ tools can be found at the main [Crates.io](https://crates.io/) site.
  - [cargo-fuzz](https://github.com/rust-fuzz/cargo-fuzz):
    Fuzz test library.
 
+ - [Criterion.rs](https://crates.io/crates/criterion):
+   Statistics-driven micro-benchmarking library.  Source code can be found at
+   [Github](https://github.com/japaric/criterion.rs).
+
 
 ### Terminal
 
