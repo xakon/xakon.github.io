@@ -66,6 +66,9 @@ Misc
  - [virtualenv](https://virtualenv.pypa.io/)
  - [virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/)
 
+ - [PyInstaller](https://pyinstaller.readthedocs.io/):
+   Create a single executable out of the source code.
+
 
 [ipython]:	https://ipython.org/
 [ptpython]:	https://github.com/jonathanslenders/ptpython
