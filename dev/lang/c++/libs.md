@@ -56,6 +56,9 @@ Here is a list of industry-based, strong-supported libraries:
 
  - [doctest](https://github.com/onqtam/doctest):
    Lighter version of Catch.
+   A single-header testing framework for unit tests and TDD.
+   It lets you define your own main functions and comes with support for BDD.
+
 
 
 ### Utility Libraries
