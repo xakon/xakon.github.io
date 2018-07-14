@@ -21,6 +21,7 @@ Resources
  - http://www.stephendiehl.com/posts/essential_haskell.html[Haskell Reading List]
  - http://www.stephendiehl.com/posts/vim_2016.html[Vim and Haskell in 2016]
  - https://ncatlab.org/nlab/show/HomePage[nLab]:  Wiki for Category Theory
+ - https://typeclasses.com/[Type Classes]:  Resources for learning Haskell
 
 Platforms
 ~~~~~~~~~
@@ -45,6 +46,8 @@ Tutorials
 ~~~~~~~~~
 
  - http://learn.hfm.io/[Learning Haskell]
+ - https://typeclasses.com/[Type Classes]:
+   Great tutorials, courses, articles, and projects on Learning Haskell.
  - https://www.fpcomplete.com/school/starting-with-haskell/basics-of-haskell[Basics of Haskell]
  - http://www.cs.uu.nl/research/techreps/repo/CS-2015/2015-019.pdf[Ask-Elle: an adaptable programming tutor for Haskell]
  - http://www.stephendiehl.com/posts.html[Stephen Diehl].
