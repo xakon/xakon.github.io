@@ -203,4 +203,4 @@ need to evaluate it.
 [flame-graphs]:	http://www.brendangregg.com/flamegraphs.html
 
 
-<->:	vim: ft=markdown spell
+[//]:	# vim: ft=markdown spell
