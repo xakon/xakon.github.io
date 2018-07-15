@@ -1,31 +1,214 @@
-TEMPLATE
+=== HowTos ===
 
-Date:
-<#DATE>
+To debug a program, proceed in seven steps (TRAFFIC):
 
-Symptom:
-<#SYMPTOM>
+   1. Track: Create an entry in the problem database.
+   2. Reproduce: Reproduce the failure.
+   3. Automate: Automate and simplify the test case.
+   4. Find origins: Follow back the dependences from the failure to possible
+      infection origins.
+   5. Focus: If there are multiple possible origins, first examine the
+      followin:
+	 o Known infections, as determined by assertions and observation.
+	 o Causes in state, code, and input.
+	 o Anomalies.
+	 o Code smells.
+	 o Earlier defect sources.
+      Prefer automated techniques where possible.
+   6. Isolate: Use scientific method to isolte the origin of the infection.
+      Continue isolating origins transitively until you have an infection
+      chain from defect to failure.
+   7. Correct: Remove the defect, breaking the infection chain.
+      Verify the success of your fix.
 
-Cause:
-<#CAUSE>
+To obtain the relevant problem information, set up a standard set of iterms
+that users must provide.  This includes:
 
-How found:
-<#DISCOVERY>
+   1. Problem history
+   2. Diagnostic information
+   3. Expected behavior
+   4. Experienced behavior
+   5. Product release
+   6. Operating environment
 
-Fix:
-<#FIX>
+To write an effective problem report, make sure the report:
 
-Fixed in file(s):
-<#FILES>
+   1. Is well structured
+   2. Is reproducible
+   3. Has a descriptive one-line summary
+   4. Is as single as possible
+   5. Is as general as possible
+   6. Is neutral and stays with the facts
 
-Caused by:
-Me
+Products can be set up to collect and forward information that may be
+relevant to reproduce the problem.  Be aware of privacy issues, though.
 
-Time taken to resolve bug:
-<#TIME>
+A typical life cycle of a problem starts with a status of UNCONFIRMED.
+It ends with CLOSED and a specific resolution such as FIXED or WORKSFORME.
 
-Lessons:
-<#LESSONS>
+To organize the debugging process, have a software change control board that
+uses the problem database to:
+
+   1. Keep track of resolved and unresolved problems
+   2. Assign a priority to individual problems
+   3. Assign problems to individual developers
+
+To track requirements, one can also use a problem-tracking system.
+Each requirement not yet met is a problem.
+
+Keep problem tracking simple.  If it gets in the way, people won't use it.
+
+To restore released versions, a version control system to tag all
+configurations as they are released to users.
+
+To separate fixes and features, use a version control system to keep fixes
+in branches and features in the main trunk.
+
+To relate problems and fixes, establish conventions to relate problem reports
+to changes, and vice-versa.  Advanced version control systems integrate with
+problem-tracking systems to maintain this relationship automatically.
+
+To relate problems and tests, make a problem report obsolete as soon as a
+test case exists.  When a problem occurs, prefer writing test cases to
+entering problem reports.
 
 
-REPORTS
+Essential Rules for Testing
+
+   Specify.	A program cannot be correct on its own --- it can only be
+      correct with respect to some specification that describes its purpose.
+      Attempt precise, or even formal, specifications that cover the entire
+      behavior, including exceptions.  A full specification will be a big
+      help in understanding how the system is supposed to work, and thus
+      help you in writing a correct system.
+
+   Test early.	This principle that you must not wait with testing until
+      the entire system is assembled.  Instead, run test cases as soon as
+      a unit is implemented, and assemble your system out of carefully
+      tested units.
+
+   Test first.	Write test cases before implementing the unit.  This is
+      useful because test casers can serve as specifications.  Although
+      test cases specify only examples, a sufficient number of test cases
+      can make it difficult to implement something else than the most
+      elegant (and correct) solution.
+
+   Test often.	At the minimum, run your tests with each release of the
+      system.  Better yet, run your tests with every change.  The sooner
+      you know that there is a defect, the smaller the set of accumulated
+      changes that might have caused the defect.  Automation helps a lot
+      here.
+
+   Test enough.	Measure the coverage of your tests.  How many statements
+      and branches are actually taken?  Instrument you code to gather
+      coverage and design your test cases to achieve sufficient coverage.
+      Use random inputs to cover exceptional and extreme situations.
+
+   Have others test.	Testing for unknown problems is a destructive process.
+      By all means, one must try to uncover a weakness in the program.
+      As people in general prefer being constructive to ripping things apart,
+      this is a difficult psychological situation for most.  In particular,
+      it makes an author unsuited to test his or her own code.  Therefore,
+      always have someone independent test your program, and be open to
+      criticism.
+
+
+More Tools and Techniques for Quality Assurance
+
+   Have other review.	Testing is not the most effective way to catch defects.
+      Reviewing is.  No other technique catches so many defects for the same
+      amount of effort.  Have someone else review your code and check for
+      possible defects.  Think about pair programming as a means of increasing
+      the amount of reviews.
+
+   Check the code.	More and more, computers can detect errors and
+      anomalies in your system.  Running such tools on your code comes at a
+      small cost, but brings greater and greater benefits as computers get
+      faster and faster.
+
+   Verify.	Several important properties of software systems can today
+      be shown automatically or semiautomatically.  If the behavior of your
+      system can be modeled as a finite-state machine, software model checking
+      comes in handy to prove correctness.  That is how Microsoft validates
+      its device drivers.
+
+   Assert.	If you cannot fully prove correctness, go the simpler way:
+      Let the computer do the work and have it check its state at runtime.
+      Your program may still fail due to a failed assertion, but if all
+      assertions are met the result will be correct with respect to all
+      assertions.
+
+
+To test for debugging, one must:
+   1. Create a test to reproduce the problem.
+   2. Run the test several times during debugging.
+   3. Run the test before new releases to prevent regression.
+
+Due to the number of tests needed in debugging, it is thus useful to
+automate as much as possible.
+
+To automate program execution, one can access three layers.
+   o Presentation layer
+   o Functionality layer
+   o Unit layer
+
+The layers differ in ease of execution, ease of interaction, ease of result
+assessment, and robustness against changes.
+
+To test at the presentation layer, the testing environment must stimulate
+human activities --- either input devices (low level) or user controls
+(higher level).
+
+To test at the functionality layer, use an interface designed for
+automation --- typically using specific scripting languages.
+
+To test at the unit layer, use the API of a program unit to control it and
+to access its results.
+
+To isolate a unit, break dependencies using the dependence inversion principle,
+making the unit depend on abstractions rather than on details.
+
+To design for debugging, reduce the amount of dependencies using the
+principles of high cohesion and low coupling.
+
+Design patterns such as model-view-controller are useful for reducing
+dependencies.
+
+To prevent unknown problems, one can use a variety of techniques, including
+the following:
+   o Testing early, testing often, and testing enough
+   o Reviewing by others and pair programming
+   o Having the computer check the code for anomalies and common errors
+   o Proving correctness formally (using computer support)
+
+
+=== Tools ===
+
+BUGZILLA		http://www.bugzilla.org/
+PHPBUGTRACKER		http://phpbt.sourceforge.net/
+ISSUETRACKER		http://www.issue-tracker.com/
+TRAC			http://trac.edgewall.org/
+SOURCEFORGE		http://www.sourceforge.net/
+GFORGE			http://www.gforge.org/
+
+JUNIT			http://www.junit.org/
+ANDROID
+APPLESCRIPT		http://www.apple.com/applescript/
+VBSCRIPT		http://en.wikipedia.org/wiki/VBScript
+FAUMachine		http://www.faumachine.org/
+VMWare			http://www.vmware.com/
+Virtual PC		http://www.microsoft.com/virtualpc/
+
+
+=== Bibliography ===
+
+Organize Your Problem Tracking System
+   B. Mirrer, 2000, Software Testing & Quality Engineering Magazine 2(5)
+
+Using Bug-Tracking Systems as Idea Repositories
+   Kolawa, 2002, http://www.stickyminds.com/
+
+http://www.daveeaton.com/scm/
+http://doi.acm.org/10.1145/1453101.1453146
+
+
