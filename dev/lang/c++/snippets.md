@@ -84,7 +84,7 @@ printf(msg, eggs == 0 ? "no eggs" :
 
 Found as a Perl trick at: [Learn Perl in 2 hours and a half][perl].
 
-[perl]		http://qntm.org/files/perl/perl.html
+[perl]:		http://qntm.org/files/perl/perl.html
 
 
 [//]:	# vim: ft=markdown spell
