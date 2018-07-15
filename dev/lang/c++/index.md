@@ -2,7 +2,7 @@ ANSI C++
 ========
 
 Just read in an article about the call to:
-    std::ios_base::sync_with_stdio(false)
+    `std::ios_base::sync_with_stdio(false)`
 which optimizes a lot I/O processing.
 
 This function, in general, tries to synchronize I/O access both from C++ and C
