@@ -87,4 +87,14 @@ Found as a Perl trick at: [Learn Perl in 2 hours and a half][perl].
 [perl]:		http://qntm.org/files/perl/perl.html
 
 
+## Sync `iostreams` with C Standard I/O
+
+Just read in an article about the call to:
+    `std::ios_base::sync_with_stdio(false)`
+which optimizes a lot I/O processing.
+
+This function, in general, tries to synchronize I/O access both from C++ and C
+libraries, something that most of the times is useless and should be avoided.
+
+
 [//]:	# vim: ft=markdown spell
