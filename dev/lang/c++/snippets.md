@@ -79,7 +79,7 @@ int eggs = 5;
 const char *msg = "You have %s";
 printf(msg, eggs == 0 ? "no eggs" :
 	    eggs == 1 ? "an egg"  :
-	    "some eggs");
+			"some eggs");
 ```
 
 Found as a Perl trick at: [Learn Perl in 2 hours and a half][perl].
