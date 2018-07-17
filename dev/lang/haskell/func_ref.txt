@@ -134,6 +134,7 @@ Misc
  - `succ`	- Argument's successor
  - `fmap`	- Unwrap a `Functor` type and use it with its `func` argument
  - `(<$>)`	- Synonym of `fmap`
+ - `maybe`	- Effectively, do pattern-matching on a `Maybe` value
 
 I/O
 ~~~
