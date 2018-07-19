@@ -64,12 +64,12 @@ The following is a list suggested by [Bob Nystrom](https://twitter.com/munificen
 ### Online
 
  - [Resources for Amateur Compiler Writers][2]
- - [Let's Build a Compiler][1], Jack Crenshaw
-   A Go version of this tutorial is at [Github](https://github.com/defrobo/crenshaw-go).
  - [The Super Tiny Compiler](https://github.com/thejameskyle/the-super-tiny-compiler)
  - [The Super Tiny Compiler, in Go](https://github.com/hazbo/the-super-tiny-compiler)
  - [Crafting Interpreters](http://www.craftinginterpreters.com/), by Bob Nystrom
  - [Beginner's Guide to Linkers](http://www.lurklurk.org/linkers/linkers.html)
+ - [Let's Build a Compiler][1], Jack Crenshaw
+   A Go version of this tutorial is at [Github](https://github.com/defrobo/crenshaw-go).
 
 The following list is extracted from the [Resources for Amateur Compiler Writers][2]:
 
