@@ -66,7 +66,8 @@ The following is a list suggested by [Bob Nystrom](https://twitter.com/munificen
  - [Resources for Amateur Compiler Writers][2]
  - [The Super Tiny Compiler](https://github.com/thejameskyle/the-super-tiny-compiler)
  - [The Super Tiny Compiler, in Go](https://github.com/hazbo/the-super-tiny-compiler)
- - [Crafting Interpreters](http://www.craftinginterpreters.com/), by Bob Nystrom
+ - [Crafting Interpreters](http://www.craftinginterpreters.com/), by Bob Nystrom:
+   Online book, one of the best in the field.
  - [Beginner's Guide to Linkers](http://www.lurklurk.org/linkers/linkers.html)
  - [Let's Build a Compiler][1], Jack Crenshaw
    A Go version of this tutorial is at [Github](https://github.com/defrobo/crenshaw-go).
