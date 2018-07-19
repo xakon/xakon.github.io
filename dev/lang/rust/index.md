@@ -13,6 +13,7 @@ Resources
  - [Rust Design Patterns](https://github.com/rust-unofficial/patterns)
  - [Rust in Action](https://www.manning.com/books/rust-in-action) (Manning):
    "fccmcnamara" to save 37% of its price.
+ - [Hands-On Concurrency in Rust](https://www.packtpub.com/application-development/hands-concurrency-rust) (Packt)
 
 ### Online Resources
 
