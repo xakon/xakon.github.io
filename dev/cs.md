@@ -11,3 +11,6 @@ Computer Science
  - [Online Vide Courses for "Data Structures & Algorithms"](http://www.techiedelight.com/best-online-courses-data-structures-algorithms/)
 
  - [Papers We Love](http://paperswelove.org/)
+ - [The Morning Paper](https://blog.acolyer.org/):
+   A human-friendly explanation of various papers.  The recommended way to study
+   a given paper on any CS topic!
