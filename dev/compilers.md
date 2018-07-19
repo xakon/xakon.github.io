@@ -16,7 +16,7 @@ Resources
  - Compiler Construction  
    Nicklaus Wirth
 
- - Advnaced Compiler Design and Implementation  
+ - Advanced Compiler Design and Implementation  
    Steven Muchnick  
    Morgan-Kaufmann  
    978-1558603202  
@@ -69,7 +69,7 @@ The following is a list suggested by [Bob Nystrom](https://twitter.com/munificen
  - [The Super Tiny Compiler](https://github.com/thejameskyle/the-super-tiny-compiler)
  - [The Super Tiny Compiler, in Go](https://github.com/hazbo/the-super-tiny-compiler)
  - [Crafting Interpreters](http://www.craftinginterpreters.com/), by Bob Nystrom
- - [Begineer's Guide to Linkers](http://www.lurklurk.org/linkers/linkers.html)
+ - [Beginner's Guide to Linkers](http://www.lurklurk.org/linkers/linkers.html)
 
 The following list is extracted from the [Resources for Amateur Compiler Writers][2]:
 
@@ -81,7 +81,7 @@ The following list is extracted from the [Resources for Amateur Compiler Writers
  - [Compiler Construction][10], by Niklaus Wirth
  - TODO
 
- - [The Retargetable C Compiler (lcc)][8] (github)
+ - [The Retargetable C Compiler (lcc)][8] (Github)
  - [The Portable C Compiler (PCC)][9]
 
 ### Tools
