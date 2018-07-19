@@ -4,7 +4,9 @@ Game Development
 Books
 -----
 
- - [Game Programming Patterns](http://gameprogrammingpatterns.com/)
+ - [Game Programming Patterns](http://gameprogrammingpatterns.com/):
+   Book can also be found online for free (PDF, eBook and hard-copy versions
+   need to be purchased).
 
 
 Frameworks
