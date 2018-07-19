@@ -41,6 +41,8 @@ Tools
  - https://github.com/ndmitchell/hlint[HLint]:  Lint for Haskell.
  - https://github.com/rgleichman/glance[Glance]:  A visual syntax Haskell.
  - http://haskelltools.org/[Haskell Tools]: GHC based toolset for Haskell programming.
+ - https://kowainik.github.io/posts/2018-06-21-haskell-build-tools.html[Haskell: Build Tools]:
+   A nice explanation and reference on installing `cabal` and `stack`.
 
 Tutorials
 ~~~~~~~~~
