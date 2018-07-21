@@ -1,6 +1,61 @@
 Software Engineering
 ====================
 
+SOLID Principles
+----------------
+
+ - Single Responsibility principle
+ - Open-Closed principle
+ - Liskov Substitution principle
+ - Interface Segregation principle
+ - Dependency Inversion principle
+
+The SOLID Principles were first formulated by Rober C. (Uncle) Martin at 90s.
+They are good practises, but they have been proven correct again and again for
+many years.
+
+For more detailed descriptions on these principles, please consult the
+[series of articles][solid].
+
+[solid]:	https://codeburst.io/understanding-solid-principles-dependency-injection-d570c15560ab
+
+
+### Single Responsibility principle ###
+
+ - Every module or class should have responsibility over a single part of the
+   functionality provided by the software, and that responsibility should be
+   entirely encapsulated by the class.
+
+Or in other, simpler words:
+
+ - A class or module should have one, and only one, reason to be changed.
+
+
+### Open-Closed principle ###
+
+ - Software entities (classes, modules, functions, etc.) should be open for
+   extension, but closed for modification.
+
+
+### Liskov Substitution principle ###
+
+ - Objects should be replaceable with instances of their subtypes without
+   altering the correctness of that program.
+
+
+### Interface Segregation principle ###
+
+ - Clients should not be forced to depend on methods that they do not use.
+
+
+### Dependency Inversion principle ###
+
+ - High-level modules should not depend upon low-level modules.
+   Both should depend upon abstractions.
+ - Abstractions should not depend upon details.  Details should depend upon
+   abstractions.
+
+
 Test-Driven Development
 -----------------------
 
