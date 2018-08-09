@@ -5,22 +5,16 @@ ANSI C++
 
  - [ISO C++](https://isocpp.org/):
    Almost official site for C++.
-
  - [C++ Reference](http://en.cppreference.com/w):
    There is also an off-line version, with different formats, even man(1) pages.
-
  - [C & C++ Programming](http://www.cprogramming.com/):
    Plenty of resources, one of the oldest projects.
-
  - [cplusplus.com](http://www.cplusplus.com/):
    General information about the C++ language, a reference, tutorial, and an
    articles section.
-
  - [LearnCpp.com](http://www.learncpp.com/):
    Tutorials to help you master C++ and Object-Oriented Programming.
-
  - [ISO C++ Core Guidelines](https://github.com/isocpp/CppCoreGuidelines)
-
  - [C++ Samples](http://cppsamples.com/)
  - [C++ Draft](http://eel.is/c++draft/)
  - [Boost Best Practices](https://svn.boost.org/trac/boost/wiki/BestPracticeHandbook)
@@ -36,13 +30,9 @@ ANSI C++
 
  - [A Tour of C++](http://isocpp.org/tour):
    Also in paper form, I have bought this book from Stroustrup.
-
  - The C++ Programming Language 4/e
-
  - C++ Primer 5/e
-
  - The C++ Standard Library 2/e
-
  - Code Complete
  - Effective C++
  - More Effective C++
@@ -56,23 +46,16 @@ ANSI C++
  - C++ Template Metaprogramming
  - [C++ Templates: The Complete Guide 2/e](http://tmplbook.com/)
    David Vandevoorde, Nicolai Josuttis, Douglas Gregor
-
  - Modern C++ Programming with Test-Driven Development  
    Jeff Langr  
    Pragmatic Bookshelf  
-
  - [C++ Annotations](http://www.icce.rug.nl/documents/cplusplus/):
    Free book, covering all C++ versions, since C++98.
    Available in HTML, PDF, Postscript formats.
-
  - [The Boost C++ Libraries](https://theboostcpplibraries.com/)
-
  - [Open Data Structures (in C++)](http://opendatastructures.org/ods-cpp/)
-
  - [Introduction to Design Patterns in C++ with Qt4][qt4-patterns]
-
  - [How to Think Like a Computer Scientist: C++](http://greenteapress.com/thinkcpp/)
-
  - [An Introduction to GCC](http://www.network-theory.co.uk/docs/gccintro/)
  - [The Rook's Guide to C++](https://rooksguide.org/)
  - [C++ GUI Programming with Qt3][qt3-gui]
@@ -109,7 +92,6 @@ An extensive list can be found at [Github](https://github.com/arnemertz/online-c
 Yes, there is such thing as _Package Managers_ for C++ anymore!
 
  - [biicode](https://biicode.github.io/biicode/)
-
  - [Conan](https://conan.io/)
 
 
@@ -117,12 +99,9 @@ Yes, there is such thing as _Package Managers_ for C++ anymore!
 
  - [doxygen][doxygen]:
    Generate documentation from inlined doc-comments of the source code.
-
  - [doxyrest](https://github.com/vovkos/doxyrest):
    Convert [doxygen][doxygen] output into reStructuredText to use it with [Sphinx][sphinx].
-
  - [doc++](http://docpp.sourceforge.net/)
-
  - [DXR](https://dxr.readthedocs.io/):
    Mozilla tool to cross-reference huge projects.
 
@@ -130,10 +109,8 @@ Yes, there is such thing as _Package Managers_ for C++ anymore!
 ## Static Analyzers
 
  - [CppDepend](https://www.cppdepend.com/)
-
  - [SciTools](https://scitools.com/support/what-is-understand/):
    Code Visualizer.
-
  - [SourceTrail](https://www.sourcetrail.com/):
    Cross-platform source explorer for C/C++, Java.
 
