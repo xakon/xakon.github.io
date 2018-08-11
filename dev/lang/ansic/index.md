@@ -12,6 +12,9 @@ Resources
    Plenty of references, tutorials, and other documentation and resources.
  - [Awesome C](https://porter.io/github.com/uhub/awesome-c):
    A curated list of C frameworks, libraries, and software.
+ - [Project-based Tutorials in C](https://github.com/rby90/Project-Based-Tutorials-in-C):
+   A curated list of project-based tutorials in C.
+   Pick one of them, follow it and learn something new using ANSI C!
 
 
 Test Tools
