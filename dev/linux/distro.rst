@@ -26,3 +26,12 @@ it resembles FreeBSD, it is rolling release and highly optimized like Arch, it h
 `runit` as a lightweight init manager.  It is worth to have a look at it.
 
 .. _Void Linux: https://www.voidlinux.eu
+
+
+Damn Small Linux
+~~~~~~~~~~~~~~~~
+
+A very small, tiny Linux, only a few MBs of installation disk.
+`Damn Small Linux`_ is suitable to run on old machines or even run from RAM.
+
+.. _Damn Small Linux: http://www.damnsmalllinux.org/
