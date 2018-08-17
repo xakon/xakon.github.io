@@ -14,7 +14,7 @@ utilities.  Also, we can find an enormous amount of configuration files.
 ### Configuration
 
  - `/etc/portage/make.conf`
-   Global settings for $USE and $GENTOO_MIRRORS and build flags.
+   Global settings for `$USE` and `$GENTOO_MIRRORS` and build flags.
 
  - `/etc/portage/package.use/`
    Per package configuration.  It can reside in a single or multiple files.
