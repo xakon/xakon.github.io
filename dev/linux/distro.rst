@@ -11,7 +11,7 @@ Here, I will try to categorize and document a few of them.
 TODO:  Add table with each Distro characteristics
 
 Debian	dpkg/apt	.deb	systemd
-Ubuntu	dpkg/aptv       .debv   systemd
+Ubuntu	dpkg/apt        .deb    systemd
 Gentoo
 Arch
 LXDE
