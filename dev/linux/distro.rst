@@ -35,3 +35,11 @@ A very small, tiny Linux, only a few MBs of installation disk.
 `Damn Small Linux`_ is suitable to run on old machines or even run from RAM.
 
 .. _Damn Small Linux: http://www.damnsmalllinux.org/
+
+
+Nanolinux
+~~~~~~~~~
+
+`Nanolinux`_ is a tiny Linux distribution.  Quite impressive for its minimal size.
+
+.. _Nanolinux: https://sourceforge.net/projects/nanolinux/
