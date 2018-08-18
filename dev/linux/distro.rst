@@ -21,7 +21,7 @@ Void
 Void Linux
 ~~~~~~~~~~
 
-I read very nice things about `Void Linux`:  it is minimal, has its own package manager,
+I read very nice things about `Void Linux`_:  it is minimal, has its own package manager,
 it resembles FreeBSD, it is rolling release and highly optimized like Arch, it has
 `runit` as a lightweight init manager.  It is worth to have a look at it.
 
