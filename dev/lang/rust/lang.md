@@ -302,6 +302,53 @@ Usually, factory methods are implemented as *associated functions*:
 
     let s = String::new();
 
+#### Enums
+
+The `enum` types define *enumerations*, which are closer semantically to
+*Algebraic Types* of Haskell, rather than to C's `enum`.  Actually, I would
+compare it with a proper C's `union`, a combination of `struct`, `enum`, `union`
+in the C world.
+
+An `enum` defines a series of *variants*, each one can have optional data
+associated with it.  We can access each *variant* using the `::` syntax,
+as each `enum` defines its own namespace:  `IpAddress::V4`.
+
+Of course, as `enums` are new data-types, we can associate *methods* with them,
+exactly as with `structs`.
+
+The best example of an `enum` is the `std::Option`:
+
+    enum<T> Option {
+      Some(T),
+      None,
+    }
+
+Actually, `Option` is so fundamental in the design of Rust, that both the
+`Option` type and its *variants* are imported by default in the Prelude.
+Thus, they are always accessible without the need for the `::` syntax.
+
+#### `match`
+
+Discussing about `enums` leads naturally to discussing to `match` expressions.
+They are similar to C's `switch`, but on steroids.
+
+A `match` expression evaluates a given *expression* and it tries to *pattern
+match* it with a given set of *variants* (called *match arms*).  These *arms*
+must be exhaustive: no possible value produced by the checked *expression* could
+ever be excluded from the given *variants*.
+
+Each *arm* is followed with a set of expressions, wrapped of course inside
+blocks.  If the *variant expression* is simple, the brackets can be omitted.
+These *arms* create local bindings in the *pattern matches*.
+
+The `match` expression checks each given *arm* top-down in sequence.  It stops
+when the very first one *pattern matches* the given *expression*.
+
+If we are only interested in a single *variant*, a `match` expression can become
+too verbose.  In these cases we can use the `if let` or `while let` expressions,
+which allow us to use any *refutable pattern*, like in *match arms*.
+See *Patterns* for more details.
+
 #### Attributes
 
 An *attribute* applied to a *crate* has the syntax `#![crate_attribute]`,
