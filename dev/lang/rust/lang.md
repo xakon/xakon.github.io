@@ -367,16 +367,30 @@ Some default *traits* can be inherited using the `#[derive]` attribute.
 
 #### Modules
 
+A *module* is a *namespace* that contains definitions of *items*
+(*functions*, *types*, *constants*, *traits*, etc.)
 We define a *module* with the `mod` keyword.
+The code for the *module* can appear either immediately the `mod` keyword or
+placed in a directory (`mod.rs`) or in a file.
 By default all members of a *module* are private.
 We can make them public with the `pub` keyword.
 
-*Module public members* can be referenced with a double colon `::` syntax.
-Using the `use` declaration we can import any symbol from a *module* in current scope.
-Combined with the keyword `as` we can bind the external symbol in any local name.
+*Module public members* can be referenced with a double colon `::` (namespace) syntax.
+Using the `use` declaration we can import any symbol from a *module* or other
+*namespace* in current scope.  Combined with the keyword `as` we can bind the
+external symbol in any local name.  The *glob operator* (`*`) let us import into
+scope **all** symbols from another *namespace* (highly discouraged).
+
+In general, these are Rust's *Privacy Rules*:
+
+ - If an item is public, it can be accessed through any of its parent modules.
+ - If an item is private, it can be accessed only by its immediate parent
+   module and any of the parent's child modules.
 
 *Structure fields* belonging in a *module* are also private by default,
 but this visibility can be changed on a field-level using the `pub` keyword again.
+
+With the `super` keyword we are able to reach current's scope *parent namespace*.
 
 *Modules* can also be organized in files.
 They can be found either in `MODULE.rs` or in `MODULE/mod.rs`.
