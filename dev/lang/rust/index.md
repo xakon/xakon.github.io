@@ -20,6 +20,8 @@ Resources
  - [The Rust Docs](https://doc.rust-lang.org/)
  - [The Rust Book](https://doc.rust-lang.org/book/)
  - [The Rust PlayGround](https://play.rust-lang.org/)
+ - [The Rustonomicon](https://doc.rust-lang.org/stable/nomicon/):
+   Details about internal designs & implementations of the language and library.
  - [Rust by Example](http://rustbyexample.com/)
  - [A Gentle Introduction To Rust](https://stevedonovan.github.io/rust-gentle-intro/readme.html)
  - [Rust in Ten Slides](https://steveklabnik.github.io/rust-in-ten-slides/)
