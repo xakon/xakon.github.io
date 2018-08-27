@@ -26,7 +26,9 @@ name of the macro is `std::fmt::print!`.
 			|
    iterator::skip()	| Skip n elements from iterator
 			|
+   Vec::get()		| Get reference to element of `Vec` without crashing
    Vec::push()		| Add element to the tail of `Vec`
+   Vec::pop()		| Pop last element of `Vec`
 			|
    io::stderr()		| Return a `Stderr' stream object
    env::args()		| Iterator over the cmdline arguments
