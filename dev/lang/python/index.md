@@ -162,6 +162,27 @@ manual loop takes place in Python, which is way too slower.
 [cmp-strings]:	https://www.digitalocean.com/community/questions/how-to-efficiently-compare-strings-in-go
 
 
+#### Quick tracing
+
+Here's a quick way to see what code is actually run when calling some libraries.
+
+Place the following in a `shell.py`:
+
+```python
+import code
+con = code.InteractiveConsole()
+con.interact()
+```
+
+Then run:
+
+```shell
+$ python -mtrace --ignore-module=code,codeop,__future__ --trace shell.py
+```
+
+The tip comes from [ionel's codelog](https://blog.ionelmc.ro/2014/04/28/quick-tracing/).
+
+
 Packages
 --------
 
