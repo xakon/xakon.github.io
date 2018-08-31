@@ -27,6 +27,14 @@ Catalogue
  - [Operator](http://www.typography.com/fonts/operator/)
  - [Biblical Fonts](http://www.sbl-site.org/educational/BiblicalFonts_SBLBibLit.aspx).
  - [Linux Libertine](http://www.linuxlibertine.org/)
+ - [Stix Fonts](http://www.stixfonts.org/):
+   An OpenType collection of fonts.
+   Currently at v2.0, an amazing collection of Unicode Math fonts, but which
+   they also contain nice glyphs for other Unicode planes.  Even the Greek
+   glyphs are amazing.
+   Since they are OpenType fonts, there are some problems setting up old TeX
+   engines to work with them.  I think, the project released Type-1 versions of
+   the fonts, as well.
 
 More fonts can be found and tested at <http://programmingfonts.org>
 
