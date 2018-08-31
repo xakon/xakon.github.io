@@ -10,6 +10,11 @@ As always, more information about these _crates_ and even more powerful search
 tools can be found at the main [Crates.io](https://crates.io/) site.
 
 
+### General
+
+ - [nix](https://github.com/nix-rust/nix):
+   Neat, Rust interface for UNIX system calls.
+
 ### Testing
 
  - [quickcheck](https://crates.io/crates/quickcheck):
