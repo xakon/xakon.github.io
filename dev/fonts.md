@@ -68,3 +68,19 @@ Monospace
  - Fira Mono
  - Droid Sans Mono
  - DejaVu Sans Mono
+
+
+Math Fonts
+----------
+
+Math Symbols are even more special than normal, alphabetic glyphs.
+Thus, a whole different set of fonts is dedicated to these symbols,
+some of them offering nothing else apart from the Math symbols.
+
+ - [Stix Fonts](http://www.stixfonts.org/)
+ - Computer Modern
+ - AMSFonts
+ - Lucida New Math
+ - St. Mary Road
+ - `lasysym`
+ - `wasysym`
