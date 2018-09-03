@@ -47,6 +47,16 @@ similar distribution!
 .. _Puppy Linux: http://www.puppylinux.org/
 
 
+Quirky Linux
+~~~~~~~~~~~~
+
+`Quirky Linux`_ is created from the creator of the `Puppy Linux`_, but has
+nothing else to do with `Puppy Linux`_:  it is based on Ubuntu, but carries
+many innovations.  A great pocket distribution to have available.
+
+.. _Quirky Linux: http://bkhome.org/quirky/
+
+
 Damn Small Linux
 ~~~~~~~~~~~~~~~~
 
