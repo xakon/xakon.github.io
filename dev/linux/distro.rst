@@ -37,6 +37,16 @@ containers.
 .. _Alpine Linux: https://alpinelinux.org/
 
 
+Puppy Linux
+~~~~~~~~~~~
+
+`Puppy Linux`_ is a LiveCD, minimal Linux distribution, which brings many
+innovations in the field.  I always want to play with it and customize one
+similar distribution!
+
+.. _Puppy Linux: http://www.puppylinux.org/
+
+
 Damn Small Linux
 ~~~~~~~~~~~~~~~~
 
