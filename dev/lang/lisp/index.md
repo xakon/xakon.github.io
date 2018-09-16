@@ -29,6 +29,7 @@ I got the following lists from a great answer at [StackOverflow][so-answer].
 
  - [Common Lisp Recipes](http://weitz.de/cl-recipes/)
  - [Lisp in Small Pieces](https://www.amazon.com/Lisp-Small-Pieces-Christian-Queinnec/dp/0521545668)
+ - [Lisp for the Web](https://leanpub.com/lispweb)
 
 ### Online Communities/Resources
 
