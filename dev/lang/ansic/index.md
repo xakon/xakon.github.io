@@ -17,6 +17,12 @@ Resources
    Pick one of them, follow it and learn something new using ANSI C!
 
 
+Books
+-----
+
+ - [Patterns in C](https://leanpub.com/patternsinc)
+
+
 Test Tools
 ----------
 
