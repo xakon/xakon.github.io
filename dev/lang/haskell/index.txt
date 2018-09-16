@@ -86,12 +86,29 @@ Libraries
    Library for exhaustive testing.
 
  - https://github.com/hspec/HUnit[HUnit]:
-   Unit Testing framework.
+   Unit Testing framework, inspired by the http://junit.org[JUnit]
+   Java framework.
+
+ - https://github.com/nick8325/quickcheck[QuickCheck]:
+   Library for random testing of program properties.
+
+ - https://github.com/feuerbach/smallcheck[SmallCheck]:
+   Testing library that allows to verify properties for all test cases up to
+   some depth. The test cases are generated automatically by _SmallCheck_.
+
+ - https://hspec.github.io/[Hspec]:
+   Behavorial Testing framework, inspired by the Ruby library
+   http://rspec.info/[RSpec].
 
  - https://documentup.com/feuerbach/tasty[Tasty]:
-   Unit Testing framework.
+   Unit Testing framework & runner, able to run both _HUnit_ and _QuickCheck_
+   tests in the same suite.
 
- - https://hspec.github.io/[HSpec]:
-   Behavorial Testing framework.
+ - http://haskell.github.io/test-framework/[test-framework]:
+   Allows tests such as _QuickCheck_ properties and _HUnit_ test cases to be
+   assembled into test groups, run in parallel (but reported in deterministic
+   order, to aid diff interpretation) and filtered and controlled by command
+   line options. All of this comes with colored test output, progress reporting
+   and test statistics output.
 
 -- vim: set filetype=asciidoc:
