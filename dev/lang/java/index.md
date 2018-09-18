@@ -17,6 +17,8 @@ Libraries
 ---------
 
  - [JUnit](http://junit.org/)
+ - [Truth](http://google.github.io/truth/):
+   Fluent assertions for Java.
  - [JMockit](http://jmockit.org/)
  - [Mockito](http://site.mockito.org/)
  - [EasyMock](http://www.easymock.org/)
