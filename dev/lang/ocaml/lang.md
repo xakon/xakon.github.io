@@ -35,3 +35,18 @@ All types are different between them.  No implicit conversions take place
 between the types.  Conversions between types can be done with functions,
 like for example, `float_of_int` to convert an `int` to a `float`, or
 `int_of_float` to convert a `float` to an `int`.
+
+
+Operators
+---------
+
+ - _Arithmetic_:
+   All the usual ones: `+`, `-`, `*`, `/`, and `mod`.
+   For _Floating-point_ arithmetic the operators are:
+   `+.`, `-.`, `*.`, and `/.`.
+ - _Comparisons_:
+   `<`, `<=`, `<>`, `=`, `>`, `>=`.
+ - _Boolean_:
+   `&&`, `||`, `not`.
+ - _Strings_:
+   `^` (concatenation).
