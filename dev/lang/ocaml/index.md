@@ -1,7 +1,7 @@
 OCaml
 =====
 
-[OCaml](https://en.wikipedia.org/wiki/OCaml) is another descendant from the ML
+[OCaml][ocaml] is another descendant from the ML
 family of programming languages.  It added a couple of extra features to the
 [Standard ML](https://en.wikipedia.org/wiki/Standard_ML).
 
@@ -12,6 +12,7 @@ OCaml was designed and its first compiler implemented by
 Its compiler is really fast, that's why even [Rust](https://www.rust-lang.org/)
 was initially built using OCaml, until it can bootstrap itself.
 
+[ocaml]:	http://ocaml.org/
 
 Resources
 ---------
@@ -19,12 +20,13 @@ Resources
  - [Official Page](https://ocaml.org/)
  - [Try OCaml](https://try.ocamlpro.com/)
  - [Introduction to OCaml](https://blog.baturin.org/introduction-to-ocaml.html)
+ - [Wikipedia](https://en.wikipedia.org/wiki/OCaml)
 
 
 Examples
 --------
 
-Many projects built with or they use OCaml are at the industry.
+Many projects built with or they use [OCaml][ocaml] are at the industry.
 Among them, one can find:
 
  - [Rust](http://rust-lang.org) was initially bootstrapped using OCaml.
