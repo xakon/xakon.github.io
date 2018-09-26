@@ -23,6 +23,19 @@ Resources
  - [Wikipedia](https://en.wikipedia.org/wiki/OCaml)
 
 
+Tools
+-----
+
+[OCaml][ocaml] is a language full of useful tools in its ecosystem.
+Here we have:
+
+ - `ocaml`: handy REPL interface.
+ - `ocamlc`: bytecoce compiler for writing portable executables.
+ - `ocamlopt`: compiler for native executables (many platforms supported).
+ - `js_of_ocaml`: compiler to JavaScript for Web Applications.
+ - [opam](http://opam.ocaml.org) is a package manager for OCaml.
+ - Hundreds of packaged libraries at <http://opam.ocaml.org/packages/>.
+
 Examples
 --------
 
