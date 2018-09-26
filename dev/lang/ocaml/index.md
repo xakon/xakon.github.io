@@ -23,6 +23,22 @@ Resources
  - [Wikipedia](https://en.wikipedia.org/wiki/OCaml)
 
 
+### Books ###
+
+There are many available books for [OCaml][ocaml], both free and commercial.
+At the [community site](http://ocaml.org/learn/books.html) I can find a complete
+list.  As a reference, here are a few interesting ones:
+
+ - [The OCaml System](http://caml.inria.fr/pub/docs/manual-ocaml/),
+   by Xavier Leroy.  The official manual of the language.  Available in many
+   formats.
+ - [Developing Applications with OCaml](http://caml.inria.fr/pub/docs/oreilly-book/):
+   A freely available book by O'Reilly.  A bit outdated (it's 2000 edition), but
+   a great tutorial of the language.  Many formats available.
+ - [Using, Understanding, and Unraveling the OCaml Language](http://caml.inria.fr/pub/docs/u3-ocaml/),
+   by Didier Rémy:  Paper with the technical details about the language.
+
+
 Tools
 -----
 
