@@ -19,3 +19,15 @@ Resources
  - [Official Page](https://ocaml.org/)
  - [Try OCaml](https://try.ocamlpro.com/)
  - [Introduction to OCaml](https://blog.baturin.org/introduction-to-ocaml.html)
+
+
+Examples
+--------
+
+Many projects built with or they use OCaml are at the industry.
+Among them, one can find:
+
+ - [Rust](http://rust-lang.org) was initially bootstrapped using OCaml.
+ - [Coq](https://coq.inria.fr/) proof assistant.
+ - [Ocsigen](http://ocsigen.org/), a revolutionary Web framework.
+ - [MirageOS](https://mirage.io/), a micro-kernel used as an imported library.
