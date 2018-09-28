@@ -14,6 +14,8 @@ tools can be found at the main [Crates.io](https://crates.io/) site.
 
  - [nix](https://github.com/nix-rust/nix):
    Neat, Rust interface for UNIX system calls.
+ - [chrono](https://crates.io/crates/chrono):
+   Datetime handling, like Python's standard library, but in C++ style.
 
 ### Testing
 
