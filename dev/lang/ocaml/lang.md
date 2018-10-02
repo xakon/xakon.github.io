@@ -81,3 +81,22 @@ function.  The notation for the type of a function follows Haskell notation:
 These are expressions like _Function Applications_, only that they are using
 _infix notation_ (like in Haskell).  They can be used to further create more
 complex expressions.
+
+
+Definitions
+-----------
+
+_Definitions_ give names to values.  They map to _variables_ of the imperative
+languages.  They are immutable, and their scope exists from the point of their
+declaration (unlike Rust).
+
+They come in 2 forms:  _global_ and _local definitions_.
+The syntax is the famous `let` operator:  `let name = expression`.
+The _local definitions_ define also their scope, and they extend the `let`
+operator with the scope:  `let name = expression in expression`.
+
+The _expression_ assigned to a _definition_ is evaluated before the
+binding comes into scope.  We can define _simultaneous definitions_, where all
+the _expressions_ are evaluated before they are assigned to the _definitions_.
+
+    let x = E1 and y = E2;;
