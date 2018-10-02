@@ -100,3 +100,20 @@ binding comes into scope.  We can define _simultaneous definitions_, where all
 the _expressions_ are evaluated before they are assigned to the _definitions_.
 
     let x = E1 and y = E2;;
+
+
+Functions
+---------
+
+_Functions_ are defined using the `let` syntax, and they are just values that
+execute an _expression_.
+
+One problem found in recursive functions is the fact that the symbols used in
+the defining _expression_ should include all necessary symbols.  As this doesn't
+apply for the newly defined function, a simple `let` expression won't work.
+For this reason, we need the `rec` keyword, as in:
+
+    let rec fact n = if n=1 then 1 else n * fact (n-1);;
+
+Similarly, for mutual recursive functions, we need to define them using a
+_simultaneous definition_ and the use of the keyword `and`.
