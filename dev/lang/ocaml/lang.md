@@ -50,3 +50,34 @@ Operators
    `&&`, `||`, `not`.
  - _Strings_:
    `^` (concatenation).
+
+
+Expressions
+-----------
+
+### Conditional Expressions ###
+
+The syntax is the well-known `if E1 then E2 else E3`, and it returns a value,
+whose type should be the same in both the `then` and `else` branches.
+`else` might be omitted, but the return value is `:`.
+
+### Function Application ###
+
+A function with _n_ parameters is called like this:
+
+    f e1 e2 ... en
+
+Like in Haskell, parentheses are not needed to indicate a _function
+application_, unless the expression is more complicated and needs disambiguation
+following the precedence rules.
+
+The type of the _function application_ is, of course, the return type of the
+function.  The notation for the type of a function follows Haskell notation:
+
+    T1 -> T2 -> ... -> Tn -> Tresult
+
+### Operators ###
+
+These are expressions like _Function Applications_, only that they are using
+_infix notation_ (like in Haskell).  They can be used to further create more
+complex expressions.
