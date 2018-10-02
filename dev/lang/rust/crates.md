@@ -53,6 +53,9 @@ tools can be found at the main [Crates.io](https://crates.io/) site.
 
  - [chan-signal](https://github.com/BurntSushi/chan-signal):
    Handling OS signals.
+ - [colored](https://crates.io/crates/colored):
+   Nice interface, with extra methods on strings to color them with ANSI colors
+   while printing them on terminal.
 
 
 ### Files
