@@ -75,6 +75,9 @@ Operators
    `&&`, `||`, `not`.
  - _Strings_:
    `^` (concatenation).
+ - Identity:
+   `==` compares the physical equality of 2 values, i.e., they point to the same
+   memory.  In other words, it's the same as the `id()` in Python.
 
 
 Expressions
