@@ -61,6 +61,33 @@ The above declaration creates a **synonym** type to `int`.
 
 _User-Defined Types_ **must** start with a lowercase letter.
 
+### Composites ###
+
+_Composite Types_ are the ones that are constructed by combining other
+_primitive_ or _composite types_.  These can be:
+
+ - _Tuples_:
+   written as `int * int * int`, and their values are declared by enclosing the
+   values into parenthesis, separated by commas.  In this case, the `*` is
+   called the _type constructor_.  The easiest way to extract the components of
+   a _tuple_ is to use _pattern matching_.
+
+   _Tuples_ are **heap-allocated** blocks.
+ - _Records_:
+   They are declared using braces and separated by semicolons the names of the
+   fields with their types.  For example, `type point2D = {x : int; y : int}`.
+   Their values are written again with braces, their field-names separated with
+   semicolons and assigned to values.  For example, `let a = {x = 3; y = 5}`.
+   As in Rust, if we initialize a _record_ value with existing field name as a
+   variable, we can omit the field name, like `let a = {x; y}`.  Of course, the
+   field names **must** be unique.
+
+   Contrary to _tuples_, _records_ **must** be declared in order to be used.
+   Both of them are **head-allocated** structures.
+
+   We can get the values of _record_ field(s) either using the _dot notation_ or
+   _pattern matching_.
+
 
 Operators
 ---------
