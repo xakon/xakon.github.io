@@ -4,6 +4,25 @@ Language and Syntax
 Types
 -----
 
+All types are different between them.  No implicit conversions take place
+between the types.  Conversions between types can be done with functions,
+like for example, `float_of_int` to convert an `int` to a `float`, or
+`int_of_float` to convert a `float` to an `int`.
+
+We can annotate any variable with a type, for documentation purposes,
+by appending the `: <type>` after the variable.  The same thing applies to
+functions, whereas the return type of it is declared at the end of its
+declaration, before the `=` operator.
+
+    let x : int = 5;;
+    let f (x : int) = x + 1;;
+    let f x : int = x + 1;;
+
+In general, we can annotate any expression, by placing it in parenthesis and
+following it by a `:` and the type.
+
+### Primitives ###
+
  - _Booleans_:
    written as `bool`, have only 2 values, `false` and `true`.
    Operators supported are `&&`, `||`, and `not`.
@@ -31,10 +50,16 @@ Types
    * `int_of_string`
    * `float_of_string`
 
-All types are different between them.  No implicit conversions take place
-between the types.  Conversions between types can be done with functions,
-like for example, `float_of_int` to convert an `int` to a `float`, or
-`int_of_float` to convert a `float` to an `int`.
+### User-Defined ###
+
+With the `type` keyword we can define new _User-Defined Types_.
+For example,
+
+    type color = int;;
+
+The above declaration creates a **synonym** type to `int`.
+
+_User-Defined Types_ **must** start with a lowercase letter.
 
 
 Operators
