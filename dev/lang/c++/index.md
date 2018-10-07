@@ -141,6 +141,17 @@ Yes, there is such thing as _Package Managers_ for C++ anymore!
  - [Eclipse](http://www.eclipse.org/)
 
 
+## Cross-Reference ##
+
+ - [cquery](https://github.com/cquery-project/cquery):
+   C/C++ language server supporting multi-million line code base, powered by
+   `libclang`.  Emacs, Vim, VSCode, and others with language server protocol
+   support.  Cross references, completion, diagnostics, semantic highlighting
+   and more.
+ - [ccls](https://github.com/MaskRay/ccls/):
+   C/C++/Objective-C language server supporting cross references, hierarchies,
+   completion and semantic highlighting.
+
 ## Various Topics
 
 ### MetaProgramming
