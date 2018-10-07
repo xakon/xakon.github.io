@@ -30,6 +30,10 @@ Here is a list of industry-based, strong-supported libraries:
    and wrote this minimal framework.
 
  - [cpputest](https://cpputest.github.io):
+   C /C++ based unit xUnit test framework for unit testing and for test-driving
+   your code.  Simple in design and simple in use.  Portable to old and new
+   platforms.  Build with Test-driven Development in mind
+
    Recommended by Robert C. (Uncle Bob) Martin, as a light-weight and complete
    C++ framework.
 
