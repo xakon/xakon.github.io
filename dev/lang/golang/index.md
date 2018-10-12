@@ -25,6 +25,8 @@ Resources
  - [Go Traps](https://go-traps.appspot.com/)
  - [Network programming with Go](https://jan.newmarch.name/go/)
  - [Practical Cryptography With Go](https://leanpub.com/gocrypto/)
+ - [Essential Go](https://www.programming-books.io/essential/go/):
+   Free, online book.
 
 
 ## Libraries
