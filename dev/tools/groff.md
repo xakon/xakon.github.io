@@ -23,3 +23,4 @@ purpose:
 
  - [Groff man](http://man7.org/linux/man-pages/man7/groff_man.7.html)
  - [Groff_mdoc](http://man7.org/linux/man-pages/man7/groff_mdoc.7.html)
+ - [BSD mdoc](http://mandoc.bsd.lv/)
