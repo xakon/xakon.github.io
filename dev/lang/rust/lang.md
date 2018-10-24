@@ -400,6 +400,28 @@ Nice reference and tutorial was found at [Infinite Negative Utility][rust-module
 [rust-modules]:	https://blog.infinitenegativeutility.com/2017/8/the-basic-principles-of-rust-modules
 
 
+### Unsafe Rust
+
+_Unsafe Rust_ is a mini-language embedded into Rust.
+It is necessary to implement some low-level functions that are almost impossible
+to be done with plain Rust,
+but also add guarantees about the code that the compiler cannot make.
+In general, it is better to keep the unsafe parts at a minimum.
+
+_Unsafe Rust_ allows us to use the following features:
+
+ - Dereference a _raw pointer_
+ - Call an unsafe function or method
+ - Access or modify a mutable static variable
+ - Implement an unsafe trait
+
+A _raw pointer_ is declared as `*const T` or `*mut T`
+and we can obtain one either from a _reference_ or an address.
+Only dereferencing the _raw pointer_ is unsafe.
+
+All external functions are unsafe by default
+(Rust can perform no analysis on external code).
+
 ### Prelude
 
 All the following symbols belong to the *Standard Prelude*.
