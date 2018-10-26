@@ -48,6 +48,10 @@ It can be really helpful while copying text from terminal to paste it, for examp
 
 ### ANSI Colors
 
+The absolute reference of these colors and an in-depth explanation of how the
+ANSI colors work in the terminal can be found at the
+[Bash Hackers Wiki](http://wiki.bash-hackers.org/scripting/terminalcodes).
+
 The valid display attributes for 16-color terminals are:
 
  - Style
