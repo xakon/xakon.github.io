@@ -128,3 +128,4 @@ using:
  - [Managing Passwords from the Command-Line](http://xmodulo.com/manage-passwords-command-line-linux.html)
  - [Debian Best Practices](http://keyring.debian.org/creating-key.html)
  - [PGP and You](https://robots.thoughtbot.com/pgp-and-you)
+ - [GPG Tutorial](https://futureboy.us/pgp.html)
