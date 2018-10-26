@@ -1,9 +1,10 @@
 GnuPG
 =====
 
-Some notes about gpg(1).
+Some notes about `gpg(1)`.
 
 GPG can be used for many things, mainly for the following:
+
  - Generation of keypairs
  - Managing keys
  - Signing messages
@@ -33,7 +34,7 @@ will generate one master key for signing and one subkey for encryption.
 Many easy to follow steps are following.  Finally, 4 keys are generated: a master key,
 it signing subkey, together with their public/private pairs.
 
-### Managining Keys
+### Managing Keys
 
 Managed keys are kept in `~/.gnupg/` directory.  It should be kept safe, private,
 and backed up securely.
@@ -56,7 +57,7 @@ the private key.
 Having provided that, the file `message.txt.asc` is created, with PGP sections
 and a plaintext ASCII signature.
 
-The message itself is plainly readable; this message isn’t encrypted, it’s just verified
+The message itself is plainly readable; this message isn't encrypted, it’s just verified
 as having been written by a particular person, and not altered since it was written.
 
 Now anyone who has our public key on their keyring can verify that it was actually us who
@@ -105,7 +106,7 @@ Then, it is possible the encryption of text file `message.txt`:
 
     $ gpg --armor --recipient 695195A5 --encrypt secret-message.txt
 
-We can add more recipients (using thir HEX keys) on previous command, so that more people
+We can add more recipients (using their HEX keys) on previous command, so that more people
 can see the contents of the encrypted file.
 
 Just to be thorough, we can sign the message as well to prove it came from us:
