@@ -16,6 +16,9 @@ Core Libraries
    like `STDERR`, `syslog`, `Log4stash` and others.  These are implemented
    in `Log::Any::Adapters`.
 
+ - `Term::ANSIColor`:  Constants and functions to easily output ANSI colored
+   text to the terminal.
+
 
 CPAN
 ----
