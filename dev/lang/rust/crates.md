@@ -86,6 +86,8 @@ tools can be found at the main [Crates.io](https://crates.io/) site.
 
  - [reqwest](https://github.com/seanmonstar/reqwest):
    An HTTP client.
+ - [Hyper](https://hyper.rs/):
+   An HTTP library for Rust.
 
 
 ### Parsers
