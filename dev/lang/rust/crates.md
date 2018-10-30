@@ -21,7 +21,6 @@ tools can be found at the main [Crates.io](https://crates.io/) site.
 
  - [quickcheck](https://crates.io/crates/quickcheck):
    A Rust implementation of QuickCheck.
-
  - [cargo-fuzz](https://github.com/rust-fuzz/cargo-fuzz):
    Fuzz test library.
  - [afl](https://github.com/rust-fuzz/afl.rs):
@@ -35,23 +34,17 @@ tools can be found at the main [Crates.io](https://crates.io/) site.
 
  - [clap](https://docs.rs/clap/2.14.0/clap/):
    A simple to use, efficient, and full featured Command Line Argument Parser.
-
  - [structopt](https://docs.rs/structopt-derive/0.1.5/structopt_derive/):
    A wrapper around `clap`, that uses macros to describe the command-line
    interface.
-
  - [termion](https://github.com/ticki/termion):
    Low-level terminal stuff.
-
  - [linefeed](https://github.com/murarth/linefeed):
    Interactive input reader.
-
  - [prettytable](https://github.com/phsym/prettytable-rs):
-   Ouptut tables.
-
+   Output tables.
  - [exitcode](https://github.com/benwilber/exitcode):
    Standard UNIX exit codes.
-
  - [chan-signal](https://github.com/BurntSushi/chan-signal):
    Handling OS signals.
  - [colored](https://crates.io/crates/colored):
@@ -62,9 +55,7 @@ tools can be found at the main [Crates.io](https://crates.io/) site.
 ### Files
 
  - [tempfile](https://github.com/Stebalien/tempfile).
-
  - [glob](https://github.com/rust-lang-nursery/glob).
-
  - [csv](https://github.com/BurntSushi/rust-csv).
 
 
@@ -82,13 +73,10 @@ tools can be found at the main [Crates.io](https://crates.io/) site.
 
  - [Rocket](https://rocket.rs/):
    A Web Framework for Rust.
-
  - [Serde](https://crates.io/crates/serde):
    Serialization library.
-
  - [Maud](https://github.com/lfairy/maud):
    An incredible fast, Template Engine.
-
  - [reqwest](https://github.com/seanmonstar/reqwest):
    An HTTP client.
  - [Hyper](https://hyper.rs/):
