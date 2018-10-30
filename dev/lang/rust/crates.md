@@ -71,6 +71,10 @@ tools can be found at the main [Crates.io](https://crates.io/) site.
 
  - [Tokio](https://tokio.rs/):
    The asynchronous run-time for the Rust.
+ - [crossbean](https://github.com/crossbeam-rs/crossbeam):
+   Support for parallelism and low-level concurrency.
+ - [Rayon](https://github.com/rayon-rs/rayon):
+   A data parallelism library.
 
 
 ### Web Development
