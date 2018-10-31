@@ -236,6 +236,38 @@ Replace Nested Conditional with Guard Clauses:
    Extract common expressions from if statements.
 
 
+Logging
+-------
+
+I found a useful article in [Google Testing Blog][log-article], which I need to
+keep a reference to, but also extract some useful points while adding logging
+statements in the code:
+
+### Good things to log ###
+
+ - Important startup configuration
+ - Errors/Warnings
+ - Changes to persistent data
+ - Requests/Responses between major systems
+ - Significant state changes
+ - User interactions
+ - Calls with a known risk of failure
+ - Waits on conditions that could take measurable time to satisfy
+ - Periodic progress during long-running tasks
+ - Significant branch points of logic and conditions that led to the branch
+ - Summaries of processing steps/events from high-level functions
+
+### Bad things to log ###
+
+ - Function entry
+ - Data within a loop
+ - Content of large messages or files
+ - Benign errors
+ - Repetitive errors
+
+[log-article]:	https://testing.googleblog.com/2013/06/optimal-logging.html
+
+
 Fuzzing
 -------
 
