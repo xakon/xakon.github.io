@@ -26,6 +26,10 @@ Embedded Development
    _Linaro_ provides many useful toolchains, libraries, documentation, and tools
    for the ARM ecosystem.
 
+ o [Rust Embeddded](https://github.com/rust-embedded):
+   A huge collection of documentation, resources, libraries, related to Embedded
+   Programming using [Rust](https://www.rust-lang.org/).
+
 
 ## Libraries
 
