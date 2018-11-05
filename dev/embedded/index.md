@@ -65,6 +65,7 @@ Some useful libraries for embedded systems.
  o _Embedded Linux Primer, 2/e_
 
  o _Making Embedded Systems: Design Patterns for Great Software_  
+   O'Reilly, 2011
    Elecia White
 
 
