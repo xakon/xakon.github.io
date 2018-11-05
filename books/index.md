@@ -42,6 +42,21 @@ Purely Functional Data Structures
    Chris Okasaki
    Cambridge University Press, 1999
 
+### JavaScript ###
+
+3D Game Programming for Kids
+   Chris Strom  
+   Pragmatic Bookshelf, 2013  
+   978-1-93778-544-4  
+   https://pragprog.com/book/csjava/3d-game-programming-for-kids
+
+Effective JavaScript
+     David Herman  
+     Addison-Wesley, 2012
+     0-321-81218-2, 978-0321812186  
+
+
+
 #### Misc
 
 The Passionate Programmer, 2/e
