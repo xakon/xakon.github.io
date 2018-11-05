@@ -163,3 +163,5 @@ Another list of useful Python frameworks and libraries that I can use in project
    [Github page](https://github.com/mstamy2/PyPDF2):
    A library to manage PDFs, extract/change metadata and other stuff.
    It seems that PyPDF2 is a fork of pyPDF.
+ - [VCR.py](https://vcrpy.readthedocs.io/):
+   Log any HTTP requests and replay them during testing.
