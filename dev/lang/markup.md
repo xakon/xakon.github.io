@@ -45,7 +45,7 @@ Although my favourite system, I still struggle to learn its syntax, which is not
 beautiful as in other formats.
 
 The language has its own program to convert between files, but there is also
-another project with the name of [ASciiDoctor][asciidoctor].  Need to find more
+another project with the name of [AsciiDoctor][asciidoctor].  Need to find more
 information about it!
 
 See also this reference from [AsciiDoctor][asciidoc-ref]
