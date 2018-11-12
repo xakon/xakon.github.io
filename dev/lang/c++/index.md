@@ -69,6 +69,15 @@ More notes about the free, online books can be found at this article:
 [wxwidget-gui]:	http://www.informit.com/store/cross-platform-gui-programming-with-wxwidgets-9780131473812
 
 
+## Articles ##
+
+Some interesting articles/references/explanations are the following:
+
+ - [Iterators: What Must be Done?](https://infektor.net/posts/2018-11-03-iterators-what-must-be-done.html):
+   A nice reference of the types and functions each iterator type needs to
+   support.
+
+
 ## Compilers
 
  - [GCC](http://gcc.gnu.org)
