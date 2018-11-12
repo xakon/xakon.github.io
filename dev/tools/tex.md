@@ -14,7 +14,6 @@ Tips
 
  - [Typography in Ten Minutes][typography-article]:
    A great introduction to typography by [Practical Typography][practical-typography].
-
  - [Advice on LaTeX](https://github.com/dspinellis/latex-advice)
 
 
