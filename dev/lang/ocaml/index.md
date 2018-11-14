@@ -22,6 +22,8 @@ Resources
  - [Introduction to OCaml](https://blog.baturin.org/introduction-to-ocaml.html)
  - [Wikipedia](https://en.wikipedia.org/wiki/OCaml)
 
+ - [OCaml for the Skeptical](https://www2.lib.uchicago.edu/keith/ocaml-class/)
+
 
 ### Books ###
 
