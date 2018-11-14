@@ -39,6 +39,7 @@ list.  As a reference, here are a few interesting ones:
    a great tutorial of the language.  Many formats available.
  - [Using, Understanding, and Unraveling the OCaml Language](http://caml.inria.fr/pub/docs/u3-ocaml/),
    by Didier Rémy:  Paper with the technical details about the language.
+ - [Real World OCaml, 2/e](https://dev.realworldocaml.org/)
 
 
 Tools
