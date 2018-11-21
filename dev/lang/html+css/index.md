@@ -15,6 +15,12 @@ Resources
 
  - [HTML Reference](http://htmlreference.io/)
  - [CSS Reference](http://cssreference.io/)
+ - [CSS Zen Garden](http://www.csszengarden.com/):
+   The Beauty of CSS Design.
+   Demonstrations of building the same site using various styles,
+   demonstrating the power and usage of CSS.
+ - [Tailwind](https://tailwindcss.com/):
+   A utility-first CSS framework for rapidly building custom user interfaces.
 
 
 ### Tutorials
