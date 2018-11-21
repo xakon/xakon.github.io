@@ -9,9 +9,12 @@ Groff
 -----
 
 Officially called _GNU troff_, people know it as _groff_.
-The GNU re-implementation of the _troff_ family of tools.
+The GNU re-implementation of the [troff](https://www.troff.org/) family of tools.
 
  - [Home Page](https://www.gnu.org/software/groff/)
+ - [Troff Manual](https://www.troff.org/54.pdf),
+   by Joseph Ossanna and Brian Kernighan  
+   Publication from 1992, extensively revised by Brian Kernighan.
 
 
 Manual Pages
