@@ -6,9 +6,7 @@ Resources
 
  - [Practical Typography](http://practicaltypography.com/):
    Online book.  Excellent.
-
  - [Google's Style Guide](https://google.github.io/styleguide/htmlcssguide.xml)
-
  - [The Magic of CSS](http://magicofcss.com/):
    Online book about CSS.
 
