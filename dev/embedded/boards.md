@@ -16,6 +16,8 @@ suitable for low-level experiments, can be found at
  - [96Boards](https://www.96boards.org/)
  - PINE64:  Found a review for this powerful board at
    <https://www.linux.com/news/build-20-computer-pine64>.
+ - Nucleo STM32F446RE:
+   In general, any STM32-based board will suffice.
 
 
 [frdm-kl25z]:	http://www.freescale.com/webapp/sps/site/prod_summary.jsp?code=FRDM-KL25Z
