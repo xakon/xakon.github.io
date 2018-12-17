@@ -44,7 +44,7 @@ Packages
 
  - [Debian Wiki: Building Tutorial](https://wiki.debian.org/BuildingTutorial).
  - [How to create a Debian `.deb` package][create-deb]:
-   A nice introductionary recipe for buidling `.deb` files, but I have already
+   A nice introductory recipe for building `.deb` files, but I have already
    found more resources under the `Tools`.
  - [Packaging Python Project to Debian](https://medium.com/@pycoder_boy/packaging-python-project-to-debian-deb-part-1-f01f510d7d10)
 
