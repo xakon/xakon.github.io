@@ -231,6 +231,28 @@ Functions that return strings from I/O (like `getLine`) have a specific type of 
 We associate I/O results to values (inside a `do` statement) using the `<-` operator.
 
 
+I/O Patterns
+~~~~~~~~~~~~
+
+Some useful I/O patterns for reading lines from STDIN, process them, and
+printing the result back to STDOUT, can be:
+
+[source,haskell]
+----
+main = do
+   s <- getContents
+   let r = map processLines (lines s)
+   putStr (unlines r)
+----
+
+The exact same sequence can be written using the useful function `interact`:
+
+[source,haskell]
+----
+main = interact (unlines. map processLines . lines)
+----
+
+
 ////
 # vim: set ft=asciidoc:
 ////
