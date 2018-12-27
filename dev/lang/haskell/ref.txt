@@ -155,6 +155,9 @@ Strings
 ~~~~~~~
 
  - `lines`	- Split a String into multiple lines
+ - `unlines`	- Join multiple lines into a single String
+ - `words`	- Split a String into a list of words
+ - `unwords`	- Join a list of words into a String
 
 DataTypes
 ~~~~~~~~~
