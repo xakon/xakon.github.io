@@ -138,13 +138,13 @@ Misc
 I/O
 ~~~
 
- - `getChar`	- Read a character from the keyboard
- - `getLine`	- Read a string from the keyboard
+ - `getChar`	- Read a character from STDIN
+ - `getLine`	- Read a line from STDIN
  - `readLn`	- Read a value from the keyboard
- - `putChar`	- Write a character to the screen
- - `putStr`	- Print string to standard output
- - `putStrLn`	- Print string to standard output with a newline appended
- - `print`	- Print type to standard output (converted to `IO String`)
+ - `putChar`	- Write a character to STDOUT
+ - `putStr`	- Print string to STDOUT
+ - `putStrLn`	- Print string to STDOUT with a newline appended
+ - `print`	- Print any type to STDOUT (converted to `IO String`)
  - `read`	- Convert strings into types
  - `show`	- Convert a value into a string
  - `error`	- Display an error message and terminate the program
