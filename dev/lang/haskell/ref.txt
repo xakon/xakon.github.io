@@ -145,6 +145,8 @@ I/O
  - `putStr`	- Print string to STDOUT
  - `putStrLn`	- Print string to STDOUT with a newline appended
  - `print`	- Print any type to STDOUT (converted to `IO String`)
+ - `getContents` - Read lazily all the contents of STDIN
+ - `interact`	- Read lazily all STDIN, pass into given function, print result in STDOUT
  - `read`	- Convert strings into types
  - `show`	- Convert a value into a string
  - `error`	- Display an error message and terminate the program
