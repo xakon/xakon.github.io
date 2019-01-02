@@ -88,6 +88,30 @@ _primitive_ or _composite types_.  These can be:
    We can get the values of _record_ field(s) either using the _dot notation_ or
    _pattern matching_.
 
+ - _Arrays_:
+   Dynamically sized composite type.
+
+### Algebraic ###
+
+We can define a _sum type_ or _Algebraic_ (in Functional Programming terms),
+with the `type` keyword again.  For example:
+
+    type color = Black | Grey | White;;
+    type query =
+	| Insert contact
+	| Search string
+	| Delete contact;;
+
+More formally, a _sum type_ can be defined with the following construct:
+
+    type E =
+	| e1 of (T1, T2, ..., Tn);
+	| e2 of (T1, T2, ..., Tn);
+	| ...
+
+The _tags_ (also called _constructors_) need to be *unique* in the program.
+Parentheses around the _types_ of each _tag` can be dropped if the _tag_ is a
+single, simple _expression_.
 
 Operators
 ---------
