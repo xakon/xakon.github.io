@@ -121,6 +121,35 @@ using:
     $ gpg --decrypt secret-message.txt.asc
 
 
+## Sample Use ##
+
+The following invocations come from a nice tutorial found at
+[Dev Dungeon][gpg-devdungeon], and might be a quick reference of the various
+useful commands on using GPG:
+
+    gpg --list-keys
+    gpg --list-secret-keys
+
+    gpg --import priv-key.asc
+    gpg --export-secret-keys --armor XXXX > priv-key.asc
+
+    gpg --symmetric message.txt
+    gpg --symmetric --armor message.txt
+
+    gpg --encrypt message.txt
+    gpg --encrypt -r recipient@example.com message.txt
+    gpg --encrypt --armor -r recipient@example.com message.txt
+
+    gpg --decrypt message.txt.gpg
+
+    gpg --clearsign message.txt		# print ASCII in STDOUT
+    gpg --sign message.txt		# creates binary file
+    gpg --detach-sign message.txt	# creates separate file
+
+    gpg --verify message.txt.asc
+    gpg --verify message.txt.asc message.txt
+
+
 ## References
 
  - [Arabesque](http://blog.sanctum.geek.nz/series/linux-crypto/)
@@ -129,3 +158,6 @@ using:
  - [Debian Best Practices](http://keyring.debian.org/creating-key.html)
  - [PGP and You](https://robots.thoughtbot.com/pgp-and-you)
  - [GPG Tutorial](https://futureboy.us/pgp.html)
+ - [GPG Tutorial][gpg-devdungeon]
+
+[gpg-devdungeon]:	https://www.devdungeon.com/content/gpg-tutorial
