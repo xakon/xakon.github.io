@@ -87,7 +87,8 @@ Libraries
 
  - https://github.com/hspec/HUnit[HUnit]:
    Unit Testing framework, inspired by the http://junit.org[JUnit]
-   Java framework.
+   Java framework.  A nice tutorial about the framework can also be
+   found here:   https://caiorss.github.io/Functional-Programming/haskell/UnitTest_Hunit.html
 
  - https://github.com/nick8325/quickcheck[QuickCheck]:
    Library for random testing of program properties.
