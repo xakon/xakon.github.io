@@ -27,3 +27,34 @@ purpose:
  - [Groff man](http://man7.org/linux/man-pages/man7/groff_man.7.html)
  - [Groff_mdoc](http://man7.org/linux/man-pages/man7/groff_mdoc.7.html)
  - [BSD mdoc](http://mandoc.bsd.lv/)
+
+
+Notes
+-----
+
+_Groff_ and any typical _troff_ system consists of macro packages,
+pre- and post-processors.
+
+Some common macro packages are:
+
+ - ms
+ - mm
+ - me
+ - man
+ - mdoc
+ - mandoc
+ - mom:
+   As the traditional macro packages were tailored towards articles, technical
+   reports and papers, `mom` tries to bring other publications to _troff_
+   systems.
+
+Some common pre-processors are:
+
+ - tbl
+ - eqn
+ - pic
+ - refer
+ - grm
+
+A _troff_ sources consists of _macros_ or _requests_, _escape sequences_ and
+normal text.
