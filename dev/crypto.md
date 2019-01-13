@@ -14,3 +14,4 @@ Resources
  - [An Overview of Cryptography](http://www.garykessler.net/library/crypto.html)
  - [Encryption and Security Tutorial](https://www.cs.auckland.ac.nz/~pgut001/tutorial/)
  - [The Illustrated TLS Connection](https://tls.ulfheim.net/)
+ - [Is TLS Fast Yet?](https://istlsfastyet.com/)
