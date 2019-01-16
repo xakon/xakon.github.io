@@ -44,6 +44,7 @@ Retro
    Similar in spirit with
    [Axis & Allies](https://boardgamegeek.com/boardgame/98/axis-allies)
    board game.
+ - [FlightGear Flight Simulator](https://home.flightgear.org/)
 
 
 ### Adventure
