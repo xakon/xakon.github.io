@@ -60,7 +60,7 @@ mind.
  - [Crates.io][crates]: central repository for Rust packages
  - [Crates.rs](https://crates.rs/):  an alternative to [Crates.io][crates]
  - [Docs.rs][docs]:  documentation coming from any *crate*
- - [rust-clippy](https://github.com/Manishearth/rust-clippy):  Linter
+ - [clippy](https://github.com/Manishearth/rust-clippy):  Linter
  - [rustfmt](https://github.com/rust-lang-nursery/rustfmt):  Code formatter.
  - [racer](https://github.com/phildawes/racer):  Auto-completion utility.
  - [rls](https://github.com/rust-lang-nursery/rls):
