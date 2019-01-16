@@ -62,6 +62,8 @@ mind.
  - [Docs.rs][docs]:  documentation coming from any *crate*
  - [clippy](https://github.com/Manishearth/rust-clippy):  Linter
  - [rustfmt](https://github.com/rust-lang-nursery/rustfmt):  Code formatter.
+ - [rustfix](https://github.com/rust-lang-nursery/rustfix):
+   Automatic resolve issues between Edition 2018 and older ones.
  - [racer](https://github.com/phildawes/racer):  Auto-completion utility.
  - [rls](https://github.com/rust-lang-nursery/rls):
    Language server (for symbol search, etc.)
