@@ -20,10 +20,6 @@ Modern C++ Design
 
 #### Lisp
 
-Object-Oriented Programming in COMMON LISP
-   Sonja E. Keene
-   Addison-Wesley, 1989
-
 The Art of the Metaobject Protocol
    Gregor Kiczales, Jim des Rivieres, Daniel G. Bobrow
    MIT Press, 1991
@@ -68,10 +64,6 @@ A Discipline for Software Engineering
    Watts Humphrey
    Addison-Wesley, 1995
    0201546108 / 978-0201546101
-
-Paradigms of Artificial Intelligence Programming
-   Peter Norvig
-   Morgan Kaufmann, 1992
 
 Synthesis: Efficient Implementation of Fundamental OS Services
    Henry Massalin
@@ -136,10 +128,6 @@ The Connection Machine
    MIT Press, 1988  
    Thesis
 
-Mastering Algorithms with Perl
-   Jon Orwant, Jarkko Hietaniemi, John MacDonald  
-   O'Reilly, 1999
-
 Algorithms to Live By: The Computer Science of Human Decisions  
    Brian Christian
    <https://www.amazon.com/Algorithms-Live-Computer-Science-Decisions/dp/1627790365/ref=as_li_ss_tl>
@@ -152,9 +140,6 @@ Numerical Recipes, 3e
 
 Making Embedded Systems: Design Patterns for Great Software  
    Elecia White
-
-TDD Development for Embedded C  
-   James Grenning
 
 
 
