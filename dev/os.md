@@ -4,6 +4,42 @@ Operating Systems
 Resources
 ---------
 
+### Books ###
+
+The following books are recommended at the Udacity's MOOC,
+"Introduction to Operating Systems":
+
+
+    Modern Operating Systems, 4/e
+    Andrew Tanenbaum, Herbert Bos
+    Pearson, 2014
+    013359162X
+    978-0133591620
+
+    Operating System Concepts, 9/e
+    Abraham Silberschatz, Peter Baer Galvin, Greg Gagne
+    Wiley, 2012
+    1118063333
+    978-1118063330
+
+    Operating System Concepts Essentials, 2/e
+    Abraham Silberschatz, Peter Baer Galvin, Greg Gagne
+    Wiley, 2013
+    1118804929
+    978-1118804926
+
+    Operating Systems: Three Easy Pieces
+    Remzi Arpaci-Dusseau, Andrea Arpaci-Duesseau
+    Lulu, 2015
+    http://pages.cs.wisc.edu/~remzi/OSTEP/
+
+
+All these books come with accompanying material, as extra slides, articles,
+exercises, solutions, videos.
+
+
+### Online ###
+
  - [Hack the Kernel](https://www.ops-class.org/):
    Includes everything you need to learn about operating systems online.
  - [Redox](http://www.redox-os.org/):
