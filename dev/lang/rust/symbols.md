@@ -19,6 +19,7 @@ name of the macro is `std::fmt::print!`.
    format!		| Write formatted text to `String`
    print!		| Same as `format!`, but text is printed to STDOUT
    println!		| Same as `print!`, but a newline is appended
+   eprintln!		| Print formatted text to STDERR with newline appended
    write!		| Like `format!`, but text is written into buffer
    writeln!		| Like `println!`, but text is written into stream
 			|
