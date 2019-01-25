@@ -2,8 +2,12 @@ PostgreSQL
 ==========
 
 
-## Resources
+Resources
+---------
 
+### URLs ###
+
+ - [PostgreSQL](https://www.postgresql.org/)
  - [PostgreSQL Exercises](http://pgexercises.com/)
 
 
