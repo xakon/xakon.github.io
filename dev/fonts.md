@@ -9,6 +9,8 @@ Install Fonts on Linux
    $ fc-cache -f -v
 ```
 
+Fonts can be further organized into subdirectories, to keep them well organized.
+
 A nice Web application, called [Programming Fonts](https://app.programmingfonts.org/),
 allows one to view and try more than 50 free fonts on the browser.  A nice
 add-on, on choosing what better fits to someone.
