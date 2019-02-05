@@ -28,6 +28,8 @@ Miscellaneous
    [Hostinf4Real](http://hosting4real.net)
    Management of my domain using the cPanel found at:
    <http://thegreeks.nl:2083>
+ - <the-greeks.tk> & <thegreeks.tk>:
+   Alternatives to my NL domain, free from [Dot.tk](http://dot.tk/)
 
 ### Dynamic IP
 
