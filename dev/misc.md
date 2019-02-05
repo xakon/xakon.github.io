@@ -20,7 +20,7 @@ Miscellaneous
 ### DNS entries
 
  - <xakon.tk>: administered at [Dot.tk](http://dot.tk/)
- - <my-ceid.tk>: administered at [Dot.tk](http://dot.tk/)
+ - <my-ceid.ml>: administered at [Dot.tk](http://dot.tk/)
  - <kontas.tk>: administered at [Dot.tk](http://dot.tk/),
    I plan to use it as christos@kontas.tk or xakon@kontas.tk
  - <thegreeks.nl>: administered at [YourHosting](http://yourhosting.nl)
