@@ -101,6 +101,12 @@ OVH
 KimSufi
   22 EUR, Cheap machines
 
+https://contabo.com/?show=vps
+   VPS from €5
+
+https://www.online.net/en
+   Good prices for dedicated hosts
+
 
 Resources
 ---------
