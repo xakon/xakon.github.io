@@ -39,6 +39,8 @@ Miscellaneous
 
  - [Select an HTTP Status Code](http://racksburg.com/choosing-an-http-status-code/)
  - [HTTP Status Codes](https://httpstatuses.com/)
+ - [HTTP/2 Explained](https://daniel.haxx.se/http2/)
+ - [HTTP/3 Explained](https://daniel.haxx.se/http3-explained/)
 
 ### Platforms
 
