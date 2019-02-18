@@ -190,5 +190,9 @@ Here comes a list of packages I'm constantly finding in Web, and might be
 useful someday in the future.  The list is divided by categories.
 See also separate files for these categories.
 
+Except of [PyPI (Python Package Index)](https://pypi.org/), there is also the
+[Awesome Python](https://awesome-python.com/) site, where we can find Python
+packages and libraries based on a category.
+
 
 [-]:	vim: ft=markdown
