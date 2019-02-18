@@ -27,7 +27,7 @@ Documentation
  - [pyvideo.org](http://pyvideo.org/)
 
 
-### Changlelog
+### Changelog
 
  - [What's New in Python 3.0][new-3.0]
  - [What's New in Python 3.1][new-3.1]
