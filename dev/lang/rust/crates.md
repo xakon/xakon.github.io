@@ -28,6 +28,9 @@ tools can be found at the main [Crates.io](https://crates.io/) site.
  - [Criterion.rs](https://crates.io/crates/criterion):
    Statistics-driven micro-benchmarking library.  Source code can be found at
    [Github](https://github.com/japaric/criterion.rs).
+ - [alloc_counter](https://crates.io/crates/alloc_counter):
+   Count number of heap allocations.  Useful for tracing and measuring
+   performance-related code.
 
 
 ### Terminal
