@@ -16,6 +16,7 @@ Resources
  - [Free Blog Platform][http://blogs.perl.org]
  - [Perl Sphere][http://perlsphere.net]
  - [Perl Tricks][http://PerlTricks.com]
+ - [Perl101](http://perl101.org/): Resources for beginners.
  - [Perl IronMan][http://ironman.enlightenedperl.com]
  - [Enlightened Perl Organization][http://enlightenedperl.com]
  - [Perl Weekly][http://perlweekly.com]
