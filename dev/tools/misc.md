@@ -81,6 +81,19 @@ File Managers
  - [Xfe](http://roland65.free.fr/xfe/)
  - [Midnight Commander](https://midnight-commander.org/)
 
+DjVu
+----
+
+An excellent format for compressing digitized books.  Developed 20 years ago
+from AT&T, it is supported by Evince.  More information can be found online
+at [DjVu.org](http://djvu.org/).
+
+Some tools to create/manipulate DjVu documents can be:
+
+ - `djvm`
+ - `convert` from Imagemagick to convert JPEG images to PBM or PNM.
+ - `cjb2` and `c44` to create single-page DjVu files
+
 Misc
 ----
 
