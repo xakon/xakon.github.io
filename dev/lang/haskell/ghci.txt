@@ -28,6 +28,19 @@ Change its prompt (by default it's `Prelude>` with:
    :set prompt "λ> "
 
 
+In this useful post from Chris Done,
+https://chrisdone.com/posts/making-ghci-fast/[Making GHCi scale better and faster],
+some options are mentioned for GHCi to load faster with a lot of modules enabled,
+and also to give some hints and compilation errors:
+
+ - `ghci -fobject-code` or `:set -fobject-code`
+ - `ghci -fbyte-code` or `:set -fbyte-code`
+ - `ghci -fno-code` or `:set-f no-code`
+
+I'm not sure what these options are doing, but let's keep a note about them,
+to investigate them further in the future.
+
+
 ////
 # vim: set ft=asciidoc:
 ////
