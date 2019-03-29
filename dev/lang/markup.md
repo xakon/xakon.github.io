@@ -49,9 +49,11 @@ another project with the name of [AsciiDoctor][asciidoctor].  Need to find more
 information about it!
 
 See also this reference from [AsciiDoctor][asciidoc-ref].
+Alternatively, this [cheatsheet][ascii-cheat] is also useful.
 
 [asciidoc]:	http://asciidoc.org/)
 [asciidoc-old]:	http://www.methods.co.nz/asciidoc/
+[ascii-cheat]:	https://powerman.name/doc/asciidoc
 [asciidoc-ref]:	http://asciidoctor.org/docs/asciidoc-writers-guide/
 [asciidoctor]:	http://asciidoctor.org/
 [git]:		http://git-scm.com/
