@@ -73,10 +73,12 @@ The language is also extensible.
  * [Quick reStructuredText][quick-rst]
  * [Primer][rst-primer-1]
  * [reStructuredText Primer][rst-primer-2]
+ * [reStructuredText Tutorial][rst-tut-1]
 
 [rst]:		http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html
 [quick-rst]:	http://docutils.sourceforge.net/docs/user/rst/quickref.html
 [rst-primer-1]:	http://docutils.sourceforge.net/docs/user/rst/quickstart.html
 [rst-primer-2]:	http://www.sphinx-doc.org/en/stable/rest.html
+[rst-tut-1]:	https://www.devdungeon.com/content/restructuredtext-rst-tutorial-0
 [sphinx]:	http://sphinx-doc.org/
 [python]:	http://www.python.org
