@@ -48,7 +48,7 @@ The language has its own program to convert between files, but there is also
 another project with the name of [AsciiDoctor][asciidoctor].  Need to find more
 information about it!
 
-See also this reference from [AsciiDoctor][asciidoc-ref]
+See also this reference from [AsciiDoctor][asciidoc-ref].
 
 [asciidoc]:	http://asciidoc.org/)
 [asciidoc-old]:	http://www.methods.co.nz/asciidoc/
