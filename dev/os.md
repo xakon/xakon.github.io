@@ -68,6 +68,7 @@ exercises, solutions, videos.
    [Linux From Scratch][LFS], to build from the scratch a distribution.
  - [Build an Operating System for the Raspberry Pi](https://jsandler18.github.io/)
  - [Learning OS development using Linux Kernel & Raspberry Pi][rasp-pi-os].
+ - [Rolling your Own Bootloader](http://wiki.osdev.org/Rolling_Your_Own_Bootloader)
 
 
 
