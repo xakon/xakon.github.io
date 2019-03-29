@@ -75,10 +75,34 @@ The language is also extensible.
  * [reStructuredText Primer][rst-primer-2]
  * [reStructuredText Tutorial][rst-tut-1]
 
+Although we can parse and convert reStructuredText documents with
+[Pandoc][pandoc], the definitive tool to use it [docutils][docutils].
+If I install it on Debian, I have a plethora of tools available for various
+conversions:
+
+ - `rst2html`
+ - `rst2html4`
+ - `rst2html5`
+ - `rst2man`
+ - `rst2xml`
+ - `rst2latex`
+ - `rst2xetex`
+ - And many others...
+
+Also, [Sphinx][sphinx] is another tool for reStructuredText, a wrapper over
+[docutils][docutils], which adds some nice to have features, especially while
+working on large projects/documents or for Pyton documentation.  By the way,
+the official Python's documentation is written using [Sphinx][sphinx] and many
+other libraries and Python projects have also adopted it as their documentation
+tool.  As a consequence, reStructuredText is considered the "blessed" format for
+Python documentation, and some doc-strings are written using it.
+
 [rst]:		http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html
 [quick-rst]:	http://docutils.sourceforge.net/docs/user/rst/quickref.html
 [rst-primer-1]:	http://docutils.sourceforge.net/docs/user/rst/quickstart.html
 [rst-primer-2]:	http://www.sphinx-doc.org/en/stable/rest.html
 [rst-tut-1]:	https://www.devdungeon.com/content/restructuredtext-rst-tutorial-0
+[docutils]:	http://docutils.sourceforge.net/
 [sphinx]:	http://sphinx-doc.org/
 [python]:	http://www.python.org
+[pandoc]:	https://pandoc.org/
