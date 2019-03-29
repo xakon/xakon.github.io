@@ -28,6 +28,7 @@ Resources
  - [Perl Mongers](http://www.pm.org/)
  - [Perl Monks](http://perlmonks.org/)
  - [The Perl Monastery](http://www.perlmonks.org)
+ - [Perl Beginner's Site](http://perl-begin.org/)
  - Perl Porters
 
 Other useful web sites might be:
