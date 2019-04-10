@@ -54,3 +54,27 @@ Packages
 
 [create-deb]:	https://blog.serverdensity.com/how-to-create-a-debian-deb-package/
 [dpkg-build]:	https://github.com/phusion/debian-packaging-for-the-modern-developer/tree/master/tutorial-2
+
+
+Locale
+------
+
+We can inspect current _locale_ and all available _locales_ with the following
+commands:
+
+    locale
+    locale -a
+
+The _locale_ on a Debian system is being set with the following commands:
+
+    locale-gen en_US.UTF-8
+    dpkg-reconfigure locales
+    update-locale LANG=el_GR.UTF-8	# auto setup of /etc/default/locale
+
+See also the files:
+
+    /usr/share/i18n/SUPPORTED
+    /etc/default/locale
+    /etc/environment
+
+More info, as always, at [ArchLinux Wiki](https://wiki.archlinux.org/index.php/locale).
