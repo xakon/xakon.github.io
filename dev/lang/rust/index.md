@@ -27,6 +27,7 @@ Resources
  - [A Gentle Introduction To Rust](https://stevedonovan.github.io/rust-gentle-intro/readme.html)
  - [Rust in Ten Slides](https://steveklabnik.github.io/rust-in-ten-slides/)
  - [Rust Cookbook](https://rust-lang-nursery.github.io/rust-cookbook/)
+ - [The Little Book of Rust Macros](https://danielkeep.github.io/tlborm/book/)
  - [into_rust()](http://intorust.com/):  Screen-casts for learning Rust
  - [Rust Tutorials](http://www.rust-tutorials.com/)
  - [Rust Language Cheat Sheet](https://cheats.rs/)
