@@ -21,3 +21,13 @@ Here is a small list of tutorials and starting points to the framework:
  - [Redux tutorial for beginners](https://dev.to/valentinogagliardi/react-redux-tutorial-for-beginners-learning-redux-in-2018-13hj)
  - [React Redux](https://css-tricks.com/learning-react-redux/)
  - [Getting Started with Redux](https://egghead.io/courses/getting-started-with-redux)
+
+
+Notes
+-----
+
+The easiest way to create a React app is the official package manager and `npx`:
+
+    npx create-react-app APPNAME
+    cd APPNAME
+    npm start
