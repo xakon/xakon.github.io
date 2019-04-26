@@ -31,6 +31,7 @@ Resources
  - [into_rust()](http://intorust.com/):  Screen-casts for learning Rust
  - [Rust Tutorials](http://www.rust-tutorials.com/)
  - [Rust Language Cheat Sheet](https://cheats.rs/)
+ - [Rust Cheat Sheet](https://upsuper.github.io/rust-cheatsheet/)
  - [rs-samples](https://github.com/snowzurfer/rs-samples):
    A collection of small, documented examples in Rust to learn the language.
  - [TutoRials](http://daringordon.com/tutorials-rs/):
