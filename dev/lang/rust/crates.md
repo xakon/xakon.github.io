@@ -31,6 +31,9 @@ tools can be found at the main [Crates.io](https://crates.io/) site.
    Code coverage tool with integration with `cargo`.
  - [quickcheck](https://crates.io/crates/quickcheck):
    A Rust implementation of QuickCheck.
+ - [proptest](https://lib.rs/crates/proptest):
+   Another property-based testing library for Rust, in the same spirit as
+   Haskell's QuickCheck.
  - [cargo-fuzz](https://github.com/rust-fuzz/cargo-fuzz):
    Fuzz test library.
  - [afl](https://github.com/rust-fuzz/afl.rs):
