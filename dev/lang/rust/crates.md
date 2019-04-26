@@ -105,3 +105,5 @@ tools can be found at the main [Crates.io](https://crates.io/) site.
 
  - [lalprpop](https://github.com/nikomatsakis/lalrpop):
    LR(1) parser generator for Rust.
+ - [regex](https://docs.rs/regex/):
+   A fast, regular-expression parser.
