@@ -16,6 +16,14 @@ tools can be found at the main [Crates.io](https://crates.io/) site.
    Neat, Rust interface for UNIX system calls.
  - [chrono](https://crates.io/crates/chrono):
    Datetime handling, like Python's standard library, but in C++ style.
+ - [slog](https://github.com/slog-rs/slog):
+   A very complete logging suite for Rust.  It is a core followed by many
+   plugins, such as [term](https://docs.rs/slog-term/) for terminal output,
+   [json](https://docs.rs/slog-json/) for JSON output and more.
+ - [log](https://docs.rs/log):
+   A simpler alternative to [slog](https://github.com/slog-rs/slog), that might
+   become part of Rust's Standard Library.
+
 
 ### Testing
 
