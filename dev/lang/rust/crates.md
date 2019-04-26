@@ -94,6 +94,8 @@ tools can be found at the main [Crates.io](https://crates.io/) site.
    An HTTP client.
  - [Hyper](https://hyper.rs/):
    An HTTP library for Rust.
+ - [Actix](https://github.com/actix/actix-web):
+   A higher-level HTTP library, suitable for quite micro-services.
 
 
 ### Parsers
