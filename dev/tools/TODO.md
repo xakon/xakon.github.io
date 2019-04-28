@@ -1,3 +1,5 @@
+### Various Tools ###
+
  - **Byzanz**:
    Record animated GIFs from the command-line.
 
