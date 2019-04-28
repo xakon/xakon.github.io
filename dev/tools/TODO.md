@@ -2,7 +2,7 @@
 
  - **Byzanz**:
    Record animated GIFs from the command-line.
- - [Fabirc](http://fabfile.org/):
+ - [Fabric](http://fabfile.org/):
    Tool that used for automatic deployments.
  - [stress](http://people.seas.harvard.edu/~apw/stress/):
    Reduce hardware resources (RAM/CPU/IO/HDD) in order to exercise
