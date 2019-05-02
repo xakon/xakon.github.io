@@ -8,9 +8,6 @@ about such stuff.
 
 [Web Developer Tools](https://www.browserling.com/tools).
 
-[patat](https://github.com/jaspervdj/patat):
-Terminal-based presentations using Pandoc.
-
 [Linux Performance Tools](http://brendangregg.com/linuxperf.html).
 
 Pomodoro Timers
@@ -93,6 +90,17 @@ Some tools to create/manipulate DjVu documents can be:
  - `djvm`
  - `convert` from Imagemagick to convert JPEG images to PBM or PNM.
  - `cjb2` and `c44` to create single-page DjVu files
+
+Presentations
+-------------
+
+Even though we consider that a presentation should be a graphical application,
+there can be alternatives, either for HTML pages or even in terminal!
+
+ - [patat](https://github.com/jaspervdj/patat):
+   Terminal-based presentations using Pandoc.
+ - [mdp](https://github.com/visit1985/mdp):
+   Command-line, markdown-based presentation tool.
 
 Misc
 ----

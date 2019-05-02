@@ -10,8 +10,6 @@
  - [ditaa](http://ditaa.sourceforge.net/):
    DIagrams Through Ascii Art.
    Create ASCII diagrams and convert them into SVG bitmaps.
- - [mdp](https://github.com/visit1985/mdp):
-   Command-line, markdown-based presentation tool.
  - [enscript](http://www.gnu.org/software/enscript/):
    Convert text files into PostScript and other formats.
    Useful for syntax-highlighting of programming scripts.
