@@ -70,6 +70,11 @@ More information at a separate [page][tools/openssl.html].
 
 Easily configure a Web server using this [tool](https://cipherli.st/).
 
+RDP Clients
+-----------
+
+RDP is Microsoft's protocol to access remotely a Windows server.
+Some available Linux RDP clients are: rdesktop, Tsclient, Remmina, PAC.
 
 File Managers
 -------------

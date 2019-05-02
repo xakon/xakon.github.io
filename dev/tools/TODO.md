@@ -13,9 +13,3 @@
  - [enscript](http://www.gnu.org/software/enscript/):
    Convert text files into PostScript and other formats.
    Useful for syntax-highlighting of programming scripts.
-
-
-### RDP Clients
-
-RDP is Microsoft's protocol to access remotely a Windows server.
-Some available Linux RDP clients are: rdesktop, Tsclient, Remmina, PAC.
