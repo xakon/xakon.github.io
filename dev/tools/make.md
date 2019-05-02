@@ -4,7 +4,7 @@ Make
 Some notes about GNU make(1) or BSD make(1).
 
  - [Notes on Writing Makefiles][1]:
-   Some nice principles with tha addition of realistic Makefiles.
+   Some nice principles with the addition of realistic Makefiles.
    Use this article as a scratch reference:  most of the time it's exactly
    what I want to build.
 
