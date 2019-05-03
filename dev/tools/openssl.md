@@ -51,6 +51,12 @@ Some examples that may be proved to be educational in the future.
 - Create private RSA key
     openssl genrsa -out privkey.pem 4096
 
+- Generate the public RSA key (optional):
+Typically, this is needed only for verifying signed files, but it's useful
+to have it anyway.
+
+    openssl rsa -in privkey.pem -pubout > pubkey.pub
+
 - Create CSR
 
     openssl req -new -key privkey.pem -out signreq.csr
