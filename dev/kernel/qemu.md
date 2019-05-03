@@ -12,6 +12,8 @@ We can get the source code of Qemu and build it.
  - <http://blog.vmsplice.net/2011/03/qemu-internals-big-picture-overview.html>
  - <http://blog.vmsplice.net/2011/03/qemu-internals-overall-architecture-and.html>
 
+ - [virtme](https://github.com/amluto/virtme/)
+
  - [Booting a Custom Linux Kernel in QEMU and Debugging it with GDB][nick-post]
  - [Debugging a kernel in QEMU/libvirt](https://access.redhat.com/blogs/766093/posts/2690881)
 

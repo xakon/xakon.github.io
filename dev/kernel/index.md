@@ -49,6 +49,11 @@ Utilities
    Easily create setup to run a `qemu`-based instance, without disk (using the
    host's file-system) or any other external resource.
 
+ - [virtme](https://github.com/amluto/virtme/):
+   A _QEMU_ wrapper that allows the developer to run a custom kernel fast,
+   using the host Linux distribution or a `rootfs`, without needing a full disk
+   image.
+
 
 Resources
 ---------
