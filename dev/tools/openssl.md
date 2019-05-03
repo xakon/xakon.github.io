@@ -73,6 +73,13 @@ to have it anyway.
     cp certificate.pem /usr/local/share/ca-certificates
     update-ca-certificates
 
+- Sign file:
+    openssl dgst -sign privkey.pem -keyfrom PEM -sha256 \
+                 -out data.sig -binary data.zip
+
+- Verify signed file:
+    openssl dgst -verify pubkey.pub -keyfrom PEM -sha256 \
+                 -signature data.sig -binary data.zip
 
 References
 ----------
