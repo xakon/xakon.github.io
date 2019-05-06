@@ -6,6 +6,10 @@ Python, that performs such operation is
 [cookiecutter](https://github.com/audreyr/cookiecutter), which comes with some
 templates for other project languages, besides Python.
 
+ - [Historical Source](https://github.com/historicalsource):
+   A huge collection of old software projects, mainly DOS games, for studying
+   and research.
+
 
 Miscellaneous
 ------------
