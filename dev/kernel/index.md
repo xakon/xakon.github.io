@@ -72,3 +72,5 @@ Resources
  - [Build yourself a Linux](https://github.com/MichielDerhaeg/build-linux):
    Short Tutorial about Building a mini Linux System.
  - [Anatomy of of Linux kernel development](https://github.com/raminfp/linux-4.8.0-netfilter_icmp)
+ - [Ubuntu Kernel Build](https://wiki.ubuntu.com/KernelTeam/GitKernelBuild)
+ - [Debian Kernel Handbook](https://kernel-team.pages.debian.net/kernel-handbook/)
