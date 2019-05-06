@@ -45,6 +45,13 @@ Tools
  - https://kowainik.github.io/posts/2018-06-21-haskell-build-tools.html[Haskell: Build Tools]:
    A nice explanation and reference on installing `cabal` and `stack`.
 
+==== Source Code Formatters
+
+ - https://github.com/jaspervdj/stylish-haskell[Stylish Haskell]
+ - https://github.com/commercialhaskell/hindent[Hindent]
+ - https://github.com/lspitzner/brittany[Britanny]
+
+
 Tutorials
 ~~~~~~~~~
 
