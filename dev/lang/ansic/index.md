@@ -28,21 +28,15 @@ Test Tools
 
  - [unity](http://throwtheswitch.org/white-papers/unity-intro.html) is a
    lightweight, C-only unit test framework.
- 
  - [CppUTest](http://cpputest.github.io/) is a xUnit framework for C++.
    Of course, it could be used to test any C function/module is needed.
- 
  - [check](http://check.sourceforge.net/doc/check_html/):
    Needs investigation.
- 
  - [CMocka](http://www.cmocka.org/):
    Unit-Test & Mock Framework.
- 
  - [cmock](http://www.throwtheswitch.org/cmock/)
- 
  - [CuTest](http://cutest.sourceforge.net/):
    C Unit Testing Framework
-
  - [snow](https://github.com/mortie/snow):
    Test framework for ANSI C.
    A header-only library that needs GNU extensions and at least C99 or C11 in
