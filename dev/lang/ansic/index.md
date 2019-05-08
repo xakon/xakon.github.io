@@ -72,6 +72,20 @@ Style
     assert(obj != NULL);
     obj.use_method();
 
+ - Fast and elegant way to use `malloc(3)` in C:
+
+    struct frame {
+       size_t width, height;
+       unsigned char data[];
+    };
+
+    struct frame* f = malloc(sizeof(*f) + 3 * width * height);
+    f-width = width;
+    f->height = height;
+
+   This is also an excellent example of allocating and initializing
+   variable-size structures, something that is not allowed yet in C++.
+
 
 [substance]: https://github.com/btrask/stronglink/blob/master/SUBSTANCE.md
 
