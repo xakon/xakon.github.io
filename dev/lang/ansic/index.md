@@ -82,6 +82,9 @@ Libraries
  - [OpenMP (Open Multi-Processing)](http://www.openmp.org):
    Powerful HPC library, but also rather useful for small, C programs, that
    could easily parallelized.
+ - [PortAudio](http://www.portaudio.com/):
+   A free, cross-platform, open-source, audio I/O library.
+   Used by many popular audio/video and not programs.
 
 
 Hacks
