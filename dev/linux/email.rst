@@ -37,6 +37,9 @@ A small and dirty list of various email programs, both servers and clients.
  - elm
  - Thunderbird
 
+ - Cyrus IMAP: Email server (https://www.cyrusimap.org/)
+ - Zimbra: Email server (https://www.zimbra.com/)
+
 .. _nullmailer: http://www.troubleshooters.com/linux/nullmailer/
 .. _postfix: http://www.postfix.org/
 .. _mutt: http://www.mutt.org/
