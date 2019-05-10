@@ -31,6 +31,12 @@ Here will become a sketchpad about some ideas I have with future projects.
 
  - Enrich gmail-notify: check if I can run it from cmdline.
 
+ - CLI Pomodoro timer.  A nice example (in Ruby) is:
+   [Thyme](https://github.com/hughbien/thyme).
+
+ - CLI Time Tracking Tool.  A nice example (in Node.js) is:
+   [Moro](https://github.com/albacoretuna/moro).
+
  - Enrich Doxygen:
    Make [Doxygen](http://doxygen.org/) use the notation `//<` for backward doc-comments.
 
