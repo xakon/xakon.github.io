@@ -56,7 +56,7 @@ Other useful web sites might be:
 Tools
 -----
 
-### perldoc
+### `perldoc` ###
 
 Access documentation both for Perl's core and any module.
 
@@ -72,7 +72,7 @@ Perl uses a documentation format called *POD* (Plain Old Documentation).
 See `perldoc perlpod` for details.
 
 
-### Web Frameworks
+### Web Frameworks ###
 
  - dancer:
    Light-weight framework, ready to get into work as fast as possible.
