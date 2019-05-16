@@ -1,4 +1,4 @@
-= CLOS (Common Lisp Object System)
+CLOS (Common Lisp Object System)
 ================================
 
 A very powerful Object-Oriented implementation, the default and standard of
