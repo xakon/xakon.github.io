@@ -77,6 +77,16 @@ Some of its common usage:
 Perl uses a documentation format called *POD* (Plain Old Documentation).
 See `perldoc perlpod` for details.
 
+#### Commonly Used Entries ####
+
+ - `perl`:	Language overview, list of all other entries
+ - `perltoc`:	Table of contents
+ - `perlfunc`:	Built-in functions documentation
+ - `perlvar`:	Predefined variables documentation
+ - `perlref`:	References documentation
+ - `perlre`:	Regex documentation
+ - `faq`:	The Perl FAQ
+
 
 ### Web Frameworks ###
 
