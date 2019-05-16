@@ -78,5 +78,5 @@ See `perldoc perlpod` for details.
    Light-weight framework, ready to get into work as fast as possible.
 
  - catalyst:
-   Heavy-weight farmework, with lots of whistles.  It needs to load almost
+   Heavy-weight framework, with lots of whistles.  It needs to load almost
    the half of CPAN!
