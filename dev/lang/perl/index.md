@@ -60,11 +60,17 @@ Tools
 
 Access documentation both for Perl's core and any module.
 
+The basic syntax is `perldoc Module::Name` and if the _Module_ is installed on
+the system, its documentation will be displayed.  We can also see the builtin
+functions with `perldoc -f rindex`, for example, and search for all of them
+using the `perdoc perlfunc`.  This is especially useful as there are more than
+220 builtin functions in Perl.
+
 Some of its common usage:
 
  - `-q`:	search at Perl FAQ for relevant questions
- - `-f`:	documentation for built-in Perl function
- - `-v`:	documentation for built-in Perl variable
+ - `-f`:	documentation for built-in Perl function (`perlfunc`)
+ - `-v`:	documentation for built-in Perl variable (`perlvar`)
  - `-l`:	shows the *path* to the file containing the documentation
  - `-m`:	display the entire *contents* of the module
 
