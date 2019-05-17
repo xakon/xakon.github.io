@@ -119,4 +119,9 @@ Libraries
    line options. All of this comes with colored test output, progress reporting
    and test statistics output.
 
+ - http://www.serpentine.com/criterion/[Criterion]:
+   A Haskell micro-benchmarking library.  Influences of this library can be
+   found also in Rust, Python, and elsewhere.
+
+
 -- vim: set filetype=asciidoc:
