@@ -97,7 +97,7 @@ Libraries
    Java framework.  A nice tutorial about the framework can also be
    found here:   https://caiorss.github.io/Functional-Programming/haskell/UnitTest_Hunit.html
 
- - https://github.com/nick8325/quickcheck[QuickCheck]:
+ - https://github.com/nick8325/quickcheck[QuickCheck2]:
    Library for random testing of program properties.
 
  - https://github.com/feuerbach/smallcheck[SmallCheck]:
