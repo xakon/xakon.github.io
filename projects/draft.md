@@ -37,6 +37,14 @@ Here will become a sketchpad about some ideas I have with future projects.
  - CLI Time Tracking Tool.  A nice example (in Node.js) is:
    [Moro](https://github.com/albacoretuna/moro).
 
+ - CLI Notes/Journaling.
+   Idea comes from <https://opensource.com/article/19/4/what-developer-journal>.
+   Use editor to edit entries, like in Taskwarrior.
+   Use tags, titles, auto-dates (when note is created).
+   Save in Sqlite database for fast search.
+   Maybe I could extend one of the following programs:
+   <https://opensource.com/article/18/3/command-line-note-taking-applications>
+
  - Enrich Doxygen:
    Make [Doxygen](http://doxygen.org/) use the notation `//<` for backward doc-comments.
 
