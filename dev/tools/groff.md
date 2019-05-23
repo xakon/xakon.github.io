@@ -46,9 +46,9 @@ Some common macro packages are:
  - ms
  - mm
  - me
- - man
- - mdoc
- - mandoc
+ - man:  Macro package used to format Linux man pages.
+ - mdoc:  Macro package used to format BSD man pages.
+ - mandoc:  Wrapper, to easily detect used macro package.
  - mom:
    As the traditional macro packages were tailored towards articles, technical
    reports and papers, `mom` tries to bring other publications to _troff_
