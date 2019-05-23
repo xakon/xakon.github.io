@@ -28,6 +28,12 @@ purpose:
  - [Groff_mdoc](http://man7.org/linux/man-pages/man7/groff_mdoc.7.html)
  - [BSD mdoc](http://mandoc.bsd.lv/)
 
+Other resources on writing manual pages:
+
+ - [Writing manual pages](https://liw.fi/manpages/)
+ - [Writing manual pages (FreeBSD Journal)][freebsd-journal-article]
+
+[freebsd-journal-article]:	 https://mydigitalpublication.com/publication/?i=571964&ver=html5&p=15
 
 Notes
 -----
