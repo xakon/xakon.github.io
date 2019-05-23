@@ -1,0 +1,30 @@
+.Dd January 22, 2019
+.Dt examplecommand 1
+.Os
+.Sh NAME
+.Nm examplecommand
+.Nd This is an example command for an example man page.
+.Sh SYNOPSIS
+.Nm examplecommand
+.Op Fl -help
+.Op -l
+.Op -o Ar file
+.Sh DESCRIPTION
+This is a formal text describing this command.
+This command does this and that.
+It can be used for this and that.
+.Pp
+These options are available:
+.Pp
+.Bl -tag -width ".Cm activate"
+.It Fl -help
+List the help screen for the command.
+.It Fl l
+Does this and that.
+.It Fl o Ar file
+Opens a file.
+.El
+.Sh EXAMPLES
+Open a file called hello_world.txt
+.Pp
+.Dl $ examplecommand -o hello_world.txt
