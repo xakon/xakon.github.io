@@ -51,6 +51,9 @@ Here is a list of industry-based, strong-supported libraries:
  - [GTest/Gmock](https://github.com/google/googletest):
    The de-factor unit-test framework for years.
 
+ - [jctest](https://jcash.github.io/jctest/):
+   A lightweight replacement (single-header library) for Google's GTest.
+
  - [Catch2](https://github.com/catchorg/Catch2):
    A modern, C++-native, header-only, test framework for unit-tests,
    TDD and BDD.
