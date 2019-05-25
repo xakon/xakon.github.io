@@ -5,3 +5,7 @@
 -i	View Response Headers
 
 Nice test server for HTTP commands is http://echo.httpkit.com/
+
+curl HTTP cheat sheet:
+
+      https://curl.github.io/curl-cheat-sheet/http-sheet.html
