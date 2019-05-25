@@ -1,0 +1,23 @@
+Haskell Profiling
+=================
+
+How to profile a Haskell program?
+
+----
+   # Rebuild with profiling information
+   $ stack build --profile
+
+   # Run the program with runtime profiling enabled
+   $ stack exec -- bingo-simulator 10000 +RTS -p -RTS
+----
+
+
+Resources
+---------
+
+ - https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/profiling.html[GHC Manual]
+
+
+////
+# vim: set ft=asciidoc:
+////
