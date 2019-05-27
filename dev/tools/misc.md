@@ -44,6 +44,27 @@ Mail Utilities
   acts like mail(1) but sends the emails through an SMTP service (like GMail or
   Yahoo!Mail).
 
+- [MailSluprper](https://mailslurper.com/):
+  A nice development SMTP server, to test application that send emails without
+  bothering any user.
+
+- Python `smtp` module:
+  Python's Standard Library ships with a small SMTP server for debugging mail
+  utilities.
+
+- [Mailtrap](https://mailtrap.io/):
+  Fake mail server, used for development.  No need for setup, but registration
+  is needed.
+
+- [MailSlurp](https://www.mailslurp.com/):
+  Another test mail service, that needs registration, but no setup.
+
+- [MailGun](https://www.mailgun.com/):
+  Professional email service for developers.
+
+- [ManDrill](https://mandrill.com/):
+  Transactional Email for Mailchimp.
+
 DNS Server
 ----------
 
