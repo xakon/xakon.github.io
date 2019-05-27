@@ -70,7 +70,7 @@ DNS Server
 
  - dnsmasq: A lightweight DHCP and caching DNS server.
 
- - [NDS](http://www.nlnetlabs.nl/projects/nsd/):
+ - [NSD](http://www.nlnetlabs.nl/projects/nsd/):
    Name Server Daemon is an authoritative only, high performance, simple and
    open source name server.  it does not do DNS forwarding, it only serves its
    own domains. but this could be enough for your project.
