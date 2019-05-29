@@ -56,6 +56,12 @@ CPAN
    Amazing library for CLI applications, where it presents a menu for selecting
    an option, and then disappears.  Has many other properties, as well.
 
+ - [Benchmark](https://metacpan.org/pod/Benchmark):
+   Benchmark running times of Perl code.
+
+ - [Devel::Timer](https://metacpan.org/pod/Devel::Timer):
+   Track and report execution time for parts of code.
+
 
 Web Development
 ---------------
