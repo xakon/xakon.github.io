@@ -35,6 +35,10 @@ Retro
    Now, I can play Zelda and Super Mario on my browser!
 
 
+At the site, [Open Source Game Clones](https://osgameclones.com/), there is a
+huge list of clones, remakes, or other copies of old games.
+
+
 ### Others
 
  - [OpenClonk](http://www.openclonk.org)
