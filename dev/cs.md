@@ -11,3 +11,10 @@ Computer Science
  - [The Morning Paper](https://blog.acolyer.org/):
    A human-friendly explanation of various papers.  The recommended way to study
    a given paper on any CS topic!
+
+
+Definitions
+-----------
+
+Tree:
+   A connected, undirected graph, with no closed loops.
