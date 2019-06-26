@@ -22,13 +22,13 @@ Types
 
 See the types.txt for more functions on these types.
 
- - `Bool`	- Logical values
- - `Char`	- Unicode characters
- - `String`	- List of characters
- - `Int`	- Fixed-precision integers
- - `Integer`	- Integers with no precision
- - `Float`	- Single-precision floating-point numbers
- - `Double`	- Double-precision floating-point numbers
+ - `Bool`		- Logical values
+ - `Char`		- Unicode characters
+ - `String`		- List of characters
+ - `Int`		- Fixed-precision integers
+ - `Integer`		- Integers with no precision
+ - `Float`		- Single-precision floating-point numbers
+ - `Double`		- Double-precision floating-point numbers
  - `Data.Text`		- Encoded string support (strict and lazy variants)
  - `Data.ByteString`	- Raw-binary string data (strict and lazy variants)
  - `Data.Set`		- Set based on size-balanced binary tree
