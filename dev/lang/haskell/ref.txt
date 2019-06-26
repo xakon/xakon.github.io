@@ -29,6 +29,14 @@ See the types.txt for more functions on these types.
  - `Integer`	- Integers with no precision
  - `Float`	- Single-precision floating-point numbers
  - `Double`	- Double-precision floating-point numbers
+ - `Data.Text`		- Encoded string support (strict and lazy variants)
+ - `Data.ByteString`	- Raw-binary string data (strict and lazy variants)
+ - `Data.Set`		- Set based on size-balanced binary tree
+ - `Data.Map`		- Map based on size-balanced binary tree
+ - `Data.HashMap`	- Map based on hash table
+ - `Data.Array`		- Contiguous integer array
+ - `Data.Vector` 	- Contiguous integer array with bounds-checking
+ - `Data.Sequence`	- Contiguous sequence with efficient access **and** concatenation
 
 Lists
 ~~~~~
