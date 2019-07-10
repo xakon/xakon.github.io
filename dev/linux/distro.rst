@@ -10,12 +10,15 @@ Here, I will try to categorize and document a few of them.
 
 TODO:  Add table with each Distro characteristics
 
-Debian	dpkg/apt	.deb	systemd
-Ubuntu	dpkg/apt        .deb    systemd
+Debian		dpkg/apt	.deb	systemd
+Ubuntu		dpkg/apt        .deb    systemd
 Gentoo
 Arch
 LXDE
 Void
+Puppy
+Quirky
+MX Linux	dpkg/apt	.deb
 
 
 Void Linux
