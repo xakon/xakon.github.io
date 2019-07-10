@@ -47,6 +47,16 @@ similar distribution!
 .. _Puppy Linux: http://www.puppylinux.org/
 
 
+MX Linux
+~~~~~~~~
+
+`MX Linux`_ is a LiveCD, minimal Linux distribution, based on Debian.
+It works amazingly well if installed on a USB, external disk, as it supports
+persistent storage.  It comes preconfigured only with XFCE.
+
+.. _MX Linux: https://mxlinux.org/
+
+
 Quirky Linux
 ~~~~~~~~~~~~
 
