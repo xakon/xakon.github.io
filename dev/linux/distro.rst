@@ -78,6 +78,15 @@ many innovations.  A great pocket distribution to have available.
 .. _Quirky Linux: http://bkhome.org/quirky/
 
 
+Tiny Core
+~~~~~~~~~
+
+`Tiny Core Linux`_ smallest, tiniest Linux distribution.  Ideal to carry it around in a pocket
+installation.
+
+.. _Tiny Core Linux: http://tinycorelinux.net/
+
+
 Damn Small Linux
 ~~~~~~~~~~~~~~~~
 
