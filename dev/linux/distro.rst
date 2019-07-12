@@ -6,6 +6,8 @@ There are plenty and different distributions for Linux.
 Here, I will try to categorize and document a few of them.
 
 
+Summary
+=======
 
 
 TODO:  Add table with each Distro characteristics
@@ -21,6 +23,9 @@ Quirky
 MX Linux	dpkg/apt	.deb
 
 
+Main Distributions
+==================
+
 Void Linux
 ~~~~~~~~~~
 
@@ -30,6 +35,9 @@ it resembles FreeBSD, it is rolling release and highly optimized like Arch, it h
 
 .. _Void Linux: https://www.voidlinux.eu
 
+
+Tiny Distributions
+==================
 
 Alpine Linux
 ~~~~~~~~~~~~
