@@ -87,6 +87,14 @@ lightweight.
 .. _SliTaz Linux: http://www.slitaz.org/
 
 
+Porteus
+~~~~~~~
+
+`Porteus`_ offers a few desktop options, but it's still very lightweight.
+
+.. _Porteus: http://www.porteus.org/
+
+
 Tiny Core
 ~~~~~~~~~
 
