@@ -78,6 +78,15 @@ many innovations.  A great pocket distribution to have available.
 .. _Quirky Linux: http://bkhome.org/quirky/
 
 
+SliTaz Linux
+~~~~~~~~~~~~
+
+`SliTaz Linux`_ is not a very large distribution, but it is very powerful and
+lightweight.
+
+.. _SliTaz Linux: http://www.slitaz.org/
+
+
 Tiny Core
 ~~~~~~~~~
 
