@@ -95,6 +95,15 @@ Porteus
 .. _Porteus: http://www.porteus.org/
 
 
+Bodhi Linux
+~~~~~~~~~~~
+
+`Bodhi Linux` is not lightweight but it offers a lot of power and capabilities.
+I can install it on a USB disk and carry around it as a rescue or secure system.
+
+.. _Bodhi Linux: https://www.bodhilinux.com/
+
+
 Tiny Core
 ~~~~~~~~~
 
