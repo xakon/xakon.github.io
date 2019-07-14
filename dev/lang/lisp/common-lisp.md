@@ -46,19 +46,42 @@ Apress, 2016
  - <http://common-lisp.net/>
  - [CLiki - The Common Lisp Wiki](http://www.cliki.net/)
  - The Common Lisp Directory
+ - [Quickdocs](http://quickdocs.org/):
+   Ready and up-to-date documentation for all Common Lisp projects.
+ - [Common Lisp Style Guide](https://lisp-lang.org/style-guide/)
+ - [Articulate Common Lisp](http://articulate-lisp.com/):
+   Plenty of resources and guides about Common Lisp.
 
+
+### Libraries/Tools
+
+ - [Quicklisp][quicklisp]:
+   The de-facto Library manager for Common Lisp.
+ - [Qlot](http://quickdocs.org/qlot/):
+   A dependency-manager built on top of [Quicklisp][quicklisp] for
+   [Quicklisp][quicklisp] libraries.
+ - [QuickProject](https://www.xach.com/lisp/quickproject/):
+   Create a Common Lisp project skeleton.
+ - [Buildapp](https://www.xach.com/lisp/buildapp/):
+   Create executables using [SBCL][sbcl] or [CCL][ccl].
+
+
+[quicklisp]:	https://www.quicklisp.org/
 
 ### Implementations
 
 Some Common Lisp implementations are:
 
- - [SBCL](http://www.sbcl.org/)
+ - [SBCL][sbcl]
  - [CMU Common Lisp](https://www.cons.org/cmucl/) (CMUCL)
  - [CLISP](http://clisp.cons.org/) (GNU Common Lisp)
  - [Embeddable Common Lisp](https://common-lisp.net/project/ecl/)
- - [Clozure CL](http://www.clozure.com/clozurecl.html)
+ - [Clozure CL (CCL)][ccl]
  - [Allegro CL](http://www.franz.com/products/allegrocl/)
 
+
+[sbcl]:	http://www.sbcl.org/
+[ccl]:	http://www.clozure.com/clozurecl.html
 
 ### Various
 
