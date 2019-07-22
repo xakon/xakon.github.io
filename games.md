@@ -49,6 +49,8 @@ huge list of clones, remakes, or other copies of old games.
    [Axis & Allies](https://boardgamegeek.com/boardgame/98/axis-allies)
    board game.
  - [FlightGear Flight Simulator](https://home.flightgear.org/)
+ - [PySol Fan Club Edition](https://pysolfc.sourceforge.io/):
+   A huge collection of Solitaire games, implemented in Python.
 
 
 ### Adventure
