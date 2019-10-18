@@ -1,5 +1,5 @@
 https://github.com/takenobu-hs/haskell-ghc-illustrated[GHC Illustrated]
-provides some nice (although un-official) presentations about the internals
+provides some nice (although unofficial) presentations about the internals
 of GHC.
 
 Commands can be abbreviated to single letter.
