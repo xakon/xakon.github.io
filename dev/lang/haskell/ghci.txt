@@ -9,11 +9,19 @@ Commands can be abbreviated to single letter.
 :r or :reload	reload last loaded file
 :i or :info	associativity/precedence of operators and functions
 :t or :type	find the type of an expression
-:set		enable specific features of GHCi
+:set		enable specific features of GHCi or display all options
+:unset		disable options specified with `:set`
 
 Features of GHCi that can be enabled at run-time are:
  - `+t`		print the type of `it`
+ - `+m`		allow multi-line commands
+ - `+s`		display stats on time/memory after each evaluation
  - `-Wall`	enable more warnings and checks
+ - `-v`		verbose, debug output
+ - `-XOverloadedStrings`	enable the OverloadedStrings extension
+
+In general, options that start with `+` are GHCi specific options.
+On the other hand, options that start with `-` are GHC specific.
 
 At GHCi the latest evaluated expression is stored in the value of `it` and
 can be freely used in the next expression.
