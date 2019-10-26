@@ -4,6 +4,12 @@ Java
 Resources
 ---------
 
+ - [OpenJDK][openjdk]:
+   For years I preferred the original Sun (Oracle) version of Java,
+   both for JRE and JDK.  Now, that Oracle abandoned Java and RedHat
+   took ownership of the language and the ecosystem, [OpenJDK][openjdk]
+   seems once again as a better alternative.
+
 
 Tools
 -----
@@ -38,4 +44,5 @@ Misc
    sudo apt-get install oracle-java8-installer
 
 
+[openjdk]:	https://openjdk.java.net/
 [java-ppa]:	http://www.webupd8.org/2012/09/install-oracle-java-8-in-ubuntu-via-ppa.html
