@@ -25,6 +25,7 @@ name of the macro is `std::fmt::print!`.
    dbg!()		| Print expression in STDERR & return it
 			|
    cfg!			| Conditional compilation (see also `#[cfg()]` attribute)
+   env!			| Extract project values from `Cargo.toml`
 			|
    iterator::skip()	| Skip n elements from iterator
 			|
