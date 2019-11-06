@@ -50,7 +50,7 @@ advanced.  Keep a note of it and always revisit it!
 
 
 SSH and Windows
-===============
+---------------
 
 Unfortunately, we do have to work on Windows occassionally.  Some nice clients:
 
