@@ -60,3 +60,14 @@ Unfortunately, we do have to work on Windows occassionally.  Some nice clients:
 
 
 [putty]:	http://www.putty.org/
+
+
+SSH Protocol
+------------
+
+The protocol is normally described in [RFC 4253][rfc4253].
+But, certainly there should be plenty more RFCs about the protocol and its
+applications.
+
+
+[rfc4253]:	https://tools.ietf.org/html/rfc4253
