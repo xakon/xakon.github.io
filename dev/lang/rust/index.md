@@ -70,7 +70,9 @@ mind.
  - [racer](https://github.com/phildawes/racer):  Auto-completion utility.
  - [rls](https://github.com/rust-lang-nursery/rls):
    Language server (for symbol search, etc.)
-
+ - [kcov](https://github.com/SimonKagstrom/kcov):
+   A general-purpose coverage tool.  It can be used against any DWARF-based
+   executable, thus we can use it with Rust programs, too.
 
 
 Other
