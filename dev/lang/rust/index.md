@@ -40,6 +40,7 @@ Resources
  - [Rust Embedded Development](http://embed.rs/)
  - [Rust Learning Resources](https://github.com/ctjhoa/rust-learning)
  - [A Guide to Porting C/C++ to Rust](https://locka99.gitbooks.io/a-guide-to-porting-c-to-rust/)
+ - [Demystifying Asynchronous Rust](https://teh-cmc.github.io/rust-async/html/)
  - [Writing an OS in Rust](http://os.phil-opp.com)
  - [GTK Rust Tutorial](https://mmstick.github.io/gtkrs-tutorials/)
  - [Redox](http://www.redox-os.org/):
