@@ -1,0 +1,7 @@
+Snippets
+--------
+
+
+////
+# vim: set ft=asciidoc:
+////
