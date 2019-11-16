@@ -96,6 +96,9 @@ Resources
  - [Webpack][webpack]:
    Bundle JavaScript files into a single one, to be used in browsers.
 
+ - [jest][jest]:
+   Test runner, assertion library, and mock framework.
+
  - [Mocha][mocha]:
    Test Runner.
 
@@ -118,3 +121,4 @@ Resources
 [jsbin]:	https://jsbin.com/
 [codepen]:	https://codepen.io/
 [jsfiddle]:	https://jsfiddle.net/
+[jest]:		https://jestjs.io/
