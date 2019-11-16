@@ -16,7 +16,7 @@ the [Java Message Service][jms] (JMS) API by Sun in 2001, then the
 [ActiveMQ][activemq] protocol followed to be compatible with JMS,
 and then the [Advanced Message Queuing Protocol][amqp] (AMQP), which made
 publicly available this technology.  The most famous implementation of
-the [AMQP][amqp] was [RabbitMQ][rabbitmq], written in Java.
+the [AMQP][amqp] was [RabbitMQ][rabbitmq], written in Erlang/OTP.
 
 
 Libraries
