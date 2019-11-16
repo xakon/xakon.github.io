@@ -1,6 +1,36 @@
 Snippets
 --------
 
+Long or Many Parameters
+~~~~~~~~~~~~~~~~~~~~~~~
+
+A nice technique I recently discovered.  It reminds a lot the way we split in
+Python long parameter lists in function calls.  The trick is to use the `where`
+clause and very close to the function call, define the parameters as separate
+bindings:
+
+[source,haskell]
+----
+sendEmail myEmail
+   where to   = "levi@startup.com"
+         from = "chris@website.org"
+	 body = "Hi!"
+	 name = "Levi"
+	 myEmail = Email from to body name
+----
+
+Actually, even the reverse order might read more like in Python:
+
+[source,haskell]
+----
+sendEmail myEmail
+   where myEmail = Email from to body name
+         to      = "levi@startup.com"
+         from    = "chris@website.org"
+	 body    = "Hi!"
+	 name    = "Levi"
+----
+
 
 ////
 # vim: set ft=asciidoc:
