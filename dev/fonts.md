@@ -90,3 +90,10 @@ some of them offering nothing else apart from the Math symbols.
  - St. Mary Road
  - `lasysym`
  - `wasysym`
+
+Variable Fonts
+--------------
+
+At <https://v-fonts.com/>, there is a whole new technology from Microsoft, to
+allow the same font file to be used in any way the user desires.  It's still a
+new project, but it will gain a high moment in awhile.

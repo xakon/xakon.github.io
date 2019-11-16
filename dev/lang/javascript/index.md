@@ -84,6 +84,9 @@ Resources
    Online development environment for front-end developers, with many templates
    and run-time preview of changes on HTML/CSS/JavaScript.
 
+ - [JsFiddle][jsfiddle]:
+   Similar to [JsBin][jsbin] and [CodePen][codepen] in features and operations.
+
  - [babel](babel):
    Transpile ES6 into ES5, which is supported by most browsers.
 
@@ -114,3 +117,4 @@ Resources
 [nvm]:		https://github.com/creationix/nvm
 [jsbin]:	https://jsbin.com/
 [codepen]:	https://codepen.io/
+[jsfiddle]:	https://jsfiddle.net/
