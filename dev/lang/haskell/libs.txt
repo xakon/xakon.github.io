@@ -1,0 +1,10 @@
+Haskell Libraries
+=================
+
+I will try to document a few useful and well-known libraries used in Haskell.
+Some of them might deserve special sections and further description.
+
+
+////
+# vim: set ft=asciidoc:
+////
