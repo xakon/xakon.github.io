@@ -4,6 +4,11 @@ Haskell Libraries
 I will try to document a few useful and well-known libraries used in Haskell.
 Some of them might deserve special sections and further description.
 
+ - `aeson`:  Fast JSON parsing and encoding.
+
+ - `optparse-applicative`:  Utilities and combinators for parsing command-line
+   options.
+
 
 ////
 # vim: set ft=asciidoc:
