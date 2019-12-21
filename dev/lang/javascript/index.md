@@ -59,6 +59,9 @@ Resources
 
  - [The Modern JavaScript Tutorial](https://javascript.info/)
 
+ - [You Don't Know JavaScript Yet](https://github.com/getify/You-Dont-Know-JS):
+   A series of online books diving deep into the coremechanisms of the
+   JavaScript language.
 
  - [JavaScript Lessons](https://egghead.io/lessons)
 
