@@ -60,6 +60,7 @@ ANSI C++
  - [The Rook's Guide to C++](https://rooksguide.org/)
  - [C++ GUI Programming with Qt3][qt3-gui]
  - [Cross-Platform GUI Programming with wxWidgets][wxwidget-gui]
+ - [Modern C++ Tutorial](https://changkun.de/modern-cpp/en-us/)
 
 More notes about the free, online books can be found at this article:
    <https://www.ossblog.org/master-c-programming-with-open-source-books/>
