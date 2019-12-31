@@ -73,6 +73,10 @@ mind.
  - [kcov](https://github.com/SimonKagstrom/kcov):
    A general-purpose coverage tool.  It can be used against any DWARF-based
    executable, thus we can use it with Rust programs, too.
+ - [async-std](https://async.rs/):
+   A new runtime, based on the latest features of `async/await` of the language.
+   The runtime, reimplements all blocking components of the _Standard Library_,
+   and uses the auto-scaling ideas from Go's runtime.
 
 
 Other
