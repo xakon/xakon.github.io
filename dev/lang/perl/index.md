@@ -10,7 +10,7 @@ Resources
  - [Perl.org Online Library][https://www.perl.org/books/library.html]
  - [Perl for Beginners][http://learn.perl.org/faq/begineers.html]
  - [Perl Development][http://dev.perl.org]
- - [CPAN][http://www.cpan.org]
+ - [CPAN][cpan]
  - [CPAN Search][http://search.cpan.org]
  - [MetaCPAN][http://metacpan.org]
  - [Free Blog Platform][http://blogs.perl.org]
@@ -22,6 +22,9 @@ Resources
  - [Perl Weekly][http://perlweekly.com]
  - [Best Practical Solutions][http://bestpractical.com]:  maintainer of RT.
  - [Perl Foundation][http://perlfoundation.org]
+
+
+[cpan]:		http://www.cpan.org
 
 ### Communities
 
@@ -86,6 +89,20 @@ See `perldoc perlpod` for details.
  - `perlref`:	References documentation
  - `perlre`:	Regex documentation
  - `faq`:	The Perl FAQ
+
+
+### CPAN ###
+
+There are many tools to work with [CPAN][cpan], either to download libraries or
+upload new ones.  The most common tools are:
+
+ - `cpan(1)`
+ - `cpanm(1)`
+ - [Module::CoreList](https://metacpan.org/module/Module::CoreList):
+   A tool to list the libraries each Perl version is being distributed,
+   where we can find another library and many other queries...
+   It can also be found as a Web application, at the address:
+   <http://corelist.rpee.be/>.
 
 
 ### Web Frameworks ###
