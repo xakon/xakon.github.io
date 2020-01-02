@@ -4,24 +4,24 @@ Perl
 Resources
 ---------
 
- - [Perl's Home Page][http://www.perl.org]:  documentation, source code, tutorials,
+ - [Perl's Home Page](http://www.perl.org):  documentation, source code, tutorials,
    mailing lists, and several important community projects.
 
- - [Perl.org Online Library][https://www.perl.org/books/library.html]
- - [Perl for Beginners][http://learn.perl.org/faq/begineers.html]
- - [Perl Development][http://dev.perl.org]
+ - [Perl.org Online Library](https://www.perl.org/books/library.html)
+ - [Perl for Beginners](http://learn.perl.org/faq/begineers.html)
+ - [Perl Development](http://dev.perl.org)
  - [CPAN][cpan]
- - [CPAN Search][http://search.cpan.org]
- - [MetaCPAN][http://metacpan.org]
- - [Free Blog Platform][http://blogs.perl.org]
- - [Perl Sphere][http://perlsphere.net]
- - [Perl Tricks][http://PerlTricks.com]
+ - [CPAN Search](http://search.cpan.org)
+ - [MetaCPAN](http://metacpan.org)
+ - [Free Blog Platform](http://blogs.perl.org)
+ - [Perl Sphere](http://perlsphere.net)
+ - [Perl Tricks](http://PerlTricks.com)
  - [Perl101](http://perl101.org/): Resources for beginners.
- - [Perl IronMan][http://ironman.enlightenedperl.com]
- - [Enlightened Perl Organization][http://enlightenedperl.com]
- - [Perl Weekly][http://perlweekly.com]
- - [Best Practical Solutions][http://bestpractical.com]:  maintainer of RT.
- - [Perl Foundation][http://perlfoundation.org]
+ - [Perl IronMan](http://ironman.enlightenedperl.com)
+ - [Enlightened Perl Organization](http://enlightenedperl.com)
+ - [Perl Weekly](http://perlweekly.com)
+ - [Best Practical Solutions](http://bestpractical.com):  maintainer of RT.
+ - [Perl Foundation](http://perlfoundation.org)
 
 
 [cpan]:		http://www.cpan.org
