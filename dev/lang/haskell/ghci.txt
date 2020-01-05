@@ -7,7 +7,7 @@ Commands can be abbreviated to single letter.
 :q or :quit
 :l or :load	load a new file
 :r or :reload	reload last loaded file
-:i or :info	associativity/precedence of operators and functions
+:i or :info	details of operators and functions, info about types
 :t or :type	find the type of an expression
 :set		enable specific features of GHCi or display all options
 :unset		disable options specified with `:set`
