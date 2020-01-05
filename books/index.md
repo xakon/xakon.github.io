@@ -52,7 +52,6 @@ Effective JavaScript
      0-321-81218-2, 978-0321812186  
 
 
-
 #### Misc
 
 The Passionate Programmer, 2/e
@@ -142,7 +141,6 @@ Making Embedded Systems: Design Patterns for Great Software
    Elecia White
 
 
-
 Library Books
 -------------
 
@@ -154,12 +152,10 @@ Library Books
 ### Algorithms
 
 
-
 Literature
 ----------
 
 A list with free e-books:
 
  - [Standard ebooks](https://standardebooks.org/)
-
  - [Project Gutenberg](https://www.gutenberg.org/)
