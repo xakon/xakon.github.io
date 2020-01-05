@@ -11,6 +11,8 @@ Commands can be abbreviated to single letter.
 :t or :type	find the type of an expression
 :set		enable specific features of GHCi or display all options
 :unset		disable options specified with `:set`
+:show modules	print last loaded file(s)
+:show imports	print currently imported modules
 
 Features of GHCi that can be enabled at run-time are:
  - `+t`		print the type of `it`
@@ -22,6 +24,11 @@ Features of GHCi that can be enabled at run-time are:
 
 In general, options that start with `+` are GHCi specific options.
 On the other hand, options that start with `-` are GHC specific.
+
+Some modules that belong to the `base` package are available by default to GHCi.
+Others can be found out by running `ghc-pkg list`.  For example, we will be
+able to use other packages, installed using `cabal` (`cabal install`) or Stack
+(`stack install`).
 
 At GHCi the latest evaluated expression is stored in the value of `it` and
 can be freely used in the next expression.
