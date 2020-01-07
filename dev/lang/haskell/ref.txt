@@ -73,6 +73,8 @@ Lists
  - `minimum`	- Minimum element of a list
  - `maximum`	- Maximum element of a list
  - `zip`	- Combine elements of 2 lists into tuples
+ - `enumFrom`	- Create a list starting from a number, equivalent to `[n..]`
+ - `enumFromTo`	- Create a list starting from a number, equivalent to `[n..m]`
  - `cycle`	- Replicate elements of a list indefinitely
  - `repeat`	- Repeat an element idefinitely
  - `replicate`	- Produce a list of identical elements
