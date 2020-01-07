@@ -125,6 +125,7 @@ Functions
 
  - `id`		- Return the same element
  - `(.)`	- Composition of 2 functions: `f(g(x))`
+ - `($)`	- Function application, but with lowest precedence & right-associative
  - `const`	- Constant functions (return the same element for any argument)
  - `flip`	- Reverse order of binary function's arguments
  - `curry`	- Convert a function o pairs to a curried function
