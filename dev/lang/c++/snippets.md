@@ -97,4 +97,23 @@ This function, in general, tries to synchronize I/O access both from C++ and C
 libraries, something that most of the times is useless and should be avoided.
 
 
+## Computing remainders by doubling
+
+This technique comes from a famous book, but I read it in an blog article of
+[Eli Bendersky](https://eli.thegreenplace.net/2018/computing-remainders-by-doubling/).
+The author presents a proof of the algorithm and a Python implementation.
+Here is the version in ANSI C:
+
+```c++
+int fast_remainder(int a, int b)
+{
+   if (a < b) return a;
+   if (a - b < b) return a - b;
+
+   int r = fast_remainder(a, b + b);
+   return (r < b) ? r : r - b;
+}
+```
+
+
 [//]:	# vim: ft=markdown spell
