@@ -37,6 +37,61 @@ void intval()
 }
 ```
 
+## Custom Iterator over Enum values ##
+
+A nice example of creating a C++11 custom iterator, especially one over enum
+values:
+
+```c++
+template<class T>
+class EnumValues {
+public:
+   class Iterator {
+   public:
+      using Scalar = typename std::underlying_type<T>::type;
+
+      Iterator(T value) : _value(value) {
+      }
+
+      T operator*() const {
+	 return _value;
+      }
+
+      void operator++() {
+	 _value = T(static_cast<Scalar>(_value) + 1);
+      }
+
+      bool operator!=(Iterator rhs) {
+	 return _value != rhs._value;
+      }
+
+   private:
+      T _value;
+   };
+
+   Iterator begin() {
+      return Iterator(T());
+   }
+
+   Iterator end() {
+      return Iterator(T::Count);
+   }
+};
+
+
+enum class Color {
+   Red, Blue, Green,
+   Count,
+};
+
+
+void test()
+{
+   for (Color color: EnumValues<Color>())
+      std::cout << "color is " << int(color) << '\n';
+}
+```
+
 ## Function try-catch
 
 A try-catch statement can appear anywhere a statement can appear.
