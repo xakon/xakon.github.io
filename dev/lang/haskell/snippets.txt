@@ -32,6 +32,25 @@ sendEmail myEmail
 ----
 
 
+Sieve of Eratosthenes
+~~~~~~~~~~~~~~~~~~~~~
+
+Since a lot of discussions are carried about the famous implementation of the
+https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes[Sieve of Eratosthenes]
+in Haskell, let me add the basic definition here, in order to easily reference
+it:
+
+[source,haskell]
+----
+sieve (p:xs) = p : sieve [x | x <- xs, x `mod` p > 0]
+primes = sieve [2..]
+----
+
+It is easier to understand how this works in Haskell, if we actually follow the
+evaluation of the functions.  This can easier be shown in the article:
+https://hookrace.net/blog/a-taste-of-haskell/[A Taste of Haskell].
+
+
 ////
 # vim: set ft=asciidoc:
 ////
