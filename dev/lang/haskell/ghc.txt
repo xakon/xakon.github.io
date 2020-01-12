@@ -1,0 +1,34 @@
+Glasgow Haskell Compiler (GHC)
+==============================
+
+GHC is the de-facto standard of Haskell compilers.
+
+https://github.com/takenobu-hs/haskell-ghc-illustrated[GHC Illustrated]
+provides some nice (although unofficial) presentations about the internals
+of GHC.
+
+Some modules that belong to the `base` package are available by default to
+every Haskell program..  Others can be found out by running `ghc-pkg list`.
+For example, we will be able to use other packages, installed using
+`cabal` (`cabal install`) or Stack (`stack install`).
+
+In the article https://kowainik.github.io/posts/2019-02-06-style-guide[Haskell Style Guide],
+the author suggests that any Haskell module should be able to compile using the following
+GHC warnings:
+
+ - `-Wall`
+ - `-Wincomplete-uni-patterns`
+ - `-Wincomplete-record-updates`
+ - `-Wcompat`
+ - `-Widentities`
+ - `-Wredundant-constraints`
+ - `-Wmissing-export-lists`
+ - `-Wpartial-fields`
+
+Also, it is useful to enable `-fhide-source-paths` and `-freverse-errors`
+for cleaner compiler output.
+
+
+////
+# vim: set ft=asciidoc:
+////
