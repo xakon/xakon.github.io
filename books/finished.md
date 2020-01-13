@@ -14,6 +14,7 @@ I need this log in order to see my progress in time.
  - tmux: Productive Mouse-Free Development
  - Test-Driven Development by Example
  - Refactoring
+ - Debugging
  - Effective Debugging
  - Object-Oriented Programming in Common LISP  
 
