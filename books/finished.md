@@ -1,4 +1,4 @@
-Books Finished
+Finished Books
 ==============
 
 A small list of books or similar stuff I ever read.
