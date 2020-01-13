@@ -36,6 +36,20 @@ There are six kinds of names in Haskell:
 Variables and Type Variables must begin with lowercase or `_`.
 The rest must begin with a Capital letter.
 
+Keywords
+~~~~~~~~
+
+The following list of names have special meaning in the language and cannot be
+used as the names of functions or their arguments:
+
+----
+   case		class		data		default		deriving
+   do		else		foreign		if		import
+   infix	infixl		infixr		instance	let
+   module	newtype		of		then		type
+   where
+----
+
 Expressions
 ~~~~~~~~~~~
 
