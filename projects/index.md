@@ -48,6 +48,15 @@ A draft list of project ideas:
       * <https://dev.to/ericnormand/the-idea-of-lisp>
       * <http://norvig.com/lispy.html>
 
+
+### Freelancing ###
+
+In case I ever needed, here are a few interesting articles about becoming a
+freelancer:
+
+ - <https://doubleyourfreelancing.com/category/start-freelancing/>
+
+
 ### Exercises
 
 Some sites provide excellent ideas for project or course exercises:
