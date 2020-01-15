@@ -62,6 +62,19 @@ It is easier to understand how this works in Haskell, if we actually follow the
 evaluation of the functions.  This can easier be shown in the article:
 https://hookrace.net/blog/a-taste-of-haskell/[A Taste of Haskell].
 
+For completeness, let's include the definition of `primes` in simple terms,
+albeit not as performant as the above.  I omit the types for the following
+functions, for a more compact format.
+
+[source,haskell]
+----
+factors n = [x | x <- [1..n], n `mod` x == 0]
+prime n = factors n == [1, n]
+primes n = [x | x <- [2..n], prime x]
+----
+
+The functions were copied from the book, "Programming in Haskell".
+
 
 Quick Sort
 ~~~~~~~~~~
