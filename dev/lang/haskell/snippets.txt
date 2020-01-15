@@ -51,6 +51,24 @@ evaluation of the functions.  This can easier be shown in the article:
 https://hookrace.net/blog/a-taste-of-haskell/[A Taste of Haskell].
 
 
+Quick Sort
+~~~~~~~~~~
+
+The classic example of presenting the benefits of Haskell, as a concise and
+effective language.
+
+This snippet was extracted from the book "Programming in Haskell, 2/e".
+
+[source,haskell]
+----
+qsort []     = []
+qsort (x:xs) = qsort smaller ++ [x] ++ qsort larger
+               where
+	         smaller = [a | a <- xs, a <= x]
+		 larger  = [b | b <- xs, b > x]
+----
+
+
 ////
 # vim: set ft=asciidoc:
 ////
