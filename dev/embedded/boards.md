@@ -19,6 +19,11 @@ suitable for low-level experiments, can be found at
  - Nucleo STM32F446RE:
    In general, any STM32-based board will suffice.
 
+Some other tiny and cheap boards can be (TODO: more info to be added):
+
+ - ESP32
+ - Teensy 40
+
 
 Arduino
 -------
