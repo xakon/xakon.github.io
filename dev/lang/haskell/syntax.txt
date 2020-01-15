@@ -181,9 +181,9 @@ which will be completed at run-time using currying.
 
 [source,haskell]
 ----
-(o)	= λx -> (λy -> x o y)
-(xo)	= λy -> x o y
-(oy)	= λx -> x o y
+(#)	= λx -> (λy -> x # y)
+(x#)	= λy -> x # y
+(#y)	= λx -> x # y
 ----
 
 'Sections' have three main applications.  Can be used to construct a number
