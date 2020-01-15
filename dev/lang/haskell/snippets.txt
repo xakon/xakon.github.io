@@ -76,6 +76,25 @@ primes n = [x | x <- [2..n], prime x]
 The functions were copied from the book, "Programming in Haskell".
 
 
+Sequencing Actions
+~~~~~~~~~~~~~~~~~~
+
+Erik Meijer once joked that Haskell is a very imperative language, as it allows
+one to write programs in steps, sequences, and in style that reminds the other
+imperative languages.
+
+In the book "Programming in Haskell, 2/e" there is a nice snippet of executing
+many 'Actions' in sequence, but in a concise style, avoiding the 'do-notation':
+
+[source,haskell]
+----
+seqn []         = return []
+seqn (act:acts) = do x <- act
+                     xs <- seqn acts
+		     return (x:xs)
+----
+
+
 Quick Sort
 ~~~~~~~~~~
 
