@@ -9,6 +9,10 @@ Resources
 
  - [PostgreSQL](https://www.postgresql.org/)
  - [PostgreSQL Exercises](http://pgexercises.com/)
+ - [My GOTO Postgres Configuration for Web Services][web-config]
+
+
+[web-config]:	https://tightlycoupled.io/my-goto-postgres-configuration-for-web-services/
 
 
 ### Books ###
