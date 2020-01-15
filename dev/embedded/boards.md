@@ -20,5 +20,18 @@ suitable for low-level experiments, can be found at
    In general, any STM32-based board will suffice.
 
 
+Arduino
+-------
+
+[Arduino][arduino] provides a wide-range of beginner-friendly boards, but also
+many professional toolkits.
+
+ - Arduino Portenta H7:
+   It features a dual 32-bit ARM core, with ARM Corent-M7 (480MHz) and Cortex-M4
+   (240MHz).  Loaded with many interesting peripherals.  Suitable for IoT
+   developments, but a bit expensive.
+
+
+[arduino]:	https://www.arduino.cc/
 [frdm-kl25z]:	http://www.freescale.com/webapp/sps/site/prod_summary.jsp?code=FRDM-KL25Z
 
