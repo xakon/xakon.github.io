@@ -32,6 +32,18 @@ sendEmail myEmail
 ----
 
 
+Elements of list as pairs
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+A rather useful function that is often needed in various Code Advent puzzles,
+is the `pairs`.  Extracted from the book, "Programming in Haskell".
+
+[source,haskell]
+----
+pairs xs = zip xs (tail xs)
+----
+
+
 Sieve of Eratosthenes
 ~~~~~~~~~~~~~~~~~~~~~
 
