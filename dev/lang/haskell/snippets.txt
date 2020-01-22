@@ -54,6 +54,27 @@ sorted xs = and [x <= y | (x, y) <- pairs xs]
 ----
 
 
+Python's enumerate()
+~~~~~~~~~~~~~~~~~~~~
+
+Haskell doesn't have a common function like Python's built-in `enumerate()`,
+but it is not difficult to write the same expression:
+
+[source,haskell]
+----
+zip xs [1..]
+----
+
+A more interesting application can be a function that returns the positions of
+an element inside a list:
+
+[source,haskell]
+----
+positions :: Eq a => a -> [a] -> [Int]
+positions x xs = [i | (x', i) <- zip xs [0..], x == x']
+----
+
+
 Sieve of Eratosthenes
 ~~~~~~~~~~~~~~~~~~~~~
 
