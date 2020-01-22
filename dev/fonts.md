@@ -41,6 +41,8 @@ Catalogue
    Since they are OpenType fonts, there are some problems setting up old TeX
    engines to work with them.  I think, the project released Type-1 versions of
    the fonts, as well.
+ - [JetBranis Mono](https://www.jetbrains.com/lp/mono/):
+   A font for developers from a Software House!
 
 More fonts can be found and tested at <http://programmingfonts.org>
 
