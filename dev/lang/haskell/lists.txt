@@ -37,7 +37,14 @@ length xs  = sum [1 | _ <- xs]
 ----
 
 List Comprehensions can also use logical expressions, called 'guards', to filter
-the values produced by earlier 'generators'.
+the values produced by earlier 'generators'.  They come after 'generators', separated
+with commas:
+
+[source,haskell]
+----
+evens = [x | x <- [1..10], even x]
+factors n = [x | x <- [1..n], n `mod` x == 0]
+----
 
 
 ////
