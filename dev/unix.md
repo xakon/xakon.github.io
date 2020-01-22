@@ -67,7 +67,13 @@ An example of searching for some files and processing the output list is:
 
 ### References
 
+ - [The Art of UNIX Programming][taoup]:
+   Reformatted page of the online version of famous, inspiring book,
+   by Eric S. Raymond.  The original work can be found at:
+   <http://catb.org/~esr/writings/taoup/>
  - [UNIX ToolBox][toolbox]:
    An excellent HTML page that converts automatically to PDF.
 
+
+[taoup]:	https://www.arp242.net/the-art-of-unix-programming/
 [toolbox]: http://cb.vu/unixtoolbox.xhtml
