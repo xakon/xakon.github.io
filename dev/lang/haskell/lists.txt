@@ -13,7 +13,7 @@ and is based on 'Generators' and 'Guards'.
 ----
 
 The expression `x <- [1..5]` is the 'generator'.  Each list comprehension may
-have multiple 'generators', which resemble multiple-level `for`-loops:
+have multiple 'generators', which resemble multiple-level `for` loops:
 the first 'generator' is the outer loop, the last one is the inner one.
 Later 'generators' can also depend on previous upon the values of variables from
 earlier 'generators'.
