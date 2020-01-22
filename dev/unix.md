@@ -16,9 +16,9 @@ use them in the near future and take advantage of them.
 
 ### Handling Files
 
-Some really useful switches to GNU `ls` for a developer are the following.
-Although I can find them on `ls' manual page, I duplicate this information
-here, since the operations of `ls` are enormous and searching for them is
+Some really useful switches to _GNU ls(1)_ for a developer are the following.
+Although I can find them on _ls(1)_ manual page, I duplicate this information
+here, since the operations of _ls(1)_ are enormous and searching for them is
 not an easy task!
 
  - `-r` -- Reverse order of output
@@ -28,7 +28,7 @@ not an easy task!
  - `-S` -- Sort by filesize
 
 Also of great interest while working with files at a working director
-is the `find` utility.  Its usage is very common and I know a lot about
+is the _find(1)_ utility.  Its usage is very common and I know a lot about
 it.  But its usage is quite tricky.
 
 For example, here is a way to list all C files modified the last 3 days:
@@ -46,7 +46,7 @@ we can use the `+` terminator at the end of `-exec`:
 
     $ find -name '*.[ch]' -exec vi {} +
 
-I use a lot the `xargs` with the `find` results.  I had even found a way
+I use a lot the _xargs(1)_ with the _find(1)_ results.  I had even found a way
 to perform its actions in parallel, or execute arbitrary commands, where
 the arguments can be in the middle of the command line.  But, in most
 cases this should not be necessary anymore, and it's more robust to handle
@@ -54,8 +54,8 @@ filenames with whitespace using `-exec` or a `while read -r` loop.
 
 ### Searching Files
 
-Of course, the original king used to be `grep`, which I use it even now.
-But, I definitely will go for `ack-grep`, which is faster and its usage
+Of course, the original king used to be _grep(1)_, which I use it even now.
+But, I definitely will go for _ack-grep(1)_, which is faster and its usage
 easier.
 
 An example of searching for some files and processing the output list is:
