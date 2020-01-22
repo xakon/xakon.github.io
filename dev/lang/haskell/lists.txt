@@ -12,6 +12,7 @@ and is based on 'Generators' and 'Guards'.
 [1, 4, 9, 16, 25]
 ----
 
+The symbol `|` is read as _such that_, the `<-` is read as _is drawn from_.
 The expression `x <- [1..5]` is the 'generator'.  Each list comprehension may
 have multiple 'generators', which resemble multiple-level `for` loops:
 the first 'generator' is the outer loop, the last one is the inner one.
