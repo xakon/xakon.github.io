@@ -43,6 +43,16 @@ is the `pairs`.  Extracted from the book, "Programming in Haskell".
 pairs xs = zip xs (tail xs)
 ----
 
+Verify if a list is sorted
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+A rather elegant a simple application of the above `pairs`:
+
+[source,haskell]
+----
+sorted xs = and [x <= y | (x, y) <- pairs xs]
+----
+
 
 Sieve of Eratosthenes
 ~~~~~~~~~~~~~~~~~~~~~
