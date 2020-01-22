@@ -194,5 +194,22 @@ Except of [PyPI (Python Package Index)](https://pypi.org/), there is also the
 [Awesome Python](https://awesome-python.com/) site, where we can find Python
 packages and libraries based on a category.
 
+Creation of pip repository
+--------------------------
+
+In a useful [article](https://jpmens.net/2020/01/16/creating-a-simple-python-pip-repository/)
+it is summarized nicely how a pip repository looks like.  In short, it is served
+from a Web server using a structure like this:
+
+    airports
+      |
+      +---- airports-0.2.tar.gz
+      |
+      +---- airports-0.5.tar.gz
+    paho-mqtt
+      |
+      +---- paho-mqtt-1.3.tar.gz
+
+
 
 [-]:	vim: ft=markdown
