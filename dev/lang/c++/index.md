@@ -70,6 +70,14 @@ More notes about the free, online books can be found at this article:
 [wxwidget-gui]:	http://www.informit.com/store/cross-platform-gui-programming-with-wxwidgets-9780131473812
 
 
+### Tutorials ###
+
+ - [C++ Tutorial | Cprogramming.com](https://www.cprogramming.com/tutorial/c++-tutorial.html)
+ - [C++ Tutorial | cpluscplus.com](http://www.cplusplus.com/doc/tutorial/)
+ - [C++ Tutorial | tutorialspoint.com](http://www.tutorialspoint.com/cplusplus/)
+ - [Learn C++ Tutorial](https://www.learncpp.com/)
+
+
 ## Articles ##
 
 Some interesting articles/references/explanations are the following:
