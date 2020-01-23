@@ -102,6 +102,17 @@ purpose.  Some alternatives are:
    A secure Operating System for embedded devices, low on memory and low on
    power, written in Rust.
 
+ - [XINU](https://xinu.cs.purdue.edu/)
+   Short for _Xinu Is Not Unix_, although it shares concepts and even names with
+   UNIX, the design of this OS differs completely.  It is a small, elegant OS
+   that supports dynamic process creation, dynamic memory allocation, network
+   communication, local and remote file systems, a shell, and device-independent
+   I/O functions.
+
+   Xinu is an academic product, coming out of the Purdue University.
+   Yet, because of its small size and the rich features, it has some adoption in
+   the industry, too.  It is suitable for embedded environments.
+
 
 ## Other
 

@@ -37,6 +37,27 @@ Some resources:
  o `Manual <https://pdos.csail.mit.edu/6.828/2016/xv6/book-rev9.pdf`
 
 
+XINU
+****
+
+Short for _Xinu Is Not Unix_, although it shares concepts and even names with
+UNIX, the design of this OS differs completely.  It is a small, elegant OS
+that supports dynamic process creation, dynamic memory allocation, network
+communication, local and remote file systems, a shell, and device-independent
+I/O functions.
+
+Xinu is an academic product, coming out of the Perdue University.
+Yet, because of its small size and the rich features, it has some adoption in
+the industry, too.  It is suitable for embedded environments.
+
+It comes with a textbook and source-code for ARM, MIPS, x86 versions.
+
+Resources:
+~~~~~~~~~~
+
+ o `The XINU Page <https://xinu.cs.purdue.edu/>`
+
+
 Sortix
 ******
 
