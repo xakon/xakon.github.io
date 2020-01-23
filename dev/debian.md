@@ -38,6 +38,9 @@ Many of them can be found in the `devscripts` Debian package.
 
  - `debootstrap`:	Create a minimal Debian system
 
+On Ubuntu, there is also [multipass](https://multipass.run/), which can be used
+to easily spin up Ubuntu VM instances.  Maybe it supports Debian images, too.
+
 
 Packages
 --------
