@@ -79,6 +79,12 @@ Books
  - https://www.vacationlabs.com/haskell/[Haskell without the theory]
  - Haskell 98 Report (Cambridge Press)
 
+Courses
+~~~~~~~
+
+ - https://github.com/data61/fp-course[Data 61 (formerly NICTA)]
+ - https://www.seas.upenn.edu/~cis194/spring13/[CIS 194: Introduction to Haskell]
+
 Papers
 ~~~~~~
 
