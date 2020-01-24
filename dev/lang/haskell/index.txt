@@ -72,7 +72,9 @@ Books
 ~~~~~
 
  - http://www.learnyouahaskell.com/[Learn You a Haskell for Great Good!]
+ - https://www.manning.com/books/get-programming-with-haskell[Get Programming with Haskell]
  - http://haskellbook.com[Haskell Programming]
+ - http://book.realworldhaskell.org/[Real World Haskell]
  - https://www.haskell.org/tutorial/[Gentle Introduction to Haskell 98]
  - https://www.vacationlabs.com/haskell/[Haskell without the theory]
  - Haskell 98 Report (Cambridge Press)
