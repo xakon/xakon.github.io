@@ -75,6 +75,7 @@ tools can be found at the main [Crates.io](https://crates.io/) site.
 
  - [tempfile](https://github.com/Stebalien/tempfile).
  - [glob](https://github.com/rust-lang-nursery/glob).
+ - [walkdir](https://github.com/BurntSushi/walkdir):
  - [csv](https://github.com/BurntSushi/rust-csv).
 
 
