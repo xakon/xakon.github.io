@@ -27,6 +27,9 @@ tools can be found at the main [Crates.io](https://crates.io/) site.
 
 ### Testing
 
+ - [faux](https://github.com/nrxus/faux):
+   Mocking library, without needing to create _traits_ to mock the targets.
+   It depends on macros, instead of manually creating interfaces/test doubles.
  - [Tarpaulin](https://github.com/xd009642/tarpaulin):
    Code coverage tool with integration with `cargo`.
  - [quickcheck](https://crates.io/crates/quickcheck):
