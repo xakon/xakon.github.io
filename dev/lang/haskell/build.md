@@ -102,6 +102,72 @@ available resolvers here and which versions belong to each resolver:
  - <https://www.stackage.org/lts-13.2>
 
 
+Hpack
+-----
+
+_Hpack_ is an alternative to _Cabal_ package format.  Instead of using the
+`.cabal` file format to specify the dependencies, it uses the `package.yaml`.
+
+Advantages of _Hpack_ over _Cabal_:
+
+ - _Cabal_ uses custom format, _Hpack_ is plain YAML
+ - _Cabal_ has much duplication, if it includes many targets
+
+The _Hpack_ is a separate executable, installable either using _Stack_ or
+_Cabal_.
+
+
+    $ stack install hpack
+    $ cabal install hpack
+
+_Hpack_ will generate a `.cabal` file out of its `package.yaml`.
+Thus, we don't need to commit the `.cabal` file in the repository.
+
+The structure of the `package.yaml` is quite similar to `.cabal`:
+
+```yaml
+name: HaskellPackage
+version: 0.1.0.0
+github: some_account/project
+license: MIT
+author: "John West"
+maintainer: "john.west@example.com"
+copyright: "Basic Copyright @2020"
+
+extra-source-files:
+ - README.md
+
+dependencies:
+ - base >= 4.9 && < 4.10
+
+ghc-options:
+ - -Wall
+
+library:
+ source-dirs: src
+
+executables:
+ run-project-A:
+   main: Run1.hs
+   source-dirs: app
+   ghc-options:
+    - -threaded
+   dependencies:
+    - HaskellPackage
+ run-project-B:
+   main: Run2.hs
+   source-dirs: app
+   dependencies:
+    - HaskellPackage
+```
+
+One great advantage of using _Hpack_ is the fact that it will automatically
+infer the structure of the individual modules, by scanning the project.
+It assumes that everything is exportable, and it will place them under the
+`exposed-modules` section in the final `.cabal`.  We can avoid export modules by
+placing under the `other-modules` option inside the `library` section.
+
+
 Nix
 ---
 
