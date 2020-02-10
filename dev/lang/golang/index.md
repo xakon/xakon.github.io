@@ -6,6 +6,9 @@ Resources
 
 ### Online Resources
 
+ - [Tour of Go](https://tour.golang.org/)
+ - [Go by Example](https://gobyexample.com/)
+ - [Gophercises](https://gophercises.com/)
  - [Gopher Videos](http://gophervids.appspot.com/)
  - [Go Fragments](http://www.gofragments.net/)
  - [Go Web Examples](https://gowebexamples.github.io/)
