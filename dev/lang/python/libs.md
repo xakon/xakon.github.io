@@ -19,6 +19,8 @@ Command-line Interface
 
 ### Curses ###
 
+ - [urwid](http://urwid.org/):
+   Console user interface library for Python.  Used in `pudb`.
  - [npyscreen](http://npyscreen.readthedocs.io/):
    A powerful library to easily create TUI programs using an architecture
    similar to wxWidgets, GTK+, or Qt.
