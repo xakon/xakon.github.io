@@ -41,7 +41,7 @@ Another list of useful Python frameworks and libraries that I can use in project
    Work XML files with the familiar JSON interface.
 
  - [webalchemy](https://github.com/skariel/webalchemy):
-   Realtime, Pythonic web framework.
+   Real-time, Pythonic web framework.
 
  - [verlure](https://github.com/bbangert/velruse):
    Simplifying third-party authentication for web applications.
