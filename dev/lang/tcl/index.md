@@ -12,7 +12,9 @@ Resources
 ---------
 
  - [Tcl/Tk Official Site][tcl.org]
+ - [Tcl History](http://tcl.tk/about/history.html
  - [Tcl Wiki][wiki]
+ - [TkDos](https://tkdocs.com/)
  - [Expect](http://core.tcl.tk/expect)
 
 
