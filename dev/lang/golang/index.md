@@ -19,8 +19,13 @@ Resources
 
 ### Books
 
+ - [The Go Programming Language](https://www.gopl.io/)
  - [The Little Go Book](http://openmymind.net/The-Little-Go-Book/)
  - [An Introduction to Programming in Go](http://www.golang-book.com/books/intro)
+ - [Go in Practice](https://www.manning.com/books/go-in-practice)
+ - [Go n Action](https://www.manning.com/books/go-in-action)
+ - [Go Web Programming](https://www.manning.com/books/go-web-programming)
+ - [Go Programming Blueprints](https://www.packtpub.com/eu/application-development/go-programming-blueprints-second-edition)
  - [Build Web Application with Golang](https://astaxie.gitbooks.io/build-web-application-with-golang/)
  - [Building Web Apps with Go](https://codegangsta.gitbooks.io/building-web-apps-with-go/)
  - [Learning Go](https://miek.nl/go/)
