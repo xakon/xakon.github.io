@@ -69,6 +69,7 @@ exercises, solutions, videos.
  - [Build an Operating System for the Raspberry Pi](https://jsandler18.github.io/)
  - [Learning OS development using Linux Kernel & Raspberry Pi][rasp-pi-os].
  - [Rolling your Own Bootloader](http://wiki.osdev.org/Rolling_Your_Own_Bootloader)
+ - [Memory Management Reference](http://www.memorymanagement.org/)
 
 
 
