@@ -24,7 +24,8 @@ Catalogue
  - [SourceCode Pro](https://www.google.com/fonts/specimen/Source+Code+Pro)
  - Inconsolata
  - LibreFonts
- - Fira Mono
+ - Fira Mono & Fira Code:
+   Designed by Mozilla.
  - Droid Sans Mono
  - DejaVu Sans Mono
  - [Hermit](https://pcaro.es/p/hermit/):  Font for developers but,
