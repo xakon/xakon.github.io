@@ -144,6 +144,37 @@ qsort (x:xs) = qsort smaller ++ [x] ++ qsort larger
 ----
 
 
+Modular Exponentiation
+~~~~~~~~~~~~~~~~~~~~~~
+
+Modular arithmetic comes very often in Computer Science.
+A nice, performant implementation of
+https://en.wikipedia.org/wiki/Modular_exponentiation[Modular Exponentiation]
+can be implemented using
+https://en.wikipedia.org/wiki/Exponentiation_by_squaring[repeated squaring].
+
+It depends on the fact that modulus commutes with multiplication and on the
+basic formulae:
+
+[source,latex]
+----
+   x^0      = 1
+   x^2n     = (x^n)^2
+   x^(2n+1) = x(x^n)^2
+----
+
+[source,haskell]
+----
+modexp :: Integer -> Integer -> Integer -> Integer
+modexp _ 0 _ = 1
+modexp b e m =
+   | even e    = (r*r) `mod` m
+   | otherwise = (b*r*r) `mod` m
+      where
+	 r = modexp b (e `div` 2) m
+----
+
+
 ////
 # vim: set ft=asciidoc:
 ////
