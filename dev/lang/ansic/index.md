@@ -99,6 +99,8 @@ Libraries
  - [PortAudio](http://www.portaudio.com/):
    A free, cross-platform, open-source, audio I/O library.
    Used by many popular audio/video and not programs.
+ - [ICU - International Components for Unicode](http://site.icu-project.org/):
+   The most complete, but heavy, library to support Unicode.
 
 
 Hacks
