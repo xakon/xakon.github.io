@@ -58,6 +58,22 @@ Resources:
  o `The XINU Page <https://xinu.cs.purdue.edu/>`
 
 
+Redox
+*****
+
+A Unix-like Operating System written in Rust, aiming to bring the innovations
+of Rust to a modern microkernel and full set of applications.
+
+Actually, I read a very nice article, introduction to Redox, and got
+immediately sold with it!  The article can be found at:
+`Programming for Redox OS <https://dev.to/legolord208/programming-for-redox-os-4124>`.
+
+Resources:
+~~~~~~~~~~
+
+ o `Redox <http://www.redox-os.org/>`
+
+
 Google Fuchsia
 **************
 
