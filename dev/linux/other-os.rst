@@ -58,6 +58,21 @@ Resources:
  o `The XINU Page <https://xinu.cs.purdue.edu/>`
 
 
+Google Fuchsia
+**************
+
+A new open-source, operating system by Google.  It is not based on Linux,
+but on _Zicron_, a new microkernel.
+
+It is meant to be used on embedded devices, smartphones, tables, and similar
+IoT devices.
+
+Resources:
+~~~~~~~~~~
+
+ o `Fuchsia Project <https://fuchsia.dev/>`
+
+
 Sortix
 ******
 
