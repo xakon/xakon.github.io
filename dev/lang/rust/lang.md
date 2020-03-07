@@ -1,6 +1,19 @@
 Syntax
 ======
 
+Below are some notes I took about the language.
+A similar article, with code examples and very terse and concise notation can be
+found at:  [A half-hour to learn Rust][amos-article].
+The concept of this article is that it needs a different set of skills to read
+code, than to write.  Since Rust is a rather complex language, we can better
+distinguish these two traits, to simplify the learning curve.
+
+[amos-article]:	https://fasterthanli.me/blog/2020/a-half-hour-to-learn-rust/
+
+
+General
+-------
+
 It reminds a lot of C or C++.  Comments are C++ like.
 Expressions terminate with `;`.
 
