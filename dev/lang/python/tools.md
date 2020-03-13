@@ -66,6 +66,9 @@ Misc
  - [virtualenv](https://virtualenv.pypa.io/)
  - [virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/)
 
+ - [shiv](https://github.com/linkedin/shiv):
+   Easily package all dependencies of a program in a `.zip` file.
+
  - [PyInstaller](https://pyinstaller.readthedocs.io/):
    Create a single executable out of the source code.
 
