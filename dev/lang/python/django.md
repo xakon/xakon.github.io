@@ -16,6 +16,8 @@ Resources
 
  - [User Authentication Example][auth-example]
 
+ - [Django Tricks](https://www.djangotricks.com/tricks/)
+
 
 [auth-example]:	http://blog.narenarya.in/right-way-django-authentication.html
 
