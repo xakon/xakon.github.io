@@ -47,6 +47,9 @@ tools can be found at the main [Crates.io](https://crates.io/) site.
  - [alloc_counter](https://crates.io/crates/alloc_counter):
    Count number of heap allocations.  Useful for tracing and measuring
    performance-related code.
+ - [claim](https://crates.io/crates/claim):
+   Another assertion library that expands standard assertion macros with some
+   specialized ones.
 
 
 ### Terminal
