@@ -86,6 +86,8 @@ purpose.  Some alternatives are:
 
  - [FreeRTOS](http://www.freertos.org/)
 
+ - [ChibiOS](http://www.chibios.org/)
+
  - [Mbed OS](http://www.mbed.com/en/platform/mbed-os/)
 
  - [ThreadX](http://rtos.com/products/threadx/)

@@ -15,3 +15,4 @@ special purpose file-systems:	procfs, tmpfs, sysfs, debugfs, etc.
 [openwrt]:	https://openwrt.org/
 [threadx]:	http://rtos.com/products/threadx/
 [freertos]:	http://www.freertos.org/
+[ChibiOS]:	http://www.chibios.org/
