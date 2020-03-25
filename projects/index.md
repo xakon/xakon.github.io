@@ -44,6 +44,10 @@ A draft list of project ideas:
 
  - Play with vimcat.
 
+ - `mgit`:  a wrapper around `git` to perform the same actions on multiple
+   repositories, grouped as _projects_.  Inspired by:
+   [hgit](https://github.com/dfithian/hit).
+
  - Write a Scheme/Lisp implementation using some examples:
       * <https://dev.to/ericnormand/the-idea-of-lisp>
       * <http://norvig.com/lispy.html>
