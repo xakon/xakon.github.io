@@ -89,3 +89,9 @@ It is also a good practice to "name" these constants using variables:
     color_red='\[\e[31m\]'
     color_blue='\[\e[34m\]'
     color_reset='\[\e[0m\]'
+
+Some terminals support also italic and bold typefonts.  I don't know if these
+are covered by the ANSI colors, but as a reference, here are some italic text in
+a terminal that supports them:
+
+    echo -e 'Hello, \e[3m world! \e[23m'
