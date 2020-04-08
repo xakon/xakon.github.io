@@ -81,3 +81,13 @@ See also the files:
     /etc/environment
 
 More info, as always, at [ArchLinux Wiki](https://wiki.archlinux.org/index.php/locale).
+
+
+Wiki
+----
+
+Some interesting pages from the [Debian Wiki](https://wiki.debian.org/).
+
+ - [Why the Name](https://wiki.debian.org/WhyTheName):
+   An IT-etymology/linuxguistics page for people wondering "how come the package
+   yasysmand-cling has such a strange name?"
