@@ -61,6 +61,69 @@ freelancer:
  - <https://doubleyourfreelancing.com/category/start-freelancing/>
 
 
+### Source-Code Reading ###
+
+Source-code reading is invaluable to learn writing code.
+There are plenty of useful and interesting projects, where I can learn a lot by
+styling their code.
+
+Some examples follow:
+
+ - [NetBSD][netbsd]:
+   The source code that Spinellis is using in the book "Reading Code".
+
+ - [Minix][minix]:
+   A Unix-like system implemented for studying!
+   Even though there are 3 versions of it, I think the first is the most
+   educational one, the other 2 are meant for the industry.
+
+ - [Xv6][xv6]:
+   Similarly to [Minix][minix], it contains a whole UNIX-line operating system in
+   minimum form, in order to easer study it.
+
+ - [SQLite][sqlite]:
+   Amazing project, with high-quality source code.
+
+ - [Fossil][fossil]:
+   From the same author of [SQLite][sqlite] (Richard Hipp), an excellent example
+   of software, but also high-quality of C code.
+
+ - [Trac][trac]:
+   A Python-based project, inspired from ideas from Richard Hipp.
+   Interesting to read about it.
+
+ - [Tcl/Tk][tcltk]:
+   An amazing language, but also a software project, lead by John Ousterhout.
+
+ - [PostreSQL][postgres]:
+   Excellent quality of source-code.  As mentioned in an
+   [article](https://www.2ndquadrant.com/en/blog/postgresql-is-the-worlds-best-database/)
+   about [PostreSQL][postgres], the source code is full of documentation, TDD,
+   and many people learned working with C, just by studying the project.
+
+ - [Apache Web Server][apache]
+
+ - [Perl][perl]
+
+ - [Python][python]
+
+ - [Node.js][nodejs]: <https://nodejs.org/>
+
+
+[netbsd]:	http://netbsd.org/
+[minix]:	http://www.minix3.org/
+[xv6]:		https://pdos.csail.mit.edu/6.828/2019/xv6.html
+[sqlite]:	https://sqlite.org/
+[fossil]:	http://fossil-scm.org/
+[trac]:		https://trac.edgewall.org/
+[tcltk]:	https://www.tcl-lang.org/
+[postgres]:	https://www.postgresql.org/
+[perl]:		https://www.perl.org/
+[python]:	https://www.python.org/
+[apache]:	https://httpd.apache.org/
+[nodejs]:	https://github.com/nodejs/node
+
+
 ### Exercises
 
 Some sites provide excellent ideas for project or course exercises:
