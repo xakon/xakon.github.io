@@ -127,6 +127,7 @@ Yes, there is such thing as _Package Managers_ for C++ anymore!
 
 ## Static Analyzers
 
+ - [Cppcheck](http://cppcheck.sourceforge.net/)
  - [CppDepend](https://www.cppdepend.com/)
  - [SciTools](https://scitools.com/support/what-is-understand/):
    Code Visualizer.
