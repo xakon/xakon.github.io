@@ -6,6 +6,7 @@ Books
 
  - [Practical Typography][practical-typography]:
    Online book about the aesthetics of Typography.
+ - [The Bates LaTeX Manual](https://www.bates.edu/mathematics/resources/latex-manual/)
 
 [practical-typography]:	http://practicaltypography.com/
 
