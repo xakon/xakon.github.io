@@ -123,8 +123,11 @@ Here are some useful articles about Bash techniques, tips and tricks:
  - [Programming Defensively in BASH][defensive]
  - [Advancing in the Bash Shell][advanced-bash]
  - [How "Exit Traps" Can Make Your Bash Scripts Way More Robust And Reliable][exit-traps]
+ - [ShellCheck][shellcheck]:  Linter for Bash scripts.
+   Source code can be found at [Github](https://github.com/koalaman/shellcheck).
 
 
 [advanced-bash]:	http://samrowe.com/wordpress/advancing-in-the-bash-shell/
 [defensive]:		http://www.kfirlavi.com/blog/2012/11/14/defensive-bash-programming/
 [exit-traps]:		http://redsymbol.net/articles/bash-exit-traps/
+[shellcheck]:		https://www.shellcheck.net/
