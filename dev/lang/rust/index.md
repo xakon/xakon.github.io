@@ -62,6 +62,9 @@ mind.
 
  - rustc:  compiler
  - cargo:  package manager, installed with the main distribution
+ - [explaine.rs](https://jrvidal.github.io/explaine.rs/):
+   Online documentation to explain elements of the language, as they appear in a
+   script.
  - [Crates.io][crates]: central repository for Rust packages
  - [Crates.rs](https://crates.rs/):  an alternative to [Crates.io][crates]
  - [Docs.rs][docs]:  documentation coming from any *crate*
