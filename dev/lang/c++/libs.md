@@ -67,6 +67,11 @@ Here is a list of industry-based, strong-supported libraries:
    It lets you define your own main functions and comes with support for BDD.
 
 
+### Web Frameworks ###
+
+ - [Wt](https://www.webtoolkit.eu/wt/):
+   C++ Web Toolkit.
+
 
 ### Utility Libraries
 
