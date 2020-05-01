@@ -9,6 +9,12 @@ Some of them might deserve special sections and further description.
  - `optparse-applicative`:  Utilities and combinators for parsing command-line
    options.
 
+ - `async`:  Provide an API for executing and chaining asynchronous computations.
+
+ - `stm` (Software Transactional Memory):
+   Provide mutable data structures and operations on them that can be grouped
+   together and performed as a single atomic operation.
+
 
 ////
 # vim: set ft=asciidoc:
