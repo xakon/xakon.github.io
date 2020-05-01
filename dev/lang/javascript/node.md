@@ -50,3 +50,21 @@ Node stores the current program's environment in the `process` object.
 For example, the `process.argv` array holds the command-line arguments.
 
 Node supplies its own `assert` library, which resembles a lot the xUnit style.
+
+
+### Modules ###
+
+_Node_ provides some extra modules not found in a Browser, but they make working
+on a host easier:
+
+ - `os`:  Information about current Operating System.
+ - `path`:  Manipulation and information about file paths and directories.
+ - `url`:  Manipulate Internet addresses (URLs).
+ - `querystring`:  Convert search parameters of a URL into an object.
+ - `crypto`:  One-way and two-way encryption.
+ - `util`:  Many other interesting utilities!
+
+ Also, some special variables exist:
+
+  - `__filename`:  Current file
+  - `__dirname`:  Current directory
