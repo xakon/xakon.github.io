@@ -11,5 +11,5 @@ It also has a lot of bindings.
 
 
 
-[ncurses]:	TODO
+[ncurses]:	https://invisible-island.net/ncurses/
 [termbox]:	https://github.com/nsf/termbox
