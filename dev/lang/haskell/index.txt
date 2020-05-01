@@ -68,6 +68,10 @@ Tutorials
  - https://haskell-at-work.com/[Haskell at Work]:
    A nice series of screen-casts about Haskell and some advanced features.
 
+There is also an interesting list of a path to learn Haskell:
+   https://github.com/soupi/haskell-study-plan[Haskell Study Plan].
+
+
 Books
 ~~~~~
 
