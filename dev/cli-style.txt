@@ -1,0 +1,108 @@
+Style of CLI Programs
+=====================
+
+A reminder and checklist of some common properties my CLI tools should have a
+common.
+
+
+References
+----------
+
+This document were inspired on a series of articles.  I mention them here for
+further details and future reference.
+
+ - https://www.netmeister.org/blog/consistent-tools.html[Writing Consistent Tools]
+ - https://www.jstorimer.com/blogs/workingwithcode/7766119-when-to-use-stderr-instead-of-stdout[When
+   to use STDERR instead of STDOUT]
+//- // Respect $NO_COLOR
+//- // proper use of XDG directories
+
+
+Style
+-----
+
+Command-line Options
+~~~~~~~~~~~~~~~~~~~~
+
+Most programs should support the same or similar command-line options.
+Prefer one-letter short options for most common options, support long-options
+for most of them, if necessary, and have only long-options for rarely used
+options.
+
+ - `-h`, `--help`: usage statement to STDOUT and exit 0;
+   If an invalid option is given, same statement to STDERR together with an
+   error message and exit 1.
+
+ - `-v`, `--version`:  print program's version STDOUT and exit 0.
+   Some recent libraries have started to standardize the `-V` alternative.
+   Use this one when `-v` means 'verbose'.
+
+ - `-v`, `--verbose`:  print more output on actions, otherwise remain silent.
+
+ - `-c`, `--config`:  read extra configuration using a file.
+
+ - `-j`, `--json`:  generate output in JSON, if it is complicated.
+
+ - `-u`, `--user`:  provide username
+
+ - `-p`, `--password`:  provide password.  Note, that this is insecure.
+
+
+Configuration
+~~~~~~~~~~~~~
+
+We should respect this order of reading values for configuration:
+
+ - Default, hard-wired values
+ - System-wide configuration file
+ - User configuration file or a custom one
+ - Environment variables
+ - Command-line option
+
+
+Input/Output
+~~~~~~~~~~~~
+
+Try to read from STDIN and write to STDOUT.
+We can optionally pass filenames to read from.
+In this case, we should treat the `-` as STDIN.
+If no filename is given and STDIN is terminal, do nothing.
+(There might be exceptions, of course).
+
+Try to read streams of input and write streams of output.
+In general, line-processing is preferred, but if we can even process characters
+it's even better.  The input and output streams should be buffered, in most
+cases.
+
+Prefer basic records as lines, with fields separated with spaces or commas.
+For a more complex output, we can stream JSON or XML, using appropriate
+command-line options.
+
+Errors should reported to STDERR.  If possible, continue execution by ignoring
+the erroneous entry.
+
+
+Temporary Files
+~~~~~~~~~~~~~~~
+
+Better to avoid them.  Otherwise:
+
+ - Set restrictive `umask`.
+ - Generate a safe temporary directory using `mktemp(3)`.
+ - Remove the temporary directory and all contents via exit handler.
+ - Also, we can create a temporary file inside the temporary directory and
+   immediately remove it, while the file-descriptor is still open.
+
+
+Progress Reporting
+~~~~~~~~~~~~~~~~~~
+
+One nice technique inspired by +dd(1)+, to print information about its progress
+upon receiving a signal or pressing `Ctrl-C`.  Actually, there is a dedicated
+signal for this, `SIGINFO`, which can be sent with `Ctrl-T`.
+Other alternatives can be `SIGHUP`, or `SIGUSR1`,  as in +dd(1)+.
+
+
+////
+# vim: set ft=asciidoc:
+////
