@@ -1,0 +1,151 @@
+Containers
+==========
+
+Even though other operating systems have a complete support for isolated
+environments running at the kernel level, like +jails+ of
+https://www.freebsd.org/[FreeBSD], or +Solaris Containers+ or +Solaris zones+
+of https://www.oracle.com/solaris/solaris11/[Solaris],
+https://www.kernel.org/[Linux] gives only primitives in the forms of +cgroups+
+and +namespaces+ and is left to applications to create the notion of a
+_Container_.  Thus, there is also no standard term for these, but many
+implementations exist.
+
+In short, a _Linux Container_ is a "lightweight VM".  It allows applications to
+run in isolation from each other.
+
+
+Terms
+-----
+
+ - _Container Image_:  Root filesystem for the application inside the
+   _Container_ to run on.  It also contains a few meta-data about the execution
+   environment of the _Container_.  Essentially, it is TAR file with its
+   contents as separate files.  The meta-data are described as a JSON document
+   inside a separate configuration file.  The contents of a _container image_
+   are defined in _OCI image spec_.
+
+ - _Container_:
+   A runtime _container_ is defined by the _OCI run spec_.
+
+ - _Container Registry_:
+
+
+Resources
+---------
+
+I took most of my notes from the great series of articles,
+https://mkdev.me/en/posts/dockerless-part-1-which-tools-to-replace-docker-with-and-why[Dockerless].
+There are plenty of more articles and resources found there.
+Some of them are mentioned here.
+
+ - https://www.opencontainers.org/[OCI]:
+   The _Open Containers Initiative_ defines the specifications and standards for
+   all tools to follow, for how to run _containers_ and manage _container images_.
+   There are also the _Container Runtime Interface (CRI)_ and _Container Network
+   Interface (CNI)_ specifications, as well.
+
+ - https://opensource.com/article/18/8/sysadmins-guide-containers[A sysadmin's
+   guide to containers].
+
+ - https://opensource.com/article/19/3/tips-tricks-rootless-buildah[How rootless
+   Buildah works]
+
+ - https://opensource.com/article/18/10/podman-more-secure-way-run-containers[Podman:
+   a more secure way to run containers]
+
+ - https://opensource.com/article/18/12/podman-and-user-namespaces[Podman and
+   user namespaces]
+
+
+Tools
+-----
+
+In the beginning it was only +Docker+ and +LXC+.  Now, we have plenty of options
+in every level, to choose from.  In each case, we are mainly interested on tools
+to create _container images_ and to run _containers_.
+
+Linux Containers (LXC)
+~~~~~~~~~~~~~~~~~~~~~~
+
+The most basic technology that provides the basic tools as user-space programs
+to create and manage +Containers+.
+
+They are often used with the +LXD+ container management system, which gives a
+more complete solution to work with +Containers+.
+
++distrobuilder+ can be used to create custom images.
+
+ - https://linuxcontainers.org/[LXC]
+ - https://linuxcontainers.org/lxd/[LXD]
+ - https://linuxcontainers.org/distrobuilder/introduction/[distrobuilder]
+
+
+Docker
+~~~~~~
+
+The tool that made +Linux Containers+ popular and accessible to everyone.
+It defined the standard way to work with +Containers+.  It also support Windows
+and macOS, by wrapping a VirtualBox instance instead of an actual +Container+.
+
+Because it is closed source and its design rather heavy and insecure, I prefer
+to not work with +Docker+, even though it's the industry's standard.
+Thankfully, there are many alternatives, fully compatible with +Docker+
+(actually, it is +Docker+ compatible with the _OCI_ standards).
+
+ - https://www.docker.com/[Docker]
+
+
+Buildah
+~~~~~~~
+
+A tool to manage _container images_.  It is developed by Redhat, but it is an
+open-source project (as commonly does Redhat).  It produces
+https://github.com/opencontainers/image-spec[OCI-compliant] images.
+
+It is developed in Go and, naturally, it is distributed as a single binary.
+
++Buildah+ can only be used to manipulate images. It's job is to build _container
+images_ and push them to _registries_.  There is no daemon involved.  Neither does
+it require root privileges to build images.  The _images_ it creates are
+accessible only from the user who created them, contrary to +Docker+.
+
+It can read either common _Dockerfiles_ or by issuing specific commands at the
+command-line.  The latter make it suitable to add in a simple shell script and
+use it everywhere.
+
+We can also push the _images_ to many different _registries_, as the tool
+supports many different transports.
+
+ - https://buildah.io/[Buildah]
+
+
+Podman
+~~~~~~
+
+A tool to run _containers_.  It is developed by Redhat, but it is an open-source
+project (as commonly does Redhat).
+
+ - https://podman.io/[Podman]
+
+
+Others
+~~~~~~
+
+ - Kaniko (supported by Google)
+
+
+Lower-level tools
+~~~~~~~~~~~~~~~~~
+
+Like +LXD+ depends on +LXC+, there are many more lower-level tools that are used
+by the above, higher-level, user-friendly tools.  Some of them are:
+
+ - +runc+
+ - +rkt+
+ - +kata+
+
+
+
+////
+# vim: set ft=asciidoc:
+////
