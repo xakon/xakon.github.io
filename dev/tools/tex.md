@@ -10,6 +10,16 @@ Books
 
 [practical-typography]:	http://practicaltypography.com/
 
+
+Distributions
+-------------
+
+The [TeX Live](http://tug.org/texlive/) is considered the most complete and
+accurate TeX distribution at the moment.  In Debian systems, we can install it
+fully as `texlive-full` (about 5.2 GB on disk) or a more compact version, the
+`textlive-latex-extra` (about 452 MB).
+
+
 Tips
 ----
 
