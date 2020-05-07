@@ -21,7 +21,7 @@ Tips
 [typography-article]:	http://practicaltypography.com/typography-in-ten-minutes.html
 
  - Typesetting temperature:
-    Water freezes at $32\,^{\circ}\mathrm{F}$
+ `Water freezes at $32\,^{\circ}\mathrm{F}$`
 
 
 Examples
