@@ -41,6 +41,9 @@ Testing
    Log any HTTP requests and replay them during testing.
  - [Faker](https://github.com/joke2k/faker/):
    Faker is a Python package that generates fake data for you.
+ - [Model Bakery](https://github.com/model-bakers/model_bakery):
+   Object factory for Django.  En masse creating objects by automatically
+   populating unrelated to a test fields.
 
 
 Text Utilities
