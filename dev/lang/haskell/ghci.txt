@@ -1,3 +1,6 @@
+Glasgow Haskell Compiler (GHCi)
+===============================
+
 https://github.com/takenobu-hs/haskell-ghc-illustrated[GHC Illustrated]
 provides some nice (although unofficial) presentations about the internals
 of GHC.
