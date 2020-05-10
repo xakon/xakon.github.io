@@ -4,6 +4,9 @@ Project Management
 Most common Agile methods are Scrum and Kanban.  Here is a list of available
 software tools for them.
 
+ - https://nearbeach.org/[NearBench]:
+   Open-source project management CRM tool.
+   Built with Django, deployed on Ubuntu, using MySQL and Nginx.
 
 Kanban
 ------
