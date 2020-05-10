@@ -29,6 +29,57 @@ Also, it is useful to enable `-fhide-source-paths` and `-freverse-errors`
 for cleaner compiler output.
 
 
+Language Extensions
+-------------------
+
+The extensions don't change the language or its semantics.  They are compiler
+extensions and change the way the compiler does its job.
+
+They can be enabled using a _pragma_ called `LANGUAGE`.  GHC supports several
+_pragmas_.  They are written inside special comment syntax `{-# ... #-}`, with
+the name of the _pragma_ in all caps, followed by any information specific to
+that type of _pragma_.
+
+Some example of various _pragmas_ (only the first is a _Language Extension_):
+
+    {-# LANGUAGE <NameOfExtension> #-}
+    {-# OPTIONS_GHC <compiler_flag> #-}
+    {-# INLINE <function_name> #-}
+    {- This is a regular block comment, not a pragma -}
+
+The +LANGUAGE+ is a _file-header pragma_, so language extensions are listed at
+the very top of the script, above the module name, and the entire file will be
+compiled in this context.  The language extension might even not be used,
+usually this happens when we remove the code that needed the extension.
+
+We can also turn on every language extension using command-line flags, by
+prefixing them using `-X`;  for example `-X ForeignFunctionInterface`.
+With `ghc --supported-extensions` we can get a list of the available supported
+extensions.  If we are using `Cabal`, we can enable some of them for all
+compiled files by defining them at the `.cabal` file (`default-extensions` field).
+Similarly, with `hpack` we can turn them on inside the `package.yaml` file.
+
+Some extensions depend on others, so GHC would turn them on if we start using
+the depended ones.
+
+No Implicit Prelude
+~~~~~~~~~~~~~~~~~~~
+
+The +NoImplicitPrelude+ disables the default inclusion of _Prelude_ in the
+script.
+
+Haskell's Prelude is controversial.  There are many other alternative Preludes,
+like for example the `relude`.  Also, while we learn the language, it's useful
+to introduce some functions/constructs from the main _Prelude_, so it's helpful
+to disable it.  Or, it's more explicit to import everything we need from it.
+
+Numeric Underscores
+~~~~~~~~~~~~~~~~~~~
+
+The +NumericUnderscores+ allows us to type numbers like this:  `1_000_000`.
+Any underscore used is ignored by the compiler.
+
+
 ////
 # vim: set ft=asciidoc:
 ////

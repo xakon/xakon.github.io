@@ -28,6 +28,10 @@ Features of GHCi that can be enabled at run-time are:
 In general, options that start with `+` are GHCi specific options.
 On the other hand, options that start with `-` are GHC specific.
 
+With the `set` directive we can enable/disable _language extensions_;  for
+example:  `:set -XTypeApplications`.  We can save these options into the main
+GHCi configuration, too.
+
 Some modules that belong to the `base` package are available by default to GHCi.
 Others can be found out by running `ghc-pkg list`.  For example, we will be
 able to use other packages, installed using `cabal` (`cabal install`) or Stack
