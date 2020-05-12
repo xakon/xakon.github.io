@@ -9,6 +9,7 @@ Resources
 
  - [PostgreSQL](https://www.postgresql.org/)
  - [PostgreSQL Exercises](http://pgexercises.com/)
+ - [The Internals of PostgreSQL](http://www.interdb.jp/pg/)
  - [My GOTO Postgres Configuration for Web Services][web-config]
 
 
