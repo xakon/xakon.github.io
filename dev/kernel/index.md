@@ -74,3 +74,6 @@ Resources
  - [Anatomy of of Linux kernel development](https://github.com/raminfp/linux-4.8.0-netfilter_icmp)
  - [Ubuntu Kernel Build](https://wiki.ubuntu.com/KernelTeam/GitKernelBuild)
  - [Debian Kernel Handbook](https://kernel-team.pages.debian.net/kernel-handbook/)
+ - [Lord of io_uring](https://unixism.net/loti/):
+   Online book/tutorial with extensive examples on how to use the new big name
+   in kernel development, _io_uring_!
