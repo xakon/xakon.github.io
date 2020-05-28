@@ -45,6 +45,22 @@ Profilers
    `py.test` fixture for benchmarking code.
 
 
+Test Runners
+------------
+
+ - [nose](https://nose.readthedocs.io/):
+   My favourite test runner.  Small, fast, elegant.
+
+ - [pytest](https://docs.pytest.org/):
+   Community's favourite test runner.
+   I don't like it as it is super slow, super magical, super heavy on features.
+   In short, it is not Pythonic in my opinion.
+
+ - [hammett](https://github.com/boxed/hammett/):
+   An alternative to `pytest`, which implements only a subset of `pytest`,
+   but is super fast.
+
+
 Misc
 ----
 
