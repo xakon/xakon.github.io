@@ -5,7 +5,7 @@ Operations that a server need to handle:
 
 - Source-Code Repositories (Git/Subversion/Mercurial)
 - Backups
-- Continous Integration Server (Jenkins)
+- Continuous Integration Server (Jenkins)
 
 
 Tools
