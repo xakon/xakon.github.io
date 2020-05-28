@@ -21,6 +21,8 @@ Here is a list of industry-based, strong-supported libraries:
 
  - [Embedded Template Library](http://www.etlcpp.com/):
    A C++ template library for embedded applications.
+   Most notably, it provides static-memory alternatives for STL containers and
+   useful embedded software design elements.
 
 
 ### Test Frameworks
