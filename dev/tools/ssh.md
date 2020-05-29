@@ -71,7 +71,7 @@ A great article that better explains the SSH Agent can be found
 SSH and Windows
 ---------------
 
-Unfortunately, we do have to work on Windows occassionally.  Some nice clients:
+Unfortunately, we do have to work on Windows occasionally.  Some nice clients:
 
  - [PuTTY][putty]:  Classical.  Also used for accessing the Cygwin system.
  - [KiTTY](http://www.9bis.net/kitty/):
