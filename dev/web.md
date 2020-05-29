@@ -20,6 +20,12 @@ Web Development
    * [G-WAN Web Server](http://gwan.com/):
      The fastest web server ever!
 
+   * [Turbolinks](https://github.com/turbolinks/turbolinks):
+     A JavaScript library that makes navigating a Web application faster.
+     It gives to the user the impression that a server-rendered application is a
+     Single-Page Application.  It works with many frameworks, but also with
+     static sites.
+
 
 ### Frameworks
 
