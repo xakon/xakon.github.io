@@ -3,6 +3,9 @@ Web Development
 
 ### Tools
 
+   * [Pingdom Website Speed Test](https://tools.pingdom.com/):
+     It measures the speed of a Web page and recommends some solutions.
+
    * [Selenium](http://seleniumhq.org/)
      Software testing framework for web applications.
 
