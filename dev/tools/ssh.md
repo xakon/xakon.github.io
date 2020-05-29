@@ -49,6 +49,25 @@ advanced.  Keep a note of it and always revisit it!
 [lj-article]:	https://www.linuxjournal.com/content/rapid-secure-patching-tools-and-methods
 
 
+SSH Agent
+---------
+
+The `ssh-agent` runs in the background and keeps the private keys in memory
+unencrypted, but still protected.  It is used to only sign a few packets from
+the SSH sever and authenticate the user.  After that, a separate pair of keys is
+used for connecting to the SSH server.
+
+Usually, the SSH Agent uses a separate channel with each SSH connection.
+It works with the SSH client on top of a UNIX domain socket, which can be found
+with the `$SSH_AUTH_SOCK` variable.
+
+The most popular usage of the SSH Agent is to enter only once the passphrase of
+a key and for SSH forwarding the keys.
+
+A great article that better explains the SSH Agent can be found
+[here](https://smallstep.com/blog/ssh-agent-explained/).
+
+
 SSH and Windows
 ---------------
 
@@ -68,6 +87,10 @@ SSH Protocol
 The protocol is normally described in [RFC 4253][rfc4253].
 But, certainly there should be plenty more RFCs about the protocol and its
 applications.
+
+The SSH Agent Protocol is described in
+[here](https://tools.ietf.org/html/draft-miller-ssh-agent-04).
+It is very simple.
 
 
 [rfc4253]:	https://tools.ietf.org/html/rfc4253
