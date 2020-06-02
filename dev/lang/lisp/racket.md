@@ -17,6 +17,7 @@ Resources
 ### Online Books
 
  - [Teach Yourself Racket](https://cs.uwaterloo.ca/~plragde/flaneries/TYR/)
+ - [Beautiful Racket](http://beautifulracket.com/)
  - [Functional Data Structures](https://cs.uwaterloo.ca/~plragde/flaneries/FDS):
    TODO: this book doesn't belong here, actually
 
