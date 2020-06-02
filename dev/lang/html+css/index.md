@@ -9,6 +9,12 @@ Resources
  - [Google's Style Guide](https://google.github.io/styleguide/htmlcssguide.xml)
  - [The Magic of CSS](http://magicofcss.com/):
    Online book about CSS.
+ - [Pollen: the book is a program](https://docs.racket-lang.org/pollen/):
+   A publishing system that helps authors make functional and beautiful digital
+   books.  Some books written using Pollen are
+   [Practical Typography](http://practicaltypography.com/) and
+   [Beautiful Rackt](http://beautifulracket.com/), both of them excellent
+   publications.
 
 
 ### References

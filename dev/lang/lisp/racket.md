@@ -18,6 +18,7 @@ Resources
 
  - [Teach Yourself Racket](https://cs.uwaterloo.ca/~plragde/flaneries/TYR/)
  - [Beautiful Racket](http://beautifulracket.com/)
+ - [Pollen: the book is a program](https://docs.racket-lang.org/pollen/)
  - [Functional Data Structures](https://cs.uwaterloo.ca/~plragde/flaneries/FDS):
    TODO: this book doesn't belong here, actually
 
