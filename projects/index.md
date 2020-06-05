@@ -107,6 +107,11 @@ Some examples follow:
 
  - [Apache Web Server][apache]
 
+ - [OpenSSH][openssh]:  The major implementation of the SSH protocol.
+   I am mostly interesting on how the SSH client reads the user's configuration,
+   how it maintains channels over the connections, how it works with the
+   `ssh-agent`.
+
  - [Perl][perl]
 
  - [Python][python]
@@ -128,6 +133,7 @@ Some examples follow:
 [python]:	https://www.python.org/
 [apache]:	https://httpd.apache.org/
 [nodejs]:	https://github.com/nodejs/node
+[openssh]:	https://www.openssh.com/
 
 
 ### Exercises
