@@ -71,6 +71,10 @@ Some examples follow:
 
  - [NetBSD][netbsd]:
    The source code that Spinellis is using in the book "Reading Code".
+   Also, [OpenBSD][openbsd] has minimal implementations, and many times these
+   implementations are considered as a point of reference.
+   Alternatively, [FreeBSD][freebsd] comes with full and complete
+   implementations.
 
  - [Minix][minix]:
    A Unix-like system implemented for studying!
@@ -111,6 +115,8 @@ Some examples follow:
 
 
 [netbsd]:	http://netbsd.org/
+[openbsd]:	https://www.openbsd.org/
+[freebsd]:	https://www.freebsd.org/
 [minix]:	http://www.minix3.org/
 [xv6]:		https://pdos.csail.mit.edu/6.828/2019/xv6.html
 [sqlite]:	https://sqlite.org/
