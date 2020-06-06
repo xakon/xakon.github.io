@@ -144,6 +144,50 @@ qsort (x:xs) = qsort smaller ++ [x] ++ qsort larger
 ----
 
 
+Using +records+
+~~~~~~~~~~~~~~~
+
+There are many ways of how we can use +record+ types.  Here are a few examples:
+
+[source,haskell]
+----
+data User = User
+   { userName  :: String
+   , userAge   :: Int
+   , userAdmin :: Bool
+   }
+
+
+-- Direct pattern match, rare
+showUser :: User -> String
+showUser (User name age _admin) =
+   name ++ "(age: " ++ show age ++ ")"
+
+-- Function accessor, pretty common
+showUser :: User -> String
+showUser user =
+   userName user ++ "(age: " ++ show (userAge user) ++ ")"
+
+-- Field pattern match
+showUser :: User -> String
+showUser User { userName = name, userAge = age } =
+   name ++ "(age: " ++ show age ++ ")"
+
+-- RecordWildcards
+showUser :: User -> String
+showUser User {..} =
+   userName ++ "(age: " ++ show userAge ++ ")"
+
+-- NamedFieldPuns
+showUser :: User -> String
+showUser User { userName, userAge } =
+   userName ++ "(age: " ++ show userAge ++ ")"
+----
+
+The examples come from this https://www.parsonsmatt.org/2020/06/01/quick_memory_trick.html[article]
+with some more explanation about the pros and cons of each technique.
+
+
 Modular Exponentiation
 ~~~~~~~~~~~~~~~~~~~~~~
 
