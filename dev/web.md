@@ -9,6 +9,10 @@ Web Development
    * [Selenium](http://seleniumhq.org/)
      Software testing framework for web applications.
 
+   * [No Design Development](https://nodesign.dev/):
+     A collection of resources and auto-generated art/design for Web sites, for
+     developers that have little to no artistic talent.
+
    * Abduction (Firefox Extension)
      Screenshots of Web pages
 
