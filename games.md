@@ -30,6 +30,7 @@ Retro
  - Advanced D&D: Slayer (DOS, Strategic Simulations)
  - Eye of the Beholder (Amiga, RPG, Strategic Simulations)
  - Betrayal at Krondor (DOS, RPG, Dynamix)
+ - Albion (DOS, RPG, Blue Byte)
  - [Interactive Fiction Archive](http://www.ifarchive.org/):
    A collection of Fiction Adventures.
  - [NES Emulator on Web](https://jsnes.fir.sh/):
