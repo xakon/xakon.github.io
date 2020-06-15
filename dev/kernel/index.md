@@ -54,6 +54,10 @@ Utilities
    using the host Linux distribution or a `rootfs`, without needing a full disk
    image.
 
+ - [Interactive Linux kernel map](https://makelinux.github.io/kernel/map/):
+   Grouped into kernel sections, the map is interactive and we can inspect many
+   components on the fly.
+
 
 Resources
 ---------
