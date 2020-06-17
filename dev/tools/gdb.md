@@ -1,7 +1,7 @@
 GDB
 ===
 
-Next time I'm going to use [GDB][gdb-home] again, let's make sure I'm read again
+Next time I'm going to use [GDB][gdb-home] again, let's make sure I've read again
 this excellent article with [GDBTips][gdb-tips1].
 
 
