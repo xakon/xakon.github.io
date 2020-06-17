@@ -9,6 +9,8 @@ Resources
 ---------
 
  - [GDB Dashboard][gdb-dashboard]
+ - [dbg](https://github.com/ebcfr/dbg):
+   A lightweight graphical frontend for gdb to debug local or embedded apps.
  - [Tips for Productive Debugging with GDB][gdb-tips1]
 
 
