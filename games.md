@@ -2,6 +2,8 @@ Games
 =====
 
 At <http://archive.org> there is a huge collection of [MS-DOS Games][dos-games].
+Also, at [Games Nostalgia](https://gamesnostalgia.com/), I can find the actual
+games from the past!
 
 [dos-games]:	https://archive.org/details/softwarelibrary_msdos_games
 
