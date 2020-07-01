@@ -15,6 +15,12 @@ Resources
  - [Tcl History](http://tcl.tk/about/history.html
  - [Tcl Wiki][wiki]
  - [TkDos](https://tkdocs.com/)
+
+
+Tools
+-----
+
+ - [Ruff! - Runtime Formatting Function Reference][ruff]
  - [Expect](http://core.tcl.tk/expect)
 
 
@@ -25,3 +31,4 @@ Books
 [tcl.org]:	http://tcl.tk/
 [wiki]:		https://wiki.tcl.tk/
 [expect]:	http://core.tcl.tk/expect
+[ruff]:		https://ruff.magicsplat.com/
