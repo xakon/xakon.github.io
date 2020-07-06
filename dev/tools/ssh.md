@@ -44,6 +44,15 @@ Also, the article [Rapid, Secure Patching: Tools and Methods][lj-article] holds
 a large number of useful OpenSSH tips on setup and uses, some of them really
 advanced.  Keep a note of it and always revisit it!
 
+In the [SSH Emergency Access](https://smallstep.com/blog/ssh-emergency-access/)
+article, a solution is presented to use certificates to access SSH servers in
+case of emergency.  The solution is based on recent OpenSSH 8.2 server, which
+can use certificates to authorize access.  A private CA certificate is created
+and stored in a hardware key (like a YubiKey), and then this one is used to
+create further certificates in case of emergencies, that will last only for an
+hour.  The private CA certificate is always kept on hardware and is never
+present on any other computer.
+
 
 [ssh-tips]:	http://blogs.perl.org/users/smylers/2011/08/ssh-productivity-tips.html
 [lj-article]:	https://www.linuxjournal.com/content/rapid-secure-patching-tools-and-methods
