@@ -27,3 +27,16 @@ locally.
 
 
 [1]:	https://opensource.com/article/18/3/manage-workstation-ansible
+
+
+Tutorials
+---------
+
+At RedHat network I found a very interesting, basic and simple example of using
+Ansible to deploy static Web sites using NGINX.  The article can be found
+[here][redhat/deploy-static-sites] and the source code at
+[Github][github/deploy-static-sites].
+
+
+[redhat/deploy-static-sites]:	https://www.redhat.com/sysadmin/deploying-static-website-ansible
+[github/deploy-static-sites]:	https://github.com/acritelli/enable-sysadmin-webserver
