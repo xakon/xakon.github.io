@@ -6,7 +6,7 @@ Resources
 
  - [Home Page](https://www.ansible.com/).
  - [Opensource.com](https://opensource.com/):
-   Plenty of articles about introducing Ansible, but also on tutorials and
+   Plenty of articles about introducing Ansible, but also tutorials and
    ideas on how to use it.
 
 
