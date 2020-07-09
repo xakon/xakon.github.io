@@ -25,6 +25,7 @@ Resources
  - [The Rust Reference Book](https://doc.rust-lang.org/reference/)
  - [Rust API Guidelines](https://rust-lang.github.io/api-guidelines/)
  - [Secure Rust Guidelines](https://anssi-fr.github.io/rust-guide/)
+ - [Writing Interpreters in Rust](https://rust-hosted-langs.github.io/book/)
 
 ### Online Resources
 
