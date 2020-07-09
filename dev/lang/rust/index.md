@@ -26,6 +26,7 @@ Resources
  - [Rust API Guidelines](https://rust-lang.github.io/api-guidelines/)
  - [Secure Rust Guidelines](https://anssi-fr.github.io/rust-guide/)
  - [Writing Interpreters in Rust](https://rust-hosted-langs.github.io/book/)
+ - [Futures Explained in 200 lines of Rust](https://cfsamson.github.io/books-futures-explained/)
 
 ### Online Resources
 
