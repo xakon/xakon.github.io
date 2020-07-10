@@ -27,6 +27,24 @@ Every 'type' starts with an uppercase letter.  'Polymorphic types' include one
 or more 'type variables', which start with a lowercase,
 exactly like any other identifier.  They are usually named `a`, `b`, `c`, etc.
 
+'Type classes' are collections of 'types' with specific interfaces.
+In other words, they contain 'types' that implement a set of functions.
+They are often used in 'class constrains' at the declarations of
+'polymorphic functions' or 'operators'.
+
+The 'type' that contains one or more 'class constrains' is called 'overloaded'.
+Similarly, the functions are called 'overloaded functions' or 'methods'.
+.
+Some examples of 'type classes' are:
+
+ - Eq		- types with equality operations
+ - Ord		- types with some order
+ - Num		- all numeric types
+ - Integral	- numeric types with support for integer division
+ - Fractional	- numeric types with support for fractional division
+ - Show		- types that can be converted into String
+ - Read		- readable types, convertible from String
+
 Lists have indefinite number of elements, tuples have specific number of
 elements and is coupled with the type of the tuple.  Or, the type of a tuple
 encodes its size.
