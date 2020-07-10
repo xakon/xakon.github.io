@@ -127,6 +127,11 @@ The Algorithm Design Manual, 2/e
    Springer, 2008  
    1848000693 / 978-1848000698  
 
+Algorithms in a Nutshell, 3/e
+   George Heineman, Gary Pollice, Stanley Selkow
+   O'Reilly, 2016
+   1491948922 / 978-1491948927
+
 The Connection Machine
    William Daniel Hillis  
    MIT Press, 1988  
