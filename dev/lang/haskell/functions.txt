@@ -44,10 +44,11 @@ In Haskell, functions are usually used in *prefix* notation.
 Using backticks, we can use a function in *infix* notation, as well.
 The operator `div` is the most common case.
 
-```haskell
+[source,Haskell]
+----
    10 `div` 4
    div 10 4
-```
+----
 
  - ($)	-- is the most "dummy" operator.  Its definition is:
    `f $ a = f a`
