@@ -139,7 +139,7 @@ The Connection Machine
 
 Algorithms to Live By: The Computer Science of Human Decisions  
    Brian Christian
-   <https://www.amazon.com/Algorithms-Live-Computer-Science-Decisions/dp/1627790365/ref=as_li_ss_tl>
+   <https://www.amazon.com/Algorithms-Live-Computer-Science-Decisions/dp/1627790365/>
 
 Numerical Recipes, 3e   
    http://numerical.recipes/
