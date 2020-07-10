@@ -174,9 +174,9 @@ The syntax of a 'Lambda Expression' is: `\ [params] -> [expression]`.
 Sections
 ~~~~~~~~
 
-Applicable to functions that accept 2 arguments, especially 'operators'.
+Applicable to 'operators' that accept 2 arguments.
 They are similar to 'partial functions' in Python.
-We can place in parentheses the operator/function and omit any of the 2 parameters,
+We can place in parentheses the 'operator' and omit any of the 2 parameters,
 which will be completed at run-time using currying.
 
 [source,haskell]
@@ -195,8 +195,8 @@ of simple but useful functions in a particularly compact way:
  - `(*2)`	is the doubling function
  - `(/2)`	is the halving function
 
-They are also necessary when stating the type of operators, and, finally,
-when using operators as arguments to other functions.
+They are also necessary when stating the type of 'operators', and, finally,
+when using 'operators' as arguments to other functions.
 
 `let` and `where`
 ~~~~~~~~~~~~~~~~~
