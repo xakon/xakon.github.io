@@ -36,6 +36,23 @@ Defining Functions
 The most straightforward way to define a new function is using the equation
 operator.
 
+We can define a function in terms of other functions.
+Alternatively, we can use 'guarded equations'.  They consiste of a sequence
+of logical expressions, called 'guards',
+Similarly, we might even use 'pattern matching' to define a 'function'.
+But, 'pattern matching' is more powerful than the 'guarded equations',
+even though the latter provide us with some flexibility, especially with ranges
+of values.
+
+Finally, a generic way to define a 'function', even without a name, is the
+'lambda expression'.  Their usage show how 'currying' actually works:
+
+[source,Haskell]
+----
+add :: Int -> (Int -> Int)
+add = \x -> \y -> x + y
+----
+
 Operators
 ~~~~~~~~~
 
