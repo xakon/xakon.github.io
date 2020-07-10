@@ -18,6 +18,11 @@ Modern C++ Design
    Andrei Alexandrescu
    Addison-Wesley, 2001
 
+C++ Concurrency in Action, 2/e
+   Anthony Williams
+   Manning, 2019
+   http://www.cplusplusconcurrencyinaction.com/
+
 #### Lisp
 
 The Art of the Metaobject Protocol
