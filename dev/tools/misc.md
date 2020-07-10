@@ -127,6 +127,10 @@ there can be alternatives, either for HTML pages or even in terminal!
    Terminal-based presentations using Pandoc.
  - [mdp](https://github.com/visit1985/mdp):
    Command-line, markdown-based presentation tool.
+ - [tpp](https://synflood.at/tpp.html):
+   A Ruby-based, command-line, markdown-based, presentation tool.
+ - [sent](https://tools.suckless.org/sent/):
+   X11 presentation tool, that works like _mdp_.
 
 Misc
 ----
