@@ -23,8 +23,8 @@ Apart from these types we can also have some specialized types, like `Int8`,
 `Int16`, `Int32`, found in separate packages (`GHC.Int`).
 Functions `maxBound` and `minBound` help to find out limits of integral numbers.
 
-Every 'type' starts with an uppercase letter.  'Polymorphic types' (or type classes)
-are distinguished by concrete types, because they start with a lowercase,
+Every 'type' starts with an uppercase letter.  'Polymorphic types' include one
+or more 'type variables', which start with a lowercase,
 exactly like any other identifier.  They are usually named `a`, `b`, `c`, etc.
 
 Lists have indefinite number of elements, tuples have specific number of
