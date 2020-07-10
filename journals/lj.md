@@ -9,3 +9,5 @@ Read Issues
 -----------
 
     288		2018 July	Deep Dive: git
+    300		2019 July	Command-Line
+      How To Expand Your Command-Line Scripting Options with Tcl
