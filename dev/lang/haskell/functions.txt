@@ -19,10 +19,10 @@ of arguments.  Haskell is optimized on working on curry functions, which they
 are mostly preferred in place of functions that work on tuples.
 
 'Polymorphic functions' are the same as generic functions of Java or template
-functions of C++.  They can operate on any type.  An example of a polymorphic
-function is `length`:  `length :: [a] -> Int`.
+functions of C++ or Rust.  They can operate on many types (polymorphic types).
+An example of a 'polymorphic function' is `length`:  `length :: [a] -> Int`.
 
-'Overloaded functions' are polymorphic functions with restricted type-classes.
+'Overloaded functions' are 'polymorphic functions' with restricted type-classes.
 For example, `sum :: Num a => [a] -> a`.
 
 'Higher-Order Functions' are called any function that takes as an argument or
