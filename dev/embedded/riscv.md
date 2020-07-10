@@ -15,3 +15,5 @@ Resources
  - [Debian](https://wiki.debian.org/RISC-V)
 
  - [HiFive Unleashed](https://www.sifive.com/boards/hifive-unleashed)
+
+ - [Adventures of OS: Making a RISC-V OS using Rust](http://osblog.stephenmarz.com/)
