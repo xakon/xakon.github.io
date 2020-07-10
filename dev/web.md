@@ -74,6 +74,25 @@ quicly implement some simple REST services using only
 [Nginx](http://nginx.org/) and [PostgreSQL](http://www.postgresql.org/):
 [Simple API with Nginx and PostreSQL](http://rny.io/nginx/postgresql/2013/07/26/simple-api-with-nginx-and-postgresql.html).
 
+
+### Design ###
+
+#### Health Check ####
+
+I recently read in an [article][health-check], that it is useful to add a
+dedicated URL in a Web application, to report the health of the system.
+Actually, it doesn't have to do a lot of things, maybe verify database
+connections are up and running and other similar services and return an empty
+page with `HTTP/200`.
+
+There is also a free service, [UptimeRobot](https://uptimerobot.com/), that
+regularly monitors Web sites by visiting this specific URL.  In the service
+itself we can see the uptime of the sites and receive email notifications in
+case a site is down.
+
+[health-check]:		https://nickjanetakis.com/blog/create-a-health-check-url-in-your-web-app-and-monitor-its-uptime
+
+
 ### URLs
 
 #### Queries
