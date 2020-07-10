@@ -92,6 +92,29 @@ case a site is down.
 
 [health-check]:		https://nickjanetakis.com/blog/create-a-health-check-url-in-your-web-app-and-monitor-its-uptime
 
+#### Well-Known ####
+
+The `/.well-known` URL path prefix is a reserved name space for serving
+particular static files used by other systems that might interact with a site.
+It was established by [RFC 5785](https://tools.ietf.org/html/rfc5785) and
+updated in [RFC-8615](https://tools.ietf.org/html/rfc8615).  IANA maintains a
+list of possible files in the [Well Known URIs registry][iana-well-known].
+
+Some examples are:
+
+ - `/.well-known/acme-challenge`:  used by Let's Encrypt and ACME protocol.
+ - `/.well-known/apple-app-site-association`:  allow links to open an iOS app.
+ - `/.well-knwon/assentlinks.json`:  links to open on Android phones.
+ - `/.well-knwon/security.txt`:  host company's security policy.
+
+Nick Janetackis also has an example of similar URLs:
+
+ - `/terms`:  list the conditions of using the site
+ - `/privacy`:  security-related information for the site
+ - `/healthy`:  self-checks for the uptime of a site
+
+[iana-well-known]:	https://www.iana.org/assignments/well-known-uris/well-known-uris.xhtml
+
 
 ### URLs
 
