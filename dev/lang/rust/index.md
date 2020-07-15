@@ -27,6 +27,7 @@ Resources
  - [Secure Rust Guidelines](https://anssi-fr.github.io/rust-guide/)
  - [Writing Interpreters in Rust](https://rust-hosted-langs.github.io/book/)
  - [Futures Explained in 200 lines of Rust](https://cfsamson.github.io/books-futures-explained/)
+ - [The embedonomicon](https://rust-embedded.github.io/embedonomicon/)
 
 ### Online Resources
 
