@@ -17,3 +17,10 @@ Books
 -----
 
  - [Professional CMake, 5/e](https://crascit.com/professional-cmake/)
+
+
+Resources
+---------
+
+ - [CMake Resources](embeddeduse.com/cmake/):
+   A collection of books, articles, videos, tutorials on CMake.
