@@ -98,7 +98,12 @@ purpose.  Some alternatives are:
 
  - [Fuzix OS](http://www.fuzix.org/)
 
- - [Zephyr Project](https://www.zephyrproject.org/)
+ - [Zephyr Project](https://www.zephyrproject.org/):
+   An RTOS under the Linux Foundation organization, mostly open-source using
+   Apache 2.0 license, it aims many different processors, but especially low-end
+   models, without the requirement of an MMU.  It comes with a complete
+   toolchain, support for many architectures, `Kconfig`, and many other nice
+   things.
 
  - [Tock](https://www.tockos.org/):
    A secure Operating System for embedded devices, low on memory and low on
