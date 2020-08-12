@@ -35,6 +35,16 @@ Platforms
  - http://hackage.haskell.org/platform/[Haskell Platform]:
    Old way of installing a full Haskell environment.
 
+==== Compilers ====
+
+The de-facto standard compiler is GHC.  The rest are still valid, but less often
+used in production.
+
+ - http://www.haskell.org/ghc/[GHC]:  the most popular way to work in the Haskell language.
+ - https://wiki.haskell.org/Hugs[HUGS (Haskell User's Gofer System)]
+ - https://github.com/UU-ComputerScience/uhc[UHC (Utrecht Haskell Compiler)]
+ - https://github.com/Lemmih/lhc[LHC (LLVM Haskell Compiler)]
+
 Tools
 ~~~~~
 
