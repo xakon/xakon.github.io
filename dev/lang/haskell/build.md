@@ -7,6 +7,13 @@ alternatives.  To try to shade a bit this ecosystem, and inspired by the
 [this article][kowainik], I will document a few things about Haskell build
 systems and available options and terms.
 
+Also, the article [Setting Up Haskeel Development Environment][toolchain-article]
+has an extensive description about what an _Haskell Toolchain_ is, which tools
+are included, how to install and configure it, and some potentials and
+misleading mistakes in official documentation.
+
+[toolchain-article]:	https://schooloffp.co/2020/07/25/setting-up-haskell-development-environment-the-basics.html
+
 
 Cabal
 -----
