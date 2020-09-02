@@ -68,6 +68,9 @@ Some useful libraries for embedded systems.
    O'Reilly, 2011
    Elecia White
 
+ o [Embedded Systems Security and TrustZone](https://embeddedsecurity.io/):
+   A free, online book on security for embedded systems.
+
 
 ## Videos
 
