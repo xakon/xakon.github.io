@@ -117,20 +117,6 @@ Some tools to create/manipulate DjVu documents can be:
  - `convert` from Imagemagick to convert JPEG images to PBM or PNM.
  - `cjb2` and `c44` to create single-page DjVu files
 
-Presentations
--------------
-
-Even though we consider that a presentation should be a graphical application,
-there can be alternatives, either for HTML pages or even in terminal!
-
- - [patat](https://github.com/jaspervdj/patat):
-   Terminal-based presentations using Pandoc.
- - [mdp](https://github.com/visit1985/mdp):
-   Command-line, markdown-based presentation tool.
- - [tpp](https://synflood.at/tpp.html):
-   A Ruby-based, command-line, markdown-based, presentation tool.
- - [sent](https://tools.suckless.org/sent/):
-   X11 presentation tool, that works like _mdp_.
 
 Misc
 ----
