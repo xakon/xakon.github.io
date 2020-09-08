@@ -34,6 +34,11 @@ Resources
  - [Django for Beginners](http://djangoforbeginners.com/):
    Online book with some chapters free.  Demos of sample Django applications.
 
+ - [Django ORM if you already know SQL](https://dev.to/amitness/django-orm-if-you-already-know-sql-k80):
+   A practical reference of SQL and Django ORM queries.  Especially useful,
+   as I always forget which Django constructs are necessary to create
+   an equivalent SQL query.
+
 
 Applications
 ------------
