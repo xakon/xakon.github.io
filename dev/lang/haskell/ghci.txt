@@ -50,6 +50,13 @@ Change its prompt (by default it's `Prelude>` with:
    :set prompt "λ> "
 
 
+The configuration of GHCi can be saved in one of the following locations (all of
+them will be read in this order):
+
+   ./.ghci
+   $HOME/.ghc/ghci.conf
+   $HOME/.ghci
+
 In this useful post from Chris Done,
 https://chrisdone.com/posts/making-ghci-fast/[Making GHCi scale better and faster],
 some options are mentioned for GHCi to load faster with a lot of modules enabled,
