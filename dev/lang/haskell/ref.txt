@@ -3,6 +3,12 @@ Reference
 
 These functions belong in The Standard Prelude.  I keep a short reference here.
 
+Modules
+~~~~~~~
+
+ - `System.Environment`		- access command-line args, environment variables
+ - `System.Exit`		- terminate program
+
 Classes
 ~~~~~~~
 
