@@ -45,6 +45,11 @@ Resources
  - Eloquent JavaScript, 3/e  
    http://eloquentjavascript.net/
 
+ - JavaScript for Data Science  
+   Maya Gans, Toby Hodges, Greg Wilson  
+   CRC Press  
+   https://js4ds.org/
+
 
 ### Sites
 
