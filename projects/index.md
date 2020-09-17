@@ -162,6 +162,7 @@ Some other ideas for projects can be found at <https://github.com/karan/Projects
  - <http://codingdojo.org/kata>
  - [Code Katas](http://www.codekatas.org/)
  - [CodeKata](http://codekata.com/)
+ - [Cyber Dojo](https://cyber-dojo.org/)
 
 
 ### Challenges
