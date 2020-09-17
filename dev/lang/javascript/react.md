@@ -23,6 +23,19 @@ Here is a small list of tutorials and starting points to the framework:
  - [Getting Started with Redux](https://egghead.io/courses/getting-started-with-redux)
 
 
+Resources
+---------
+
+### Testing ###
+
+Some useful tools for testing React applications/components are:
+
+ - [Jest](https://jestjs.io/)
+ - [React Testing Library](https://testing-library.com/)
+ - [Enzyme](https://enzymejs.github.io/enzyme/)
+ - [Puppeteer](https://developers.google.com/web/tools/puppeteer)
+
+
 Notes
 -----
 
