@@ -68,6 +68,11 @@ Web Development
    that you can drop in your directory.
 
 
+### Resources ###
+
+ - [Mono Icons](https://icons.mono.company/)
+
+
 ### REST
 
 These days RESTful services are very common on Web and mobile applications.
