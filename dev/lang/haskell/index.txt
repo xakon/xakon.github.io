@@ -92,6 +92,7 @@ Books
  - https://www.haskell.org/tutorial/[Gentle Introduction to Haskell 98]
  - https://www.vacationlabs.com/haskell/[Haskell without the theory]
  - https://www.manning.com/books/haskell-in-depth[Haskell in Depth]
+ - https://simonmar.github.io/pages/pcph.html[Parallel and Concurrent Programming in Haskell]
  - Haskell 98 Report (Cambridge Press)
 
 Courses
