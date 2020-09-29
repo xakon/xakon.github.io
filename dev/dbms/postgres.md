@@ -11,6 +11,7 @@ Resources
  - [PostgreSQL Exercises](http://pgexercises.com/)
  - [The Internals of PostgreSQL](http://www.interdb.jp/pg/)
  - [My GOTO Postgres Configuration for Web Services][web-config]
+ - [Postgres Tips and Tricks](https://pgdash.io/blog/postgres-tips-and-tricks.html)
 
 
 [web-config]:	https://tightlycoupled.io/my-goto-postgres-configuration-for-web-services/
