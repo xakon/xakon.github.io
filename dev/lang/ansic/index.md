@@ -15,6 +15,9 @@ Resources
  - [Project-based Tutorials in C](https://github.com/rby90/Project-Based-Tutorials-in-C):
    A curated list of project-based tutorials in C.
    Pick one of them, follow it and learn something new using ANSI C!
+ - [System Programming Wiki](https://github.com/angrave/SystemProgramming/wiki):
+   ANSI C is used as the main language for system's programming, therefore there
+   is an extensive section dedicated to the language.
 
 
 Books
