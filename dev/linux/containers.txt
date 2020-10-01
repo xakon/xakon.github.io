@@ -28,6 +28,10 @@ Terms
    A runtime _container_ is defined by the _OCI run spec_.
 
  - _Container Registry_:
+   Also known as _Image Registry_.  A place where _container images_ are stored
+   for distribution to _container runtime engines_, like +Docker+ or +Podman+.
+   There are many official and public registries, but we can build and use
+   private ones, as well.
 
 
 Resources
@@ -55,6 +59,9 @@ Some of them are mentioned here.
 
  - https://opensource.com/article/18/12/podman-and-user-namespaces[Podman and
    user namespaces]
+
+ - https://www.redhat.com/sysadmin/simple-container-registry[How to implement a
+   simple personal/private Linux container image registry]
 
 
 Tools
@@ -144,6 +151,23 @@ by the above, higher-level, user-friendly tools.  Some of them are:
  - +rkt+
  - +kata+
 
+
+Formats
+-------
+
+Image Registry
+~~~~~~~~~~~~~~
+
+An _image registry_ needs 3 directories:
+
+ - `auth`:   stores the `htpasswd` file for authentication
+ - `certs`:  certificates for authentication
+ - `data`:   actual images hosted in this registry
+
+The `htpasswd` file can be created with the `htpasswd` utility.
+With `openssl(1)` we can create a self-signed certificate.
+
+The _registry_ is beeing exposed by a Web server at port `5000`.
 
 
 ////
