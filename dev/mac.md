@@ -12,6 +12,9 @@ but different names:
  - `say`
  - `diskutil`
  - `brew`
+ - [DevUtils.app](https://devutils.app/):
+   A GUI collection of simple conversions, useful for developers.
+   Most of these can be done using command-line tools, though.
 
 
 Links
