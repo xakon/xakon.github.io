@@ -1,0 +1,15 @@
+Lisp Flavoured Erlang
+=====================
+
+If http://www.erlang.org/[Erlang] is too difficult to comprehend its syntax
+(or too ugly), then https://lfe.io/[LFE] is one Lisp-based dialect that runs on
+top of the Erlang VM.
+
+
+Resources
+---------
+
+ - http://docs.lfe.io/current/index.html[Documentation]
+
+
+-- vim: set filetype=asciidoc:
