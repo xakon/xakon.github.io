@@ -51,6 +51,7 @@ Apress, 2016
  - [Common Lisp Style Guide](https://lisp-lang.org/style-guide/)
  - [Articulate Common Lisp](http://articulate-lisp.com/):
    Plenty of resources and guides about Common Lisp.
+ - [Common Lisp Resources](https://lisp-journey.gitlab.io/resources/)
 
 
 ### Libraries/Tools
