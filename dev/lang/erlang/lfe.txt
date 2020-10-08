@@ -12,4 +12,11 @@ Resources
  - http://docs.lfe.io/current/index.html[Documentation]
 
 
+Tutorials
+~~~~~~~~~
+
+ - [Casting SPELs in LFE](https://lfe.io/books/casting-spels/):
+   A tutorial in the form of a comic book, adaptation of the Common Lisp edition.
+
+
 -- vim: set filetype=asciidoc:

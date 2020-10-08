@@ -14,6 +14,16 @@ Here is a template for creating new functions:
 	 function-body...)
 ```
 
+
+Resources
+---------
+
+### Tutorials ###
+
+ - [Casting SPELs in LISP](http://www.lisperati.com/casting-spels-emacs/html/casting-spels-emacs-1.html):
+   A tutorial in the form of a comic book, adaptation of the Common Lisp edition.
+
+
 Reference
 ---------
 

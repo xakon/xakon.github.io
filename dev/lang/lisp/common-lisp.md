@@ -35,6 +35,8 @@ Apress, 2016
  - [Learn Lisp the Hard Way](http://learnlispthehardway.org/)
  - The Art of the Metaobject Protocol
  - [The Common Lisp Cookbook][cl-cookbook]
+ - [Casting SPELs in LISP](http://www.lisperati.com/casting.html):
+   A tutorial in the form of a comic book.
 
 ### Online Communities/Resources
 
