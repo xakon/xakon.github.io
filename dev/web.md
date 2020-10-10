@@ -34,6 +34,14 @@ Web Development
    Single-Page Application.  It works with many frameworks, but also with
    static sites.
 
+ * [Playwright](https://github.com/microsoft/playwright-python):
+   An alternative to [Selenium](https://www.selenium.dev/) to test web
+   application in the browser.  Implemented by Microsoft, it promises faster
+   and easier integration with the most popular browsers.  It integrates with
+   [pytest](http://pytest.org/) and [Django](https://www.djangoproject.com/).
+   There are also versions for [JavaScript](https://github.com/microsoft/playwright)
+   and potentially for other languages.
+
 
 ### Frameworks
 
