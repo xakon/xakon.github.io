@@ -3,66 +3,66 @@ Web Development
 
 ### Tools
 
-   * [BSD, C, http, SQLite (BCHS)](https://learnbchs.org/):
-     An alternative stack for Web applications, based mainly on OpenBSD and
-     simple tools.
+ * [BSD, C, http, SQLite (BCHS)](https://learnbchs.org/):
+   An alternative stack for Web applications, based mainly on OpenBSD and
+   simple tools.
 
-   * [Pingdom Website Speed Test](https://tools.pingdom.com/):
-     It measures the speed of a Web page and recommends some solutions.
+ * [Pingdom Website Speed Test](https://tools.pingdom.com/):
+   It measures the speed of a Web page and recommends some solutions.
 
-   * [Selenium](http://seleniumhq.org/)
-     Software testing framework for web applications.
+ * [Selenium](http://seleniumhq.org/)
+   Software testing framework for web applications.
 
-   * [No Design Development](https://nodesign.dev/):
-     A collection of resources and auto-generated art/design for Web sites, for
-     developers that have little to no artistic talent.
+ * [No Design Development](https://nodesign.dev/):
+   A collection of resources and auto-generated art/design for Web sites, for
+   developers that have little to no artistic talent.
 
-   * Abduction (Firefox Extension)
-     Screenshots of Web pages
+ * Abduction (Firefox Extension)
+   Screenshots of Web pages
 
-   * [Varnish](https://www.varnish-cache.org/): "Web Accelerator" which a
-     sysadmin can use to speed a website.  It can cache certain static
-     elements, such as images or javascript, but one can also use it for
-     other purposes such as Load Balancing or some additional security.
+ * [Varnish](https://www.varnish-cache.org/): "Web Accelerator" which a
+   sysadmin can use to speed a website.  It can cache certain static
+   elements, such as images or javascript, but one can also use it for
+   other purposes such as Load Balancing or some additional security.
 
-   * [G-WAN Web Server](http://gwan.com/):
-     The fastest web server ever!
+ * [G-WAN Web Server](http://gwan.com/):
+   The fastest web server ever!
 
-   * [Turbolinks](https://github.com/turbolinks/turbolinks):
-     A JavaScript library that makes navigating a Web application faster.
-     It gives to the user the impression that a server-rendered application is a
-     Single-Page Application.  It works with many frameworks, but also with
-     static sites.
+ * [Turbolinks](https://github.com/turbolinks/turbolinks):
+   A JavaScript library that makes navigating a Web application faster.
+   It gives to the user the impression that a server-rendered application is a
+   Single-Page Application.  It works with many frameworks, but also with
+   static sites.
 
 
 ### Frameworks
 
-   * [webalchemy](https://github.com/skariel/webalchemy):
-     Realtime, Pythonic web framework.
+ * [webalchemy](https://github.com/skariel/webalchemy):
+   Realtime, Pythonic web framework.
 
-   * [verlure](https://github.com/bbangert/velruse):
-     Simplifying third-party authentication for web applications.
+ * [verlure](https://github.com/bbangert/velruse):
+   Simplifying third-party authentication for web applications.
 
-   * [Piwik](http://piwik.org/): An alternative to Google's Analytics,
-     running locally on the deployed web server.  There is also a handfull
-     [demo](http://demo.piwik.org/).
+ * [Piwik](http://piwik.org/): An alternative to Google's Analytics,
+   running locally on the deployed web server.  There is also a handfull
+   [demo](http://demo.piwik.org/).
 
-   * [django-tastypie](http://tastypieapi.org/):
-     Webservice API framework for Django. It provides a convenient, yet
-     powerful and highly customizable abstraction for creating REST-style
-     interfaces.
+ * [django-tastypie](http://tastypieapi.org/):
+   Webservice API framework for Django. It provides a convenient, yet
+   powerful and highly customizable abstraction for creating REST-style
+   interfaces.
 
-   * [flask-restful](https://github.com/twilio/flask-restful):
-     Simple framework for creating REST APIs.
+ * [flask-restful](https://github.com/twilio/flask-restful):
+   Simple framework for creating REST APIs.
 
-   * [flask-foundation](https://github.com/JackStouffer/Flask-Foundation):
-     A solid foundation for web application.
+ * [flask-foundation](https://github.com/JackStouffer/Flask-Foundation):
+   A solid foundation for web application.
 
-   * [flask-slither](http://github.com/gevious/flask_slither):
+ * [flask-slither](http://github.com/gevious/flask_slither):
    A small library between MongoDB and JSON API endpoints.
 
 
-   * [Bottle](http://bottlepy.org/):
+ * [Bottle](http://bottlepy.org/):
    A fast, simple and lightweight WSGI micro web-framework.  Build small
    websites and REST APIs in seconds.  All the framework is just one `.py` file
    that you can drop in your directory.
