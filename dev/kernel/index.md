@@ -65,6 +65,7 @@ Resources
  - [Linux From Scratch (LFS)](http://www.linuxfromscratch.org)
  - <http://www.win.tue.nl/~aeb/linux/>
  - [Write Your Own OS](http://mikeos.berlios.de/write-your-own-os.html)
+ - [Linux Insides](https://0xax.gitbooks.io/linux-insides/)
  - [Debugging a kernel crash](https://vegardno.blogspot.nl/2016/08/sync-debug.html)
  - [Getting Started with ftrace](https://jvns.ca/blog/2017/03/19/getting-started-with-ftrace/)
  - [Debugging the kernel using ftrace - part 1](https://lwn.net/Articles/365835/)
