@@ -16,3 +16,6 @@ Some tools I can use for graphical or command-line presentations.
    A Ruby-based, command-line, markdown-based, presentation tool.
  - [sent](https://tools.suckless.org/sent/):
    X11 presentation tool, that works like _mdp_.
+ - [Racket Slideshow](https://docs.racket-lang.org/slideshow/):
+   An alternative approach for Browser-based presentations, using a Racket
+   package.
