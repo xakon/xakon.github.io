@@ -40,6 +40,12 @@ Themes:			[Hugo Themes Site](http://themes.gohugo.io/)
 Details:		Many themes
 Reference:		<http://arslan.io/2017/11/30/notes-about-migrating-to-hugo/>
 
+### Blades ###
+
+Official Site:		<https://www.getblades.org/>
+Platform:		[Rust][rust]
+Themes:			[Themes](https://www.getblades.org/themes/)
+Details:		Blazingly fast, but also primitive in features.
 
 ### Urubu ###
 
