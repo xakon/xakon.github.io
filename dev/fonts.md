@@ -44,6 +44,10 @@ Catalogue
    the fonts, as well.
  - [JetBranis Mono](https://www.jetbrains.com/lp/mono/):
    A font for developers from a Software House!
+ - [JuliaMono](https://juliamono.netlify.app/):
+   A monospace font with many weights, languages, and ligatures.
+   It was made to support programming in Julia and scientific programming in
+   general.
 
 More fonts can be found and tested at <http://programmingfonts.org>
 
@@ -77,6 +81,7 @@ Monospace
  - Fira Mono
  - Droid Sans Mono
  - DejaVu Sans Mono
+ - [JuliaMono](https://juliamono.netlify.app/)
 
 
 Math Fonts
