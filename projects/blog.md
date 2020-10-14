@@ -40,6 +40,13 @@ Themes:			[Hugo Themes Site](http://themes.gohugo.io/)
 Details:		Many themes
 Reference:		<http://arslan.io/2017/11/30/notes-about-migrating-to-hugo/>
 
+### Zola ###
+
+Official Site:		<https://www.getzola.org/>
+Platform:		[Rust][rust]
+Themes:			[Themes](https://www.getzola.org/themes/)
+Details:		Blazingly fast, competitor of _Hugo_.
+
 ### Blades ###
 
 Official Site:		<https://www.getblades.org/>
