@@ -67,6 +67,8 @@ An example of searching for some files and processing the output list is:
 
 ### References
 
+ - [The Unix Heritage Society](https://www.tuhs.org/):
+   Sources and manuals of old and legacy UNIX versions.
  - [The Art of UNIX Programming][taoup]:
    Reformatted page of the online version of famous, inspiring book,
    by Eric S. Raymond.  The original work can be found at:
