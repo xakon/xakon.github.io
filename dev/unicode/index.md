@@ -12,3 +12,10 @@ Resources
 
 
  [encoding]:	http://kunststube.net/encoding/
+
+
+### Online Books ###
+
+ - [Programming with Unicode](https://unicodebook.readthedocs.io/):
+   A lot of information about Unicode and programming with Unicode texts in
+   various languages and Operating Systems.
