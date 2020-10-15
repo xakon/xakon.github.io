@@ -69,6 +69,10 @@ An example of searching for some files and processing the output list is:
 
  - [The Unix Heritage Society](https://www.tuhs.org/):
    Sources and manuals of old and legacy UNIX versions.
+ - [xv6](https://pdos.csail.mit.edu/6.828/2020/xv6.html):
+   A small reimplementation of UNIX V6, for educational purposes, which runs on
+   Intel x86 architecture.
+   It can be found also at <https://pdos.csail.mit.edu/6.828/2012/xv6.html>.
  - [The Art of UNIX Programming][taoup]:
    Reformatted page of the online version of famous, inspiring book,
    by Eric S. Raymond.  The original work can be found at:
