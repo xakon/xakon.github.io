@@ -21,3 +21,8 @@ Command-Line
    Go configuration and command-line arguments support.
  - [cobra](https://github.com/spf13/cobra):
    Build powerful command-line applications.
+ - [Bubble Tea](https://github.com/charmbracelet/bubbletea):
+   The fun, functional and stateful way to build terminal apps. A Go framework
+   based on [The Elm Architecture](https://guide.elm-lang.org/architecture/).
+   Bubble Tea is well-suited for simple and complex terminal applications,
+   either inline, full-window, or a mix of both.
