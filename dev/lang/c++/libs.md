@@ -68,6 +68,10 @@ Here is a list of industry-based, strong-supported libraries:
    A single-header testing framework for unit tests and TDD.
    It lets you define your own main functions and comes with support for BDD.
 
+ - [crux](https://crux.galois.com/):
+   A property-based tester, that uses **symbolic testing**, to find and isolate
+   problems in the codebase.  It supports both C/C++ and Rust.
+
 
 ### Web Frameworks ###
 
