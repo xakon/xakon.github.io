@@ -75,6 +75,23 @@ positions x xs = [i | (x', i) <- zip xs [0..], x == x']
 ----
 
 
+Counter
+~~~~~~~
+
+Another nice utility from Python's standard-library, the +collections.Counter+
+class, can be implemented using a +Data.Map+ in Haskell:
+
+[source,haskell]
+----
+import Data.Map as M
+
+counts = M.unionsWith (+) . fmap (\w -> M.singleton w 1)
+
+-- An examples usage might be:
+word_counts = counts $ words str
+----
+
+
 Combinations
 ~~~~~~~~~~~~
 
