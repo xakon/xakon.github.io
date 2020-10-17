@@ -75,6 +75,30 @@ positions x xs = [i | (x', i) <- zip xs [0..], x == x']
 ----
 
 
+Combinations
+~~~~~~~~~~~~
+
+Creating the _combinations_ or the _permutations_ of a list is a common task to
+encounter when solving algorithm problems.  In Python, we can find both of them
+in the +itertools+ module.  In Haskell, there is nothing in the standard
+library.  Since it is always interesting and useful to know how to calculate
+these sets, I will copy a recursive solution I found in the following article:
+https://chrispenner.ca/posts/interview[Silly job interview questions in Haskell].
+
+[source,haskell]
+----
+-- No combinations for empty lists or 0 elements.
+-- Otherwise, get all combinations containing x by appending x to all (n-1)
+-- combinations of the rest of the list, and then combine it with all
+-- combinations from the rest of the list
+combinations :: Int -> [a] -> [[a]]
+combinations 0 _ = [[]]
+combinations _ [] = []
+combinations n (x:xs) =
+   fmap (x:) (combinations (n-1) xs) <> combinations n xs
+----
+
+
 Sieve of Eratosthenes
 ~~~~~~~~~~~~~~~~~~~~~
 
