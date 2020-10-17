@@ -22,6 +22,8 @@ name of the macro is `std::fmt::print!`.
    eprintln!		| Print formatted text to STDERR with newline appended
    write!		| Like `format!`, but text is written into buffer
    writeln!		| Like `println!`, but text is written into stream
+   todo!()              | Indicate unfinished code, which panics
+   unimplemented!()     | Indicate unimplemented code, which panics
    dbg!()		| Print expression in STDERR & return it
 			|
    cfg!			| Conditional compilation (see also `#[cfg()]` attribute)
