@@ -191,6 +191,11 @@ your natural language features automatically.  Cucumber defines a new language,
 which is more suitable for BDD, and provides the tools for validating the
 specified behaviors.  It is implemented in Ruby.
 
+The language used to describe BDD scenarios is called
+[Gherkin](https://cucumber.io/docs/gherkin/) and can support many clauses.
+There is an online company that offers some BDD-related courses at
+[Cucumber | School](https://school.cucumber.io/).
+
 
 Testing
 -------
