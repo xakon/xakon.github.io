@@ -40,3 +40,17 @@ Here how I can install it on older Ubuntu systems:
 Also, have a look at the article: [Install Vim 8.0 on Ubuntu][3]:
 
 [3]:	http://tipsonubuntu.com/2016/09/13/vim-8-0-released-install-ubuntu-16-04/
+
+
+### Vim Native Package Manager ###
+
+Vim 8 has an included Package Manager that works like this:
+
+ - Any directories found inside the `~/.vim/pack/$name/start` will be included
+   upon startup.  The `$name` can be anything, usually people name it `vendor`,
+   but it could be `colorscheme`, `syntax`, or anything else.
+
+ - If plugins are found at ~/.vim/pack/$name/opt`, they can be loaded only
+   during runtime, with the command:
+
+    :packadd plugin-name
