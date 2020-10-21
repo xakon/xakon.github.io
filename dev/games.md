@@ -19,6 +19,9 @@ Frameworks
 Articles
 --------
 
+ - [BBC Micro Elite source code](https://www.bbcelite.com/):
+   The original code for Elite on the BBC Micro, fully documented, with extra
+   dive-in articles.
  - [How to create 2D visibility/shadow effects for your game][shadow-effects]
  - [Red Blob Games][redblob]
 
