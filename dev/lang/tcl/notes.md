@@ -46,7 +46,9 @@ The _assignment command_ is `set`.  It returns the first argument,
 and if a second one exists, it assigns it to the first one.
 
 We can take the value of a _variable_ by prefixing the _variable name_ with a
-dollar sign (`$`).
+dollar sign (`$`).  Otherwise, without the `$`, we get the reference of the
+variable.  Some _commands_, like `set` for example, need the _reference_ of a
+_variable_ in order to alter its value.
 
 
 Commands
