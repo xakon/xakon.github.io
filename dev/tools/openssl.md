@@ -28,6 +28,12 @@ Some examples that may be proved to be educational in the future.
     openssl s_client -connect google.com:443
   and for expiring dates::
     openssl s_client -connect google.com:443 | openssl x509 -dates -noout
+  More information can be found at `s_client(1SSL)`.
+
+- Verify local (PEM) certificate::
+    openssl x509 -enddate -noout -in cert.pem
+    openssl x509 -enddate -noout -in cert.pem -checkend 604800    # expire? in 7 days
+  More information can be found at `x509(1SSL)`.
 
 - Extract information from certificate::
     openssl x509 -text -in cert.pem		# full breadth of info
