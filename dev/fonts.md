@@ -48,6 +48,10 @@ Catalogue
    A monospace font with many weights, languages, and ligatures.
    It was made to support programming in Julia and scientific programming in
    general.
+ - [Atkinson Hyperlegible Font](https://www.brailleinstitute.org/freefont):
+   A typeface that offers greater legibility and readability for low vision
+   readers.  From the [Braille Institute](https://www.brailleinstitute.org/).
+   That says a lot!
 
 More fonts can be found and tested at <http://programmingfonts.org>
 
