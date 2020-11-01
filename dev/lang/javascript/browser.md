@@ -20,3 +20,27 @@ plenty of guides.
 
 Many tips and explanations can be found in the article
 [Hidden Features of Chrome DevTools](https://martinheinz.dev/blog/33).
+
+
+### Storage ###
+
+There are many places where an application can save data, all of them with some
+cons and pros:
+
+#### `localStorage` API ####
+
+The `localStorage` API is the most popular storage option  The data is stored
+across sessions, never shared with the server, available for all pages under the
+same protocol and domain, limited to ~5MB.
+
+It blocks the main thread, as all the functions are synchronous, so the Chrome
+developers don't recommend it.
+
+Essentially, it is a key-value store, where both keys and values are only UTF-16
+strings.
+
+The functions available through this API are:
+
+ - `window.localStorage.setItem('key', 'value')`
+ - `window.localStorage.getItem('key')`
+ - `window.localStorage.removeItem('key')`
