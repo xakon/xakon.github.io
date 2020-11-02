@@ -40,3 +40,17 @@ Ansible to deploy static Web sites using NGINX.  The article can be found
 
 [redhat/deploy-static-sites]:	https://www.redhat.com/sysadmin/deploying-static-website-ansible
 [github/deploy-static-sites]:	https://github.com/acritelli/enable-sysadmin-webserver
+
+
+Playbooks
+---------
+
+The sections of an _Ansible Playbook_ could be:
+
+ - `name`
+ - `hosts`
+ - `vars`
+ - `tasks`
+
+Of course, the main power is the `tasks` section, but the other sections can be
+helpful, as well.
