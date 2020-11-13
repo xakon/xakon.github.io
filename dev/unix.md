@@ -7,6 +7,13 @@ Some standards and more info about them:
    POSIX, SUS, IETF, W3C, OMG
 
 
+### Resources ###
+
+ - [The Open Group Base Specifications, Issue 7, 2018 Edition](https://pubs.opengroup.org/onlinepubs/9699919799/):
+   The official POSIX specification, now hosted by
+   [The Open Group](https://www.opengroup.org/).
+
+
 ## Unix as IDE
 
 In an [interesting article](http://blog.sanctum.geek.nz/series/unix-as-ide/)
