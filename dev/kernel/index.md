@@ -62,6 +62,7 @@ Utilities
 Resources
 ---------
 
+ - [Linux kernel user's and administrator's guide](https://www.kernel.org/doc/html/latest/admin-guide/)
  - [Linux From Scratch (LFS)](http://www.linuxfromscratch.org)
  - <http://www.win.tue.nl/~aeb/linux/>
  - [Write Your Own OS](http://mikeos.berlios.de/write-your-own-os.html)
