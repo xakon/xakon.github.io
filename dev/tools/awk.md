@@ -8,6 +8,7 @@ a few hours), there are still some corner cases I always forget.
 References
 ----------
 
+ - [Resources for AWK](http://www.awklang.org/)
  - [Awk Tutorial](https://blog.jpalardy.com/posts/why-learn-awk/):
    A nice, concise tutorial on AWK in 5 parts.
 
