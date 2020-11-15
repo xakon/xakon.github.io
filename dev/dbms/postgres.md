@@ -10,6 +10,7 @@ Resources
  - [PostgreSQL](https://www.postgresql.org/)
  - [PostgreSQL Exercises](http://pgexercises.com/)
  - [The Internals of PostgreSQL](http://www.interdb.jp/pg/)
+ - [Postgres Observability](https://pgstats.dev/)
  - [My GOTO Postgres Configuration for Web Services][web-config]
  - [Postgres Tips and Tricks](https://pgdash.io/blog/postgres-tips-and-tricks.html)
 
