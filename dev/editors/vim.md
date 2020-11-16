@@ -1,6 +1,12 @@
 Vim
 ===
 
+Resources
+---------
+
+ - [Vim Cheat Sheet](https://vim.rtorr.com/)
+
+
 ### Colorschemes
 
 <http://ivy.galaxy.my/2015/04/17/some-great-modern-vim-colorschemes/>
