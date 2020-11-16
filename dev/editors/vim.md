@@ -4,6 +4,7 @@ Vim
 Resources
 ---------
 
+ - [Home Site](https://www.vim.org/)
  - [Vim Cheat Sheet](https://vim.rtorr.com/)
 
 
