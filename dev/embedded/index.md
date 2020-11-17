@@ -30,6 +30,10 @@ Embedded Development
    A huge collection of documentation, resources, libraries, related to Embedded
    Programming using [Rust](https://www.rust-lang.org/).
 
+ o [Open On-Chip Debugger (openocd)](http://openocd.org/):
+   Free and Open On-Chip Debugging, In-System Programming and Boundary-Scan Testing.
+   Recommended as a must-have tool for modern debugging on on-chip software.
+
 
 ## Libraries
 
