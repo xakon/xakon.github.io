@@ -5,6 +5,8 @@ Resources
 ---------
 
  - [Home Site](https://www.vim.org/)
+ - [Vim User Manual](http://www.eandem.co.uk/mrw/vim/usr_doc/):
+   In PDF formats with different styles.
  - [Vim Cheat Sheet](https://vim.rtorr.com/)
  - [Vim Coobook](http://www.oualline.com/vim-cook.html) by Steve Qualline
 
