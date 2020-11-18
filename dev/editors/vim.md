@@ -6,6 +6,7 @@ Resources
 
  - [Home Site](https://www.vim.org/)
  - [Vim Cheat Sheet](https://vim.rtorr.com/)
+ - [Vim Coobook](http://www.oualline.com/vim-cook.html) by Steve Qualline
 
 
 ### Colorschemes
