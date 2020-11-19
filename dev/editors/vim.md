@@ -8,6 +8,7 @@ Resources
  - [Vim User Manual](http://www.eandem.co.uk/mrw/vim/usr_doc/):
    In PDF formats with different styles.
  - [Vim Cheat Sheet](https://vim.rtorr.com/)
+ - [The Vim Book](http://www.truth.sk/vim/vimbook-OPL.pdf)
  - [Vim Coobook](http://www.oualline.com/vim-cook.html) by Steve Qualline
 
 
