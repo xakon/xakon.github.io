@@ -23,6 +23,7 @@ Resources
  - [rustdoc Book](https://doc.rust-lang.org/rustdoc/)
  - [The Rustonomicon Book](https://doc.rust-lang.org/nomicon/)
  - [The Rust Reference Book](https://doc.rust-lang.org/reference/)
+ - [The Rust Performance Book](https://nnethercote.github.io/perf-book/)
  - [Rust API Guidelines](https://rust-lang.github.io/api-guidelines/)
  - [Secure Rust Guidelines](https://anssi-fr.github.io/rust-guide/)
  - [Writing Interpreters in Rust](https://rust-hosted-langs.github.io/book/)
