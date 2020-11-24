@@ -105,6 +105,8 @@ Style
 Libraries
 ---------
 
+ - [inih (INI Not Invented Here)](https://github.com/benhoyt/inih):
+   Read `.ini` files.
  - [OpenMP (Open Multi-Processing)](http://www.openmp.org):
    Powerful HPC library, but also rather useful for small, C programs, that
    could easily parallelized.
