@@ -5,6 +5,7 @@ Resources
 ---------
 
  - [Home Site](https://www.vim.org/)
+ - [Vim help files](https://vimhelp.org/) (in HTML)
  - [Vim User Manual](http://www.eandem.co.uk/mrw/vim/usr_doc/):
    In PDF formats with different styles.
  - [Vim Cheat Sheet](https://vim.rtorr.com/)
