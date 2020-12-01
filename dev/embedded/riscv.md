@@ -16,4 +16,10 @@ Resources
 
  - [HiFive Unleashed](https://www.sifive.com/boards/hifive-unleashed)
 
+
+Projects
+--------
  - [Adventures of OS: Making a RISC-V OS using Rust](http://osblog.stephenmarz.com/)
+ - [Risc-V and Rust](https://github.com/takahirox/riscv-rust):
+   A RISC-V emulator written in Rust and compiled into Webassembly.
+   Plenty of resources and information.
