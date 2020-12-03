@@ -8,6 +8,9 @@ Command-line Interface
 
  - [click](http://click.pocoo.org/5/):
    Command-Line Interface Creation Kit.
+ - [Rich](https://rich.readthedocs.io/):
+   Display _rich_ text (color & style) to the terminal and display advanced
+   content, such as tables, markdown, and syntax highlighted code.
  - [Prompt Toolkit](https://python-prompt-toolkit.readthedocs.io/):
    Create powerful command-line applications with history, auto-completion and more.
  - [Pygments](http://pygments.org/):
