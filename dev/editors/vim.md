@@ -12,6 +12,8 @@ Resources
  - [The Vim Book](http://www.truth.sk/vim/vimbook-OPL.pdf)
  - [Vim Coobook](http://www.oualline.com/vim-cook.html) by Steve Qualline
  - [Vim FAQ](http://vimdoc.sourceforge.net/htmldoc/vimfaq.html)
+ - [Vim Recipes](https://www.ossblog.org/wp-content/uploads/2017/06/vim-recipes.pdf)
+   A free Vim cookbook with scores of recipes for everyday Vim usage.
 
 
 ### Colorschemes
