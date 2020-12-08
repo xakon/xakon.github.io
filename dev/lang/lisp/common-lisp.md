@@ -54,6 +54,9 @@ Apress, 2016
  - [Articulate Common Lisp](http://articulate-lisp.com/):
    Plenty of resources and guides about Common Lisp.
  - [Common Lisp Resources](https://lisp-journey.gitlab.io/resources/)
+ - [Common Lisp Programming Challenge](https://github.com/spxy/clpc)
+   Learn the basics of Common Lisp with small exercises (about 1h each),
+   that guide the reader to learn and setup a Common Lisp environment.
 
 
 ### Libraries/Tools
