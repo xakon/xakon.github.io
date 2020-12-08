@@ -29,7 +29,7 @@ Apress, 2016
 
  - [Practical Common Lisp][practical-clisp]
  - [On Lisp][on-lisp]
- - [Succussful Lisp](http://www.psg.com/~dlamkins/sl/)
+ - [Successful Lisp](http://www.psg.com/~dlamkins/sl/)
  - [Common Lisp HyperSpec][clisp-spec] (Reference), [Simplified Reference][clisp-sclr]
  - [Common Lisp: A Gentle Introduction to Symbolic Computation][clisp-gentle]
  - [Learn Lisp the Hard Way](http://learnlispthehardway.org/)

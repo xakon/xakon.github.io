@@ -19,7 +19,7 @@ I got the following lists from a great answer at [StackOverflow][so-answer].
 
  - [Practical Common Lisp][practical-clisp]
  - [On Lisp][on-lisp]
- - [Succussful Lisp](http://www.psg.com/~dlamkins/sl/)
+ - [Successful Lisp](http://www.psg.com/~dlamkins/sl/)
  - [Common Lisp HyperSpec][clisp-spec] (Reference)
  - [Common Lisp: A Gentle Introduction to Symbolic Computation][clisp-gentle]
  - [Learn Lisp the Hard Way](http://learnlispthehardway.org/)
