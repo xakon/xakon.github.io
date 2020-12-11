@@ -94,6 +94,8 @@ Books
  - https://www.manning.com/books/haskell-in-depth[Haskell in Depth]
  - https://simonmar.github.io/pages/pcph.html[Parallel and Concurrent Programming in Haskell]
  - Haskell 98 Report (Cambridge Press)
+ - https://kowainik.github.io/posts/haskell-mini-patterns[Haskell Mini-Patterns Handbook]
+
 
 Courses
 ~~~~~~~
