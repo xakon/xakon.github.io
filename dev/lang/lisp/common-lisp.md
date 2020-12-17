@@ -21,6 +21,11 @@ Edmund Weitz
 Apress, 2016  
 978-1-4842-1177-9
 
+The Common Lisp Condition System  
+Michal Herda  
+Apress, 2020  
+978-1-4842-6133-0
+
 
 ### Free Books
 
