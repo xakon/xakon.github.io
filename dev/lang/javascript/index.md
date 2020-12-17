@@ -70,6 +70,12 @@ Resources
 
  - [JavaScript Lessons](https://egghead.io/lessons)
 
+ - [Elevator Saga](https://play.elevatorsaga.com/):
+   Learn JavaScript by playing, programming a bot.
+
+ - [Untrusted](https://alexnisnevich.github.io/untrusted/):
+   Learn JavaScript by playing, programming an ASCII-based game.
+
 [mozilla-guide]:	https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide
 [mozilla2-guide]:	https://developer.mozilla.org/en-US/docs/Learn/JavaScript
 
