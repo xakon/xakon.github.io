@@ -1,0 +1,21 @@
+F#
+==
+
+F# is a mature, open source, cross-platform, functional-first programming
+language.  It empowers users and organizations to tackle complex computing
+problems with simple, maintainable and robust code.  It runs on the .NET
+platform.
+
+Resources
+---------
+
+ - https://fsharp.org/[Official site]
+ - https://dotnet.microsoft.com/learn/fsharp/[.NET - Learn F#]
+ - https://fsharpforfunandprofit.com/[F# for fun and profit]
+
+Tutorials
+~~~~~~~~~
+
+ - https://fsharp.org/about/learning.html[Learning F#]
+ - https://try.fsharp.org/[Try F#]:  Official Web REPL.
+ - https://fsharpforfunandprofit.com/series/why-use-fsharp.html[Why use F#?]
