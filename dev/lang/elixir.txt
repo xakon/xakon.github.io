@@ -1,0 +1,30 @@
+Elixir
+======
+
+https://elixir-lang.org/[Elixir] is a concurrent functional language that runs
+on the Erlang VM.  It is inspired by many different languages where Ruby and
+Erlang are most obvious ones based on the syntax.
+
+
+Resources
+---------
+
+ - https://elixir-lang.org/[Elixir - Official site]
+ - https://thinkingelixir.com/[Thinking Elixir]
+
+Books
+~~~~~
+
+Programming Elixir  
+Dave Thomas  
+The Pragmatic Bookshelf
+
+Elixir in Action  
+Saša Jurić  
+Manning
+
+Tutorials
+~~~~~~~~~
+
+ - https://elixir-lang.org/getting-started/[Official Tutorial]
+ - https://try-elixir.herokuapp.com/[Try Elixir]:  Official Web REPL.
