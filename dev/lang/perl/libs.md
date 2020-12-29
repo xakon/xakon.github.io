@@ -52,7 +52,7 @@ CPAN
  - [PDF::Reuse](https://metacpan.org/module/PDF::Reuse):
    Amazing PDF-handling library.
 
- - [Text::Choose](https://metacpan.org/module/Term::Choose):
+ - [Term::Choose](https://metacpan.org/module/Term::Choose):
    Amazing library for CLI applications, where it presents a menu for selecting
    an option, and then disappears.  Has many other properties, as well.
 
