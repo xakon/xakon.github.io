@@ -11,6 +11,8 @@ Computer Science
  - [The Morning Paper](https://blog.acolyer.org/):
    A human-friendly explanation of various papers.  The recommended way to study
    a given paper on any CS topic!
+ - [Electronic References](https://csgordon.github.io/books.html):
+   A collection of CS topics with references to their books.
 
 
 Definitions
