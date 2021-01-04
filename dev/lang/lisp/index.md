@@ -48,6 +48,8 @@ I got the following lists from a great answer at [StackOverflow][so-answer].
  - [CLiki](http://www.cliki.net/)
  - The Common Lisp Directory
 
+ - [Lisp Koans](https://github.com/google/lisp-koans)
+
 ### Implementations
 
 A Scheme implementation suitable for beginners is [PLT Scheme](http://www.plt-scheme.org/).
