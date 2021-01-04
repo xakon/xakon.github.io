@@ -9,6 +9,27 @@ Resources
    Plenty of articles about introducing Ansible, but also tutorials and
    ideas on how to use it.
 
+A recommended reading list for Ansible is the following:
+
+### Starting with Ansible ###
+
+ - [Renewing my thrill at work with Ansible](https://www.redhat.com/sysadmin/renewed-thrill-ansible)
+ - [Understanding YAML for Ansible](https://www.redhat.com/sysadmin/understanding-yaml-ansible)
+
+### Beginners ###
+
+ - [Add a repo and install a package the Ansible way](https://www.redhat.com/sysadmin/install-ansible-way)
+ - [Deploying a static website with Ansible](https://www.redhat.com/sysadmin/deploying-static-website-ansible)
+ - [How to use Ansible to configure Vim](https://www.redhat.com/sysadmin/ansible-configure-vim)
+
+### Advanced ###
+
+ - [Using Ansible to verify configurations](https://www.redhat.com/sysadmin/configuration-verification-ansible)
+ - [5 ways to harden a new system with Ansible](https://www.redhat.com/sysadmin/harden-new-system-ansible)
+ - [Building, saving, and loading container images with Ansible](https://www.redhat.com/sysadmin/container-images-ansible)
+ - [Automate virtual machine deployment with Ansible: Design](https://www.redhat.com/sysadmin/deployment-ansible-design)
+ - [Automate virtual machine deployment with Ansible: Automation](https://www.redhat.com/sysadmin/deployment-ansible-automation)
+
 
 Miscellaneous
 -------------
