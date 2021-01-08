@@ -14,6 +14,9 @@ Resources
 Tools
 -----
 
+ - [SDKMAN! - The Software Development Kit Manager](https://sdkman.io/):
+   Manager to help installing multiple and custom versions of JDK.
+   It bundles together other usefule tools, like `maven`, `gradle`, and others.
  - [maven](https://maven.apache.org/)
  - [Gradle](https://gradle.org/)
  - [Apache Ant](http://ant.apache.org/)
