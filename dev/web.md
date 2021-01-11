@@ -132,6 +132,13 @@ Nick Janetackis also has an example of similar URLs:
 
 [iana-well-known]:	https://www.iana.org/assignments/well-known-uris/well-known-uris.xhtml
 
+#### HTTP Headers ####
+
+Modern browsers can find problems on web sites and report back to them.
+They can use the `Report-To` header field to send a request, when they spot a
+problem with a web site.  There is also a custom service that supports this
+browser feature, called [report-uri.com](https://report-uri.com/).
+
 
 ### URLs
 
