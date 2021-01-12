@@ -52,6 +52,7 @@ Catalogue
    A typeface that offers greater legibility and readability for low vision
    readers.  From the [Braille Institute](https://www.brailleinstitute.org/).
    That says a lot!
+ - [Fantasque Sans Mono](https://github.com/belluzj/fantasque-sans)
 
 More fonts can be found and tested at <http://programmingfonts.org>
 
@@ -86,6 +87,7 @@ Monospace
  - Droid Sans Mono
  - DejaVu Sans Mono
  - [JuliaMono](https://juliamono.netlify.app/)
+ - [Fantasque Sans Mono](https://github.com/belluzj/fantasque-sans)
 
 
 Math Fonts
