@@ -80,7 +80,7 @@ The following list is extracted from the [Resources for Amateur Compiler Writers
  - [A Retargetable C Compiler][7] by David R. Hanson, Christopher W. Fraser.
    I have this book, I need to finish reading it some day!
  - [Compiler Construction][10], by Niklaus Wirth
- - TODO
+ - [Post-Modern Compiler Design, vol.1](https://www.cs.purdue.edu/homes/rompf/pmca/vol1/)
 
  - [The Retargetable C Compiler (lcc)][8] (Github)
  - [The Portable C Compiler (PCC)][9]
