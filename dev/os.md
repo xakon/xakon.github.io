@@ -71,6 +71,10 @@ exercises, solutions, videos.
  - [Rolling your Own Bootloader](http://wiki.osdev.org/Rolling_Your_Own_Bootloader)
  - [Memory Management Reference](http://www.memorymanagement.org/)
  - [System Programming Wiki](https://github.com/angrave/SystemProgramming/wiki)
+ - [Theseus OS](https://github.com/theseus-os/Theseus):
+   An experimental OS, written in [Rust](https://www.rust-lang.org/).
+   It contains detailed instructions on how to build and run it on QEMU and
+   other platforms.
 
 
 [mikeos]:	http://mikeos.sourceforge.net/
