@@ -125,6 +125,9 @@ supports many different transports.
 
  - https://buildah.io/[Buildah]
 
+An online tool, https://www.katacoda.com/[Katacoda], allows us to learn and
+experiment with +Buildah+ online and without needing to install it locally.
+
 
 Podman
 ~~~~~~
