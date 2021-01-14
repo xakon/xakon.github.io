@@ -154,7 +154,7 @@ It is then called a *method*.  The receiver is declared just after
 the keyword `func`.
 
 There are no functions contained in other functions, but we define
-unnamed functions, which act like clojures.
+unnamed functions, which act like closures.
 
 Functions can return multiple values, and optionally be named.
 If no value is returned, the return part of function's declaration
