@@ -10,6 +10,14 @@ Resources
  - [Emacs Wiki](https://www.emacswiki.org/)
 
 
+Packages
+--------
+
+Emacs depends a lot on external packages to extend its functionality.
+Many of them are amazing applications, that could stand on its own.
+
+ - [SLY](http://joaotavora.github.io/sly/)
+ - [SLIME](https://common-lisp.net/project/slime/)
 
 
 Shortcuts
