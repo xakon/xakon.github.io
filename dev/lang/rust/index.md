@@ -4,6 +4,9 @@ Rust
 Resources
 ---------
 
+A comprehensive summary and collection of all the available, online, Rust books
+can be found at: [The Little Book of Rust Books](https://lborb.github.io/book/).
+
 ### Books
 
  - [The Rust Programming Language](https://doc.rust-lang.org/book/)
