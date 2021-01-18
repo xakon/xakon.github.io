@@ -63,6 +63,7 @@ Testing
    [pytest](http://pytest.org/) and [Django](https://www.djangoproject.com/).
    There are also versions for [JavaScript](https://github.com/microsoft/playwright)
    and potentially for other languages.
+ - [mutmut - Python Mutation Tester](https://github.com/boxed/mutmut)
 
 
 Text Utilities
