@@ -114,3 +114,22 @@ tools can be found at the main [Crates.io](https://crates.io/) site.
    LR(1) parser generator for Rust.
  - [regex](https://docs.rs/regex/):
    A fast, regular-expression parser.
+
+#### XML Processing ####
+
+##### Stream Parsers #####
+
+ - [xml-rs](https://crates.io/crates/xml-rs):
+   The most powerful XML stream parsing library, but very slow, and it needs a
+   lot of boilerplate code to support it.
+ - [quick-xml](https://crates.io/crates/quick-xml):
+   A much faster and lightweight alternative.
+   It also supports the [Serde](https://crates.io/crates/serde) deserialization.
+
+##### DOM Parsers #####
+
+ - [xmltree](https://crates.io/crates/xmltree)
+ - [minidom](https://crates.io/crates/minidom)
+ - [serde-xml-rs](https://crates.io/crates/serde-xml-rs):
+   Implementation of [Serde](https://crates.io/crates/serde) deserialization
+   interface, and it works smoothly with [xml-rs](https://crates.io/crates/xml-rs), too.
