@@ -175,7 +175,26 @@ They are fat-pointers, which mean that they have a known, run-time size.
 Their lifetime is the same as their owner.
 The type of slices is `&[T]`.
 
-##### `str`
+##### Strings
+
+Strings is a very interesting topic in Rust.  The designers of the language
+didn't hide the fact that a string data-type is something difficult.  They
+ended up in a design, that it seems rather natural now, but rather strange for
+a C/C++, Python, Ruby, JavaScript developer!
+
+There are the *string literals*, UTF-8 strings embedded in the binary,
+obviously immutable and with a *static* lifetime.  Their type is `str` and
+their size is known at compile time.
+
+Usually, we handle these literals through a *string slice*, written with
+`&str`.  The *string slice*, as any *slice*, is a fat-pointer, with a runtime
+size, and lifetime bound to its owner.
+
+Finally, there are also the *string buffers* (this is my term), implemented by
+the `string::String` class.  This class is a thin-wrapper around a `vec::Vec`
+class, and it enhances the wrapped class by ensuring that the contained values
+are valid UTF-8 strings.  It can grow dynamically during run-time, it is movable,
+and more importantly, it can be dereferenced into a *string slice*.
 
 ##### Tuples
 
