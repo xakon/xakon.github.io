@@ -171,6 +171,8 @@ notation (0-element arrays).  Array access is bounds-checked at run-time.
 
 A *reference* or *view into* another data structure.
 A combination of `&` and `[]` is used to declare slices.
+They are fat-pointers, which mean that they have a known, run-time size.
+Their lifetime is the same as their owner.
 The type of slices is `&[T]`.
 
 ##### `str`
