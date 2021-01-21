@@ -203,6 +203,105 @@ Normally, they hold related data together.
 Elements can be extracted using *desctructive let* or through 0-indexing element
 indexing.  Unlike from arrays, we use the dot notation for these indices.
 
+#### Structs
+
+A *struct* is an heterogeneous aggregation of values into a single one.
+Its elements can be accessed using the *dot notation*, like: `person.name`.
+
+*structs* hold the data, but they can also have an implementation, attached
+*methods* to their datatype.
+
+We define a *struct* like this:
+
+    struct User {
+    	name: String,
+    	email: String,
+    	sign_in_count: u64,
+    	active: bool,
+    }
+
+A new *struct instance* is created by mentioning **all** the fields,
+in a series of `key: value` pairs:
+
+    let user1 = User {
+    	email: "user1@example.com".to_string(),
+    	name: "User 1".to_string(),
+    	active: true,
+    	sign_in_count: 1,
+    };
+
+As it is tedious to create a *struct instance* by naming all the fields,
+there is a shorthand syntax in Rust to remove some duplication.
+This syntax is called *field init shorthand* and it leads to more compact
+and less verbose code:
+
+    fn build(email: String, name: String) -> User {
+    	User {
+    	    email,
+    	    name,
+    	    active: true,
+    	    sign_in_count: 1,
+	}
+    }
+
+Furthermore, an extension of this syntax is the *struct update syntax*,
+useful when we want to create a new *instance* out of another one,
+but change only a few fields:
+
+    let user2 = User {
+    	email: "another@example.com".to_string(),
+    	name: "User 2".to_string(),
+    	..user1
+    };
+
+#### Tuple Structs
+
+A combination of a *tuple* and a *struct*, useful when we would like to create
+a distinct type out of a *tuple*.  It reminds the Python's `namedtuple`.
+
+For example:
+
+    struct Color(i32, i32, i32);
+    struct Point(i32, i32, i32);
+
+    let black = Color(0, 0, 0);
+    let origin = Point(0, 0, 0);
+
+Here, both `black` and `origin` are stored as *tuples*, they contain the same
+values, but they are different types.  Thus, we can pass `black` to a function
+that expects a `Point`, and we cannot mix the 2 variables in incompatible
+expressions.
+
+#### Unit-like Structs
+
+These are the same as a *unit tuple*, written as `()`.
+They are supposed to be useful, but I don't still know where.
+
+#### Methods
+
+We can attach functions in the implementation of a *struct* (or any other
+datatype) and use the *method syntax* to call these functions.  By the way,
+Rust is rather clever, and it automatically dereferences a *reference*
+while using the *method syntax*, leading to ergonomically and well-written
+code.  This feature is called *automatic referencing and referencing*, and
+is implemented using some *traits*.  Thus, Rust doesn't need the famous `->`
+operator of C++!
+
+The *methods* are defined inside an `impl` block.
+Their first parameter should be the *instance* they operate on, and we are
+using the keyword `self` for this reason.  Normally, we pass the *instance*
+as a *reference* or as a *mutable reference*, as a method rarely needs to
+take ownership of the *instance*.
+
+There are also the *associated functions*, called *static methods* in other OOP
+languages.  These *functions* don't accept a `self` argument, and they are used
+with the `::` syntax and the *struct* name.  This syntax is the same for both
+*associated functions* and *namespaces*, created by *modules*.
+
+Usually, factory methods are implemented as *associated functions*:
+
+    let s = String::new();
+
 #### Attributes
 
 An *attribute* applied to a *crate* has the syntax `#![crate_attribute]`,
