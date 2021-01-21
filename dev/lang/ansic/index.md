@@ -10,6 +10,8 @@ Resources
  - [clc-wiki](http://clc-wiki.net/):
    An offshoot of the [comp.lang.c](news:comp.lang.c) newsgroup.
    Plenty of references, tutorials, and other documentation and resources.
+ - [Awesome C](https://porter.io/github.com/uhub/awesome-c):
+   A curated list of C frameworks, libraries, and software.
 
 
 Test Tools
