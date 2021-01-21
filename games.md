@@ -75,6 +75,7 @@ Linux
  - Angband
  - Battle of Wesnoth
  - PlaneShift
+ - FreeDink
  - 0 A.D.
  - [Pingus](https://pingus.seul.org/):  a [Lemmings][lemmings]-clone.
 
