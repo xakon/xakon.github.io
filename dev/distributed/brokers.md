@@ -1,15 +1,11 @@
-Distributed Systems
-===================
+Message Brokers
+===============
 
-Resources
----------
+[Message Brokers][wikipedia] is such a fundamental component of an Enterprise Distributed System.
+They provide means for different other components to communicate asynchronously while working on different speeds.
 
-Books
------
-
- - [Distributed Systems For Fun and Profit](http://book.mixu.net/distsys/):
-   Online book
-
+For some reason, I didn't follow at the time the changes and advances in Enterprise Software.
+[Message Brokers][wikipedia] is one of them.  I need to come back.
 
 Libraries
 ---------
@@ -18,6 +14,7 @@ Libraries
  - [∅MQ][zmq]:  ZeroMQ, the best way to use Networking!
  - [Raft][raft]:  More comments follow.
  - [MQTT][mqtt]:  Lightweight protocol, great for IoT devices
+ - [AMQT][amqt]:  The "standard" Enterprise solution.
 
 
 ### Raft
@@ -54,6 +51,7 @@ There are many implementations of the protocol, one of them is
 
 
 [article]:	https://blog.gopheracademy.com/writing-a-distributed-systems-library/
+[wikipedia]:	https://en.wikipedia.org/wiki/Message_broker
 [gopher]:	https://www.gopheracademy.com/
 [raft]:		http://raftconsensus.github.io/
 [go-raft]:	https://github.com/goraft/raft
