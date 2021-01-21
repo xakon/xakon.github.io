@@ -19,6 +19,7 @@ Resources
  - http://haskellstack.org[Haskell Stack]
  - http://haskelliseasy.com/[Haskell IS Easy]
  - http://www.stephendiehl.com/posts/essential_haskell.html[Haskell Reading List]
+ - http://www.stephendiehl.com/posts/hask/[What I Wish I Knew When Learning Haskell]
  - http://www.stephendiehl.com/posts/vim_2016.html[Vim and Haskell in 2016]
  - https://ncatlab.org/nlab/show/HomePage[nLab]:  Wiki for Category Theory
  - https://typeclasses.com/[Type Classes]:  Resources for learning Haskell
