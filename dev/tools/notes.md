@@ -30,16 +30,12 @@ Some alternatives:
 
  - [Paperwork][paperwork]:
    Open-Source, but I have to manually host it.
-
  - [Laverna][laverna]:
    Open-Source, there is a self-hosted service.
-
  - [Permanote][permanote]:
    Open-Source, very simple application.
-
  - [Brainstorm][brainstorm]:
    A bit different in spirit and design.
-
  - [iCloud][icloud]:
    Closed-Source, and only available for OS X and iOS.
 
