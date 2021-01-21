@@ -40,6 +40,8 @@ It can be really helpful while copying text from terminal to paste it, for examp
    Test framework.
  - [bats](https://github.com/sstephenson/bats):
    A nice framework for testing Bash functions and scripts.
+   It seems that the project has moved into a different repository, namely:
+   <https://github.com/bats-core/bats-core>.
 
 
 ## Terminal
