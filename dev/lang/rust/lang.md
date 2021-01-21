@@ -199,6 +199,7 @@ and more importantly, it can be dereferenced into a *string slice*.
 ##### Tuples
 
 An heterogeneous, ordered list of fixed size.
+Normally, they hold related data together.
 Elements can be extracted using *desctructive let* or through 0-indexing element
 indexing.  Unlike from arrays, we use the dot notation for these indices.
 
