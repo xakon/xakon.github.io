@@ -111,10 +111,10 @@ Introduction to Algorithms, 3/e
    MIT Press, 2009
    0262033844 / 978-0262033848
 
-The Algorithm Design Manual, 2/e
-   Steven S. Skiena
-   Springer, 2008
-   1848000693 / 978-1848000698
+The Algorithm Design Manual, 2/e  
+   Steven S. Skiena  
+   Springer, 2008  
+   1848000693 / 978-1848000698  
 
 The Connection Machine
    William Daniel Hillis  
@@ -125,14 +125,14 @@ Mastering Algorithms with Perl
    Jon Orwant, Jarkko Hietaniemi, John MacDonald  
    O'Reilly, 1999
 
-Algorithms to Live By: The Computer Science of Human Decisions
+Algorithms to Live By: The Computer Science of Human Decisions  
    Brian Christian
    <https://www.amazon.com/Algorithms-Live-Computer-Science-Decisions/dp/1627790365/ref=as_li_ss_tl>
 
 
 ### Embedded
 
-Making Embedded Systems: Design Patterns for Great Software
+Making Embedded Systems: Design Patterns for Great Software  
    Elecia White
 
 
