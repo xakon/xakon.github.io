@@ -36,10 +36,8 @@ It can be really helpful while copying text from terminal to paste it, for examp
 
  - [shUnit2](https://github.com/kward/shunit2):
    xUnit Test Framework.
-
  - [roundup](https://bmizerany.github.io/roundup/):
    Test framework.
-
  - [bats](https://github.com/sstephenson/bats):
    A nice framework for testing Bash functions and scripts.
 
