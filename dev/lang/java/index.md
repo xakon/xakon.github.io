@@ -21,6 +21,8 @@ Libraries
  - [Mockito](http://site.mockito.org/)
  - [EasyMock](http://www.easymock.org/)
  - [JMock](http://jmock.org/)
+ - [Hamcrest](http://hamcrest.org/):
+   Assertion library with powerful, extensible, and expressive assertions.
 
 
 Misc
