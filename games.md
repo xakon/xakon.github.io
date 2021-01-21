@@ -28,6 +28,7 @@ Retro
  - The Elder Scrolls II: Daggerfall (DOS, Bethesda)
  - Stunt Car Racer (Atari ST, MicroStyle)
  - Advanced D&D: Slayer (DOS, Strategic Simulations)
+ - Eye of the Beholder (Amiga, RPG, Strategic Simulations)
  - [Interactive Fiction Archive](http://www.ifarchive.org/):
    A collection of Fiction Adventures.
  - [NES Emulator on Web](https://jsnes.fir.sh/):
