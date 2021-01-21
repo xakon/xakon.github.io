@@ -11,6 +11,8 @@ Embedded Development
  o [OS Development Wiki](http://wiki.osdev.org/Main_Page)
  o [Adafruit.com](https://adafruit.com):
    Full of resources for embedded projects.
+ - [Rust Embedded](https://github.com/rust-embedded):
+   Resources, tutorials, books, and code for embedded programming using Rust.
 
 
 ## Tools

@@ -39,6 +39,8 @@ Resources
  - [Redox](http://www.redox-os.org/):
    Unix-like Operating System written in Rust, aiming to bring the innovations
    of Rust to a modern micro-kernel and full set of applications.
+ - [Rust Embedded](https://github.com/rust-embedded):
+   Resources, tutorials, books, and code for embedded programming using Rust.
  - IRC Channels:
    - `#rust-beginners`
 
