@@ -82,6 +82,9 @@ Misc
  - [virtualenv](https://virtualenv.pypa.io/)
  - [virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/)
 
+ - [pip-review](https://pypi.org/project/pip-review/):
+   Easily inspect and/or update all dependencies of a project.
+
  - [shiv](https://github.com/linkedin/shiv):
    Easily package all dependencies of a program in a `.zip` file.
 
