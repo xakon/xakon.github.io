@@ -25,11 +25,16 @@ Resources
 
  - [Writing an OS in Rust](http://os.phil-opp.com)
 
- - [Linux From Scratch](http://www.linuxfromscratch.org/):
+ - [Linux From Scratch][LFS]:
    A demonstration of how to build a Linux distribution by compiling everything,
    including the Kernel, the C library, and all the programs.
    I found a [Github repository][lfs-docker] with a helpful Docker image to
-   play with _Linux From Scratch_.
+   play with _Linux From Scratch_.  This book scratches only the start of
+   creating a custom Linux distribution.  It is continued in other book series,
+   like for example in [Beyond Linux From Scratch][BLFS].  At this point, it might
+   be useful to use the [AryaLinux](http://aryalinux.org/), as it is not only a
+   Linux distribution, but it also provides build scripts, based on
+   [Linux From Scratch][LFS], to build from the scratch a distribution.
 
  - [Build an Operating System for the Raspberry Pi](https://jsandler18.github.io/)
 
@@ -41,3 +46,5 @@ Resources
 [mikeos-guide]:	http://mikeos.sourceforge.net/write-your-own-os.html
 [lfs-docker]:	https://github.com/reinterpretcat/lfs
 [rasp-pi-os]:	https://github.com/s-matyukevich/raspberry-pi-os
+[LFS]:		http://www.linuxfromscratch.org/
+[BLFS]:		http://www.linuxfromscratch.org/blfs/
