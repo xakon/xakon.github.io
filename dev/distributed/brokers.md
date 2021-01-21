@@ -1,11 +1,23 @@
 Message Brokers
 ===============
 
-[Message Brokers][wikipedia] is such a fundamental component of an Enterprise Distributed System.
-They provide means for different other components to communicate asynchronously while working on different speeds.
+[Message Brokers][wikipedia] is such a fundamental component of an Enterprise
+Distributed System.  They provide means for different other components to
+communicate asynchronously while working on different speeds.
 
-For some reason, I didn't follow at the time the changes and advances in Enterprise Software.
-[Message Brokers][wikipedia] is one of them.  I need to come back.
+For some reason, I didn't follow at the time the changes and advances in
+Enterprise Software.  [Message Brokers][wikipedia] is one of them.  I need to
+come back.
+
+In an interesting presentation that took place in OSCON '19, I read about it in
+an [LWN article](https://lwn.net/Articles/761930/), it was mentioned the
+history of this technology.  It started with the publication of
+the [Java Message Service][jms] (JMS) API by Sun in 2001, then the
+[ActiveMQ][activemq] protocol followed to be compatible with JMS,
+and then the [Advanced Message Queuing Protocol][amqp] (AMQP), which made
+publicly available this technology.  The most famous implementation of
+the [AMQP][amqp] was [RabbitMQ][rabbitmq], written in Java.
+
 
 Libraries
 ---------
@@ -14,7 +26,7 @@ Libraries
  - [∅MQ][zmq]:  ZeroMQ, the best way to use Networking!
  - [Raft][raft]:  More comments follow.
  - [MQTT][mqtt]:  Lightweight protocol, great for IoT devices
- - [AMQT][amqt]:  The "standard" Enterprise solution.
+ - [AMQP][amqp]:  The "standard" Enterprise solution.
 
 
 ### Raft
@@ -56,5 +68,9 @@ There are many implementations of the protocol, one of them is
 [raft]:		http://raftconsensus.github.io/
 [go-raft]:	https://github.com/goraft/raft
 [nanomsg]:	http://nanomsg.org/index.html
+[activemq]:	https://activemq.apache.org/
 [zmq]:		http://zguide.zeromq.org/
 [mqtt]:		http://mqtt.org/
+[amqp]:		https://www.amqp.org/
+[rabbitmq]:	https://www.rabbitmq.com/
+[jms]:		https://www.oracle.com/technetwork/articles/java/introjms-1577110.html
