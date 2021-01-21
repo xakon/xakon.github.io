@@ -30,6 +30,9 @@ Some alternatives:
 
  - [Paperwork][paperwork]:
    Open-Source, but I have to manually host it.
+ - [Standard Notes][standardnotes]:
+   Open-Source, supports encryption, supports both commercial server or
+   user-based server.  It supports many OSes with native applications.
  - [Laverna][laverna]:
    Open-Source, there is a self-hosted service.
  - [Permanote][permanote]:
@@ -48,3 +51,4 @@ Some alternatives:
 [brainstorm]:		https://github.com/Azeirah/brainstorm
 [icloud]:		https://icloud.com
 [joplin-article]:	https://opensource.com/article/17/12/joplin-open-source-evernote-alternative
+[standardnotes]:	https://standardnotes.org/
