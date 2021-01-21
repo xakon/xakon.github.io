@@ -62,6 +62,9 @@ The `rustdoc` tools is useful to create HTML documentation out of the
 
 #### Keywords
 
+There is a full list of keywords with explanation of their functionality in
+Appendix A of "The Rust Programming Language".
+
  - `fn` is the keyword to define a new function
  - `let` creates a new binding
  - `mut` makes a mutable binding
