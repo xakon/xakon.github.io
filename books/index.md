@@ -79,6 +79,15 @@ Growing Object-Oriented Software Guided by Tests
    Steve Freeman,  Nat Pryce  
    http://www.growing-object-oriented-software.com/
 
+Practical Object-Oriented Design in Ruby  
+   Sandi Metz
+
+Patterns of Enterprise Application Architecture  
+   Martin Fowler
+
+Domain-Driven Design  
+   Eric Evans
+
 
 ### Algorithms
 
