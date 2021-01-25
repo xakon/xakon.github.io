@@ -14,7 +14,9 @@ Resources
  - [Tcl/Tk Official Site][tcl.org]
  - [Tcl History](http://tcl.tk/about/history.html)
  - [Tcl Wiki][wiki]
- - [TkDocs](https://tkdocs.com/)
+ - [TkDocs](https://tkdocs.com/):
+   Plenty of resources for Tcl/Tk, for example this nice, multi-platform
+   [Tutorial](https://tkdocs.com/tutorial/).
 
 
 Tools
