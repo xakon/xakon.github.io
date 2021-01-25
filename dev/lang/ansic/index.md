@@ -44,6 +44,32 @@ Compilers
  - [OpenWatcom](http://openwatcom.org/)
 
 
+Static Analysis
+---------------
+
+Both [GCC](https://gcc.gnu.org/) and [LLVM](http://llvm.org/) can do excellent
+work as static analysers.  But these compilers are not enough for such work.
+
+ - _Clang Static Analyzer_:
+   Part of _LLVM_, known also as _Clang Checker_, it can perform extra static
+   analysis on the codebase and produce the results in HTML.
+ - [PVS-Studio Analyzer](https://www.viva64.com/en/pvs-studio/):
+   Maybe the best static analyzer that exists, but a commercial product.
+   They offer though free licenses to open-source projects.
+ - _Splint_:
+   A modern linter for `C`, that can performs many more checks than the original
+   linters.
+
+### Memory Checkers ###
+
+ - [Memcheck](http://valgrind.org/docs/manual/mc-manual.html):
+   Part of [Valgrind](http://valgrind.org/), actually.
+   It is very slow but can detect many problems, not only memory errors.
+ - _Electric Fence_ and _DUMA_:
+   They replace system's `malloc()` and `free()` and being able to detect memory
+   problems much faster.
+
+
 Test Tools
 ----------
 
