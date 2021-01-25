@@ -38,10 +38,10 @@ Books
 Compilers
 ---------
 
-  - [GCC - The GNU Compiler Collection](https://gcc.gnu.org/)
-  - [LLVM Compiler Infrastructure](http://llvm.org/).
-    [Clang](http://clang.llvm.org/) is the C/C++/Objective-C compiler.
-  - [OpenWatcom](http://openwatcom.org/)
+ - [GCC - The GNU Compiler Collection](https://gcc.gnu.org/)
+ - [LLVM Compiler Infrastructure](http://llvm.org/).
+   [Clang](http://clang.llvm.org/) is the C/C++/Objective-C compiler.
+ - [OpenWatcom](http://openwatcom.org/)
 
 
 Test Tools
