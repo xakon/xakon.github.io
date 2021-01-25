@@ -20,6 +20,15 @@ Resources
    is an extensive section dedicated to the language.
 
 
+References
+----------
+
+Don't know why, but found this site [Poor man's Profiler][poorman] and thought
+to document it.
+
+[poorman]: http://poormansprofiler.org/
+
+
 Books
 -----
 
@@ -170,12 +179,3 @@ add the contents of `cat.png` in the `RODATA` section.
    _cat_end:
    _cat_size:	dd $-_cat_start
 ```
-
-
-References
-----------
-
-Don't know why, but found this site [Poor man's Profiler][poorman] and thought
-to document it.
-
-[poorman]: http://poormansprofiler.org/
