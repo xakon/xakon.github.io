@@ -77,8 +77,11 @@ Test Tools
    lightweight, C-only unit test framework.
  - [CppUTest](http://cpputest.github.io/) is a xUnit framework for C++.
    Of course, it could be used to test any C function/module is needed.
- - [check](http://check.sourceforge.net/doc/check_html/):
-   Needs investigation.
+ - [check](https://libcheck.github.io/check/):
+   Similar in spirit with JUnit, it works for `ANSI C`, and works by forking
+   processes, to protect the runner against crashes during testing.
+   It has very good integration with [CMake](https://cmake.org/)  and
+   [GNU Autotools](https://www.gnu.org/software/autoconf/).
  - [CMocka](http://www.cmocka.org/):
    Unit-Test & Mock Framework.
  - [cmock](http://www.throwtheswitch.org/cmock/)
