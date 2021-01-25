@@ -12,9 +12,9 @@ Resources
 ---------
 
  - [Tcl/Tk Official Site][tcl.org]
- - [Tcl History](http://tcl.tk/about/history.html
+ - [Tcl History](http://tcl.tk/about/history.html)
  - [Tcl Wiki][wiki]
- - [TkDos](https://tkdocs.com/)
+ - [TkDocs](https://tkdocs.com/)
 
 
 Tools
