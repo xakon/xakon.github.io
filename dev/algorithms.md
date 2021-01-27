@@ -3,6 +3,9 @@ Algorithms
 
  - [VisuAlgo](http://visualgo.net)
  - [Visualizing Algorithms][visual_algo]
+ - [The Arcane Algorithm Archive](https://www.algorithm-archive.org/):
+   An online resource for algorithms, with visualisations and examples in many
+   different languages.
  - [Sorting][sorting]
  - [Melkman's Algorithm][melkman]
  - [350+ Problems on Algorithms and Data Structures](http://madhualgo.blogspot.nl/2017/01/350-problems.html)
