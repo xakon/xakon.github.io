@@ -93,6 +93,11 @@ Misc
  - [pip-review](https://pypi.org/project/pip-review/):
    Easily inspect and/or update all dependencies of a project.
 
+ - [pipx](https://pipxproject.github.io/pipx/):
+   Install and run Python applications in isolated environments.
+   Essentially, it installs a Python application together with its virtual
+   environment, hidden from the user.
+
  - [shiv](https://github.com/linkedin/shiv):
    Easily package all dependencies of a program in a `.zip` file.
 
