@@ -64,6 +64,10 @@ Test Runners
 Misc
 ----
 
+ - [poetry](https://python-poetry.org/):
+   Managing Python packaging and dependencies in a modern way.
+   The workflow of _Poetry_ reminds of _npm_.
+
  - [pipenv](https://docs.pipenv.org/):
    "Python Dev Workflow for Humans":  the new and modern way of managing
    virtual environments, but also dependencies.  In a similar way as in
