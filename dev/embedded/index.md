@@ -105,6 +105,9 @@ purpose.  Some alternatives are:
 
  - [Fuzix OS](http://www.fuzix.org/)
 
+ - [RT-Thread](https://github.com/RT-Thread/rt-thread):
+   A small RTOS, written in C, easy to understand, port, and extend.
+
  - [Zephyr Project](https://www.zephyrproject.org/):
    An RTOS under the Linux Foundation organization, mostly open-source using
    Apache 2.0 license, it aims many different processors, but especially low-end
