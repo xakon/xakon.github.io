@@ -34,3 +34,8 @@ Books
 Real World Algorithms: A Beginner's Guide  
 Panos Louridas  
 MIT Press, 2017
+
+
+Mastering Algorithms with Perl  
+Jon Orwant, Jarkko Hietaniemi, John Macdonald  
+O'Reilly, 1999
