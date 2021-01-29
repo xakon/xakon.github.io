@@ -171,6 +171,10 @@ Web Programming
  - [flask-slither](http://github.com/gevious/flask_slither):
    A small library between MongoDB and JSON API endpoints.
 
+### Pyramid ###
+
+ - [Pyramid](https://trypyramid.com/)
+
 
 Various
 -------
