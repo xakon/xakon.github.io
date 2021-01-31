@@ -56,6 +56,11 @@ exercises, solutions, videos.
  - [Operating Systems: from 0 to 1](https://github.com/tuhdo/os01):
    Nice tutorial on how to write an OS from scratch.
  - [Writing an OS in Rust](http://os.phil-opp.com)
+ - [intermezzOS (A little OS](https://intermezzos.github.io/):
+   A teaching operating system, specifically focused on introducing systems
+   programming concepts to experienced developers from other areas of
+   programming.  There are 2 editions of the book, but as of now, both of them
+   are work-in-progress.
  - [Linux From Scratch][LFS]:
    A demonstration of how to build a Linux distribution by compiling everything,
    including the Kernel, the C library, and all the programs.
