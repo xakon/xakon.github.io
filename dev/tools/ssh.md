@@ -77,6 +77,24 @@ A great article that better explains the SSH Agent can be found
 [here](https://smallstep.com/blog/ssh-agent-explained/).
 
 
+SSH and macOS
+-------------
+
+If I would like to import a private SSH key into the system's default keychain,
+I need to run the following command:
+
+    ssh-add -K ˜/.ssh/id_rsa
+
+This is a unique feature of macOS' SSH implementation.
+
+On older versions of macOS we might need to add specific configuration to always
+use the system's keychain.  For example:
+
+   Host *
+      UseKeychain yes
+      AddKeysToAgent yes
+
+
 SSH and Windows
 ---------------
 
