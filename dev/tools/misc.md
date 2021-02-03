@@ -18,6 +18,12 @@ to implement a Pomodoro timer, but also keep statistics in
 [hledger timeclock](http://hledger.org/timeclock.html) format.
 More on this at [hledger.org](http://hledger.org/) home, which I also need to check.
 
+Task Managers
+-------------
+
+ - [Geek Life](https://github.com/ajaxray/geek-life):
+   A TUI task manager, written in Go, using mouse and nice keyboard shortcuts.
+
 Time Tracking
 -------------
 
