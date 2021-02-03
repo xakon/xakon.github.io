@@ -18,13 +18,6 @@ to implement a Pomodoro timer, but also keep statistics in
 [hledger timeclock](http://hledger.org/timeclock.html) format.
 More on this at [hledger.org](http://hledger.org/) home, which I also need to check.
 
-
-SSH
----
-
-More info at this [page][tools/ssh.html].
-
-
 Time Tracking
 -------------
 
@@ -90,6 +83,11 @@ OpenSSL
 More information at a separate [page][tools/openssl.html].
 
 Easily configure a Web server using this [tool](https://cipherli.st/).
+
+SSH
+---
+
+More info at this [page][tools/ssh.html].
 
 RDP Clients
 -----------
