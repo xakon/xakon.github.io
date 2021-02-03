@@ -30,6 +30,9 @@ Task Managers
 Time Tracking
 -------------
 
+ - [Timewarrior](https://timewarrior.net/):
+   Time manager with interface similar to [Taskwarrior](https://taskwarrior.org/).
+
  - [Harvest](http://harvestapp.com/): A tool to track down time spent and
    earning money.
 
