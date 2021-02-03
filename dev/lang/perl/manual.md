@@ -54,3 +54,7 @@ Perl Introduction
  - perlmodlib
  - perlnewmod
  - perlfaq
+
+### Internals
+
+ - perlguts
