@@ -21,6 +21,9 @@ More on this at [hledger.org](http://hledger.org/) home, which I also need to ch
 Task Managers
 -------------
 
+ - [Taskwarrior](https://taskwarrior.org/):
+   A CLI task manager, with interface that resembles `elm`.
+
  - [Geek Life](https://github.com/ajaxray/geek-life):
    A TUI task manager, written in Go, using mouse and nice keyboard shortcuts.
 
