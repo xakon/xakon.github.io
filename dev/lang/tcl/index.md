@@ -29,6 +29,10 @@ Tools
 Books
 -----
 
+### Online ###
+
+ - [Tcl Programming for Windows](https://www.magicsplat.com/winbook/)
+
 
 [tcl.org]:	http://tcl.tk/
 [wiki]:		https://wiki.tcl.tk/
