@@ -5,7 +5,7 @@ D Language
 References
 ----------
 
- - <dlink.org>:  Official site.  Recently re-designed, beautiful
+ - <http://dlang.org>:  Official site.  Recently re-designed, beautiful
    and very practical.  A ton of references and books.
 
 
