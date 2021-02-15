@@ -8,6 +8,7 @@ Resources
  - [Official Manual](https://www.gnu.org/software/emacs/manual/)
  - [Guided Tour of Emacs](https://www.gnu.org/software/emacs/tour/)
  - [Emacs Wiki](https://www.emacswiki.org/)
+ - [The Ultimate Collection of Emacs Resources](https://batsov.com/articles/2011/11/30/the-ultimate-collection-of-emacs-resources/)
 
 
 Packages
