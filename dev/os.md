@@ -49,6 +49,9 @@ exercises, solutions, videos.
    Actually, I read a very nice article, introduction to Redox, and got
    immediately sold with it!  The article can be found at:
    [Programming for Redox OS](https://dev.to/legolord208/programming-for-redox-os-4124).
+ - [The seL4 Microkernel](https://sel4.systems/):
+   The world's most high-assured operating system kernel, huge emphasis on
+   security and performance.
  - [How to write a simple Operating System][mikeos-guide]:
    [MikeOS][mikeos] is a simple, x86-based OS, written in Assembly and with a
    goal to teach fundamentals of OSes to students.  There are also other forks
