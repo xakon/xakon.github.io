@@ -154,7 +154,9 @@ project (as commonly does Redhat).
 Others
 ~~~~~~
 
- - Kaniko (supported by Google)
+ - https://github.com/GoogleContainerTools/kaniko[Kaniko] (supported by Google).
+   Build images, like +Buildah+, but the tool is more focused to build images in
+   Kubernetes.
 
 
 Lower-level tools
