@@ -179,6 +179,10 @@ by the above, higher-level, user-friendly tools.  Some of them are:
    It is used by almost every _Container Engine_, like +Docker+ (though the
    `containerd`), +Podman+, and +CRI-O+.
 
+ - +crun+:
+   An alternative _Container Engine_, developed again by Redhat using ISO C,
+   thus it is considered faster than +runc+ (written in Go).
+
  - +rkt+
  - +kata+
 
