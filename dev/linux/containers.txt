@@ -33,6 +33,19 @@ Terms
    There are many official and public registries, but we can build and use
    private ones, as well.
 
+ - _Container Engine_:
+   A primitive tool that provides user interface for working with _images_ and
+   _containers_, handling any security issues and policies.  It also pulls
+   _images_ from remote repositories and expands them on disk.  It creates
+   _container manifests_ and directories with _image layers_.
+
+   Typical examples of _engines_ are +Docker+ and +Podman+.  Other engines are:
+   +LXD+, +rkt+, +CRI-O+.
+
+ - _Container Runtime_:
+   The tool, which starts the _container_ out of a directory with _image
+   layers_.  Typical examples are +runc+ and +crun+.
+
 
 Resources
 ---------
