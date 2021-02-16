@@ -152,7 +152,15 @@ Podman
 ~~~~~~
 
 A tool to run _containers_.  It is developed by Redhat, but it is an open-source
-project (as commonly does Redhat).
+project (as commonly does Redhat).  +Podman+ is a complete replacement for
++Docker+, with the exact same API and interface.
+
++Podman+, like +Docker+, can also build _images_, but essentially the
+`podman build` command is a wrapper around +Buildah+.
+
++Podman+ is _daemonless_ and, its default configuration, _rootless_, meaning
+that the _containers_ it runs don't need `root` permissions and they can run
+under a restricted user, even when they appear to run under `root`.
 
  - https://podman.io/[Podman]
 
