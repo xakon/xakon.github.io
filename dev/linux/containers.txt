@@ -76,6 +76,12 @@ Some of them are mentioned here.
  - https://www.redhat.com/sysadmin/simple-container-registry[How to implement a
    simple personal/private Linux container image registry]
 
+ - https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction/[A
+   Practical Introduction to Container Terminology]
+
+ - https://blog.alexellis.io/building-containers-without-docker/[Building
+   Containers without Docker]
+
 
 Tools
 -----
