@@ -62,6 +62,7 @@ Apress, 2020
  - [Common Lisp Programming Challenge](https://github.com/spxy/clpc)
    Learn the basics of Common Lisp with small exercises (about 1h each),
    that guide the reader to learn and setup a Common Lisp environment.
+ - [Google Style Guide](https://google.github.io/styleguide/lispguide.xml)
 
 
 ### Libraries/Tools

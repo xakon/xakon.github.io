@@ -14,6 +14,7 @@ Resources
  - [Vim FAQ](http://vimdoc.sourceforge.net/htmldoc/vimfaq.html)
  - [Vim Recipes](https://www.ossblog.org/wp-content/uploads/2017/06/vim-recipes.pdf)
    A free Vim cookbook with scores of recipes for everyday Vim usage.
+ - [Google Vimscript Style Guide](https://google.github.io/styleguide/vimscriptguide.xml)
 
 
 ### Colorschemes

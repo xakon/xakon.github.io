@@ -24,6 +24,7 @@ ANSI C++
  - [List of C/C++ frameworks, libraries, resources](https://github.com/fffaraz/awesome-cpp)
  - [Modern C++ Features](https://github.com/AnthonyCalandra/modern-cpp-features)
  - [C++ Best Practices](https://github.com/lefticus/cppbestpractices.git)
+ - [Google Style Guide](https://google.github.io/styleguide/cppguide.html)
 
 
 ### Books

@@ -9,7 +9,7 @@ Resources
    both for JRE and JDK.  Now, that Oracle abandoned Java and RedHat
    took ownership of the language and the ecosystem, [OpenJDK][openjdk]
    seems once again as a better alternative.
-
+ - [Google Style Guide](https://google.github.io/styleguide/javaguide.html)
 
 Tools
 -----

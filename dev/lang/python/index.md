@@ -25,6 +25,7 @@ Documentation
 ### Online Resources
 
  - [pyvideo.org](http://pyvideo.org/)
+ - [Google Style Guide](https://google.github.io/styleguide/pyguide.html)
 
 
 ### Changelog

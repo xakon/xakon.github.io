@@ -76,6 +76,9 @@ Resources
  - [Untrusted](https://alexnisnevich.github.io/untrusted/):
    Learn JavaScript by playing, programming an ASCII-based game.
 
+ - [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)
+ - [Google TypeScript Style Guide](https://google.github.io/styleguide/tsguide.html)
+
 [mozilla-guide]:	https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide
 [mozilla2-guide]:	https://developer.mozilla.org/en-US/docs/Learn/JavaScript
 

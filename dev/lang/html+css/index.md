@@ -15,6 +15,7 @@ Resources
    [Practical Typography](http://practicaltypography.com/) and
    [Beautiful Rackt](http://beautifulracket.com/), both of them excellent
    publications.
+ - [Google Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
 
 
 ### References
