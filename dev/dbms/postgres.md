@@ -24,6 +24,10 @@ Resources
    An online, interesting book about PostgreSQL, with nice figures, diagrams,
    explanations of database issues.
 
+### Datasets ###
+
+ - [PostgreSQL DB samples](https://www.postgresql.org/ftp/projects/pgFoundry/dbsamples/)
+
 
 References
 ----------
