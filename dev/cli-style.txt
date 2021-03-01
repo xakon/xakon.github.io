@@ -16,6 +16,7 @@ further details and future reference.
    to use STDERR instead of STDOUT]
 //- // Respect $NO_COLOR
 //- // proper use of XDG directories
+https://blog.liw.fi/posts/2021/02/14/xdg-base-dirs-rust/
 
 
 Style

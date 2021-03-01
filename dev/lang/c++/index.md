@@ -39,7 +39,10 @@ ANSI C++
  - Effective Modern C++
  - Exceptional C++
  - More Exceptional C++
- - Modern C++ Design
+ - Modern C++ Design  
+   Andrei Alexandrescu  
+   0-201-70431-5  
+   Addison-Wesley, 2001
  - Modern C++ Cookbook
  - Effective STL
  - C++17 STL Cookbook
