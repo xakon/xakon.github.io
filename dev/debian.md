@@ -41,6 +41,10 @@ Many of them can be found in the `devscripts` Debian package.
 On Ubuntu, there is also [multipass](https://multipass.run/), which can be used
 to easily spin up Ubuntu VM instances.  Maybe it supports Debian images, too.
 
+[Debian][debian] started to host a debug info server, which means that we can
+debug a program locally, without installing the debug information on the same
+machine.  More information can be found at the
+[Wiki page](https://wiki.debian.org/Debuginfod).
 
 Packages
 --------
