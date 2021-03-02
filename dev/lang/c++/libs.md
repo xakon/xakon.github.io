@@ -73,6 +73,12 @@ Here is a list of industry-based, strong-supported libraries:
    problems in the codebase.  It supports both C/C++ and Rust.
 
 
+### Profiling ###
+
+ - [speedscope](https://www.speedscope.app/):
+   Creation of interactive flamegraphs out of a profile file.
+
+
 ### Web Frameworks ###
 
  - [Wt](https://www.webtoolkit.eu/wt/):
