@@ -14,6 +14,17 @@ Resources
  - [The Illustrated TLS Connection](https://tls.ulfheim.net/)
 
 
+Tools
+-----
+
+While testing our development code against SSL/TLS bindings, it's very helpful
+to test against real SSL certificates and not be bothered or circumvent the
+self-signed errors.  A tool that can help on creating "real" certificates is the
+[trustme](https://github.com/python-trio/trustme), a Python application that can
+create a fake CA, which will then can create trustworthy, at least for
+development, certificates.
+
+
 Notes
 -----
 
