@@ -23,5 +23,14 @@ Links
  - [Dan Rodney's List of Mac Resources][1]
 
 
+Tricks
+------
+
+On modern macOS, we can setup `sudo(8)` to use the fingerprint key instead of
+typing a password.  Very convenient and fast method.  The only need we have to
+do is add the following line at the top of the file `/etc/pam.d/sudo`:
+
+    auth    sufficient    pam_tid.so
+
 
 [1]: http://www.danrodney.com/mac/

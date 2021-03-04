@@ -12,3 +12,9 @@ configurations.
 
 
 [sudo-article]:	https://opensource.com/article/17/12/using-sudo-delegate
+
+On modern macOS, we can setup `sudo(8)` to use the fingerprint key instead of
+typing a password.  Very convenient and fast method.  The only need we have to
+do is add the following line at the top of the file `/etc/pam.d/sudo`:
+
+    auth    sufficient    pam_tid.so
