@@ -81,6 +81,16 @@ Web Development
 
 [React]:	https://reactjs.org/
 
+### Libraries ###
+
+ - [htmx](https://htmx.org/):
+   An alternative library to [React] or similar JavaScript frameworks, to write
+   simple _Single-Page Applications_ (SPA).  It is a small HTML library, that
+   extends HTML and let's us update dynamically an HTML page by issuing backend
+   requests, but render HTML responses, not JSON.  The difference to the backend
+   on rendering HTML vs. JSON is not that much, and it lets us use our common
+   tools, like _Django Templates_, to render SPA sites.
+
 ### Resources ###
 
  - [Mono Icons](https://icons.mono.company/)
