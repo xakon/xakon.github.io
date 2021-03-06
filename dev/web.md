@@ -69,12 +69,17 @@ Web Development
  * [flask-slither](http://github.com/gevious/flask_slither):
    A small library between MongoDB and JSON API endpoints.
 
+ * [React]:
+   The dominant JavaScript framework to write _Single-Page Applications_ (SPA).
+   It relies on custom template language, _JSX_, and partial rendering of the
+   page's DOM, upon AJAX requests.
 
  * [Bottle](http://bottlepy.org/):
    A fast, simple and lightweight WSGI micro web-framework.  Build small
    websites and REST APIs in seconds.  All the framework is just one `.py` file
    that you can drop in your directory.
 
+[React]:	https://reactjs.org/
 
 ### Resources ###
 
