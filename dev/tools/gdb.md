@@ -24,6 +24,21 @@ Resources
 Tips
 ----
 
+### Compiler Support ###
+
+In order to make debugging easier, we might need to disable the optimizations
+from the compiler.  The common flag for debugging information among various
+compilers is the `-g`.  But for GCC it might help to add more debugging
+information for [GDB], in order to also debug macros, not rearrange the order of
+the instructions in the execution and others.
+
+Thus, some useful compiler flags are:
+
+ - `-ggdb3`
+ - `-dwarf-5`
+ - `-fno-omit-frame-pointer`
+ - `-Og` or even `-O0`
+
 ### Useful commands ###
 
  - `gdb --args`
