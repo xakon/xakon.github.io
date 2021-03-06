@@ -12,6 +12,7 @@ Resources
  - [dbg](https://github.com/ebcfr/dbg):
    A lightweight graphical frontend for gdb to debug local or embedded apps.
  - [Tips for Productive Debugging with GDB][gdb-tips1]
+ - [GDB: Quick guide to make your debugging easier](https://johnysswlab.com/gdb-a-quick-guide-to-make-your-debugging-easier/)
 
 
 [gdb-home]:	https://www.gnu.org/software/gdb/
