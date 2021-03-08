@@ -91,15 +91,30 @@ purpose.  Some alternatives are:
 
  - [Contiki](http://www.contiki-os.org/)
 
- - [FreeRTOS](http://www.freertos.org/)
+ - [VxWorks](https://www.windriver.com/products/vxworks):
+   Proprietary RTOS, providing almost everything a developer might need.
+   It is POSIX-certified.
 
- - [ChibiOS](http://www.chibios.org/)
+ - [BlackBerry QNX](https://blackberry.qnx.com/):
+   Commerciaal UNIX-like RTOS, providing almost everything a developer might need,
+   even a desktop environment.
+   It is POSIX-certified.
+
+ - [FreeRTOS](http://www.freertos.org/):
+   A very lightweight RTOS, that provides essentially only a scheduler and
+   multi-threading primitives.
+
+ - [ChibiOS/RT](http://www.chibios.org/):
+   Compact and fast RTOS, runs on many MCUs.
 
  - [Mbed OS](http://www.mbed.com/en/platform/mbed-os/)
 
  - [ThreadX](http://rtos.com/products/threadx/)
 
- - [NuttX RTOS](http://www.nuttx.org/)
+ - [Apache NuttX RTOS](http://www.nuttx.org/):
+   It seems that the official page of the system is at
+   [Apache](http://nuttx.apache.org/) anymore.
+   It is POSIX-compatible.
 
  - [RIOT OS](http://riot-os.org/)
 
