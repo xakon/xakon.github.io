@@ -18,6 +18,10 @@ Resources
 
  - [Django Tricks](https://www.djangotricks.com/tricks/)
 
+- [An example Django + Docker app](https://github.com/nickjj/docker-django-example):
+  A demo of a Django application with setup for various aspects:  Database migrations,
+  CI pipeline, Docker, etc.
+
 
 [auth-example]:	http://blog.narenarya.in/right-way-django-authentication.html
 
