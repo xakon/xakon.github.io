@@ -7,6 +7,12 @@ Music Tools
  - [Acoustic Guitar](http://www.acousticguitar.com/)
 
 
+## Resources ##
+
+ - [International Music Score Library Project](http://imslp.org/):
+   It hosts thousands of classical music scores.
+
+
 ## Command-Line Players
 
  - [moc](http://moc.daper.net/):
