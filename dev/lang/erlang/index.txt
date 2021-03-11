@@ -50,7 +50,7 @@ Web
 Books
 ~~~~~
 
-Some recommended books about Erland are:
+Some recommended books about Erlang are:
 
  - Programming Erlang: Software for a Concurrent World, 2/e
    Joe Armstrong
