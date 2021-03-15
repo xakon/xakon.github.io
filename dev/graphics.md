@@ -13,6 +13,9 @@ Resources
    distributed as a separate PDF file.  Alternatively, in a
    [Github project](https://github.com/jagregory/abrash-black-book),
    we can build an EPUB, Mobi, or HTML version of the book.`
+ - [3D Math Primer for Graphics and Game Development](https://gamemath.com/):
+   The book is out of print and the author has made it publicly available
+   online.  There is also a 2nd edition available.
 
 
 [pbr-book]:	http://www.pbr-book.org/
