@@ -44,6 +44,9 @@ Profilers
  - [pytest-benchmark](https://github.com/ionelmc/pytest-benchmark):
    `py.test` fixture for benchmarking code.
 
+ - [VizTracer](https://readthedocs.org/projects/viztracer/):
+   Trace and visualise Python code, even in multi-threading or multi-processing
+   modes.
 
 Test Runners
 ------------
