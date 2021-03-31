@@ -12,6 +12,8 @@ Testing
  - [gopwt](https://github.com/ToQoz/gopwt)
  - [go-testdeep](https://github.com/maxatome/go-testdeep)
  - [ginkgo](https://github.com/onsi/ginkgo)
+ - [jarcoal/httpmock](https://github.com/jarcoal/httpmock):
+   Mock external HTTP services.
 
 
 Command-Line
