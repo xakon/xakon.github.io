@@ -3,13 +3,13 @@ Embedded Development
 
 ## Resources
 
- o [Embedded-Linux Wiki (elinux.org)][elinux]
- o [Barr group][barr]
- o [CodeBender][codebender]:
+ - [Embedded-Linux Wiki (elinux.org)][elinux]
+ - [Barr group][barr]
+ - [CodeBender][codebender]:
    Some interesting Embedded projects, with lots of different boards and staff.
- o [Bithacks](https://graphics.stanford.edu/~seander/bithacks.html)
- o [OS Development Wiki](http://wiki.osdev.org/Main_Page)
- o [Adafruit.com](https://adafruit.com):
+ - [Bithacks](https://graphics.stanford.edu/~seander/bithacks.html)
+ - [OS Development Wiki](http://wiki.osdev.org/Main_Page)
+ - [Adafruit.com](https://adafruit.com):
    Full of resources for embedded projects.
  - [Rust Embedded](https://github.com/rust-embedded):
    Resources, tutorials, books, and code for embedded programming using Rust.
@@ -20,20 +20,20 @@ Embedded Development
 
 ## Tools
 
- o [Crosstool-NG](http://crosstool-ng.github.io/):
+ - [Crosstool-NG](http://crosstool-ng.github.io/):
    A toolchain is the most important tool in order to build a custom Linux
    distribution for an embedded device.  There are some of them, "Crosstool-NG"
    is considered the latest best one.
 
- o [Linaro][linaro]:
+ - [Linaro][linaro]:
    _Linaro_ provides many useful toolchains, libraries, documentation, and tools
    for the ARM ecosystem.
 
- o [Rust Embeddded](https://github.com/rust-embedded):
+ - [Rust Embeddded](https://github.com/rust-embedded):
    A huge collection of documentation, resources, libraries, related to Embedded
    Programming using [Rust](https://www.rust-lang.org/).
 
- o [Open On-Chip Debugger (openocd)](http://openocd.org/):
+ - [Open On-Chip Debugger (openocd)](http://openocd.org/):
    Free and Open On-Chip Debugging, In-System Programming and Boundary-Scan Testing.
    Recommended as a must-have tool for modern debugging on on-chip software.
 
@@ -42,7 +42,7 @@ Embedded Development
 
 Some useful libraries for embedded systems.
 
- o [Sophia][sophia]:
+ - [Sophia][sophia]:
    A modern embeddable key-value database designed for a high load environment.
    It has unique architecture that was created as a result of research and
    rethinking of primary algorithmic constraints, associated with a getting
@@ -50,38 +50,38 @@ Some useful libraries for embedded systems.
 
    It is fast and easy to use.
 
- o [libPhenom][libphenom]:
+ - [libPhenom][libphenom]:
    An eventing framework for building high performance and high scalability
    systems in C.
 
- o [Mongoose](https://docs.cesanta.com/mongoose/master/):
+ - [Mongoose](https://docs.cesanta.com/mongoose/master/):
    A Networking Library.
 
- o [lwIP](https://savannah.nongnu.org/projects/lwip/):
+ - [lwIP](https://savannah.nongnu.org/projects/lwip/):
    A Lightweight TCP/IP stack.
 
 
 ## Books
 
- o _Better Embedded System Software_.  It comes with an accompanying blog:
+ - _Better Embedded System Software_.  It comes with an accompanying blog:
    <http://betterembsw.blogspot.nl/>
 
- o _Writing a Linux Kernel Module_.  A series of blog posts:
+ - _Writing a Linux Kernel Module_.  A series of blog posts:
    <http://derekmolloy.ie/kernel-gpio-programming-buttons-and-leds/>
 
- o _Embedded Linux Primer, 2/e_
+ - _Embedded Linux Primer, 2/e_
 
- o _Making Embedded Systems: Design Patterns for Great Software_  
+ - _Making Embedded Systems: Design Patterns for Great Software_  
    O'Reilly, 2011
    Elecia White
 
- o [Embedded Systems Security and TrustZone](https://embeddedsecurity.io/):
+ - [Embedded Systems Security and TrustZone](https://embeddedsecurity.io/):
    A free, online book on security for embedded systems.
 
 
 ## Videos
 
- o [Embedded Systems Programming Course][course]:
+ - [Embedded Systems Programming Course][course]:
    A very nice introduction to embedded programming using ANSI C and with practical examples
    on a real board.  I need to get this board and start playing around!
 
@@ -151,14 +151,14 @@ purpose.  Some alternatives are:
 
 ## Other
 
- o [Free Electrons][electrons]:
+ - [Free Electrons][electrons]:
    Remember to regularly visit this company!  There are tones of tutorials, training courses
    and materials, even job opportunities!  Also, this site [hosts][electron-tools] many different
    toolchains (compilers, libraries, kernels, debuggers) for various platforms.
 
    I think that "Free Electrons" changed their name due to avoiding legal conflicts with it.
 
- o [Custom Embedded Linux Distributions](https://www.linuxjournal.com/content/custom-embedded-linux-distributions):
+ - [Custom Embedded Linux Distributions](https://www.linuxjournal.com/content/custom-embedded-linux-distributions):
    A useful article in [Linux Journal](https://www.linuxjournal.com/) that
    documents and explains many of the options and the components for an
    embedded Linux distribution.
