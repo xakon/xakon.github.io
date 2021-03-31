@@ -40,7 +40,8 @@ on Assembly and Linux, I collected the following useful resources:
  - [System V Application Binary Interface: AMD64 Architecture Processor Supplement][sysv-spec]:
    Only a few pieces of information are needed from this document, but more
    would be needed for a more substantial program.
-
+ - [Modern CPU Microarchitecture](https://pcpartpicker.com/user/526christian/saved/dm4CLk):
+   A nice overview of all the components of a computer architecture.
 
 
 [elf-spec]:	http://refspecs.linuxbase.org/elf/elf.pdf

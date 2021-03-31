@@ -16,6 +16,8 @@ Embedded Development
  - [Arm Developer](https://developer.arm.com/solutions/internet-of-things):
    Plenty of resources from [Arm](https://arm.com) around boards, Operating
    Systems, languages, and libraries.
+ - [Modern CPU Microarchitecture](https://pcpartpicker.com/user/526christian/saved/dm4CLk):
+   A nice overview of all the components of a computer architecture.
 
 
 ## Tools
