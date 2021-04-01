@@ -9,6 +9,10 @@ Resources
 
  - [Official Site](https://www.typescriptlang.org/)
 
+### Online Books ###
+
+ - [The TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/)
+
 
 [JavaScript]:	https://en.wikipedia.org/wiki/JavaScript
 
