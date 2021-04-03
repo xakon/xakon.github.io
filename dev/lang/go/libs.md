@@ -28,3 +28,12 @@ Command-Line
    based on [The Elm Architecture](https://guide.elm-lang.org/architecture/).
    Bubble Tea is well-suited for simple and complex terminal applications,
    either inline, full-window, or a mix of both.
+
+
+Web Development
+---------------
+
+ - [gorilla/mux](https://github.com/gorilla/mux):
+   Request router and dispatcher.
+   Simple and excellent library that removes a lot of boilerplate from manual
+   request handlers and makes obvious the inspection of the application's routes..
