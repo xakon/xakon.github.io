@@ -37,3 +37,6 @@ Web Development
    Request router and dispatcher.
    Simple and excellent library that removes a lot of boilerplate from manual
    request handlers and makes obvious the inspection of the application's routes..
+ - [Gin Web Framework](https://github.com/gin-gonic/gin):
+   A complete Web Framework with many extra features not found in standard
+   library.
