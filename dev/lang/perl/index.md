@@ -54,6 +54,9 @@ Other useful web sites might be:
  - Effective Perl Programming, 2/e, Addison-Wesley
  - Perl Medic, by Peter J. Scott
  - Higher Order Perl, by Mark J. Dominus
+ - [Perl Cookbook, 2/e](https://docstore.mik.ua/orelly/perl4/cook/):
+   A treasure of small and useful recipes.  Available online (thus easily
+   searchable and usable as a reference), by O'Reilly CD Bookshelf.
 
 ### Blogs
 
