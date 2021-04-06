@@ -40,6 +40,9 @@ Other useful web sites might be:
 
 ### Books
 
+ - [Perl in a Nutshell, 2/e](https://docstore.mik.ua/orelly/perl4/perlnut/):
+   A rather old book, but a very nice tutorial on Perl.
+   Available online by O'Reilly CD Bookshelf.
  - Learning Perl, 6/e, O'Reilly, [Accompanying site](http://www.learning-perl.com):
    The 3rd edition of the book is made available
    [online](https://docstore.mik.ua/orelly/perl4/prog/)
