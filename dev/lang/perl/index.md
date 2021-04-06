@@ -40,7 +40,10 @@ Other useful web sites might be:
 
 ### Books
 
- - Learning Perl, 6/e, O'Reilly, [Accompanying site](http://www.learning-perl.com)
+ - Learning Perl, 6/e, O'Reilly, [Accompanying site](http://www.learning-perl.com):
+   The 3rd edition of the book is made available
+   [online](https://docstore.mik.ua/orelly/perl4/prog/)
+   by O'Reilly CD Bookshelf.
  - Programming Perl, 4/e, O'Reilly
  - Beginning Perl, O'Reilly
  - Intermediate Perl, O'Reilly
