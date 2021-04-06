@@ -23,6 +23,14 @@ Core Libraries
 CPAN
 ----
 
+ - [cpan-outdated](https://metacpan.org/pod/distribution/cpan-outdated/script/cpan-outdated):
+   List outdated modules in current project.
+
+ - [cpan-listchanges](https://metacpan.org/pod/distribution/cpan-listchanges/script/cpan-listchanges)
+
+ - [cpandeps](https://metacpan.org/pod/distribution/CPAN-FindDependencies/bin/cpandeps):
+   Print the dependencies tree in a project.
+
  - [Mustache](http://mustache.github.io/):
    Logic-less templates, with bindings in too many languages
    (Perl, Python, C++, Go, D, Haskell, Erlang, Common Lisp).
