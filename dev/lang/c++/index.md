@@ -25,6 +25,8 @@ ANSI C++
  - [Modern C++ Features](https://github.com/AnthonyCalandra/modern-cpp-features)
  - [C++ Best Practices](https://github.com/lefticus/cppbestpractices.git)
  - [Google Style Guide](https://google.github.io/styleguide/cppguide.html)
+ - [Hacking C++](https://hackingcpp.com/):
+   Excellent online reference of STL and other guides for C++.
 
 
 ### Books
