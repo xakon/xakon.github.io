@@ -134,3 +134,7 @@ Misc
  - [Boinc](https://boinc.berkeley.edu/):
    Open-source software for volunteer computing.  Also the
    [Debian Wiki page](https://wiki.debian.org/BOINC) might be interesting.
+
+ - [Minibox](https://github.com/ercanersoy/Minibox):
+   Small Unix commands for resource limited systems.
+   We can build them even for MS-DOS, [FreeDOS](http://freedos.org/), etc.
