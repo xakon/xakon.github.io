@@ -3,6 +3,10 @@ Password Managers
 
 ### KeepassX
 
+### pass ###
+
+The standard Unix password manager.  Found at:
+   <https://www.passwordstore.org/>
 
 ### Titan
 
