@@ -13,6 +13,7 @@ Resources
  - [Postgres Observability](https://pgstats.dev/)
  - [My GOTO Postgres Configuration for Web Services][web-config]
  - [Postgres Tips and Tricks](https://pgdash.io/blog/postgres-tips-and-tricks.html)
+ - [psql Tips](https://mydbanotebook.org/psql_tips_all.html)
 
 
 [web-config]:	https://tightlycoupled.io/my-goto-postgres-configuration-for-web-services/
