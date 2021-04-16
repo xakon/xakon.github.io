@@ -24,6 +24,8 @@ Tools
 
  - [Ruff! - Runtime Formatting Function Reference][ruff]
  - [Expect](http://core.tcl.tk/expect)
+ - [DGTcl - Project](https://github.com/mittelmark/DGTcl):
+   Documentation tools for `Tcl`.
 
 
 Books
