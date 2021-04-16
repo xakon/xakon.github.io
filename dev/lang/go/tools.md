@@ -18,3 +18,13 @@ about a Go codebase.  It can be installed using Go itself:
 ```shell
    $ go get golang.org/x/tools/cmd/oracle
 ```
+
+
+`sprof`
+-------
+
+A static profiler, which can analyze a running process without any performance
+bottlenecks or special compilation.
+
+It is an independent tool, which can be found at
+[Github](https://github.com/felixge/sprof).
