@@ -16,7 +16,7 @@ I need this log in order to see my progress in time.
  - Refactoring
  - Debugging
  - Effective Debugging
- - Object-Oriented Programming in Common LISP  
+ - Object-Oriented Programming in Common LISP
  - A Philosophy of Software Design
  - UNIX: A History and a Memoir
 
