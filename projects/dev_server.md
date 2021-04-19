@@ -98,6 +98,10 @@ OVH
   65 EUR, quite powerful
   60 EUR, quite powerful
 
+Hetzner
+  €20,	VPS with 4 cores/16GB/180GB	https://www.hetzner.com/cloud
+  €42,  Server with 6 cores/64GB/1TB	https://www.hetzner.com/dedicated-rootserver/
+
 KimSufi
   22 EUR, Cheap machines
 
