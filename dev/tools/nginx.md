@@ -5,6 +5,7 @@ Resources
 ---------
 
  - [Official page](http://nginx.org)
+ - [Configuration Cheatsheet](https://vishnu.hashnode.dev/nginx-cheatsheet)
 
 
 I saved a great [infographic][1] about Nginx's architecture and operation,
