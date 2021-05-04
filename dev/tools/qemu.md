@@ -64,6 +64,26 @@ How to create a Windows installation:
    $ qemu -hda winxp.img -m 1024 -boot c # -nographic
 ```
 
+An installation of an old, Windows 98 system, is found at this
+[excellent post](https://nullprogram.com/blog/2018/04/13/).
+In short:
+
+```console
+$ qemu-image create -fqcow2 win98.img 8G
+$ qemu-system-x86_64 \
+    -localtime \
+    -cpu pentium \
+    -no-acpi \
+    -no-hpet \
+    -m 256 \
+    -hda win98.img \
+    -soundhw sb16 \
+    -vga cirrus \
+    -net none \
+    -cdrom "Windows 98 Second Edition.iso" \
+    -boot d
+```
+
 How to create a Plan9 VM:
 
 ```shell
