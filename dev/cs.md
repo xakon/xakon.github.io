@@ -16,6 +16,7 @@ Computer Science
    a given paper on any CS topic!
  - [Electronic References](https://csgordon.github.io/books.html):
    A collection of CS topics with references to their books.
+ - [Computer Science from the Bottom Up](https://www.bottomupcs.com/)
 
 
 Books

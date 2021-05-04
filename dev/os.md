@@ -83,6 +83,9 @@ exercises, solutions, videos.
    An experimental OS, written in [Rust](https://www.rust-lang.org/).
    It contains detailed instructions on how to build and run it on QEMU and
    other platforms.
+ - [Computer Science from the Bottom Up](https://www.bottomupcs.com/):
+   Despite its title, this online book is mainly focused on OS design and
+   principles.
 
 
 [mikeos]:	http://mikeos.sourceforge.net/
