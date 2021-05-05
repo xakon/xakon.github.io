@@ -131,3 +131,6 @@ This document has been found at:
    more advanced protocol analyzing and reporting. Wireshark has both a GUI
    interface and a shell interface. If you do any serious network
    administration, you must use ethereal.
+
+ - Termshark
+   A terminal UI for tshark, inspired by Wireshark.
