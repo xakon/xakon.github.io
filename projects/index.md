@@ -3,6 +3,9 @@ Projects
 
 A list of project ideas and notes about them for future reference.
 
+In this [page](https://github.com/255kb/stack-on-a-budget/) I can find many
+services that provide free access for application deployment.
+
 A draft list of project ideas:
 
  - [gtop](https://github.com/aksakalli/gtop):
