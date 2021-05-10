@@ -17,6 +17,11 @@ Resources
  - <http://jen20.com/2015/02/01/moving-to-go-what-i-wish-id-known.html>
 
 
+### Cheatsheets ###
+
+ - [Go modules cheat sheet](https://encore.dev/guide/go.mod)
+
+
 ### Books
 
  - [The Go Programming Language](https://www.gopl.io/)
