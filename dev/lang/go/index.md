@@ -37,28 +37,6 @@ Resources
    Free, online book.
 
 
-## Libraries
-
-### General
-
- - [cobra](https://github.com/spf13/cobra):
-   Advanced CLI scanner, like git, hg and others.
-
- - [pflag](https://github.com/ogier/pflag):
-   Drop-in replacement for Go's `flag` package,
-   implementing POSIX/GNU-style `--flag`.
-
- - [CodeGangsta](https://github.com/codegangsta/cli):
-   Another library to parse program's command-line arguments & commands.
-
- - [nanolog](https://github.com/ScottMansfield/nanolog)
-
-### Web Development
-
- - [Tiger Tonic](https://github.com/rcrowley/go-tigertonic):
- Easy to use implementing Web Services.
-
-
 ## Syntax
 
 Some notes I take during my readings about Go.

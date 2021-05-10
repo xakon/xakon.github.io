@@ -23,11 +23,17 @@ Command-Line
    Go configuration and command-line arguments support.
  - [cobra](https://github.com/spf13/cobra):
    Build powerful command-line applications.
+ - [pflag](https://github.com/ogier/pflag):
+   Drop-in replacement for Go's `flag` package,
+   implementing POSIX/GNU-style `--flag`.
+ - [CodeGangsta](https://github.com/codegangsta/cli):
+   Another library to parse program's command-line arguments & commands.
  - [Bubble Tea](https://github.com/charmbracelet/bubbletea):
    The fun, functional and stateful way to build terminal apps. A Go framework
    based on [The Elm Architecture](https://guide.elm-lang.org/architecture/).
    Bubble Tea is well-suited for simple and complex terminal applications,
    either inline, full-window, or a mix of both.
+ - [nanolog](https://github.com/ScottMansfield/nanolog)
 
 
 Web Development
@@ -40,3 +46,5 @@ Web Development
  - [Gin Web Framework](https://github.com/gin-gonic/gin):
    A complete Web Framework with many extra features not found in standard
    library.
+ - [Tiger Tonic](https://github.com/rcrowley/go-tigertonic):
+   Easy to use implementing Web Services.
