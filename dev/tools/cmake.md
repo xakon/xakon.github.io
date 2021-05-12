@@ -17,6 +17,8 @@ Books
 -----
 
  - [Professional CMake, 5/e](https://crascit.com/professional-cmake/)
+ - [Mastering CMake](https://gitlab.kitware.com/cmake/mastering-cmake):
+   The author open-sourced the book, but I haven't found a PDF version of it.
 
 
 Resources
