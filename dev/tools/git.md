@@ -102,6 +102,45 @@ I can always find a list of alternative services.
  - [Gitlab](https://gitlab.com/)
 
 
+### Useful Configuration ###
+
+#### PGP signatures ####
+
+    [user]
+    signingkey   = DEADBEAF
+
+We also need to configure the `gpg-agent` to use the terminal or the console in
+order to ask for the PGP passphrase.  Add the following in the
+`~/.gnupg/gpg-agent.conf`:
+
+    use-standard-socket
+    write-env-file ~/.gnupg/gpg-agent-info
+    pinentry-program /usr/bin/pinentry-tty
+
+Other nice options are `pinentry-curses` or even `pinentry-gnome3` or
+`pinentry-x11` for graphical interfaces.
+
+#### Ignore commits from `git blame` ####
+
+Ignore some commits from the `git blame` command.  Paste the SHAs of the commits
+in a text file, then add the following configuration:
+
+    [blame]
+    ignoreRevsFile = path/file
+
+Useful when we have a large patch with decorative changes, like changing the
+style of some files.
+
+#### Submodules ####
+
+While working on a repository with _submodules_, it helps to run some commands
+recursively.  Add the following configuration to propagate some commands to
+_submodules_:
+
+    [submodule]
+    recurse = true
+
+
 ### References
 
 In case I need it: [Fixing Git Commits](http://sethrobertson.github.io/GitFixUm/).
