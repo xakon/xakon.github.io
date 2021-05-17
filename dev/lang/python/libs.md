@@ -121,6 +121,15 @@ System Programming
    much to offer for experienced programmers and researchers.
 
 
+Serialization
+-------------
+
+Libraries to perform validation of input data and serialization/deserialization.
+
+ - [pydantic](https://pydantic-docs.helpmanual.io/)
+ - [Marshmallow](https://marshmallow.readthedocs.io//)
+
+
 Web Programming
 ---------------
 

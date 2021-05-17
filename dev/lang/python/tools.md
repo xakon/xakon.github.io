@@ -64,6 +64,16 @@ Test Runners
    but is super fast.
 
 
+Static Typing
+-------------
+
+ - [mypy](https://github.com/python/mypy)
+ - [pyre](https://pyre-check.org/)
+ - [pyright](https://github.com/Microsoft/pyright)
+ - [pytype](https://github.com/google/pytype)
+ - [pyanalyze](https://github.com/quora/pyanalyze)
+
+
 Misc
 ----
 
