@@ -25,6 +25,19 @@ Some other tiny and cheap boards can be (TODO: more info to be added):
  - Teensy 40
 
 
+Raspberry Pi
+------------
+
+The _Raspberry Pi_ started a revolution.  It is available in many versions, even
+in a tiny micro-controller or a whole computer built with it.  Even though is
+heavy-weight for embedded development, it can still be used in experimental or
+production code.
+
+### Resources ###
+
+ - [Raspberry Pi](https://www.raspberrypi.org/)
+
+
 Arduino
 -------
 
