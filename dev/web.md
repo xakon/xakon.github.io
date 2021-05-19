@@ -102,7 +102,7 @@ These days RESTful services are very common on Web and mobile applications.
 Even me has been asked once to implement some of their kind!
 
 I found an interesting article, where the author shows how one can easily and
-quicly implement some simple REST services using only
+quickly implement some simple REST services using only
 [Nginx](http://nginx.org/) and [PostgreSQL](http://www.postgresql.org/):
 [Simple API with Nginx and PostreSQL](http://rny.io/nginx/postgresql/2013/07/26/simple-api-with-nginx-and-postgresql.html).
 
@@ -187,10 +187,10 @@ The main difference between a `GET` and a `POST` request is that in `GET` the
 query parameters are included in the submitted URL, whereas in `POST` they are
 contained in the request body.  Since there is a maximum URL length, we are
 constrained in a `GET` request on the number of the passed parameters.
-No such limit exists, of course, on `POST`. and a `POST`
+No such limit exists, of course, on `POST`.
 
 Also, `GET` is usually for fetching documents, whereas `POST` is used for
-updating data.  Furthermore, `GET`'s results are Ok to cache and the request
+updating data.  Furthermore, `GET`'s results are fine to cache and the request
 shouldn't change the server data, facts that they doesn't stand for `POST`.
 
 ### HTML
