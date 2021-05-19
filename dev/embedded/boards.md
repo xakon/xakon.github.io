@@ -40,3 +40,15 @@ many professional toolkits.
 [arduino]:	https://www.arduino.cc/
 [frdm-kl25z]:	http://www.freescale.com/webapp/sps/site/prod_summary.jsp?code=FRDM-KL25Z
 
+
+BBC micro:bit
+-------------
+
+A cheap and small embedded board, suitable for educational purposes.  Yet, it
+can run many heavy-weight applications and it has many modules loaded.  There
+are plenty of resources around it.
+
+### Resources ###
+
+ - [BBC micro:bit](https://microbit.org/)
+ - [Getting Started](https://microbit.org/get-started/first-steps/introduction/)
