@@ -127,6 +127,9 @@ Some tools to create/manipulate DjVu documents can be:
  - `convert` from Imagemagick to convert JPEG images to PBM or PNM.
  - `cjb2` and `c44` to create single-page DjVu files
 
+A nice companion to `.djvu` files is the _tessaract_, an OCR software to attempt
+to read text from an image and print it on STDOUT.  It can be used to add the
+text layer of `.djvu` file.
 
 Misc
 ----
