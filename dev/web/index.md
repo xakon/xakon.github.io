@@ -1,6 +1,9 @@
 Web Development
 ===============
 
+Resources
+---------
+
 ### Tools
 
  * [BSD, C, http, SQLite (BCHS)](https://learnbchs.org/):
@@ -91,6 +94,6 @@ Web Development
    on rendering HTML vs. JSON is not that much, and it lets us use our common
    tools, like _Django Templates_, to render SPA sites.
 
-### Resources ###
+### Other ###
 
  - [Mono Icons](https://icons.mono.company/)
