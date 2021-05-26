@@ -71,6 +71,9 @@ The following is a list suggested by [Bob Nystrom](https://twitter.com/munificen
  - [Beginner's Guide to Linkers](http://www.lurklurk.org/linkers/linkers.html)
  - [Let's Build a Compiler][1], Jack Crenshaw
    A Go version of this tutorial is at [Github](https://github.com/defrobo/crenshaw-go).
+ - [Write you a programming language](https://github.com/stereobooster/write-you-a-programming-language):
+   A list of small languages, which can be implemented either with a compiler or
+   an interpreter, and can be used as educational material.
 
 The following list is extracted from the [Resources for Amateur Compiler Writers][2]:
 
