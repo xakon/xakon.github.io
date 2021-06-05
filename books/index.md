@@ -12,6 +12,31 @@ Another list with books I ought to buy/read someday:
 
 ### Programming
 
+#### Rust ####
+
+Rust in Action
+   Tim McNamara
+   Manning, 2021
+   9781617294556
+   https://www.manning.com/books/rust-in-action
+
+Refactoring Rust
+   Lily Mara
+   Manning, 2022
+   https://www.manning.com/books/refactoring-to-rust
+
+Rust Servers, Services, and Apps
+   Prabhu Eshwarla
+   Manning, 2022
+   9781617298608
+   https://www.manning.com/books/rust-servers-services-and-apps
+
+Rust Web Development
+   Bastian Gruber
+   Manning, 2021
+   9781617299001
+   https://www.manning.com/books/rust-web-development
+
 #### C++
 
 Modern C++ Design
@@ -43,6 +68,18 @@ Purely Functional Data Structures
    Chris Okasaki
    Cambridge University Press, 1999
 
+Get Programming in Haskell
+   Will Kurt
+   Manning, 2018
+   9781617293764
+   https://www.manning.com/books/get-programming-with-haskell
+
+Haskell in Depth
+   Vitaly Bragilevsky
+   Manning, 2021
+   9781617295409
+   https://www.manning.com/books/haskell-in-depth
+
 ### JavaScript ###
 
 3D Game Programming for Kids
@@ -52,9 +89,23 @@ Purely Functional Data Structures
    https://pragprog.com/book/csjava/3d-game-programming-for-kids
 
 Effective JavaScript
-     David Herman  
-     Addison-Wesley, 2012
-     0-321-81218-2, 978-0321812186  
+   David Herman  
+   Addison-Wesley, 2012
+   0-321-81218-2, 978-0321812186  
+
+Testing JavaScript Applications
+   Lucas da Costa
+   Manning, 2021
+   9781617297915
+   https://www.manning.com/books/testing-javascript-applications
+
+#### Fortran ####
+
+Modern Fortran
+  Milan Curcic
+  Manning, 2020
+  9781617295287
+  https://www.manning.com/books/modern-fortran
 
 
 #### Misc
@@ -98,6 +149,24 @@ Patterns of Enterprise Application Architecture
 
 Domain-Driven Design  
    Eric Evans
+
+The Art of Unit Testing, 3/e
+   Roy Osherove
+   Manning, 2022
+   9781617297489
+   https://www.manning.com/books/the-art-of-unit-testing-third-edition
+
+Unit Testing Principles, Practices, and Patterns
+   Vladimir Khorikov
+   Manning, 2020
+   9781617296277
+   https://www.manning.com/books/unit-testing
+
+Five Lines of Code
+   Christian Clausen
+   Manning, 2021
+   9781617298318
+   https://www.manning.com/books/five-lines-of-code
 
 
 ### Algorithms
@@ -150,6 +219,13 @@ Numerical Recipes, 3e
 Making Embedded Systems: Design Patterns for Great Software  
    Elecia White
 
+### Math ###
+
+Math for Programmers
+   Paul Orland
+   Manning, 2020
+   9781617295355
+   https://www.manning.com/books/math-for-programmers
 
 Library Books
 -------------
