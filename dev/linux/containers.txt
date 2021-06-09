@@ -213,6 +213,22 @@ With `openssl(1)` we can create a self-signed certificate.
 The _registry_ is beeing exposed by a Web server at port `5000`.
 
 
+Best Practices
+--------------
+
+Stopping a _container_ might become problematic (introducing unnecessary
+delays), because of wrong way to catch signals.  A good summary of when we
+create a _container_, based on the article
+https://hynek.me/articles/docker-signals/[Why Your Dockerized Application Isn't
+Receiving Signals]:
+
+ - Use the exec/JSON array form of `ENTRYPOINT`.
+ - Use `exec` in shell entrypoints.
+ - Don't pipe your application's output.
+ - Avoid being PID 1 (if possible).
+ - Listen for `SIGTERM` or set `STOPSIGNAL` in the `Dockerfile`.
+
+
 ////
 # vim: set ft=asciidoc:
 ////
