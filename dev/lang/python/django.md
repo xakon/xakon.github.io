@@ -62,6 +62,21 @@ development are:
    Automatically generate *everything* from custom models.
 
 
+Custom User
+-----------
+
+Django provides us out of the box with a `User` model class, ready to be used in
+our project.  But, it might not always be ideal for our use case.  There are a
+few techniques to use a different model class.
+
+Even though it's possible to switch to a custom user class in the middle of the
+development, it is better to start with a custom model class from the beginning.
+
+Some useful resources about this aspect:
+
+ - [Creating a Custom User Model in Django](https://testdriven.io/blog/django-custom-user-model/)
+ - [Django Best Practices: Custom User Model](https://learndjango.com/tutorials/django-custom-user-model)
+
 Snippets
 --------
 
