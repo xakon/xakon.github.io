@@ -10,6 +10,7 @@ Testing
  - [testify](https://github.com/stretchr/testify)
  - [gocheck](https://labix.org/gocheck)
  - [gopwt](https://github.com/ToQoz/gopwt)
+ - [gomock](https://github.com/golang/mock)
  - [go-testdeep](https://github.com/maxatome/go-testdeep)
  - [ginkgo](https://github.com/onsi/ginkgo)
  - [jarcoal/httpmock](https://github.com/jarcoal/httpmock):
