@@ -15,6 +15,9 @@ Testing
  - [ginkgo](https://github.com/onsi/ginkgo)
  - [jarcoal/httpmock](https://github.com/jarcoal/httpmock):
    Mock external HTTP services.
+ - [go-vcr](https://github.com/dnaeon/go-vcr):
+   Inspired by [VCR library for Ruby](https://github.com/vcr/vcr),
+   a library to capture and replay HTTP requests.
 
 
 Command-Line
