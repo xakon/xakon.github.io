@@ -38,3 +38,9 @@ not sent as extra information to the server.
 
 If there are both queries and fragments in a URL, then the query
 should appear first and the fragment last.
+
+
+Headers
+-------
+
+ - [Security headers quick reference](https://web.dev/security-headers/)
