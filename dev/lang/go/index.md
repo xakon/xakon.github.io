@@ -4,6 +4,10 @@ Go
 Resources
 ---------
 
+In this [Github page](https://github.com/ardanlabs/gotraining/tree/master/reading)
+we find many resources in differenct categories, like books, articles,
+workshops, etc.
+
 ### Online Resources
 
  - [Tour of Go](https://tour.golang.org/)
