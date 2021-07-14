@@ -42,6 +42,11 @@ It can be really helpful while copying text from terminal to paste it, for examp
    A nice framework for testing Bash functions and scripts.
    It seems that the project has moved into a different repository, namely:
    <https://github.com/bats-core/bats-core>.
+ - [tap.sh](https://github.com/dnmfarrell/tap.sh):
+   A POSIX-compliant test library for shell code, following the
+   [Test Anything Protocol (TAP](https://testanything.org/) output.
+   We can run the tests with any TAP-compatible test harness, like Perl's
+   `prove`.
 
 
 ## Terminal
