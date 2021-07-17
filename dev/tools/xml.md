@@ -9,6 +9,14 @@ Any tool that can help to handle the beast is welcome!
  - [XML Official Page](https://www.w3.org/XML/)
  - [XML FAQ](http://xml.silmaril.ie/)
  - [xmlstarlet](http://xmlstar.sourceforge.net/)
+ - [xmllint](https://xmllint.com/)
+
+### Converters ###
+
+Many tools exist to convert XML documents to other formats:
+
+ - [xmlto](https://pagure.io/xmlto)
+ - [xsltproc](http://www.xmlsoft.org/xslt/xsltproc2.html)
 
 
 Syntax
