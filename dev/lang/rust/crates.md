@@ -22,7 +22,18 @@ tools can be found at the main [Crates.io](https://crates.io/) site.
    [json](https://docs.rs/slog-json/) for JSON output and more.
  - [log](https://docs.rs/log):
    A simpler alternative to [slog](https://github.com/slog-rs/slog), that might
-   become part of Rust's Standard Library.
+   become part of Rust's Standard Library.  This _create_ provides only the
+   interface, leaving the actual implementation to another _crate_.
+ - [env_logger](https://crates.io/crates/env_logger):
+   The most popular _crate_ for actual implementation of logging.  With a simple
+   init function call and an environment variable we set logging to STDERR or
+   STDOUT.  There are other, supplementary _crates_ that provide even more
+   functionality.
+ - [log4rs](https://crates.io/crates/log4rs):
+   A highly configurable multi-output logging implementation of logging.
+   Its design resembles Java's library [log4j](https://logging.apache.org/log4j/).
+   Of course, it's much more difficult to configure and use it properly,
+   comparing to `env_loggger`.
 
 
 ### Testing
