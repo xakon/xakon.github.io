@@ -93,3 +93,14 @@ LOGGING['loggers']['django.db.backends']['level'] = 'DEBUG'
 
 Use the `list_select_related` field in a model.  Every time Django needs
 to load data for a table, it pre-loads data from the related table.
+
+### Use annotation() and SQL expressions ###
+
+This is how we can get a duration of 2 events:
+
+```python
+duration = ExpressionWrapper(F('beginning') - F('end'), output_field=DurationField())
+events = Event.objects.annotate(duration=duration)
+events[0].duration
+# datetime.timedelta(days=1, seconds=84900, microseconds=504694)
+```
