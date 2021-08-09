@@ -21,4 +21,12 @@ OpenBSD
    He also rents VPS hosts with OpenBSD pre-installed.
 
 
+## Guides ##
+
+ * [OpenBSD Router Guide](https://openbsdrouterguide.net/):
+   Ever wanted to build a custom router for home?  Then, [OpenBSD][openbsd] is a
+   natural choice and this mini book provides all the instructions for such a
+   setup.
+
+
 [openbsd]:		http://www.openbsd.org/
