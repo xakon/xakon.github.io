@@ -62,6 +62,11 @@ Utilities
 Resources
 ---------
 
+ - [The Linux Kernel Module Programming Guide](https://sysprog21.github.io/lkmpg/):
+   A free book, officially written and supported by kernel maintainers, teaches
+   how to write kernel modules, for many Linux versions.  Its source can be
+   found at [Github](https://github.com/sysprog21/lkmpg), from where I can build
+   PDF or other documents.
  - [Linux kernel user's and administrator's guide](https://www.kernel.org/doc/html/latest/admin-guide/)
  - [Linux From Scratch (LFS)](http://www.linuxfromscratch.org)
  - <http://www.win.tue.nl/~aeb/linux/>
