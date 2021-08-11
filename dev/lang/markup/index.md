@@ -28,6 +28,11 @@ Other *Markdown* implementations are:
    * [dllup][dllup]:
    A *Markdown* clone, that strives to be HTML-complete and strict in its format.
 
+Some guides/references I found for [Markdown]:
+
+ * [Markdown Guide](https://www.markdownguide.org):
+   It covers all flavours of [Markdown], in a concise format.
+
 [Markdown]:	http://daringfireball.net/projects/markdown/
 [CommonMark]:	http://commonmark.org/
 [dllup]:	http://www.dllu.net/programming/dllup/
