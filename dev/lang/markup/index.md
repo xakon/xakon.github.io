@@ -36,10 +36,10 @@ Other *Markdown* implementations are:
 ## Asciidoc
 
 [AsciiDoc]:
-My favourite, although not as simple as the *Markdown*.
-Almost all of [Git] and *Linux* man pages are written using this
+My favourite, although not as simple as the [Markdown].
+Almost all of [Git] and [Linux] man pages are written using this
 tool/language.  It is very convenient because it can output many different formats,
-man(1) included, which is very important for tools like *Git* and *Linux*.
+man(1) included, which is very important for tools like [Git] and [Linux].
 
 Although my favourite system, I still struggle to learn its syntax, which is not so
 beautiful as in other formats.
@@ -57,6 +57,7 @@ Alternatively, this [cheatsheet][ascii-cheat] is also useful.
 [asciidoc-ref]:	http://asciidoctor.org/docs/asciidoc-writers-guide/
 [AsciiDoctor]:	http://asciidoctor.org/
 [Git]:		http://git-scm.com/
+[Linux]:	https://www.kernel.org/
 
 
 ## reStructuredText
