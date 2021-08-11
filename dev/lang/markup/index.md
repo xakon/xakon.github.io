@@ -15,7 +15,7 @@ but in general I like it a lot.
 
 ## Markdown
 
-[Markdown][markdown]:
+[Markdown]:
 The project that started it all!  After all, this document is written in Markdown.
 
 The language is simple but not adequate.  Thus, many clones of it exist, and an effort
@@ -23,21 +23,21 @@ for an official standard has already begun.
 
 Other *Markdown* implementations are:
 
-   * [CommonMark][commonmark]
+   * [CommonMark]
    * GitHub Flavored Markdown
    * [dllup][dllup]:
    A *Markdown* clone, that strives to be HTML-complete and strict in its format.
 
-[markdown]:	http://daringfireball.net/projects/markdown/
-[commonmark]:	http://commonmark.org/
+[Markdown]:	http://daringfireball.net/projects/markdown/
+[CommonMark]:	http://commonmark.org/
 [dllup]:	http://www.dllu.net/programming/dllup/
 
 
 ## Asciidoc
 
-[Asciidoc][asciidoc]:
+[Asciidoc]:
 My favourite, although not as simple as the *Markdown*.
-Almost all of [Git][git] and *Linux* man pages are written using this
+Almost all of [Git] and *Linux* man pages are written using this
 tool/language.  It is very convenient because it can output many different formats,
 man(1) included, which is very important for tools like *Git* and *Linux*.
 
@@ -45,27 +45,27 @@ Although my favourite system, I still struggle to learn its syntax, which is not
 beautiful as in other formats.
 
 The language has its own program to convert between files, but there is also
-another project with the name of [AsciiDoctor][asciidoctor].  Need to find more
+another project with the name of [AsciiDoctor].  Need to find more
 information about it!
 
 See also this reference from [AsciiDoctor][asciidoc-ref].
 Alternatively, this [cheatsheet][ascii-cheat] is also useful.
 
-[asciidoc]:	http://asciidoc.org/)
+[Asciidoc]:	http://asciidoc.org/)
 [asciidoc-old]:	http://www.methods.co.nz/asciidoc/
 [ascii-cheat]:	https://powerman.name/doc/asciidoc
 [asciidoc-ref]:	http://asciidoctor.org/docs/asciidoc-writers-guide/
-[asciidoctor]:	http://asciidoctor.org/
-[git]:		http://git-scm.com/
+[AsciiDoctor]:	http://asciidoctor.org/
+[Git]:		http://git-scm.com/
 
 
 ## reStructuredText
 
 [reStructuredText][rst]:
-The official format of [Python][python].
+The official format of [Python].
 
 It is powerful, extensible, you can use it to document your Python code and there are
-great tools that use it, like [Sphinx][sphinx].
+great tools that use it, like [Sphinx].
 
 The final documents are very beautiful, but sometimes also very terse.
 The language is also extensible.
@@ -76,7 +76,7 @@ The language is also extensible.
  * [reStructuredText Tutorial][rst-tut-1]
 
 Although we can parse and convert reStructuredText documents with
-[Pandoc][pandoc], the definitive tool to use it [docutils][docutils].
+[Pandoc], the definitive tool to use it [docutils].
 If I install it on Debian, I have a plethora of tools available for various
 conversions:
 
@@ -89,10 +89,10 @@ conversions:
  - `rst2xetex`
  - And many others...
 
-Also, [Sphinx][sphinx] is another tool for reStructuredText, a wrapper over
-[docutils][docutils], which adds some nice to have features, especially while
+Also, [Sphinx] is another tool for reStructuredText, a wrapper over
+[docutils], which adds some nice to have features, especially while
 working on large projects/documents or for Pyton documentation.  By the way,
-the official Python's documentation is written using [Sphinx][sphinx] and many
+the official Python's documentation is written using [Sphinx] and many
 other libraries and Python projects have also adopted it as their documentation
 tool.  As a consequence, reStructuredText is considered the "blessed" format for
 Python documentation, and some doc-strings are written using it.
@@ -103,6 +103,6 @@ Python documentation, and some doc-strings are written using it.
 [rst-primer-2]:	http://www.sphinx-doc.org/en/stable/rest.html
 [rst-tut-1]:	https://www.devdungeon.com/content/restructuredtext-rst-tutorial-0
 [docutils]:	http://docutils.sourceforge.net/
-[sphinx]:	http://sphinx-doc.org/
-[python]:	http://www.python.org
-[pandoc]:	https://pandoc.org/
+[Sphinx]:	http://sphinx-doc.org/
+[Python]:	http://www.python.org
+[Pandoc]:	https://pandoc.org/
