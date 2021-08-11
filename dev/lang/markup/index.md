@@ -35,7 +35,7 @@ Other *Markdown* implementations are:
 
 ## Asciidoc
 
-[Asciidoc]:
+[AsciiDoc]:
 My favourite, although not as simple as the *Markdown*.
 Almost all of [Git] and *Linux* man pages are written using this
 tool/language.  It is very convenient because it can output many different formats,
@@ -51,7 +51,7 @@ information about it!
 See also this reference from [AsciiDoctor][asciidoc-ref].
 Alternatively, this [cheatsheet][ascii-cheat] is also useful.
 
-[Asciidoc]:	http://asciidoc.org/
+[AsciiDoc]:	http://asciidoc.org/
 [asciidoc-old]:	http://www.methods.co.nz/asciidoc/
 [ascii-cheat]:	https://powerman.name/doc/asciidoc
 [asciidoc-ref]:	http://asciidoctor.org/docs/asciidoc-writers-guide/
