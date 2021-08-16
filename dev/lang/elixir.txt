@@ -11,6 +11,7 @@ Resources
 
  - https://elixir-lang.org/[Elixir - Official site]
  - https://thinkingelixir.com/[Thinking Elixir]
+ - https://elixirschool.com/[Elixir School]
 
 Books
 ~~~~~
