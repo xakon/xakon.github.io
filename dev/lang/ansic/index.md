@@ -140,21 +140,6 @@ Style
 [substance]: https://github.com/btrask/stronglink/blob/master/SUBSTANCE.md
 
 
-Libraries
----------
-
- - [inih (INI Not Invented Here)](https://github.com/benhoyt/inih):
-   Read `.ini` files.
- - [OpenMP (Open Multi-Processing)](http://www.openmp.org):
-   Powerful HPC library, but also rather useful for small, C programs, that
-   could easily parallelized.
- - [PortAudio](http://www.portaudio.com/):
-   A free, cross-platform, open-source, audio I/O library.
-   Used by many popular audio/video and not programs.
- - [ICU - International Components for Unicode](http://site.icu-project.org/):
-   The most complete, but heavy, library to support Unicode.
-
-
 Hacks
 -----
 
