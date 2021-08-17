@@ -21,6 +21,13 @@ Here is a list of industry-based, strong-supported libraries:
    Creation of interactive flamegraphs out of a profile file.
 
 
+### Cryptography ###
+
+ - [Sodium](https://doc.libsodium.org/):
+   A modern, easy-to-use software library for encryption, decryption,
+   signatures, password hashing, and more.
+
+
 ### XML ###
 
  - [libxml2](http://xmlsoft.org/):

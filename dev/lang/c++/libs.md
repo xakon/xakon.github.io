@@ -85,6 +85,12 @@ Here is a list of industry-based, strong-supported libraries:
    C++ Web Toolkit.
 
 
+### Cryptography ###
+
+ - [Sodium](https://doc.libsodium.org/):
+   A modern, easy-to-use software library for encryption, decryption,
+   signatures, password hashing, and more.
+
 ### Utility Libraries
 
  - [Folly](https://github.com/facebook/folly/):
