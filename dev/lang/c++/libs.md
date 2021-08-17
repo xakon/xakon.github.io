@@ -106,10 +106,6 @@ Here is a list of industry-based, strong-supported libraries:
  - [StopWatch](https://github.com/KjellKod/Stopwatch):
    Timing utility, wraps C++11 `std::chrono` in an easy to use `StopWatch` utility.
 
- - [TinyXML](https://github.com/leethomason/tinyxml2):
-   A simple, small, minimal, C++ XML parser that can be easily integrating into
-   other programs.
-
  - [NanoLog](https://github.com/PlatformLab/NanoLog)
 
 
@@ -122,6 +118,10 @@ Here is a list of industry-based, strong-supported libraries:
    a wrapper for [libxml](http://www.xmlsoft.org/)
 
  - [Xerces-C++ XML Parser](https://xerces.apache.org/xerces-c/)
+
+ - [TinyXML](https://github.com/leethomason/tinyxml2):
+   A simple, small, minimal, C++ XML parser that can be easily integrating into
+   other programs.
 
 
 [//]:	# vim: ft=markdown spell
