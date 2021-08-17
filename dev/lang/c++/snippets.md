@@ -171,4 +171,10 @@ int fast_remainder(int a, int b)
 ```
 
 
+## GNU C++ shortcut to include all standard headers
+
+Include `<bits/stdc++.h>` and have access to all standard headers.
+This is a GNU extension.
+
+
 [//]:	# vim: ft=markdown spell
