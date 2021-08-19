@@ -13,6 +13,12 @@ insecure, as anybody can create it), the steps are:
  - Create a _Certificate Signing Request (CSR)_ with the private key
  - Sign the _CSR_ with the private key
 
+In order to create a self-signed certificate, the steps are quite cumbersome.
+Thus, a Go-based tool, [mkcert](https://github.com/FiloSottile/mkcert), can be
+used to elaborate this pain.  Not only that, but the tool can also install a
+trusted CA in system's local database of trusted certificates.  This will
+eliminate browser warnings about untrusted or self-signed certificates.
+
 Some examples that may be proved to be educational in the future.
 
 - Connect to HTTPS service::
