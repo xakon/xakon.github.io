@@ -80,6 +80,22 @@ Some useful resources about this aspect:
 Snippets
 --------
 
+### Run local development server over HTTPS ###
+
+In this nice [article][1] it is shown how to run a local development Django
+server under HTTPS.  The default `runserver` command supports only HTTP.
+We can install an external command, though, the `runserver_plus`, which is
+provided by the [Django Extensions] package.
+
+Of course, we also need a self-signed certificate.  In the above article the
+author shows how to easily create such certificate, but also how to install it
+in system's trusted CAs, so that we receive no warnings about the certificate in
+the browser.
+
+[1]:	https://timonweb.com/django/https-django-development-server-ssl-certificate/
+[Django Extensions]:	https://github.com/django-extensions/django-extensions
+
+
 ### Log queries in Console
 
 Either use the `django-debug-toolbar` while working on the `admin` app,
