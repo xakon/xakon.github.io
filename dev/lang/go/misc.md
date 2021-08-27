@@ -24,3 +24,18 @@ _package_, and its code is verified from the `go test` tool **every time** we
 execute it.  Essentially, it is live and testable documentation.
 The _examples_ work by printing the expected result in the STDOUT, and then
 the `go test` tool verifies the actual execution.
+
+_Test function_ names should follow the pattern:
+   `func TestXxx(t *testing.T)`.
+_Benchmark function_ names should follow the pattern:
+   `func BenchmarkXxx(b *testing.B)`.
+_Example function_ names should follow the pattern:
+   `func ExampleXxx()`
+The expected output of the _example function_ is denoted with a Go comment, that
+starts with `// Output:`.  Alternatively, the comment that starts with `//
+Unordered output:` will only check for any order of the given output.
+The expected value(s) can be inlined or put into the next comment line.
+
+The _Example functions_ can be placed inside **any** of the _test files_.
+But, if they are placed in separate _Example file_, then there can be only one
+such function defined.
