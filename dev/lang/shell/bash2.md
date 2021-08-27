@@ -114,6 +114,18 @@ eexit() {
 TODO:  document the trick of temp file removal in a single line!
 
 
+### Split input on lines ###
+
+The way to define a newline in Bash is `$'\n'`.  In order to split input in
+lines, and not by default in words, while using `xargs(1)` is the following:
+
+    ls *.test.py *.test.cc | xargs -I {} -d $'\n\ -- mv {} /tmp/bak
+
+(Note that the files might contain spaces, so we cannot split input in words,
+but in lines.  After all, it is a common Unix practice to split records on
+lines.)
+
+
 ### Resources
 
 TODO:  add the article with Bash examples I copied in the *History* section.
