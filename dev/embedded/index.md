@@ -44,6 +44,10 @@ Embedded Development
 
 Some useful libraries for embedded systems.
 
+ - [newlib](https://sourceware.org/newlib/):
+   A minimal C/C++ library, targeting embedded systems, to supply their standard
+   C library.
+
  - [Sophia][sophia]:
    A modern embeddable key-value database designed for a high load environment.
    It has unique architecture that was created as a result of research and
