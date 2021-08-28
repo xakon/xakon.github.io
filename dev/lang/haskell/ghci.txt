@@ -17,6 +17,10 @@ Commands can be abbreviated to single letter.
 :show modules	print last loaded file(s)
 :show imports	print currently imported modules
 
+To enter multi-line code, we need to surround it with `:{` and `:}`.
+We can normally import other modules using the common `import` keyword:
+`import Data.Bits`.
+
 Features of GHCi that can be enabled at run-time are:
  - `+t`		print the type of `it`
  - `+m`		allow multi-line commands
