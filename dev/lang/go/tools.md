@@ -28,3 +28,11 @@ bottlenecks or special compilation.
 
 It is an independent tool, which can be found at
 [Github](https://github.com/felixge/sprof).
+
+
+gotests
+-------
+
+Automatically generate table-driven tests for a function/type.
+It can be used from the command-line or integrated with an editor.
+It can be found at [Github](https://github.com/cweill/gotests).
