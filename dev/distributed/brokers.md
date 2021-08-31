@@ -40,6 +40,10 @@ Some references from this article are:
  - [Writing a Distributed Systems Library in Go][article]
  - [Go-Raft][go-raft]
 
+An implementation of the [Raft][raft] protocol is quite challenging.
+Chelsea Troy has a series of implementing it.  It can be found at her
+[blog](https://chelseatroy.com/tag/raft/).
+
 
 ### MQTT
 
