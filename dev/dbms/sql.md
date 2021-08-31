@@ -11,6 +11,8 @@ Resources
 
  - [Select Start SQL](https://selectstarsql.com/):
    Interactive book which aims to be the best place for learning SQL.
+ - [SQL Bolt](https://sqlbolt.com/):
+   Interactive SQL lessons on the browser.
 
 ### Datasets ###
 
