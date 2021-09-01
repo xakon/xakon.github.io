@@ -66,6 +66,18 @@ Testing
  - [mutmut - Python Mutation Tester](https://github.com/boxed/mutmut)
 
 
+Configuration
+-------------
+
+ - [python-dotenv](https://pypi.org/project/python-dotenv/):
+   Load a specific file (`.env` by default) and inject the variables into the
+   process as environment variables.
+ - [python-decouple](https://pypi.org/project/python-decouple/):
+   Similarly to `python-dotenv`, but it doesn't inject the variables to the
+   process' environment, and it allows us optionally to define the types of each
+   option.
+
+
 Text Utilities
 --------------
 
