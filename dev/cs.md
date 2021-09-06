@@ -25,6 +25,11 @@ Books
 ### Online Books ###
 
  - [Isomorphism - Mathematics of Programming](https://github.com/liuxinyu95/unplugged)
+ - [Dive Into Systems](https://diveintosystems.org/):
+   A free, online textbook that serves as a gentle introduction to computer
+   systems, computer organization, and parallel computing.  The book guides
+   readers through a vertical slice of a computer to develop an understanding of
+   a variety of systems topics.
 
 
 Definitions
