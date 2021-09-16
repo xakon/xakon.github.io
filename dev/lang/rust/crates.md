@@ -146,3 +146,9 @@ tools can be found at the main [Crates.io](https://crates.io/) site.
  - [serde-xml-rs](https://crates.io/crates/serde-xml-rs):
    Implementation of [Serde](https://crates.io/crates/serde) deserialization
    interface, and it works smoothly with [xml-rs](https://crates.io/crates/xml-rs), too.
+
+
+### Games ###
+
+ - [Tetra](https://tetra.seventeencups.net/):
+   A simple 2D game framework.
