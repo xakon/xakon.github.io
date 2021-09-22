@@ -1,6 +1,15 @@
 Software Engineering
 ====================
 
+Books
+-----
+
+ - [Small Memory Software](https://smallmemory.charlesweir.com/book.html):
+   Patterns for systems with limited memory.
+   by Charles Weir and James Noble.
+   Available online (each chapter is a separate PDF).
+
+
 SOLID Principles
 ----------------
 
