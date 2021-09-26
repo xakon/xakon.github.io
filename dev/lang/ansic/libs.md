@@ -9,6 +9,12 @@ quickly and easily.
 Here is a list of industry-based, strong-supported libraries:
 
 
+### Testing ###
+
+ - [Hippomocks](https://github.com/dascandy/hippomocks):
+   Single-header mocking framework.
+
+
 ### General Frameworks ###
 
  - [APR](https://github.com/apache/apr):
