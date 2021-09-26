@@ -43,6 +43,19 @@ is the `pairs`.  Extracted from the book, "Programming in Haskell".
 pairs xs = zip xs (tail xs)
 ----
 
+
+Action over a list
+~~~~~~~~~~~~~~~~~~
+
+Similar to Python's `for` loop, we can apply an _action_ (or _monad_) on each
+element of a list:
+
+[source,haskell]
+----
+mapM_ print rows
+----
+
+
 Verify if a list is sorted
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
