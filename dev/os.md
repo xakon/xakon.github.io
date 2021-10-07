@@ -75,6 +75,7 @@ exercises, solutions, videos.
    Linux distribution, but it also provides build scripts, based on
    [Linux From Scratch][LFS], to build from the scratch a distribution.
  - [Build an Operating System for the Raspberry Pi](https://jsandler18.github.io/)
+ - [Writing a "bare metal" OS for Raspberry Pi 4](https://github.com/isometimes/rpi4-osdev)
  - [Learning OS development using Linux Kernel & Raspberry Pi][rasp-pi-os].
  - [Rolling your Own Bootloader](http://wiki.osdev.org/Rolling_Your_Own_Bootloader)
  - [Memory Management Reference](http://www.memorymanagement.org/)
