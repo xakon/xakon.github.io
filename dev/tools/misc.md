@@ -53,6 +53,11 @@ Mail Utilities
   A nice development SMTP server, to test application that send emails without
   bothering any user.
 
+- [Inbucket](https://github.com/inbucket/inbucket):
+  An email testing service, that accepts messages for any email address and make
+  them available via HTTP, REST, and POP3 interfaces.  Built using Go, has no
+  other external dependencies.
+
 - Python `smtp` module:
   Python's Standard Library ships with a small SMTP server for debugging mail
   utilities.
