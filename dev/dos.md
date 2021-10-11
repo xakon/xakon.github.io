@@ -46,3 +46,14 @@ systems, allowing users to make use of both DOS and Linux applications from the
 DOS command prompt.
 
 It can be found in [Github](https://github.com/charliesome/doslinux).
+
+
+### Libraries ###
+
+ - [dos-like](https://github.com/mattiasgustavsson/dos-like):
+   Programming library, kind of like a tiny game engine, for writing games and
+   programs with a similar feel to MS-DOS productions from the early '90s.
+   But rather than writing code that would run on a real DOS machine, `dos-like`
+   is about making programs which run on modern platforms like Windows, macOS,
+   and Linux, but which attempts to recreate the look, feel, and sound of old
+   DOS programs.
