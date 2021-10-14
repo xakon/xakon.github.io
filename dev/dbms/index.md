@@ -8,6 +8,11 @@ Resources
  - [Database of Database](https://dbdb.io/):
    An online catalogue of available database systems.
 
+ - [BoltDB](https://github.com/boltdb/bolt):
+   A simple, in-memory, key-value database, optimized for fast reads/writes.
+   Since its source code is limited to around 5 kLOC, it is a good introduction
+   to understanding databases.
+
 
 ### Datasets ###
 
