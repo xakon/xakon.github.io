@@ -26,6 +26,11 @@ Resources
 [auth-example]:	http://blog.narenarya.in/right-way-django-authentication.html
 
 
+### Books ###
+
+ - [High Performance Django](https://lincolnloop.com/high-performance-django/):
+   Online book (currently only in HTML) from 2014.
+
 ### Tutorials
 
  - [Getting Started with Django](http://www.gettingstartedwithdjango.com/):
