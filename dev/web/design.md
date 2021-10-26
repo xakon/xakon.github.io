@@ -30,6 +30,8 @@ Some examples are:
  - `/.well-known/apple-app-site-association`:  allow links to open an iOS app.
  - `/.well-knwon/assentlinks.json`:  links to open on Android phones.
  - `/.well-knwon/security.txt`:  host company's security policy.
+ - `/.well-known/change-password`:  redirect to a "Change Password" screen.
+   Still, under proposal phase.
 
 Nick Janetackis also has an example of similar URLs:
 
