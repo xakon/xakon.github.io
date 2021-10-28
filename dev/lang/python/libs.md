@@ -132,6 +132,15 @@ System Programming
    limited programming experience. Because it is based on Python, it also has
    much to offer for experienced programmers and researchers.
 
+To manage passwords, we can use the Standard Library modules `getpass`,
+`secrets`, `crypt`, `hashlib`, `hmac`, and also the following 3rd party
+libraries:
+
+ - [passlib](https://passlib.readthedocs.io/):
+   The standard and most accepted library to manage (hash) passwords.
+ - [keyring](https://github.com/jaraco/keyring):
+   Access to the system's keyring system, to extract stored secrets using user's
+   password.
 
 Serialization
 -------------
