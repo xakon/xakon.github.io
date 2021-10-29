@@ -19,3 +19,17 @@ Some tools I can use for graphical or command-line presentations.
  - [Racket Slideshow](https://docs.racket-lang.org/slideshow/):
    An alternative approach for Browser-based presentations, using a Racket
    package.
+
+For fancy presentations, we have the following applications:
+
+ - [slides](https://github.com/maaslalani/slides):
+   Write presentations in Markdown, run them in the terminal.
+   It supports code-highlighting, diagrams.
+   This is a Go application.
+
+ - [Slidev](https://github.com/slidevjs/slidev):
+   The most powerful and fancy application to run Markdown-based presentations
+   in the browser, supporting graphics and other visual elements.
+   It supports code-highlighting, diagrams, LaTeX equations.
+   It can record the presentation or export it in a PDF.
+   It is written in Node.js.
