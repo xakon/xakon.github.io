@@ -30,6 +30,8 @@ ANSI C++
  - [The Boost C++ Libraries](http://theboostcpplibraries.com/)
  - [Practical Guide to Bare Metal C++](https://arobenko.gitbooks.io/bare_metal_cpp/)
  - [Modern C++ Features](https://github.com/AnthonyCalandra/modern-cpp-features)
+ - [C++ By Example](https://cppbyexample.com/):
+   Short snippets and code examples of various topics in C++.
 
 ### Books
 
