@@ -115,6 +115,13 @@ Here is a list of industry-based, strong-supported libraries:
  - [NanoLog](https://github.com/PlatformLab/NanoLog)
 
 
+### Graphics ###
+
+ - [Simple and Fast Multimedia Library (SFML)](https://www.sfml-dev.org/)
+   Multi-platform (and multi-language, actually) multimedia library that
+   provides access to various multimedia parts of a system.
+
+
 ### XML Libraries
 
  - [libxml2](http://xmlsoft.org/):
