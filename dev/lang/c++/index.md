@@ -7,27 +7,29 @@ ANSI C++
    Almost official site for C++.
  - [C++ Reference](http://en.cppreference.com/w):
    There is also an off-line version, with different formats, even man(1) pages.
+ - [ISO C++ Core Guidelines](https://github.com/isocpp/CppCoreGuidelines)
  - [C & C++ Programming](http://www.cprogramming.com/):
    Plenty of resources, one of the oldest projects.
  - [cplusplus.com](http://www.cplusplus.com/):
    General information about the C++ language, a reference, tutorial, and an
    articles section.
- - [LearnCpp.com](http://www.learncpp.com/):
-   Tutorials to help you master C++ and Object-Oriented Programming.
- - [ISO C++ Core Guidelines](https://github.com/isocpp/CppCoreGuidelines)
- - [C++ Samples](http://cppsamples.com/)
- - [C++ Draft](http://eel.is/c++draft/)
- - [Boost Best Practices](https://svn.boost.org/trac/boost/wiki/BestPracticeHandbook)
- - [The Boost C++ Libraries](http://theboostcpplibraries.com/)
- - [Practical Guide to Bare Metal C++](https://arobenko.gitbooks.io/bare_metal_cpp/)
  - [Collection of Modern C++ resources](https://github.com/rigtorp/awesome-modern-cpp)
- - [List of C/C++ frameworks, libraries, resources](https://github.com/fffaraz/awesome-cpp)
- - [Modern C++ Features](https://github.com/AnthonyCalandra/modern-cpp-features)
+ - [C++ Draft](http://eel.is/c++draft/)
  - [C++ Best Practices](https://github.com/lefticus/cppbestpractices.git)
  - [Google Style Guide](https://google.github.io/styleguide/cppguide.html)
+ - [Boost Best Practices](https://svn.boost.org/trac/boost/wiki/BestPracticeHandbook)
+ - [List of C/C++ frameworks, libraries, resources](https://github.com/fffaraz/awesome-cpp)
  - [Hacking C++](https://hackingcpp.com/):
    Excellent online reference of STL and other guides for C++.
 
+### Tutorials ###
+
+ - [LearnCpp.com](http://www.learncpp.com/):
+   Tutorials to help you master C++ and Object-Oriented Programming.
+ - [C++ Samples](http://cppsamples.com/)
+ - [The Boost C++ Libraries](http://theboostcpplibraries.com/)
+ - [Practical Guide to Bare Metal C++](https://arobenko.gitbooks.io/bare_metal_cpp/)
+ - [Modern C++ Features](https://github.com/AnthonyCalandra/modern-cpp-features)
 
 ### Books
 
