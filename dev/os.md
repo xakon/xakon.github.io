@@ -84,6 +84,9 @@ exercises, solutions, videos.
    An experimental OS, written in [Rust](https://www.rust-lang.org/).
    It contains detailed instructions on how to build and run it on QEMU and
    other platforms.
+ - [ToaruOS](https://toaruos.org/):
+   Another experimental OS, with graphical interface, custom kernel, and
+   libraries.
  - [Computer Science from the Bottom Up](https://www.bottomupcs.com/):
    Despite its title, this online book is mainly focused on OS design and
    principles.
