@@ -116,8 +116,14 @@ zip(*[iter(seq)]*3)
 
 ```python
 # Flatten nexted lists (sequences)
-flatten = lambda xs: itertools.chain.from_iterable(*xs)
+flatten = lambda xs: itertools.chain(*xs)
+flatten = lambda xs: itertools.chain.from_iterable(xs)
 ```
+
+We can omit the unpacking of the `xs` parameter in the second form, as the
+`chain.from_iterable()` accepts an iterable, which will consume lazily.
+Thus, it is much faster and convenient than the simple `chain(*xs)` call, where
+we pay the cost of unpacking the iterable in the first place.
 
 Unpack a page-range spec:
 
