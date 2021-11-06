@@ -14,8 +14,10 @@ TODO:  Add table with each Distro characteristics
 
 Debian		dpkg/apt	.deb	systemd
 Ubuntu		dpkg/apt        .deb    systemd
-Gentoo
-Arch
+Devuan          dpkg/apt        .deb    sysV init
+Gentoo          portage                 systemd
+Arch            pacman           .apk   systemd
+Alpine
 LXDE
 Void
 Puppy
