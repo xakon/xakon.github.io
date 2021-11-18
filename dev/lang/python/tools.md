@@ -18,7 +18,6 @@ Debuggers
  - [Bugjar](http://pybee.org/bugjar/):
    Graphical interactive debugger for Python.
 
-
 Linters
 -------
 
@@ -30,6 +29,10 @@ Linters
 
 Profilers
 ---------
+
+ - [Pyinstrument](https://github.com/joerick/pyinstrument/):
+   A sampling profiler, with low-overhead (comparing to the builtin `cProfile`),
+   eliminating slow calls and measuing wall time.
 
  - [Line Profiler](http://packages.python.org/line_profiler/):
    Display how fast and how often each line of code is running in scripts.
