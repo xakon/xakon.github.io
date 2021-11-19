@@ -49,6 +49,10 @@ Tools
 ~~~~~
 
  - https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/[GHC Manual]
+ - https://www.haskell.org/ghcup/[GHCup]:
+   Install compilers, build tools, dependencies, libraries.  Similar to
+   https://github.com/rust-lang/rustup.rs[rustup] or
+   https://github.com/nvm-sh/nvm[nvm].
  - https://docs.haskellstack.org/[Stack]:  Package and Project Manager for Haskell.
  - https://github.com/ndmitchell/hlint[HLint]:  Lint for Haskell.
  - https://github.com/rgleichman/glance[Glance]:  A visual syntax Haskell.
