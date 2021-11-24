@@ -21,4 +21,22 @@ The programs can be built with or without the `std` library.  Building `no-std`
 applications is a complex topic.  An allocator is needed, if the application
 requires a heap.
 
+
+Cross-Compilation
+-----------------
+
+Cross-compiling requires a toolchain and libraries fot the target.
+There are a variety of ways to cross-compile to RISC-V:
+
+ - Use [cargo cros](https://github.com/rust-embedded/cross):
+   Fastest and easiest way to get started.
+
+ - Install cross-comiler packages from OS distribution.
+   [Debian] has many _riscv64_ tools.
+
+ - Build and install the official [riscv-gnu-toolchain].
+
+
+[Debian]:	https://www.debian.org/
 [Rust]:		https://www.rust-lang.org/
+[riscv-gnu-toolchain]:	https://github.com/riscv-collab/riscv-gnu-toolchain
