@@ -29,3 +29,40 @@ Boards
 ------
 
  - Microchip's PolarFire SoC Icicle kit (includes 4 RISC-V cores)
+
+Notes
+-----
+
+RISC-V architecture is extensible:  additional instructions can be added to
+perform new operations.  Some extensions enable development of specialized
+processors, such as _Secure Enclaves_ and _Trusted Execution Environments_.
+
+RISC-V cores come in many shapes and sizes, since the ISA is flexible and
+extensible.  There are 32-bit, 64-bit, and 128-bit versions of the core integer
+instructions.
+
+ - _rv32_ is the 32-bit configuration, suitable for micro-controllers and other
+   small, low-power systems.
+ - _rv64_ is the 64-bit general purpose, server class configuration.
+   Linux RISC-V projects target the _rv64_ setup.
+ - _rv128_ is mostly theoretical 128-bit configuration.
+
+The RISC-V cores are also configurable using the instruction-set variants.
+These variants add additional instructions to the core ISA.
+Several variants have been officially standardized.  They are referenced by a
+single letter code, such as `I`, `M`, and `C`.
+
+ - `I` - Base integer instructions.  All RISC-V cores implement this.
+ - `M` - Multiplication instructions.
+ - `F` - Floating-point instructions.
+ - `D` - Double-floating point instructions.
+ - `C` - Compressed instructions.  Similar to ARMS's Thumb mode.
+ - `G` - Shorthand for the set `IMAFD` variants.
+ - `A` - Atomic instructions.  Enable multi-core systems to have consistent
+	 views of memory.
+
+A common class of micro-controller configuration is `rv32imc`, a 32-bit
+processor with multiplier and compressed instructions.
+
+The RISC-V configuration targeted by Linux distributions is typically the
+`rv64gc`, although it is possible to run Linux on other configurations, too.
