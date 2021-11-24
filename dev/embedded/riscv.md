@@ -23,3 +23,9 @@ Projects
  - [Risc-V and Rust](https://github.com/takahirox/riscv-rust):
    A RISC-V emulator written in Rust and compiled into Webassembly.
    Plenty of resources and information.
+
+
+Boards
+------
+
+ - Microchip's PolarFire SoC Icicle kit (includes 4 RISC-V cores)
