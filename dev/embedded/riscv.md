@@ -66,3 +66,23 @@ processor with multiplier and compressed instructions.
 
 The RISC-V configuration targeted by Linux distributions is typically the
 `rv64gc`, although it is possible to run Linux on other configurations, too.
+
+### Rust ###
+
+[Rust] supports several RISC-V targets.  [Rust] targets are split into several
+tiers, with different guarantees on support and stability.
+
+ - `riscv64-unknown-linux-gnu`:
+   Tier-2 with Host Tools, support for `std` running on Linux.
+ - `riscv64gc-unknown-none-elf`
+ - `riscv64imac-unknown-none-elf:
+   Tier-2, can be used in bare-metal projects.
+ - `riscv32i`
+ - `riscv32imc`
+ - `riscv32imac`
+ - `risckv32-unknown-none-elf`:  32-bit Tier-2 targets, can be used in
+   bare-metal projects.
+ - `riscv32imc-esp-espidf`:  Tier-3 target that supports ESP RISC-V chips, like
+   the `es-32-c3`.
+
+[Rust]:		https://www.rust-lang.org/
