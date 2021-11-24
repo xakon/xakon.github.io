@@ -67,6 +67,14 @@ processor with multiplier and compressed instructions.
 The RISC-V configuration targeted by Linux distributions is typically the
 `rv64gc`, although it is possible to run Linux on other configurations, too.
 
+### Emulation ###
+
+The easiest way to test RISC-V applications is by using [QEMU] and [Debian]
+Quick Image Baker pre-baked images.  We can find such images at:
+<https://people.debian.org/%7Egio/dqib/>.  For example, `riscv64-virt`.
+
+Alternatively, we can use [buildroot] to test RISC-V programs.
+
 ### Rust ###
 
 [Rust] supports several RISC-V targets.  [Rust] targets are split into several
@@ -85,4 +93,7 @@ tiers, with different guarantees on support and stability.
  - `riscv32imc-esp-espidf`:  Tier-3 target that supports ESP RISC-V chips, like
    the `es-32-c3`.
 
+[buildboot]:	https://github.com/buildroot/buildroot
+[Debian]:	https://www.debian.org/
+[QEMU]:		https://www.qemu.org/
 [Rust]:		https://www.rust-lang.org/
