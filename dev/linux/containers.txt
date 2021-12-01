@@ -228,6 +228,11 @@ Receiving Signals]:
  - Avoid being PID 1 (if possible).
  - Listen for `SIGTERM` or set `STOPSIGNAL` in the `Dockerfile`.
 
+There is a useful linter for `Dockerfiles`, the
+https://github.com/hadolint/hadolint[Hadolint].  It supports many checks for
+potential problems inside a `Dockerfile`.  We can run the linter from a
+_container_.  At the https://hub.docker.com/r/hadolint/hadolint[Docker Hub] we
+can find more information about its usage.
 
 ////
 # vim: set ft=asciidoc:
