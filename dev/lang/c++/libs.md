@@ -73,6 +73,33 @@ Here is a list of industry-based, strong-supported libraries:
    problems in the codebase.  It supports both C/C++ and Rust.
 
 
+### Command-line ###
+
+Many options for external libraries to parse command-line arguments:
+
+ - [boost::program_options](https://github.com/boostorg/program_options):
+   Straight-forward and high-level of quality level.  But, it comes with a huge
+   cost of importing/linking the [Boost](http://www.boost.org/) libraries.
+   If no other [Boost](http://www.boost.org/) is used, better to look for an
+   alternative.
+
+ - [GNU getopt](https://www.gnu.org/software/libc/):
+   A C-based library, found and used in almost every GNU/Linux program.
+   Yet, because its iterface is based on GNU C, it is rather primitive and
+   verbose.
+
+ - [cxxoptions](https://github.com/jarro2783/cxxopts):
+   An elegant and powerful C++ library.
+
+ - [Clara](https://github.com/catchorg/Clara):
+   This library is included in the [Catch2](https://github.com/catchorg/Catch2)
+   unit-testing framework and used to parse the command-line arguments in the
+   test artificats.
+
+   The project mentions that it is unmaintenained and replaced by
+   [Lyra](https://github.com/bfgroup/Lyra).
+
+
 ### Profiling ###
 
  - [speedscope](https://www.speedscope.app/):
