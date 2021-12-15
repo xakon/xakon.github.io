@@ -16,6 +16,9 @@ Resources
 
  - [HiFive Unleashed](https://www.sifive.com/boards/hifive-unleashed)
 
+ - [RISC-V Bytes](https://danielmangum.com/categories/risc-v-bytes/)
+ - [RISC-V Tips](https://danielmangum.com/risc-v-tips/)
+
 
 Projects
 --------
