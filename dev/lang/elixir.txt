@@ -24,6 +24,11 @@ Elixir in Action
 Saša Jurić  
 Manning
 
+Testing Elixir  
+Andrea Leopardi, Jeffrey Matthias  
+The Pragmatic Bookshelf, 2021  
+https://pragprog.com/titles/lmelixir/testing-elixir/
+
 Tutorials
 ~~~~~~~~~
 
