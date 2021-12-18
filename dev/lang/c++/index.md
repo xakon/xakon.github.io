@@ -102,6 +102,9 @@ Some interesting articles/references/explanations are the following:
  - [GCC](http://gcc.gnu.org)
  - [LLVM](http://llvm.org/)
  - [zapcc](https://www.zapcc.com/):  A faster C++ compiler.
+ - [mold: A Modern Linker](https://github.com/rui314/mold/):
+   Even though not a part of a compiler suite, the `mold` linker can be used as
+   a drop-in replacement for `GNU ld`.  The savings in performance are enormous.
 
 
 ## Online Compilers

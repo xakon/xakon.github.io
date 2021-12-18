@@ -42,6 +42,9 @@ Compilers
  - [LLVM Compiler Infrastructure](http://llvm.org/).
    [Clang](http://clang.llvm.org/) is the C/C++/Objective-C compiler.
  - [OpenWatcom](http://openwatcom.org/)
+ - [mold: A Modern Linker](https://github.com/rui314/mold/):
+   Even though not a part of a compiler suite, the `mold` linker can be used as
+   a drop-in replacement for `GNU ld`.  The savings in performance are enormous.
 
 
 Static Analysis
