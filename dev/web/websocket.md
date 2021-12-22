@@ -19,6 +19,10 @@ Resources
  - [Server-sent Events (SSE)](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events)
  - [EventSource](https://developer.mozilla.org/en-US/docs/Web/API/EventSource)
 
+A useful book about this topic could be the following title:
+
+ - [Programming WebRTC](https://pragprog.com/titles/ksrtc/programming-webrtc/)
+
 Tools
 -----
 
