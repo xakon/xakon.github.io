@@ -21,6 +21,7 @@ ANSI C++
  - [List of C/C++ frameworks, libraries, resources](https://github.com/fffaraz/awesome-cpp)
  - [Hacking C++](https://hackingcpp.com/):
    Excellent online reference of STL and other guides for C++.
+ - [Infographics & Cheat Sheets](https://hackingcpp.com/cpp/cheat_sheets.html)
 
 ### Tutorials ###
 
