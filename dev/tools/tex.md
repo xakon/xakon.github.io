@@ -11,6 +11,13 @@ Books
 [practical-typography]:	http://practicaltypography.com/
 
 
+Online Resources
+----------------
+
+ - [LaTeX Cookbook](https://latex-cookbook.net/):
+   Collection of LaTeX recipes.
+
+
 Distributions
 -------------
 
