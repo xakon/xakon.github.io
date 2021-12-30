@@ -15,7 +15,9 @@ ANSI C++
    articles section.
  - [Collection of Modern C++ resources](https://github.com/rigtorp/awesome-modern-cpp)
  - [C++ Draft](http://eel.is/c++draft/)
- - [C++ Best Practices](https://github.com/lefticus/cppbestpractices.git)
+ - [C++ Best Practices](https://legacy.gitbook.com/book/lefticus/cpp-best-practices):
+   Source code of the online book can be found at
+   [Github](https://github.com/lefticus/cppbestpractices.git)
  - [Google Style Guide](https://google.github.io/styleguide/cppguide.html)
  - [Boost Best Practices](https://svn.boost.org/trac/boost/wiki/BestPracticeHandbook)
  - [List of C/C++ frameworks, libraries, resources](https://github.com/fffaraz/awesome-cpp)
