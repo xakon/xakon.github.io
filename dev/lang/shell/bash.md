@@ -38,6 +38,8 @@ It can be really helpful while copying text from terminal to paste it, for examp
    xUnit Test Framework.
  - [roundup](https://bmizerany.github.io/roundup/):
    Test framework.
+ - [shellspec](https://github.com/shellspec/shellspec):
+   BDD framework for any POSIX-compliant shell.
  - [bats](https://github.com/sstephenson/bats):
    A nice framework for testing Bash functions and scripts.
    It seems that the project has moved into a different repository, namely:
