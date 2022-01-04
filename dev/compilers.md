@@ -63,6 +63,9 @@ The following is a list suggested by [Bob Nystrom](https://twitter.com/munificen
 
 ### Online
 
+ - [Toolchain Resources](https://www.toolchains.net/):
+   Many resources for building and using toolchains, with GCC, LLVM, ELF, DWARF,
+   and many other resources.
  - [Resources for Amateur Compiler Writers][2]
  - [The Super Tiny Compiler](https://github.com/thejameskyle/the-super-tiny-compiler)
  - [The Super Tiny Compiler, in Go](https://github.com/hazbo/the-super-tiny-compiler)

@@ -18,6 +18,9 @@ Embedded Development
    Systems, languages, and libraries.
  - [Modern CPU Microarchitecture](https://pcpartpicker.com/user/526christian/saved/dm4CLk):
    A nice overview of all the components of a computer architecture.
+ - [Toolchain Resources](https://www.toolchains.net/):
+   Many resources for building and using toolchains, with GCC, LLVM, ELF, DWARF,
+   and many other resources.
 
 
 ## Tools
