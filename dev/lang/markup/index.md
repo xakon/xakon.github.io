@@ -103,6 +103,9 @@ other libraries and Python projects have also adopted it as their documentation
 tool.  As a consequence, reStructuredText is considered the "blessed" format for
 Python documentation, and some doc-strings are written using it.
 
+There is a nice tutorial on how to create a [Sphinx] project:
+<https://github.com/readthedocs/tutorial-sphinx-markdown>.
+
 [rst]:		http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html
 [quick-rst]:	http://docutils.sourceforge.net/docs/user/rst/quickref.html
 [rst-primer-1]:	http://docutils.sourceforge.net/docs/user/rst/quickstart.html
