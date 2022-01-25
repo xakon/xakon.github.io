@@ -79,6 +79,10 @@ Resources
  - [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)
  - [Google TypeScript Style Guide](https://google.github.io/styleguide/tsguide.html)
 
+ - [Make JavaScript Games](https://makejsgames.com/):
+   An online book (it can be downloaded as a PDF, as well), that shows how we
+   can build games in JavaScript using the `Kaboon.js` library.
+
 [mozilla-guide]:	https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide
 [mozilla2-guide]:	https://developer.mozilla.org/en-US/docs/Learn/JavaScript
 
