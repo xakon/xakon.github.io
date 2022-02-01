@@ -10,6 +10,9 @@ OpenBSD
 
  - [Getting started with OpenBSD device-driver development](https://www.openbsd.org/papers/eurobsdcon2017-device-drivers.pdf)
 
+Do you want to play with a pre-configured OpenBSD system fast?
+Then, you might consider renting a VM from the [OpenBSD Amsterdam](https://openbsd.amsterdam/).
+
 
 ## People
 
