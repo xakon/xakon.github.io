@@ -88,6 +88,19 @@ positions x xs = [i | (x', i) <- zip xs [0..], x == x']
 ----
 
 
+Python's `join()`
+~~~~~~~~~~~~~~~~~
+
+How to join a list of strings?  It's simple, but the name of the function is not
+very intuitive:
+
+[source,haskell]
+----
+>> intercalate ", " ["Hello", "world!"]
+"Hello, world!"
+----
+
+
 Counter
 ~~~~~~~
 
