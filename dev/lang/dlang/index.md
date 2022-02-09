@@ -15,3 +15,17 @@ Books
 -----
 
  - Programming in D:  Official textbook, freely available (downloaded).
+
+
+Tutorials
+---------
+
+The official home of [D] hosts a dedicated [tutorial][d-tour] and many other
+resources to learn the language, read a lot of documentation, and find plenty of
+other resources.
+
+ - [Official tutorial][d-tour]
+
+
+[D]:		https://dlang.org
+[d-tour]:	https://tour.dlang.org/
