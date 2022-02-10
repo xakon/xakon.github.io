@@ -52,6 +52,13 @@ Here is a list of industry-based, strong-supported libraries:
 
  - [GTest/Gmock](https://github.com/google/googletest):
    The de-factor unit-test framework for years.
+   Google has created amazing documentation around this framework, but also
+   regarding testing in general.  Have a look at the following guides:
+    * [Googletest Primer](https://google.github.io/googletest/primer.html)
+    * [Advanced Topics](https://google.github.io/googletest/advanced.html)
+    * [Mocking for Dummies](https://google.github.io/googletest/gmock_for_dummies.html)
+    * [Mocking Cookbook](https://google.github.io/googletest/gmock_cook_book.html)
+    * [Mocking Cheat Sheet](https://google.github.io/googletest/gmock_cheat_sheet.html)
 
  - [jctest](https://jcash.github.io/jctest/):
    A lightweight replacement (single-header library) for Google's GTest.
