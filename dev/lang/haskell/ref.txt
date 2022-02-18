@@ -177,6 +177,16 @@ Strings
  - `words`	- Split a String into a list of words
  - `unwords`	- Join a list of words into a String
 
+At the following section, the `T` symbol is an alias for the `Data.Text` module.
+
+ - `T.pack`	- Convert a `String` into a `Text` (Unicode characters)
+ - `T.unpack`	- Convert a `Text` into a `String`
+ - `T.append`	- Concatenate 2 `Text` strings
+ - `T.cons`	- Add a character in the front of a `Text` string
+
+ - `encodeUtf8`	- Convert a `Text` to `ByteString` (both strict/lazy versions exist)
+ - `decodeUtf8`	- Convert a `ByteString` to `Text` (both strict/lazy versions exist)
+
 DataTypes
 ~~~~~~~~~
 
