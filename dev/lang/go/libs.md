@@ -50,6 +50,10 @@ Command-Line
 Web Development
 ---------------
 
+ - [Fiber](https://docs.gofiber.io/):
+   A simple and fast Web framework.  It focuses on extreme performance and low
+   memory footprint.  It was inspired by the popular _Express JS_ framework.
+
  - [gorilla/mux](https://github.com/gorilla/mux):
    Request router and dispatcher.
    Simple and excellent library that removes a lot of boilerplate from manual
