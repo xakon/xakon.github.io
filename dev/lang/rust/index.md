@@ -45,6 +45,7 @@ can be found at: [The Little Book of Rust Books](https://lborb.github.io/book/).
  - [A Gentle Introduction To Rust](https://stevedonovan.github.io/rust-gentle-intro/readme.html)
  - [Rust in Ten Slides](https://steveklabnik.github.io/rust-in-ten-slides/)
  - [Rust Cookbook](https://rust-lang-nursery.github.io/rust-cookbook/)
+ - [Effective Rust](https://www.lurklurk.org/effective-rust/)
  - [The Little Book of Rust Macros](https://danielkeep.github.io/tlborm/book/)
  - [into_rust()](http://intorust.com/):  Screen-casts for learning Rust
  - [Rust Tutorials](http://www.rust-tutorials.com/)
