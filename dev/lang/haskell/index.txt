@@ -104,6 +104,10 @@ Books
 Courses
 ~~~~~~~
 
+ - https://typeclasses.com/[Type Classes]:
+   An excellent course by Jullie Moronuki, the author behind the
+   _Haskell Programming from First Principles_.  It is a bit expensive, but
+   the introduction for beginners is free.
  - https://github.com/data61/fp-course[Data 61 (formerly NICTA)]
  - https://www.seas.upenn.edu/~cis194/spring13/[CIS 194: Introduction to Haskell (2013)]
  - https://www.seas.upenn.edu/~cis194/fall16/[CIS 194: Introduction to Haskell (2016)]
