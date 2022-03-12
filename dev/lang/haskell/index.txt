@@ -108,6 +108,10 @@ Courses
    An excellent course by Jullie Moronuki, the author behind the
    _Haskell Programming from First Principles_.  It is a bit expensive, but
    the introduction for beginners is free.
+ - https://github.com/kowainik/learn4haskell[learn4haskell]:
+   A Github-based course for beginners.  There is a
+   https://www.youtube.com/channel/UCKmndeSJ-xKGHPtxQulG_EA[YouTube channel] to
+   accompany the course in 4 hours of short video lessons.
  - https://github.com/data61/fp-course[Data 61 (formerly NICTA)]
  - https://www.seas.upenn.edu/~cis194/spring13/[CIS 194: Introduction to Haskell (2013)]
  - https://www.seas.upenn.edu/~cis194/fall16/[CIS 194: Introduction to Haskell (2016)]
