@@ -132,6 +132,10 @@ Resources
  - [Jasmine][jasmine]:
    Test framework.
 
+ - [nyc](https://www.npmjs.com/package/nyc):
+   Code coverage tool.  It works with all testing frameworks.
+   Even though, [jest] has code coverage included (using the `--coverage` option).
+
 
 [good-parts]:	http://javascript.crockford.com/
 [mocha]:	https://mochajs.org/
