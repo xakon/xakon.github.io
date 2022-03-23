@@ -20,6 +20,7 @@ ANSI C++
    [Github](https://github.com/lefticus/cppbestpractices.git)
  - [Google Style Guide](https://google.github.io/styleguide/cppguide.html)
  - [Boost Best Practices](https://svn.boost.org/trac/boost/wiki/BestPracticeHandbook)
+ - [Apache C++ Standard Library](https://stdcxx.apache.org/doc/stdlibug/)
  - [List of C/C++ frameworks, libraries, resources](https://github.com/fffaraz/awesome-cpp)
  - [Hacking C++](https://hackingcpp.com/):
    Excellent online reference of STL and other guides for C++.
