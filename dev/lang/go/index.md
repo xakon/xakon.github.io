@@ -15,6 +15,7 @@ workshops, etc.
  - [Gophercises](https://gophercises.com/)
  - [Gopher Videos](http://gophervids.appspot.com/)
  - [Go Fragments](http://www.gofragments.net/)
+ - [Go Code Examples](https://gosamples.dev/)
  - [Go Web Examples](https://gowebexamples.github.io/)
  - [Go tutorials](https://golangbot.com/)
  - [Your Basic Go](http://yourbasic.org/golang/)
