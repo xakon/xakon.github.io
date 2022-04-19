@@ -69,6 +69,9 @@ tools can be found at the main [Crates.io](https://crates.io/) site.
 
  - [clap](https://docs.rs/clap/2.14.0/clap/):
    A simple to use, efficient, and full featured Command Line Argument Parser.
+ - [pico-args](https://crates.io/crates/pico-args/):
+   An alternative to `clap`, with focus on no-dependencies, small memory and
+   compilation overhead.
  - [structopt](https://docs.rs/structopt-derive/0.1.5/structopt_derive/):
    A wrapper around `clap`, that uses macros to describe the command-line
    interface.
