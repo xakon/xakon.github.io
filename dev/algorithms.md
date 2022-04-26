@@ -16,6 +16,9 @@ Algorithms
    Plenty of material related to Algorithms and Data Structures, with emphasis
    in [Go](https://golang.org/).
 
+ - [The Algorithms](https://the-algorithms.com/):
+   A large collection of various algorithms or common programming tasks,
+   implemented in a huge number of computer languages.  A superb reference to have.
 
 [visual_algo]:	https://bost.ocks.org/mike/algorithms/
 [sorting]:	http://sorting.at/

@@ -17,6 +17,9 @@ Computer Science
  - [Electronic References](https://csgordon.github.io/books.html):
    A collection of CS topics with references to their books.
  - [Computer Science from the Bottom Up](https://www.bottomupcs.com/)
+ - [The Algorithms](https://the-algorithms.com/):
+   A large collection of various algorithms or common programming tasks,
+   implemented in a huge number of computer languages.  A superb reference to have.
 
 
 Books
