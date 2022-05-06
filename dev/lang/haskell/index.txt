@@ -12,6 +12,8 @@ Resources
 ---------
 
  - http://www.haskell.org/[Official Site]
+ - https://play-haskell.tomsmeding.com/play[Haskell Playground].
+   Similar in spirit with Go/Rust playgrounds.
  - http://www.haskell.org/onlinereport/[Haskell Report].  Latest standard is 2010.
  - http://research.microsoft.com/en-us/um/people/simonpj/papers/haskell-tutorial/TasteOfHaskell.pdf[Taste of Haskell]
  - IRC channels: #haskell, #nothaskell, #haskell-beginners
