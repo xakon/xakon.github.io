@@ -48,6 +48,14 @@ DOS command prompt.
 It can be found in [Github](https://github.com/charliesome/doslinux).
 
 
+### EMU2 ###
+
+A simple text-mode x86 + DOS emulater.
+
+If I would like to run a DOS text-only program under Linux, then this program
+can help me out.
+
+
 ### Libraries ###
 
  - [dos-like](https://github.com/mattiasgustavsson/dos-like):
