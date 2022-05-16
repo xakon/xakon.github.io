@@ -169,6 +169,52 @@ I/O
  - `show`	- Convert a value into a string
  - `error`	- Display an error message and terminate the program
 
+Files
+~~~~~
+
+Working with files involves a distinct type, the `Handle`.
+All the file-related functions take at least one such parameter.
+Also, the system supplies us 3 _handles_ to start with, representing the
+STDIN, STDOUT, and STDERR.
+
+A file object is described using a `FilePath` type.
+
+There are equivalent functions for IO that operate on files (_handles_ more
+specifically).
+
+ - `FilePath`
+ - `Handle`		- Type that represents a file
+ - `stdin`
+ - `stdout`
+ - `stderr`
+
+ - `openFile`
+ - `readFile`		- Read all the contents of a file in a string
+ - `hClose`
+ - `hIsOpen`
+ - `hIsClosed`
+
+ - `hPutStr`
+ - `hPutStrLn`
+ - `hGetLine`
+
+ - `bracket`		- Operate on a file, protect against errors
+ - `withFile`		- Operate on a file, open/close it automatically
+
+ - `hGetPosn`
+ - `hSetPosn`
+ - `hIsSeekable`
+ - `hTell`
+ - `hSeek`
+
+ - `openTempFile`	- Create a temporary file inside a directory
+ - `removeFile`		- Remove a file path
+
+ - `BufferMode`		- Type to set/get file-buffering
+ - `hGetBuffering`
+ - `hSetBuffering`
+ - `hFlush`		- Flush all pending file-buffers of the _handle_
+
 Strings
 ~~~~~~~
 
