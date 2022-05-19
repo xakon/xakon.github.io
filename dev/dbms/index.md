@@ -13,6 +13,10 @@ Resources
    Since its source code is limited to around 5 kLOC, it is a good introduction
    to understanding databases.
 
+ - [CaskDB](https://github.com/avinassh/py-caskdb):
+   Disk-based Log Structured Hash Table Store.
+   An educational project around building databases.
+
 
 ### Datasets ###
 
