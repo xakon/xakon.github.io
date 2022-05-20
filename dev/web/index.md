@@ -8,6 +8,10 @@ Resources
 
  - [Apache HTTP Server](https://httpd.apache.org/)
  - [Nginx](http://nginx.org/)
+ - [thttpd](http://www.acme.com/software/thttpd/):
+   A simple, small, portable, fast, and secure HTTP server.
+   Suitable to be used in constraint environments, like embedded systems,
+   or loaded systems with other applications.
 
 ### Tools
 
