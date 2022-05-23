@@ -44,3 +44,10 @@ Headers
 -------
 
  - [Security headers quick reference](https://web.dev/security-headers/)
+
+
+HTTP/2 (QUIC)
+=============
+
+A new version of the protocol will be based on QUIC.  Here is a nice
+[illustration](https://quic.ulfheim.net/) of the protocol.
