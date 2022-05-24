@@ -42,6 +42,10 @@ Compilers
  - [LLVM Compiler Infrastructure](http://llvm.org/).
    [Clang](http://clang.llvm.org/) is the C/C++/Objective-C compiler.
  - [OpenWatcom](http://openwatcom.org/)
+ - [DJGPP](http://www.delorie.com/djgpp/):
+   A complete 32-bit C/C++ development system for Intel 80386 (and higher) PCs
+   running DOS.  It can also be installed using [FreeDOS](http://freedos.org/).
+   It contains a ton of docs and useful, even though legacy, information.
  - [mold: A Modern Linker](https://github.com/rui314/mold/):
    Even though not a part of a compiler suite, the `mold` linker can be used as
    a drop-in replacement for `GNU ld`.  The savings in performance are enormous.
