@@ -138,6 +138,9 @@ Yes, there is such thing as _Package Managers_ for C++ anymore!
  - [doxyrest](https://github.com/vovkos/doxyrest):
    Convert [doxygen][doxygen] output into reStructuredText to use it with [Sphinx][sphinx].
  - [doc++](http://docpp.sourceforge.net/)
+ - [hdoc](https://github.com/hdoc/hdoc):
+   Another C++ documentation tool, using Markdown.  Commercial, but there is an
+   open-source version of the tool at Github.
  - [DXR](https://dxr.readthedocs.io/):
    Mozilla tool to cross-reference huge projects.
 
