@@ -73,6 +73,11 @@ Resources
  - [Write Your Own OS](http://mikeos.berlios.de/write-your-own-os.html)
  - [Linux Insides](https://0xax.gitbooks.io/linux-insides/)
  - [Linux Kernel Teaching](https://linux-kernel-labs.github.io/)
+ - [Understanding the Linux Virtual Memory Manager](https://www.kernel.org/doc/gorman/):
+   An free available book to download, which is considered the only reference
+   point to the memory-management system of the kernel.  Even though the
+   information in the book is pretty outdated, it still contains many nice hints
+   on working with the kernel.
  - [Debugging a kernel crash](https://vegardno.blogspot.nl/2016/08/sync-debug.html)
  - [Getting Started with ftrace](https://jvns.ca/blog/2017/03/19/getting-started-with-ftrace/)
  - [Debugging the kernel using ftrace - part 1](https://lwn.net/Articles/365835/)
