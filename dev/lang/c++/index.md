@@ -129,6 +129,12 @@ Yes, there is such thing as _Package Managers_ for C++ anymore!
 
  - [biicode](https://biicode.github.io/biicode/)
  - [Conan](https://conan.io/)
+ - [vcpkg](https://vcpkg.io/):
+   A tool by _Microsoft_, which promises platform-independent installation of
+   many 3rd-party libraries.
+ - [Buckaroo](https://buckaroo.pm/)
+ - [Hunter](https://github.com/cpp-pm/hunter)
+ - [Build2](https://build2.org/)
 
 
 ## Documentation Generators
