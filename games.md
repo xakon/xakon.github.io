@@ -82,6 +82,7 @@ Linux
  - FreeDink
  - 0 A.D.
  - [Pingus](https://pingus.seul.org/):  a [Lemmings][lemmings]-clone.
+ - [Powder](http://www.zincland.com/powder/)
 
 
 [lemmings]:	http://en.wikipedia.org/wiki/Lemmings
