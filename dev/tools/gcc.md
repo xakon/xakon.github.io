@@ -1,6 +1,18 @@
 GCC
 ===
 
+Resources
+---------
+
+ - [Web page][gcc]
+ - [An Introduction to GCC](http://www.network-theory.co.uk/docs/gccintro/)
+ - [GCC for New Contributors](https://gcc-newbies-guide.readthedocs.io/):
+   A guide with an introduction to GCC architecture and tips for getting started
+   with the project.  A useful material for compilers, too.
+
+[gcc]:		https://gcc.gnu.org/
+
+
 ### Warnings
 
 Warnings of latest versions of GCC not covered by `-Wall -Wextra`:
