@@ -106,3 +106,6 @@ Resources
 ### Other ###
 
  - [Mono Icons](https://icons.mono.company/)
+ - [SVG Spinners](https://github.com/n3r4zzurr0/svg-spinners):
+   A collection of small, animated SVN icons, that can be used in a Web
+   application.
