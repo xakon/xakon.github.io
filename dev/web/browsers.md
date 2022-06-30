@@ -13,5 +13,10 @@ Graphical
    A lightweight browser that is built using the [Fast Light Toolkit (FLTK)[FLTK].
    It lacks many features but it works pretty well on basic web pages.
 
+ - [NetSurf](https://www.netsurf-browser.org/):
+   Small as mouse, fast as cheetah and available for free.
+   A multi-platform Web browser for [RISC OS](http://www.riscosopen.org/),
+   UNIX-like platforms (including Linux), macOS, and more.
+
 
 [FLTK]:		https://www.fltk.org/index.php
