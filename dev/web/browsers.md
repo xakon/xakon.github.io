@@ -18,5 +18,8 @@ Graphical
    A multi-platform Web browser for [RISC OS](http://www.riscosopen.org/),
    UNIX-like platforms (including Linux), macOS, and more.
 
+ - [Otter Browser](https://otter-browser.org/):
+   A Qt-based browser, which runs on multiple platforms, even on RISC OS.
+
 
 [FLTK]:		https://www.fltk.org/index.php
