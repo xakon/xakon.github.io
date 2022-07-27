@@ -36,3 +36,12 @@ gotests
 Automatically generate table-driven tests for a function/type.
 It can be used from the command-line or integrated with an editor.
 It can be found at [Github](https://github.com/cweill/gotests).
+
+
+Go Template Preview
+-------------------
+
+An online tool that easily helps to preview the results of some _Go templates_
+based on their inputs.
+
+It can be found at <https://gotemplate.io/>.
