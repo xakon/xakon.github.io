@@ -70,6 +70,7 @@ Resources
  - [Linux kernel user's and administrator's guide](https://www.kernel.org/doc/html/latest/admin-guide/)
  - [Linux From Scratch (LFS)](http://www.linuxfromscratch.org)
  - <http://www.win.tue.nl/~aeb/linux/>
+ - [Rust Linux Kernel Development](https://www.jackos.io/rust-kernel/rust-for-linux.html)
  - [Write Your Own OS](http://mikeos.berlios.de/write-your-own-os.html)
  - [Linux Insides](https://0xax.gitbooks.io/linux-insides/)
  - [Linux Kernel Teaching](https://linux-kernel-labs.github.io/)
