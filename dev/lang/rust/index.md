@@ -21,7 +21,7 @@ can be found at: [The Little Book of Rust Books](https://lborb.github.io/book/).
 #### Mini-Books ####
 
  - [Command-line Applications in Rust](https://rust-cli.github.io/book/)
- - [Asyncrhonous Programming in Rust](https://rust-lang.github.io/async-book/)
+ - [Asynchronous Programming in Rust](https://rust-lang.github.io/async-book/)
  - [The Cargo Book](https://doc.rust-lang.org/cargo/)
  - [rustdoc Book](https://doc.rust-lang.org/rustdoc/)
  - [The Rustonomicon Book](https://doc.rust-lang.org/nomicon/)
