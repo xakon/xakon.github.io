@@ -24,7 +24,8 @@ can be found at: [The Little Book of Rust Books](https://lborb.github.io/book/).
  - [Asynchronous Programming in Rust](https://rust-lang.github.io/async-book/)
  - [The Cargo Book](https://doc.rust-lang.org/cargo/)
  - [rustdoc Book](https://doc.rust-lang.org/rustdoc/)
- - [The Rustonomicon Book](https://doc.rust-lang.org/nomicon/)
+ - [The Rustonomicon Book](https://doc.rust-lang.org/nomicon/):
+   Details about internal designs & implementations of the language and library.
  - [The Rust Reference Book](https://doc.rust-lang.org/reference/)
  - [The Rust Performance Book](https://nnethercote.github.io/perf-book/)
  - [Rust API Guidelines](https://rust-lang.github.io/api-guidelines/)
@@ -38,10 +39,7 @@ can be found at: [The Little Book of Rust Books](https://lborb.github.io/book/).
  - [The Rust Docs](https://doc.rust-lang.org/)
  - [The Rust Book](https://doc.rust-lang.org/book/)
  - [The Rust PlayGround](https://play.rust-lang.org/)
- - [The Rustonomicon](https://doc.rust-lang.org/stable/nomicon/):
-   Details about internal designs & implementations of the language and library.
  - [Rust Style Guide](https://github.com/rust-lang/rfcs/tree/master/style-guide)
- - [Rust by Example](http://rustbyexample.com/)
  - [A Gentle Introduction To Rust](https://stevedonovan.github.io/rust-gentle-intro/readme.html)
  - [Rust in Ten Slides](https://steveklabnik.github.io/rust-in-ten-slides/)
  - [Rust Cookbook](https://rust-lang-nursery.github.io/rust-cookbook/)
