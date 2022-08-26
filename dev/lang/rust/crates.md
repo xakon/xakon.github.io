@@ -38,6 +38,10 @@ tools can be found at the main [Crates.io](https://crates.io/) site.
 
 ### Testing
 
+ - [similar_asserts](https://docs.rs/similar-asserts/):
+   An enhancement of the standard `assert_eq!()` macros, where better diff
+   support has been added to easily spot the differences between the expected
+   and the actual results.
  - [faux](https://github.com/nrxus/faux):
    Mocking library, without needing to create _traits_ to mock the targets.
    It depends on macros, instead of manually creating interfaces/test doubles.
