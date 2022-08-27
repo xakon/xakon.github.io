@@ -61,5 +61,9 @@ Web Development
  - [Gin Web Framework](https://github.com/gin-gonic/gin):
    A complete Web Framework with many extra features not found in standard
    library.
+
+ - [Buffalo](https://gobuffalo.io/):
+   Rapid Web development with Go.
+
  - [Tiger Tonic](https://github.com/rcrowley/go-tigertonic):
    Easy to use implementing Web Services.
