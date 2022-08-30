@@ -15,6 +15,9 @@ Resources
 
 ### Tools
 
+ * <https://httpstat.us/>:
+   Make HTTP requests that will return defined status codes in their responses.
+
  * [BSD, C, http, SQLite (BCHS)](https://learnbchs.org/):
    An alternative stack for Web applications, based mainly on OpenBSD and
    simple tools.
