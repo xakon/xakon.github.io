@@ -11,6 +11,8 @@ can be found at: [The Little Book of Rust Books](https://lborb.github.io/book/).
 
  - [The Rust Programming Language](https://doc.rust-lang.org/book/)
    Also published by "No Starch Press".  There is also a 2nd edition.
+   An interactive version of this book, with some quizzes on selected chapters
+   can be found at <https://rust-book.cs.brown.edu/>.
  - [Rust by Example](http://rustbyexample.com/)
  - [Programming Rust](http://shop.oreilly.com/product/0636920040385.do) (O'Reilly)
  - [Rust Design Patterns](https://github.com/rust-unofficial/patterns)
