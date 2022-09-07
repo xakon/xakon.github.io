@@ -38,6 +38,17 @@ production code.
  - [Raspberry Pi](https://www.raspberrypi.org/)
 
 
+CuBox
+-----
+
+[CuBox](https://en.wikipedia.org/wiki/CuBox) are series of small and fanless
+nettop-class computers, based on ARM architecture.  They are suitable for
+embedded development.  Actually, I can have 2 of them, one for serving network
+content, the other to experiment with the ARM architecture.
+
+A popular and stronger model is the _CuBox i4Pro_.
+
+
 Arduino
 -------
 
