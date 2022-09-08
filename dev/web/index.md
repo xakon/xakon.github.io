@@ -57,6 +57,8 @@ Resources
    There are also versions for [JavaScript](https://github.com/microsoft/playwright)
    and potentially for other languages.
 
+ * [CSS Reference](https://cssreference.io/)
+
 
 ### Frameworks
 
