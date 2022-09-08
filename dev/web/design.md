@@ -47,3 +47,173 @@ Modern browsers can find problems on web sites and report back to them.
 They can use the `Report-To` header field to send a request, when they spot a
 problem with a web site.  There is also a custom service that supports this
 browser feature, called [report-uri.com](https://report-uri.com/).
+
+### Basic styling ###
+
+Nice ideas from the article, [Web Design in 4 minutes](https://jgthms.com/web-design-in-4-minutes/):
+
+First, center body text.  Long lines can be hard to parse and read.
+
+```css
+body {
+   margin: 0 auto;
+   max-width: 50em;
+}
+```
+
+Then, set the default font.  In browser, default style is "Times", which looks
+unappealing.  A sans-serif font can vastly improve the look of the page.
+
+```css
+body {
+   font-family: "Helvetica", "Arial", sans-serif;
+}
+```
+
+If we want to stick with a serif font, then "Georgia" is a good option.
+
+When a page looks "broken" to a user, it's usually a spacing issue. Providing
+space both around and within your content can increase the appeal of your page.
+
+```css
+body {
+   line-height: 1.5;
+   padding: 4em 1em;
+}
+
+h2 {
+   margin-top: 1em;
+   padding-top: 1em;
+}
+```
+
+Black text on a white background can be harsh on the eyes.
+Opting for a softer shade of black for body text makes the page more **comfortable** to read.
+
+```css
+body {
+   color: #555;
+}
+```
+
+And in order to keep a decent level of **contrast**,
+let's pick a darker shade for **important** words:
+
+```css
+h1, h2, strong {
+   color: #333;
+}
+```
+
+It only takes a few additional touches to correct the balance of the page:
+
+```css
+code, pre {
+   background: #eee;
+}
+
+code {
+   padding: 2px 4px;
+   vertical-align: text-botton;
+}
+
+pre {
+   padding: 1em;
+}
+```
+
+Most brands have a **primary color** that acts as a visual accent.
+On a website, this accent can be used to provide emphasis on interactive
+elements, like **links**:
+
+```css
+a {
+   color: #e81c4f;
+}
+```
+
+The accent color can be complemented with more _subtle_ shades,
+to be used on borders, backgrounds, or even the body text.
+
+```css
+body {
+   color: #566b78;
+}
+
+code, pre {
+   background: #f5f7f9;
+   border-bottom: 1px solid #d8dee9;
+   color: #a7adba;
+}
+
+pre {
+   border-left: 2px solid #69c;
+}
+```
+
+A _custom font_ gives the page of even more noticeable identity.
+While we can embed our own webfont or use an online service like
+[Typekit](https://typekit.com/), let's use "Roboto" from the free
+[Google Fonts](https://fonts.google.com/) service:
+
+```csss
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
+body {
+   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+```
+
+The header is nice to be enhanced with a nice background image:
+
+```css
+header {
+   background-color: #263d36;
+   background-image: url("header.jpg");
+   background-position: center top;
+   background-repeat: no-repeat;
+   background-size: cover;
+   line-height: 1.2;
+   padding: 10vw 2em;
+   text-align: center;
+}
+```
+
+Also a logo:
+
+```css
+header img {
+   display: inline-block;
+   height: 120px;
+   vertical-align: top;
+   width: 120px;
+}
+```
+
+And some further enhancement of the text styles:
+
+```css
+header h1 {
+   color: white;
+   font-size: 2.5em;
+   font-weight: 300;
+}
+
+header a {
+   border: 1px solid #e81c4f;
+   border-radius: 290486px;
+   color: white;
+   font-size: 0.6em;
+   letter-spacing: 0.2em;
+   padding: 1em 2em;
+   text-transform: uppercase;
+   text-decoration: none;
+   transition: none 200ms ease-out;
+   transition-property: color, background;
+}
+
+header a:hover {
+   background: #e81c4f;
+   color: white;
+}
+```
