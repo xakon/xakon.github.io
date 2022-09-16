@@ -27,6 +27,13 @@ fully as `texlive-full` (about 5.2 GB on disk) or a more compact version, the
 `textlive-latex-extra` (about 452 MB).
 
 
+Tools
+-----
+
+ - [ChkTeX](https://www.nongnu.org/chktex/):
+   LaTeX semantic checker.
+
+
 Tips
 ----
 
