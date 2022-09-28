@@ -77,6 +77,9 @@ The following is a list suggested by [Bob Nystrom](https://twitter.com/munificen
  - [Write you a programming language](https://github.com/stereobooster/write-you-a-programming-language):
    A list of small languages, which can be implemented either with a compiler or
    an interpreter, and can be used as educational material.
+ - [https://github.com/llsoftsec/llsoftsecbook/](Low-Level Software Security for Compiler Developers):
+   An online book (available also as PDF, but I can build it locally too) about
+   security implications raised from a new compiler.
 
 The following list is extracted from the [Resources for Amateur Compiler Writers][2]:
 
