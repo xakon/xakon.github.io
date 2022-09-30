@@ -70,6 +70,12 @@ can be found at: [The Little Book of Rust Books](https://lborb.github.io/book/).
  - IRC Channels:
    - `#rust-beginners`
 
+### Tutorials ###
+
+ - [Rust-101](https://www.ralfj.de/projects/rust-101/):
+   An online tutorial (can be downloaded and viewed offline as well) by Ralf Jung
+   (professor at ETH Zürich).
+
 
 Tools
 -----
