@@ -42,13 +42,11 @@ can be found at: [The Little Book of Rust Books](https://lborb.github.io/book/).
  - [The Rust Book](https://doc.rust-lang.org/book/)
  - [The Rust PlayGround](https://play.rust-lang.org/)
  - [Rust Style Guide](https://github.com/rust-lang/rfcs/tree/master/style-guide)
- - [A Gentle Introduction To Rust](https://stevedonovan.github.io/rust-gentle-intro/readme.html)
  - [Rust in Ten Slides](https://steveklabnik.github.io/rust-in-ten-slides/)
  - [Rust Cookbook](https://rust-lang-nursery.github.io/rust-cookbook/)
  - [Effective Rust](https://www.lurklurk.org/effective-rust/)
  - [The Little Book of Rust Macros](https://danielkeep.github.io/tlborm/book/)
  - [into_rust()](http://intorust.com/):  Screen-casts for learning Rust
- - [Rust Tutorials](http://www.rust-tutorials.com/)
  - [Rust Language Cheat Sheet](https://cheats.rs/)
  - [Rust Cheat Sheet](https://upsuper.github.io/rust-cheatsheet/)
  - [rs-samples](https://github.com/snowzurfer/rs-samples):
@@ -58,10 +56,8 @@ can be found at: [The Little Book of Rust Books](https://lborb.github.io/book/).
  - [RustVids](https://rustvids.github.io/):  Videos of Rust issues
  - [Rust Embedded Development](http://embed.rs/)
  - [Rust Learning Resources](https://github.com/ctjhoa/rust-learning)
- - [A Guide to Porting C/C++ to Rust](https://locka99.gitbooks.io/a-guide-to-porting-c-to-rust/)
  - [Demystifying Asynchronous Rust](https://teh-cmc.github.io/rust-async/html/)
  - [Writing an OS in Rust](http://os.phil-opp.com)
- - [GTK Rust Tutorial](https://mmstick.github.io/gtkrs-tutorials/)
  - [Redox](http://www.redox-os.org/):
    Unix-like Operating System written in Rust, aiming to bring the innovations
    of Rust to a modern micro-kernel and full set of applications.
@@ -72,9 +68,13 @@ can be found at: [The Little Book of Rust Books](https://lborb.github.io/book/).
 
 ### Tutorials ###
 
+ - [Rust Tutorials](http://www.rust-tutorials.com/)
+ - [A Gentle Introduction To Rust](https://stevedonovan.github.io/rust-gentle-intro/readme.html)
  - [Rust-101](https://www.ralfj.de/projects/rust-101/):
    An online tutorial (can be downloaded and viewed offline as well) by Ralf Jung
    (professor at ETH Zürich).
+ - [A Guide to Porting C/C++ to Rust](https://locka99.gitbooks.io/a-guide-to-porting-c-to-rust/)
+ - [GTK Rust Tutorial](https://mmstick.github.io/gtkrs-tutorials/)
 
 
 Tools
