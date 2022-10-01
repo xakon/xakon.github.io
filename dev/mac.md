@@ -21,6 +21,8 @@ Links
 -----
 
  - [Dan Rodney's List of Mac Resources][1]
+ - [Objective-See's Tools](https://objective-see.org/tools.html):
+   Free, open-source, tools to secure your Mac.
 
 
 Tricks
