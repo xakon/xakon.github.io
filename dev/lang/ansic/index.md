@@ -41,6 +41,9 @@ Compilers
  - [GCC - The GNU Compiler Collection](https://gcc.gnu.org/)
  - [LLVM Compiler Infrastructure](http://llvm.org/).
    [Clang](http://clang.llvm.org/) is the C/C++/Objective-C compiler.
+ - [Cake](https://github.com/thradams/cake):
+   A C23 compiler front end written from scratch in C.  It translates C23 into
+   C99 or C89.
  - [OpenWatcom](http://openwatcom.org/)
  - [DJGPP](http://www.delorie.com/djgpp/):
    A complete 32-bit C/C++ development system for Intel 80386 (and higher) PCs
