@@ -26,6 +26,15 @@ Linters
  - [Pyflakes](https://pypi.python.org/pypi/pyflakes)
  - [Pychecker](http://pychecker.sourceforge.net/)
 
+### Static Typing ###
+
+ - [mypy](https://github.com/python/mypy)
+ - [pyre](https://pyre-check.org/)
+ - [pyright](https://github.com/Microsoft/pyright)
+ - [pytype](https://github.com/google/pytype)
+ - [pyanalyze](https://github.com/quora/pyanalyze)
+
+
 
 Profilers
 ---------
@@ -65,16 +74,6 @@ Test Runners
  - [hammett](https://github.com/boxed/hammett/):
    An alternative to `pytest`, which implements only a subset of `pytest`,
    but is super fast.
-
-
-Static Typing
--------------
-
- - [mypy](https://github.com/python/mypy)
- - [pyre](https://pyre-check.org/)
- - [pyright](https://github.com/Microsoft/pyright)
- - [pytype](https://github.com/google/pytype)
- - [pyanalyze](https://github.com/quora/pyanalyze)
 
 
 Misc
