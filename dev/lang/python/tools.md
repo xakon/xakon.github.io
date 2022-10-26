@@ -28,12 +28,21 @@ Linters
 
 ### Static Typing ###
 
- - [mypy](https://github.com/python/mypy)
- - [pyre](https://pyre-check.org/)
- - [pyright](https://github.com/Microsoft/pyright)
- - [pytype](https://github.com/google/pytype)
- - [pyanalyze](https://github.com/quora/pyanalyze)
+For many years, [mypy](https://github.com/python/mypy) was the first and only
+static type checker for Python.  Thus, it set the standard for defining type
+hints and other options.  But, nowadays it is not the only option available.
 
+ - [mypy](https://github.com/python/mypy):
+   Developed by _Dropbox_, it is the standard type checker everyone uses and
+   sets the standards for the others.
+ - [pyre](https://pyre-check.org/):
+   A static type checker built by _Facebook_ (_Meta_).  Designed for large code
+   bases and first-class integration with _Buck_, _Meta_'s build system.
+ - [pyright](https://github.com/Microsoft/pyright):
+   A type checker built by _Microsoft_, but it is developed using _TypeScript_.
+ - [pytype](https://github.com/google/pytype):
+   A static type analyzer by _Google_.  It emphasizes type inference and local leniency.
+ - [pyanalyze](https://github.com/quora/pyanalyze)
 
 
 Profilers
