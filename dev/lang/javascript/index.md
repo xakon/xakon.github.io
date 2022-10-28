@@ -116,6 +116,8 @@ Resources
 
  - [Webpack][webpack]:
    Bundle JavaScript files into a single one, to be used in browsers.
+   A much faster alternative is a [Turbopack](https://turbo.build/),
+   written in Rust for efficiency and performance.
 
  - [jest][jest]:
    Test runner, assertion library, and mock framework.
