@@ -30,6 +30,8 @@ Catalogue
  - DejaVu Sans Mono
  - [Hermit](https://pcaro.es/p/hermit/):  Font for developers but,
    unfortunately, very few encodings supported.
+ - [Berkeley Mono Typeface](http://berkeleymono.com):
+   A retro and classical look font.  Very pleasant aesthetics.
  - [Overpass](http://overpassfont.org/):  Developed and used by Redhat.
  - [Operator](http://www.typography.com/fonts/operator/)
  - [Biblical Fonts](http://www.sbl-site.org/educational/BiblicalFonts_SBLBibLit.aspx).
