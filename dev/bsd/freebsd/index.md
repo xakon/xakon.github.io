@@ -7,6 +7,11 @@ Resources
  - [FreeBSD Commands Cheatsheet](https://github.com/sbz/freebsd-commands)
 
 
+### Others ###
+
+ - [FreeBSD - a lesson in poor defaults](freebsd-defaults.txt)
+
+
 ## Testing
 
 FreeBSD started a test project, the [FreeBSD Testing Project](https://wiki.freebsd.org/TestSuite).
