@@ -8,6 +8,8 @@ handy next time I need a _crate_ for a specific task.
 
 As always, more information about these _crates_ and even more powerful search
 tools can be found at the main [Crates.io](https://crates.io/) site.
+Also, another similar, but better, compilation can be found in
+[Blessed - (Unofficial Guide to the Rust Ecosystem)](https://blessed.rs/crates).
 
 
 ### General
