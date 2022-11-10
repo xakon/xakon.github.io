@@ -96,7 +96,7 @@ mind.
  - [rustfix](https://github.com/rust-lang-nursery/rustfix):
    Automatic resolve issues between Edition 2018 and older ones.
  - [racer](https://github.com/phildawes/racer):  Auto-completion utility.
- - [rls](https://github.com/rust-lang-nursery/rls):
+ - [Rust Language Server (RLS)](https://github.com/rust-lang-nursery/rls):
    Language server (for symbol search, etc.)
  - [kcov](https://github.com/SimonKagstrom/kcov):
    A general-purpose coverage tool.  It can be used against any DWARF-based
