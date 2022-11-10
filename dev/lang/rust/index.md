@@ -96,8 +96,14 @@ mind.
  - [rustfix](https://github.com/rust-lang-nursery/rustfix):
    Automatic resolve issues between Edition 2018 and older ones.
  - [racer](https://github.com/phildawes/racer):  Auto-completion utility.
+ - [rust-analyzer](https://rust-analyzer.github.io/):
+   The new implementation of the
+   [Language Server Protocol (LSP)](https://microsoft.github.io/language-server-protocol/)
+   for Rust.  It provides features like completion and goto definition for many code editors.
  - [Rust Language Server (RLS)](https://github.com/rust-lang-nursery/rls):
    Language server (for symbol search, etc.)
+   This tool is deprecated in favour of the [rust-analyzer](https://rust-analyzer.github.io/)
+   and probably not supported after Rust 1.64 release.
  - [kcov](https://github.com/SimonKagstrom/kcov):
    A general-purpose coverage tool.  It can be used against any DWARF-based
    executable, thus we can use it with Rust programs, too.
