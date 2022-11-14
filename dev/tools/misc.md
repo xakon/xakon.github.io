@@ -62,6 +62,11 @@ Mail Utilities
   Python's Standard Library ships with a small SMTP server for debugging mail
   utilities.
 
+- [MailCatcher](https://mailcatcher.me/):
+  Super-simple SMTP server, which can be executed from a container or natively.
+  It requires no installation or signup, it stores no emails and can be used to
+  debug locally email services.
+
 - [Mailtrap](https://mailtrap.io/):
   Fake mail server, used for development.  No need for setup, but registration
   is needed.
