@@ -59,6 +59,21 @@ Resources
 
  * [CSS Reference](https://cssreference.io/)
 
+#### 3rd APIs ####
+
+ * [D7SMS API](https://rapidapi.com/d7admin/api/d7sms):
+   Add phone-based verification and 2-factor authentication to a Web application
+   by sending codes via text.
+
+ * [ZeroBounce](https://rapidapi.com/leeann/api/zerobounce1):
+   Email Validation Service.
+
+ * [IP Geo Location API](https://rapidapi.com/natkapral/api/ip-geo-location):
+   Location data such as country, city, latitude/longitude, timezone, etc.
+
+ * [OOPSpam Spam Filter](https://rapidapi.com/oopspam/api/oopspam-spam-filter):
+   Privacy-friendly, anti-spam filter for contact forms, comment systems, blogs,
+   and others.
 
 ### Frameworks
 
