@@ -58,6 +58,8 @@ Catalogue
  - [Victor Mono](https://rubjo.github.io/victor-mono/):
    An elegant, crispy, monospace font, with many ligatures and optional
    semi-connected cursive italics.
+ - [Martian Mono](https://github.com/evilmartians/mono):
+   A monospaced version of the Martian Grotesk font for code style design.
 
 More fonts can be found and tested at <http://programmingfonts.org>
 
