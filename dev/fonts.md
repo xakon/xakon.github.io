@@ -55,6 +55,9 @@ Catalogue
    readers.  From the [Braille Institute](https://www.brailleinstitute.org/).
    That says a lot!
  - [Fantasque Sans Mono](https://github.com/belluzj/fantasque-sans)
+ - [Victor Mono](https://rubjo.github.io/victor-mono/):
+   An elegant, crispy, monospace font, with many ligatures and optional
+   semi-connected cursive italics.
 
 More fonts can be found and tested at <http://programmingfonts.org>
 
