@@ -5,6 +5,8 @@ Yes, it's true that MS-DOS is dead since long ago.
 Yet, there is sometimes a need to run old programs or games on that platform.
 Here I present some solutions.
 
+We can find many old, shareware/freeware programs/games in
+[DiscMaster](http://discmaster.textfiles.com/).
 
 ### DOSBox
 
