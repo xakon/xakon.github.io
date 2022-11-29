@@ -57,6 +57,11 @@ Documentation
  - [Python Packaging User Guide](https://packaging.python.org/)
  - [PyPI Quick and Dirty][pypi-guide]:
    An article for common setup and distribution idioms of Python packages.
+   Also, the same author, Hynek Schlawack, has put a demo project in Github,
+   [hatch-fancy-pypi-readme](https://github.com/hynek/hatch-fancy-pypi-readme/),
+   where he showcases how we can write a `pyproject.toml` for use with PyPI,
+   and what the results would be.  These can be shown in the relevant
+   [PyPI page](https://pypi.org/project/hatch-fancy-pypi-readme/).
 
 
 [pypi-guide]:	https://hynek.me/articles/sharing-your-labor-of-love-pypi-quick-and-dirty/
