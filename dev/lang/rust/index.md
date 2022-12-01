@@ -35,6 +35,10 @@ can be found at: [The Little Book of Rust Books](https://lborb.github.io/book/).
  - [Writing Interpreters in Rust](https://rust-hosted-langs.github.io/book/)
  - [Futures Explained in 200 lines of Rust](https://cfsamson.github.io/books-futures-explained/)
  - [The embedonomicon](https://rust-embedded.github.io/embedonomicon/)
+ - [Writing Interpreters in Rust](https://rust-hosted-langs.github.io/book/):
+   A companion book to the famous, excellent book from Bob Nystrom,
+   [Crafting Interpreters](http://craftinginterpreters.com/), but the code is
+   presented in Rust, of course.
 
 ### Online Resources
 
