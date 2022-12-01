@@ -106,6 +106,10 @@ Many options for external libraries to parse command-line arguments:
    The project mentions that it is unmaintenained and replaced by
    [Lyra](https://github.com/bfgroup/Lyra).
 
+ - [FTXUI](https://github.com/ArthurSonzogni/FTXUI):
+   _Functional Terminal (X) User Interface_.  A simple C++ library for terminal-based
+   user interfaces.
+
 
 ### Profiling ###
 
