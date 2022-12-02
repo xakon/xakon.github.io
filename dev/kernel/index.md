@@ -67,6 +67,7 @@ Resources
    how to write kernel modules, for many Linux versions.  Its source can be
    found at [Github](https://github.com/sysprog21/lkmpg), from where I can build
    PDF or other documents.
+ - [Searchable Linux Syscall Table for x86 and x86_64](https://filippo.io/linux-syscall-table/)
  - [Linux kernel user's and administrator's guide](https://www.kernel.org/doc/html/latest/admin-guide/)
  - [Linux From Scratch (LFS)](http://www.linuxfromscratch.org)
  - <http://www.win.tue.nl/~aeb/linux/>
