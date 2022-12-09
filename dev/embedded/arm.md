@@ -15,6 +15,7 @@ Resources
  - [Iot on Arm](https://developer.arm.com/solutions/internet-of-things)
    Plenty of resources from [Arm] around boards, Operating
    Systems, languages, libraries, tutorials, courses, documentation.
+ - [Embedded Systems Security and TrustZone](https://embeddedsecurity.io/)
 
 
 [Arm]:		https://arm.com
