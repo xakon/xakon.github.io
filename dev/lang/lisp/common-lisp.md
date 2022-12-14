@@ -49,6 +49,8 @@ Apress, 2020
  - [Planet Lisp](http://planet.lisp.org/)
  - [Common Lisp](http://lisp-lang.org/)
  - [hyperSpec](http://hyperspec.r-forge.r-project.org/)
+ - [Common Lisp CommunitySpec (CLCS](https://cl-community-spec.github.io/):
+   A rendition of the Common Lisp ANSI Specification draft.
 
  - <http://common-lisp.net/>
  - [CLiki - The Common Lisp Wiki](http://www.cliki.net/)
