@@ -39,6 +39,7 @@ can be found at: [The Little Book of Rust Books](https://lborb.github.io/book/).
    A companion book to the famous, excellent book from Bob Nystrom,
    [Crafting Interpreters](http://craftinginterpreters.com/), but the code is
    presented in Rust, of course.
+ - [Rust for the Polyglot Programmer](https://www.chiark.greenend.org.uk/~ianmdlvl/rust-polyglot/)
 
 ### Online Resources
 
