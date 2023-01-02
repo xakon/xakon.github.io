@@ -15,6 +15,8 @@ but different names:
  - [DevUtils.app](https://devutils.app/):
    A GUI collection of simple conversions, useful for developers.
    Most of these can be done using command-line tools, though.
+ - [yabai](https://github.com/koekeishiya/yabai):
+   A tiling Window Manager for macOS.
 
 
 Links
