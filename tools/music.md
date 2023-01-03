@@ -22,3 +22,5 @@ Music Tools
 ## Misc
 
  - [MusicXML](http://www.recordare.com/xml.html)
+ - [OpusModus](https://opusmodus.com/):
+   Compose and play music using Lisp!
