@@ -62,6 +62,9 @@ Catalogue
    semi-connected cursive italics.
  - [Martian Mono](https://github.com/evilmartians/mono):
    A monospaced version of the Martian Grotesk font for code style design.
+ - [TT2020](https://copypaste.wtf/TT2020/):
+   An advanced, open source, hyperrealistic, multilingual typewriter font for a
+   new decade!  Very elegant font.
 
 More fonts can be found and tested at <http://programmingfonts.org>
 
