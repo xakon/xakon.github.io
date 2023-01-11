@@ -14,6 +14,10 @@ Resources
  - [My GOTO Postgres Configuration for Web Services][web-config]
  - [Postgres Tips and Tricks](https://pgdash.io/blog/postgres-tips-and-tricks.html)
  - [psql Tips](https://mydbanotebook.org/psql_tips_all.html)
+ - [pgcli](https://www.pgcli.com/):
+   The default _PostgreSQL_ client, `pssql`, is not very powerful.
+   `pgcli` is an alternative client, with syntax-highlighting and auto-completion.
+   It is built using Python, so I installed it using [pipx](https://pypa.github.io/pipx/).
 
 
 [web-config]:	https://tightlycoupled.io/my-goto-postgres-configuration-for-web-services/
