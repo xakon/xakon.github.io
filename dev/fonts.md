@@ -32,6 +32,8 @@ Catalogue
    unfortunately, very few encodings supported.
  - [Berkeley Mono Typeface](http://berkeleymono.com):
    A retro and classical look font.  Very pleasant aesthetics.
+ - [Inter](https://rsms.me/inter/):
+   A typeface carefully crafted & designed for computer screens.
  - [Overpass](http://overpassfont.org/):  Developed and used by Redhat.
  - [Operator](http://www.typography.com/fonts/operator/)
  - [Biblical Fonts](http://www.sbl-site.org/educational/BiblicalFonts_SBLBibLit.aspx).
