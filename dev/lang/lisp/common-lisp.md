@@ -88,6 +88,8 @@ Some Common Lisp implementations are:
 
  - [SBCL][sbcl]
  - [CMU Common Lisp](https://www.cons.org/cmucl/) (CMUCL)
+ - [GCL](https://www.gnu.org/software/gcl/):
+   The official GNU Common Lisp.
  - [CLISP](http://clisp.cons.org/) (GNU Common Lisp)
  - [Embeddable Common Lisp](https://common-lisp.net/project/ecl/)
  - [Clozure CL (CCL)][ccl]
