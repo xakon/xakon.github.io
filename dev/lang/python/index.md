@@ -206,6 +206,22 @@ Except of [PyPI (Python Package Index)](https://pypi.org/), there is also the
 [Awesome Python](https://awesome-python.com/) site, where we can find Python
 packages and libraries based on a category.
 
+The [PEP 440](http://www.python.org/dev/peps/pep-0440/) defines which versions a
+Python package should follow.  This the scheme that `pip` also works best, and
+[PyPI](https://pypi.org) expects to work with.
+
+The versions should follow this pattern: `N[.N]+[{a|b|c|rc}N][.postN][.devN]`.
+This means, that both `2.3` and `3.4.1` are valid versions.  Also the following:
+
+ - `2.3.1a`:  an ALPHA version
+ - `2.3.1b`:  a BETA version
+ - `2.3.1c`:  a release-candidate
+ - `2.3.1rc2`:  a release-candidate
+ - `2.3.1.dev3`: a testing, development version (ignore it).  It is discouraged.
+ - `2.3.1.post2`: a post release, where we change something in the package,
+   (like documentation or metadata), but not in the code.  An elegant way to fix
+   a broken deployment to [PyPI](https://pypi.org).
+
 Creation of pip repository
 --------------------------
 
