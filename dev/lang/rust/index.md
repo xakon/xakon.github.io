@@ -56,6 +56,10 @@ can be found at: [The Little Book of Rust Books](https://lborb.github.io/book/).
  - [Rust Cheat Sheet](https://upsuper.github.io/rust-cheatsheet/)
  - [rs-samples](https://github.com/snowzurfer/rs-samples):
    A collection of small, documented examples in Rust to learn the language.
+ - [Rust by Practice](https://practice.rs/):
+   This online book is accompanied by a
+   [Github repository](https://github.com/sunface/rust-by-practice),
+   but it doesn't seem to contain too much staff.
  - [Rust FFI Examples](https://github.com/alexcrichton/rust-ffi-examples):
    A collection of Rust FFI to/from any other language.
  - [RustVids](https://rustvids.github.io/):  Videos of Rust issues
