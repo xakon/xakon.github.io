@@ -12,6 +12,7 @@ Resources
 
  - [Official site](https://nim-lang.org/)
  - [Official Documentation](https://nim-lang.org/documentation.html)
+ - [Nim Standard Library](https://nim-lang.org/docs/lib.html)
 
 [Nim]:	https://nim-lang.org/
 
