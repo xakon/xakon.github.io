@@ -13,6 +13,13 @@ Resources
  - [Official site](https://nim-lang.org/)
  - [Official Documentation](https://nim-lang.org/documentation.html)
 
+[Nim]:	https://nim-lang.org/
+
+### Books ###
+
+ - [Nim in Action](https://book.picheta.me/):
+   It is considered one of the best books to learn [Nim], with funny exercises.
+
 
 Installation
 ------------
