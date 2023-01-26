@@ -1,6 +1,9 @@
 Glasgow Haskell Compiler (GHCi)
 ===============================
 
+The official manual of GHCi can be found at
+https://downloads.haskell.org/ghc/latest/docs/users_guide/ghci.html[GHC site].
+
 https://github.com/takenobu-hs/haskell-ghc-illustrated[GHC Illustrated]
 provides some nice (although unofficial) presentations about the internals
 of GHC.
