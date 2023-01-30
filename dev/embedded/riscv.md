@@ -19,6 +19,8 @@ Resources
  - [RISC-V Bytes](https://danielmangum.com/categories/risc-v-bytes/)
  - [RISC-V Tips](https://danielmangum.com/risc-v-tips/)
 
+ - [RISC-V Guide](https://github.com/mikeroyal/RISC-V-Guide)
+
 
 Projects
 --------
