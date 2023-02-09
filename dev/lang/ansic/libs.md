@@ -61,6 +61,10 @@ Here is a list of industry-based, strong-supported libraries:
 
 ### Utilities ###
 
+ - [stb](https://github.com/nothings/stb):
+   Single-file, public-domain libraries for C/C++.  There is a ton of useful
+   utilities, from graphics and images, to simple strings and more.
+
  - [ICU - International Components for Unicode](http://site.icu-project.org/):
    The most complete, but heavy, library to support Unicode.
 
