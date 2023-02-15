@@ -1,6 +1,11 @@
 WebAssembly
 ===========
 
+The WebAssembly is both an (assembly) language and a target.
+We can use many languages to compile into a WebAssembly binary,
+which we can also test it locally with the development tools.
+
+
 Resources
 ---------
 
