@@ -20,6 +20,8 @@ Resources
    Exploring WebAssembly from scratch from a backend-person-point-of-view.
    A story in four acts.
 
+ - [Rust to WebAssembly The Hard Way](https://surma.dev/things/rust-to-webassembly/)
+
 
 Tools
 -----
