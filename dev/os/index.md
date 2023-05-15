@@ -38,6 +38,12 @@ All these books come with accompanying material, as extra slides, articles,
 exercises, solutions, videos.
 
 
+### Systems ###
+
+ - [MenuetOS](https://menuetos.net/):
+   An OS for the PC, written fully in assembly language (64bit and 32bit).
+
+
 ### Online ###
 
  - [Hack the Kernel](https://www.ops-class.org/):
