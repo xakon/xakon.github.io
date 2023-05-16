@@ -34,7 +34,11 @@ Apress, 2020
 
  - [Practical Common Lisp][practical-clisp]
  - [On Lisp][on-lisp]
- - [Successful Lisp](http://www.psg.com/~dlamkins/sl/)
+ - [Successful Lisp](http://successful-lisp.com/)
+   The author's site is at <http://www.psg.com/~dlamkins/sl/>, but it seems that
+   the provided link doesn't work.  Instead, I found the following link with the
+   contents of the book:
+   <https://dept-info.labri.fr/~strandh/Teaching/MTP/Common/David-Lamkins/>
  - [Common Lisp HyperSpec][clisp-spec] (Reference), [Simplified Reference][clisp-sclr]
  - [Common Lisp: A Gentle Introduction to Symbolic Computation][clisp-gentle]
  - [Learn Lisp the Hard Way](http://learnlispthehardway.org/)
