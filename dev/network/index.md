@@ -12,6 +12,7 @@ Resources
  - [Sockets Tutorial](http://www.cs.rpi.edu/~moorthy/Courses/os98/Pgms/socket.html)
  - [IPSec Overview](https://anardil.net/2015/internet-protocol-security-ipsec.html)
  - [The Illustrated TLS Connection](https://tls.ulfheim.net/)
+ - [See this page fetch itself, byte by byte, over TLS](https://subtls.pages.dev/)
  - [Roll Your Own Network](https://roll.urown.net/):
    A guide that mentions all hardware and software needed to setup any Cloud
    service locally.
