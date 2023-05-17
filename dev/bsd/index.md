@@ -72,3 +72,8 @@ For example, I can get the sources of the
 [1BSD](http://minnie.tuhs.org/Archive/Distributions/UCB/1bsd.tar.gz),
 by Bill Joy himself!  There is a ton of interesting material there to study,
 including manual/help pages, Pascal interpreter, and other utilities.
+
+ - [RetroBSD](https://github.com/RetroBSD/retrobsd):
+   A lightweight UNIX-like OS, inspired and based by BSD 2.11, for 8-bit and
+   16-bit MCUs.  Even though the development seems to have stopped, it still
+   can serve as an education material and inspiration to some C programmers.

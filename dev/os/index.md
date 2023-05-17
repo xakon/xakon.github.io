@@ -66,6 +66,11 @@ exercises, solutions, videos.
    Another experimental OS, with graphical interface, custom kernel, and
    libraries.
 
+ - [RetroBSD](https://github.com/RetroBSD/retrobsd):
+   A lightweight UNIX-like OS, inspired and based by BSD 2.11, for 8-bit and
+   16-bit MCUs.  Even though the development seems to have stopped, it still
+   can serve as an education material and inspiration to some C programmers.
+
  - [MenuetOS](https://menuetos.net/):
    An OS for the PC, written fully in assembly language (64bit and 32bit).
 
