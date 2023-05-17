@@ -40,14 +40,10 @@ exercises, solutions, videos.
 
 ### Systems ###
 
- - [MenuetOS](https://menuetos.net/):
-   An OS for the PC, written fully in assembly language (64bit and 32bit).
+ - [The seL4 Microkernel](https://sel4.systems/):
+   The world's most high-assured operating system kernel, huge emphasis on
+   security and performance.
 
-
-### Online ###
-
- - [Hack the Kernel](https://www.ops-class.org/):
-   Includes everything you need to learn about operating systems online.
  - [Redox](http://www.redox-os.org/):
    Unix-like Operating System written in Rust, aiming to bring the innovations
    of Rust to a modern micro-kernel and full set of applications.
@@ -55,13 +51,28 @@ exercises, solutions, videos.
    Actually, I read a very nice article, introduction to Redox, and got
    immediately sold with it!  The article can be found at:
    [Programming for Redox OS](https://dev.to/legolord208/programming-for-redox-os-4124).
- - [The seL4 Microkernel](https://sel4.systems/):
-   The world's most high-assured operating system kernel, huge emphasis on
-   security and performance.
+
  - [How to write a simple Operating System][mikeos-guide]:
    [MikeOS][mikeos] is a simple, x86-based OS, written in Assembly and with a
    goal to teach fundamentals of OSes to students.  There are also other forks
    of the OS that add other features (x86-64 support, ARM support, etc.).
+
+ - [Theseus OS](https://github.com/theseus-os/Theseus):
+   An experimental OS, written in [Rust](https://www.rust-lang.org/).
+   It contains detailed instructions on how to build and run it on QEMU and
+   other platforms.
+
+ - [ToaruOS](https://toaruos.org/):
+   Another experimental OS, with graphical interface, custom kernel, and
+   libraries.
+
+ - [MenuetOS](https://menuetos.net/):
+   An OS for the PC, written fully in assembly language (64bit and 32bit).
+
+### Guides ###
+
+ - [Hack the Kernel](https://www.ops-class.org/):
+   Includes everything you need to learn about operating systems online.
  - [Operating Systems: from 0 to 1](https://github.com/tuhdo/os01):
    Nice tutorial on how to write an OS from scratch.
  - [Writing an OS in Rust](http://os.phil-opp.com)
@@ -86,13 +97,6 @@ exercises, solutions, videos.
  - [Rolling your Own Bootloader](http://wiki.osdev.org/Rolling_Your_Own_Bootloader)
  - [Memory Management Reference](http://www.memorymanagement.org/)
  - [System Programming Wiki](https://github.com/angrave/SystemProgramming/wiki)
- - [Theseus OS](https://github.com/theseus-os/Theseus):
-   An experimental OS, written in [Rust](https://www.rust-lang.org/).
-   It contains detailed instructions on how to build and run it on QEMU and
-   other platforms.
- - [ToaruOS](https://toaruos.org/):
-   Another experimental OS, with graphical interface, custom kernel, and
-   libraries.
  - [Computer Science from the Bottom Up](https://www.bottomupcs.com/):
    Despite its title, this online book is mainly focused on OS design and
    principles.
