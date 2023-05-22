@@ -128,6 +128,11 @@ Other
  - [rtForth](https://github.com/chengchangwu/rtforth):  simple Forth implemented in Rust
    for real-time application.
 
+ - [Aero](https://github.com/Andy-Python-Programmer/aero):
+   An experimental, UNIX-like OS written in Rust.  It follows the monolithic
+   kernel design and it is inspired by the [Linux Kernel](https://kernel.org/).
+   It supports _modern_ PC features.
+
 
 [crates]:		https://crates.io/
 [docs]:			https://docs.rs/

@@ -74,6 +74,11 @@ exercises, solutions, videos.
  - [MenuetOS](https://menuetos.net/):
    An OS for the PC, written fully in assembly language (64bit and 32bit).
 
+ - [Aero](https://github.com/Andy-Python-Programmer/aero):
+   An experimental, UNIX-like OS written in Rust.  It follows the monolithic
+   kernel design and it is inspired by the [Linux Kernel](https://kernel.org/).
+   It supports _modern_ PC features.
+
 ### Guides ###
 
  - [Hack the Kernel](https://www.ops-class.org/):
