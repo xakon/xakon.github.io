@@ -26,7 +26,7 @@ Projects
 --------
  - [Adventures of OS: Making a RISC-V OS using Rust](http://osblog.stephenmarz.com/)
  - [Risc-V and Rust](https://github.com/takahirox/riscv-rust):
-   A RISC-V emulator written in Rust and compiled into Webassembly.
+   A RISC-V emulator written in Rust and compiled into WebAssembly.
    Plenty of resources and information.
  - [NekoOS](https://github.com/NekoOS-Group/NekoOS):
    A Rust-based RISC-V OS.
