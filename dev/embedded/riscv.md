@@ -28,6 +28,9 @@ Projects
  - [Risc-V and Rust](https://github.com/takahirox/riscv-rust):
    A RISC-V emulator written in Rust and compiled into Webassembly.
    Plenty of resources and information.
+ - [NekoOS](https://github.com/NekoOS-Group/NekoOS):
+   A Rust-based RISC-V OS.
+
 
 
 Boards

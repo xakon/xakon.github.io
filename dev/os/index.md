@@ -79,6 +79,9 @@ exercises, solutions, videos.
    kernel design and it is inspired by the [Linux Kernel](https://kernel.org/).
    It supports _modern_ PC features.
 
+ - [NekoOS](https://github.com/NekoOS-Group/NekoOS):
+   A Rust-based RISC-V OS.
+
 ### Guides ###
 
  - [Hack the Kernel](https://www.ops-class.org/):

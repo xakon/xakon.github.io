@@ -21,6 +21,8 @@ The programs can be built with or without the `std` library.  Building `no-std`
 applications is a complex topic.  An allocator is needed, if the application
 requires a heap.
 
+For a more detailed example, have a look at [NekoOS](https://github.com/NekoOS-Group/NekoOS),
+a Rust-based RISC-V OS.
 
 Cross-Compilation
 -----------------
