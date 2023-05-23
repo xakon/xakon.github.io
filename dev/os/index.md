@@ -57,6 +57,12 @@ exercises, solutions, videos.
    goal to teach fundamentals of OSes to students.  There are also other forks
    of the OS that add other features (x86-64 support, ARM support, etc.).
 
+ - [Tilck (Tiny Linux-Compatible Kernel)](https://github.com/vvaltchev/tilck):
+   An educational _monolithic_ x86 kernel, designed to be Linux-compatible at
+   binary level.  Project's small-scale and simple design makes it the **perfect
+   playground** for playing in kernel mode, while retaining the ability to
+   compare how the _very same_ user-mode bits run on the Linux kernel, as well.
+
  - [Theseus OS](https://github.com/theseus-os/Theseus):
    An experimental OS, written in [Rust](https://www.rust-lang.org/).
    It contains detailed instructions on how to build and run it on QEMU and
