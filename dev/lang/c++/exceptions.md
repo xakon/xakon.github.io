@@ -1,7 +1,7 @@
 Exceptions
 ==========
 
-All the following exceptions lie in the `std` namespace.
+All the following exceptions can be found in the `std` namespace.
 
  - `out_of_range`
 
