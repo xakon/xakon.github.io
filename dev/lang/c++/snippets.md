@@ -177,4 +177,30 @@ Include `<bits/stdc++.h>` and have access to all standard headers.
 This is a GNU extension.
 
 
+## Language constructs over libraries ##
+
+In the nice reference article of Arthur O'Dwyer
+[Prefer core-language features over library facilities](https://quuxplusone.github.io/blog/2022/10/16/prefer-core-over-library/),
+a number of library constructs are mentioned, which should be replaced by core
+concepts instead.  Here is a short summary:
+
+Core feature		| Library feature
+------------------------|------------------------
+`'\n'`			| `std::endl`
+_ranged `for`_		| `std::for_each()`
+`void*`			| `std::byte*`
+`struct`		| `std::tuple`
+_arrays_ `T[]`		| `std::array`
+_assignment_		| `.reset()`
+`char`			| `std::byte`
+_lambdas_		| `std::bind()`
+`new(p) T(args...)`	| `std::construct_at()`
+`alignof`		| `std::alignment_of()`
+`alignas`		| `std::aligned_storage_t()`
+`requires`		| `std::enable_if()`
+
+I maintain a different order than the original article, based on the most used
+features I use.
+
+
 [//]:	# vim: ft=markdown spell
