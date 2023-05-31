@@ -201,6 +201,3 @@ _lambdas_		| `std::bind()`
 
 I maintain a different order than the original article, based on the most used
 features I use.
-
-
-[//]:	# vim: ft=markdown spell
