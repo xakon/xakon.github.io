@@ -169,3 +169,5 @@ A list with free e-books:
 
  - [Standard ebooks](https://standardebooks.org/)
  - [Project Gutenberg](https://www.gutenberg.org/)
+ - [Planet Book](https://www.planetebook.com/):
+   It offers many books in various formats (PDF, EPUB, MOBI).
