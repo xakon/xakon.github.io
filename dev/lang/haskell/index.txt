@@ -101,6 +101,7 @@ Books
  - https://simonmar.github.io/pages/pcph.html[Parallel and Concurrent Programming in Haskell]
  - Haskell 98 Report (Cambridge Press)
  - https://kowainik.github.io/posts/haskell-mini-patterns[Haskell Mini-Patterns Handbook]
+ - https://haskell.foundation/hs-opt-handbook.github.io[Haskell Optimization Handbook]
 
 
 Courses
