@@ -85,6 +85,12 @@ can be found at: [The Little Book of Rust Books](https://lborb.github.io/book/).
  - [A Guide to Porting C/C++ to Rust](https://locka99.gitbooks.io/a-guide-to-porting-c-to-rust/)
  - [GTK Rust Tutorial](https://mmstick.github.io/gtkrs-tutorials/)
 
+### Courses ###
+
+ - [Comprehensive Rust](https://google.github.io/comprehensive-rust/):
+   An online, free course from Google for Android developers.  It spans in a few
+   days, so it's rather short and easy to follow.
+
 
 Tools
 -----
