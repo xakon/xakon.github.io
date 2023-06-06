@@ -36,4 +36,5 @@ The leading software tool for
 https://en.wikipedia.org/wiki/Scrum_(software_development)[Scrum]
 is without any doubt https://www.atlassian.com/software/jira[Jira].
 A minimal alternative is https://pace.dev[Pace], where we can do
-much less than Jira, but much faster.
+much less than Jira, but much faster.  Another open-source alternative is
+https://github.com/makeplane/plane[Plane], which can be run locally as a container.
