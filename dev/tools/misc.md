@@ -53,6 +53,10 @@ Mail Utilities
   A nice development SMTP server, to test application that send emails without
   bothering any user.
 
+- [Mox](https://github.com/mjl-/mox):
+  A modern, full-featured, open-source, secure mail server for low-maintenance,
+  self-hosted email.
+
 - [Inbucket](https://github.com/inbucket/inbucket):
   An email testing service, that accepts messages for any email address and make
   them available via HTTP, REST, and POP3 interfaces.  Built using Go, has no
