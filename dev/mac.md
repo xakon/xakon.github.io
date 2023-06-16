@@ -18,6 +18,15 @@ but different names:
  - [yabai](https://github.com/koekeishiya/yabai):
    A tiling Window Manager for macOS.
 
+### DTrace ###
+
+_macOS_ being a decendant of NetBSD has support for _DTrace_.
+It also includes a numerous tools around this infrastructure:
+
+ - `fs_usage`:
+    Monitor many different events, but it's better to filter them out into
+    specific groups of system calls.
+
 
 Links
 -----
