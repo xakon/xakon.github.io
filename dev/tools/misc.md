@@ -75,6 +75,10 @@ Mail Utilities
   Fake mail server, used for development.  No need for setup, but registration
   is needed.
 
+- [Mailtutan](https://github.com/mailtutan/mailtutan):
+  Another fake email server, with an accompanying web interface, to run locally
+  to debug SMTP clients and services, useful for testing and development.
+
 - [MailSlurp](https://www.mailslurp.com/):
   Another test mail service, that needs registration, but no setup.
 
