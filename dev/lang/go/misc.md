@@ -39,3 +39,14 @@ The expected value(s) can be inlined or put into the next comment line.
 The _Example functions_ can be placed inside **any** of the _test files_.
 But, if they are placed in separate _Example file_, then there can be only one
 such function defined.
+
+### Caching ###
+
+While running Go tests using the `go test` tool, it caches the results of the
+tests, so that it doesn't have to execute test cases, which are not affected by
+the code changes.
+
+Directories which are used for caching are:
+
+ - `$HOME/.cache/go-build`
+ - `$HOME/go/pkg/mod`
