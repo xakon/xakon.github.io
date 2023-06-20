@@ -15,7 +15,7 @@ A collection of some common Go idioms.
 
 ```go
 // \x80 is an illegal UTF-8 encoding
-for pos, char := range("日本\x80語" {
+for pos, char := range("日本\x80語") {
    fmt.Printf("character %#U starts at byte position %d\n", char, pos)
 }
 ```
