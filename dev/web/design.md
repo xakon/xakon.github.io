@@ -48,6 +48,24 @@ They can use the `Report-To` header field to send a request, when they spot a
 problem with a web site.  There is also a custom service that supports this
 browser feature, called [report-uri.com](https://report-uri.com/).
 
+### Web Site as Application ###
+
+Modern browsers can open Web sites as standalone applications, especially useful
+in mobile devices.  To achieve such effect we need a
+[Web Application Manifest](https://developer.mozilla.org/en-US/docs/Web/Manifest),
+which can look like this:
+
+```json
+{
+
+  "display": "standalone",
+  "scope": "https://example.com/site"
+}
+```
+
+More information and other interesting options, like application name and icon,
+can be found at Mozilla's documentation.
+
 ### Basic styling ###
 
 Nice ideas from the article, [Web Design in 4 minutes](https://jgthms.com/web-design-in-4-minutes/):
