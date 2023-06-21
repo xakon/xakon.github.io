@@ -16,6 +16,8 @@ Resources
  - [Roll Your Own Network](https://roll.urown.net/):
    A guide that mentions all hardware and software needed to setup any Cloud
    service locally.
+ - [Photohackers](https://protohackers.com/):
+   Write network servers to implement network protocols as exercises.
 
 
 Tools

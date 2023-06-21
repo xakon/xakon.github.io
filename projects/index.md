@@ -185,6 +185,8 @@ List compiled from the following article:
  - [CodinGame](https://www.codingame.com/start)
  - [Kattis](https://open.kattis.com/)
  - [Coding Game](https://www.codingame.com/)
+ - [Photohackers](https://protohackers.com/):
+   Write network servers to implement network protocols as exercises.
 
 
 Resources

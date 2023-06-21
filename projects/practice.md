@@ -11,6 +11,8 @@ In any case, here are some collection of resources:
  - <http://codingdojo.org/>
  - <http://codingdojo.org/kata/>
  - <https://cyber-dojo.org/>
+ - [Photohackers](https://protohackers.com/):
+   Write network servers to implement network protocols as exercises.
 
 Microsoft also hosts an online course,
 [Web Developers for Beginners](https://github.com/microsoft/Web-Dev-For-Beginners),
