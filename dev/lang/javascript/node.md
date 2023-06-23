@@ -5,6 +5,15 @@ This tool is so important in JavaScript programming, especially for
 server-based code, but also for testing client-based code, that deserves
 its own page!
 
+Resources
+---------
+
+ - [Official Site](https://nodejs.org/)
+ - [API documentation](https://nodejs.org/api/)
+
+
+Topics
+------
 
 ### REPL
 
