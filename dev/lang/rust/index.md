@@ -56,6 +56,7 @@ can be found at: [The Little Book of Rust Books](https://lborb.github.io/book/).
  - [into_rust()](http://intorust.com/):  Screen-casts for learning Rust
  - [Rust Language Cheat Sheet](https://cheats.rs/)
  - [Rust Cheat Sheet](https://upsuper.github.io/rust-cheatsheet/)
+ - [Notes about cross-compiling](https://github.com/japaric/rust-cross)
  - [rs-samples](https://github.com/snowzurfer/rs-samples):
    A collection of small, documented examples in Rust to learn the language.
  - [Rust by Practice](https://practice.rs/):
