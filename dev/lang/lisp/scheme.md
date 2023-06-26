@@ -11,7 +11,8 @@ Resources
 
  - [Teach Yourself Scheme in Fixnum days (PDF)][fixnum] or
    [HTML](https://ds26gte.github.io/tyscheme/)
- - [The Scheme Programming Language][scheme]
+ - [The Scheme Programming Language][scheme]:
+   Free online book as HTML, but it would be better to read it on a paper or as a PDF.
  - [Structure and Interpretation of Computer Programs][sicp]
  - [How To Design Programs][htdp]
 
