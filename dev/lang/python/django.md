@@ -66,6 +66,11 @@ development are:
  - [django-builder](https://github.com/mmcardle/django_builder):
    Automatically generate *everything* from custom models.
 
+ - [Django Lifecycle Hooks](https://rsinger86.github.io/django-lifecycle/):
+   It provides us with `@hook` decorators to add event-handlers to _model classes_.
+   Better alternative to _Django Signals_ or to manually override `save()` or
+   `update()`.
+
 
 Custom User
 -----------
