@@ -8,6 +8,8 @@ but different names:
  - `open`
  - `mdfind`
  - `screencapture`
+ - `sips`:  image manipulation
+ - `textutil`:  document file converter
  - `launchctl`
  - `say`
  - `diskutil`
