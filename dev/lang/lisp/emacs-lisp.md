@@ -20,6 +20,9 @@ Resources
 
 ### Tutorials ###
 
+ - [Awesome ELisp](https://github.com/p3r7/awesome-elisp):
+   Curated list of resources for Emacs Lisp (ELisp) development.
+
  - [Casting SPELs in LISP](http://www.lisperati.com/casting-spels-emacs/html/casting-spels-emacs-1.html):
    A tutorial in the form of a comic book, adaptation of the Common Lisp edition.
 
