@@ -38,6 +38,34 @@ it resembles FreeBSD, it is rolling release and highly optimized like Arch, it h
 .. _Void Linux: https://www.voidlinux.eu
 
 
+Embbeded Distributions
+======================
+
+Some distributions are more suitable for an embedded device, that is powerful enough to run Linux.
+
+Armbian
+~~~~~~~
+
+For some ARM-based single-board computers (SBCs) that are powerful enough to
+run Linux (like Raspberry PI), the default option would be to use a dedicated
+distribution or a generic Debian.  But, the distributions provided by the
+provider are not always up-to-date or available at all.  `Armbian`_ comes to fix
+this problem.
+
+`Armbian`_ is a set of distributions.  The project supplies many pre-made
+images for many boards, but it also gives the tools and the documentation to
+build distributions that can support missing boards.  And, it's not only restricted to
+ARM-based SBCs, but it added recently support for RISC-V SBCs too.
+
+Currently, we can even choose between 2 generic images, based on Debian or Ubuntu.
+It can even run console-based or graphical-based Linux.
+
+We can install it on an SD card, and after the first boot it will expand the root filesystem
+to use the whole space on the SD card.
+
+.. _Armbian: https://www.armbian.com/
+
+
 Tiny Distributions
 ==================
 

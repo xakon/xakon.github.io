@@ -18,4 +18,16 @@ Resources
  - [Embedded Systems Security and TrustZone](https://embeddedsecurity.io/)
 
 
+### Distributions ###
+
+We need an RTOS or another OS, suitable for embedded devices, to run something
+on an ARM-based single-computer (SBC).  For embedded Linux, here are useful
+resources:
+
+ - [Armbian](https://www.armbian.com/):
+   Specialised Linux distributions (based on Debian or Ubuntu) that can run on
+   an ARM-based SBC.  It supports many boards out-of-the box, but there are
+   instructions on how to build and install it on an unsupported board.
+
+
 [Arm]:		https://arm.com
