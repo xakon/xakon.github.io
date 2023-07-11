@@ -20,6 +20,8 @@ Resources
  - [RISC-V Tips](https://danielmangum.com/risc-v-tips/)
 
  - [RISC-V Guide](https://github.com/mikeroyal/RISC-V-Guide)
+ - [RISC-V Assembly Programming](https://riscv-programming.org/):
+   Online book and resources on RISC-V assembly.
 
 
 Projects
