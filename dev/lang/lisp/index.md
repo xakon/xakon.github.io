@@ -62,6 +62,8 @@ Some Common Lisp implementations are:
  - [Embeddable Common Lisp](https://common-lisp.net/project/ecl/)
  - [Clozure CL](http://www.clozure.com/clozurecl.html)
  - [Allegro CL](http://www.franz.com/products/allegrocl/)
+ - [PicoLisp](https://picolisp.com/):
+   There is an excellent collection of resources at <https://picolisp-explored.com/>.
  - [micro Lisp (uLisp)](http://www.ulisp.com/):
    Lisp for microcontrollers.
 
