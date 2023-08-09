@@ -10,6 +10,10 @@
  - [ditaa](http://ditaa.sourceforge.net/):
    DIagrams Through Ascii Art.
    Create ASCII diagrams and convert them into SVG bitmaps.
+ - [Typograms](https://google.github.io/typograms/):
+   Another program to create simple but beautiful _Typograms_ (typographic
+   diagrams) from ASCII-art.  It is a lightweight image format (`text/typogram`),
+   which can be embedded in an HTML page.
  - [enscript](http://www.gnu.org/software/enscript/):
    Convert text files into PostScript and other formats.
    Useful for syntax-highlighting of programming scripts.
