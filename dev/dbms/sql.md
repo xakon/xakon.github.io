@@ -13,6 +13,8 @@ Resources
    Interactive book which aims to be the best place for learning SQL.
  - [SQL Bolt](https://sqlbolt.com/):
    Interactive SQL lessons on the browser.
+ - [SQL Tutorials](http://sqlzoo.net/):
+   A list of many SQL tutorials.
 
 ### Datasets ###
 

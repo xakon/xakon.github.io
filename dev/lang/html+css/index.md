@@ -33,8 +33,6 @@ Resources
 ### Tutorials
 
  - [HTML Dog Tutorials](http://htmldog.com/guides/)
- - [SQL Tutorial](http://sqlzoo.net/):
-   TODO: move it into SQL section
 
 
 Tools
