@@ -35,3 +35,17 @@ Resources
  - [HTML Dog Tutorials](http://htmldog.com/guides/)
  - [SQL Tutorial](http://sqlzoo.net/):
    TODO: move it into SQL section
+
+
+Tools
+-----
+
+Even though HTML is not a difficult language to write, yet it is quite verbose.
+That's why, a variety of different Markup languages have been invented, in order
+to reduce the load of writing HTML.
+
+Another approach is to use HTML template engines.  Now, we can write less
+characters to produce the same HTML page.  Some of them are:
+
+ - [Slim](https://slim-template.github.io/):  Ruby-based engine
+ - [Plim](https://plim.readthedocs.io/):  The same engine written in Python
