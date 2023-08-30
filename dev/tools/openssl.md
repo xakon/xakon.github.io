@@ -63,6 +63,10 @@ Some examples that may be proved to be educational in the future.
 - Create private RSA key
     openssl genrsa -out privkey.pem 4096
 
+  Alternatively
+    openssl genpkey -out fd.key -algorithm RSA \
+      -pkeyopt rsa_keygen_bits:2048 -aes-128-cbc
+
 - Generate the public RSA key (optional):
 Typically, this is needed only for verifying signed files, but it's useful
 to have it anyway.
