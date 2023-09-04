@@ -412,6 +412,12 @@ Nice reference and tutorial was found at [Infinite Negative Utility][rust-module
 
 [rust-modules]:	https://blog.infinitenegativeutility.com/2017/8/the-basic-principles-of-rust-modules
 
+#### Crates ####
+
+By default, when we create a _binary crate_, Cargo will create a file,
+`src/main.rs`, which will contain the `main()` of the main binary.  But, we can
+have as many binaries we want in a single _crate_.  Just place the source files
+inside the `src/bin/` directory and give each of them a separate `main()`.
 
 ### Unsafe Rust
 
