@@ -177,6 +177,32 @@ Include `<bits/stdc++.h>` and have access to all standard headers.
 This is a GNU extension.
 
 
+### Strong-typed boolean ###
+
+This snippet (from Andreas Fertig) can be used to strongly-type parameters in
+functions.  Instead of typing:
+
+```c++
+void file_access(bool open, bool close, bool readonly);
+
+file_access(true, false, false);
+```
+
+Which is rather easy to misuse the parameters, we can use the following pattern:
+
+```c++
+#define STRONG_BOOL(name)       \
+  enum class name : bool {      \
+    no  = false,                \
+    yes = true                  \
+  }
+
+void file_access(Open open, Close close, ReadOnly readonly);
+
+file_access(Open::yes, Close::no, ReadOnly::no);
+```
+
+
 ## Language constructs over libraries ##
 
 In the nice reference article of Arthur O'Dwyer
