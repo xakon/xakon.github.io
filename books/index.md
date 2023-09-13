@@ -245,5 +245,9 @@ A list with free e-books:
 
  - [Standard ebooks](https://standardebooks.org/)
  - [Project Gutenberg](https://www.gutenberg.org/)
+   Now, with support by Microsoft AI,
+   [Project Gutenberg](https://www.gutenberg.org/) offers a huge list of its
+   books in audio format.  They can be found in this
+   [link](https://marhamilresearch4.blob.core.windows.net/gutenberg-public/Website/).
  - [Planet Book](https://www.planetebook.com/):
    It offers many books in various formats (PDF, EPUB, MOBI).
