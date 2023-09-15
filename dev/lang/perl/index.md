@@ -57,6 +57,9 @@ Other useful web sites might be:
  - [Perl Cookbook, 2/e](https://docstore.mik.ua/orelly/perl4/cook/):
    A treasure of small and useful recipes.  Available online (thus easily
    searchable and usable as a reference), by O'Reilly CD Bookshelf.
+ - [Minimal Perl](https://www.manning.com/books/minimal-perl), Manning:
+   Shows how Perl can replace and become better than other tools, like `grep`,
+   `sed`, and `awk`.
 
 ### Blogs
 
