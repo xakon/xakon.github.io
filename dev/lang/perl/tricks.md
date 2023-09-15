@@ -16,7 +16,7 @@ say "You have ",
                       "some eggs";
 ```
 
-## Array Concatentation
+## Array Concatenation
 
 ```perl
 my @bones   = ("humerus", ("jaw", "skull"), "tibia");
