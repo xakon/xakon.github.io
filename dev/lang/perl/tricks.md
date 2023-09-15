@@ -10,9 +10,10 @@ parts.
 
 ```perl
 my $eggs = 5;
-say "You have " , $eggs == 0 ? "no eggs" :
-		  $eggs == 1 ? "an egg"  "
-		  "some eggs";
+say "You have ",
+         $eggs == 0 ? "no eggs"  :
+         $eggs == 1 ? "an egg"   :
+                      "some eggs";
 ```
 
 ## Array Concatentation
