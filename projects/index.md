@@ -84,7 +84,7 @@ Some examples follow:
    Even though there are 3 versions of it, I think the first is the most
    educational one, the other 2 are meant for the industry.
 
- - [Xv6][xv6]:
+ - [xv6]:
    Similarly to [Minix][minix], it contains a whole UNIX-line operating system in
    minimum form, in order to easer study it.
 

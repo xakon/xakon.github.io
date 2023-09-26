@@ -18,7 +18,7 @@ production.  Its aim is mainly safety.
 Minix can be found in `Github <https://github.com/minix3/minix>`_, as well!
 
 
-Xv6
+xv6
 ***
 
 A rewrite of UNIX v6, using modern C and running on x86 platforms.
@@ -31,7 +31,7 @@ There is also an online book (stored locally) that describes the system,
 and a book version with source code comments and line..
 
 Some resources:
- o `Xv6 <http://pdos.csail.mit.edu/6.828/2012/xv6.html>`
+ o `xv6 <http://pdos.csail.mit.edu/6.828/2012/xv6.html>`
  o Source code:  `<git://pdos.csail.mit.edu/xv6/xv6.git>`
  o `Debugging Tips <http://pdos.csail.mit.edu/6.828/2012/labguide.html>`
  o `Manual <https://pdos.csail.mit.edu/6.828/2016/xv6/book-rev9.pdf`
