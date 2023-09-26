@@ -106,10 +106,10 @@ Some examples follow:
  - [Tcl/Tk][tcltk]:
    An amazing language, but also a software project, lead by John Ousterhout.
 
- - [PostreSQL][postgres]:
+ - [PostgreSQL][postgres]:
    Excellent quality of source-code.  As mentioned in an
    [article](https://www.2ndquadrant.com/en/blog/postgresql-is-the-worlds-best-database/)
-   about [PostreSQL][postgres], the source code is full of documentation, TDD,
+   about [PostgreSQL][postgres], the source code is full of documentation, TDD,
    and many people learned working with C, just by studying the project.
 
  - [Apache Web Server][apache]
