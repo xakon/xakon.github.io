@@ -30,11 +30,15 @@ It compiles in a couple of seconds and is trivial to boot up in QEMU.
 There is also an online book (stored locally) that describes the system,
 and a book version with source code comments and line..
 
+There is also a Rust-based implementation of the project, under the name
+`rxv6 <https://github.com/dancrossnyc/rxv64>`.
+
 Some resources:
  o `xv6 <http://pdos.csail.mit.edu/6.828/2012/xv6.html>`
  o Source code:  `<git://pdos.csail.mit.edu/xv6/xv6.git>`
  o `Debugging Tips <http://pdos.csail.mit.edu/6.828/2012/labguide.html>`
  o `Manual <https://pdos.csail.mit.edu/6.828/2016/xv6/book-rev9.pdf`
+ o `rxv6 <https://github.com/dancrossnyc/rxv64>`
 
 
 XINU

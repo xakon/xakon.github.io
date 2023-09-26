@@ -89,6 +89,9 @@ Some examples follow:
    minimum form, in order to easier study it, as part of MIT's educational
    course on Operating Sources.
 
+   A Rust-based port exists under the
+   name [rxv6](https://github.com/dancrossnyc/rxv64).
+
  - [SQLite][sqlite]:
    Amazing project, with high-quality source code.
 
