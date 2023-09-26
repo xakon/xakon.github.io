@@ -86,7 +86,8 @@ Some examples follow:
 
  - [xv6]:
    Similarly to [Minix][minix], it contains a whole UNIX-line operating system in
-   minimum form, in order to easer study it.
+   minimum form, in order to easier study it, as part of MIT's educational
+   course on Operating Sources.
 
  - [SQLite][sqlite]:
    Amazing project, with high-quality source code.
