@@ -91,6 +91,28 @@ can be found at: [The Little Book of Rust Books](https://lborb.github.io/book/).
    An online, free course from Google for Android developers.  It spans in a few
    days, so it's rather short and easy to follow.
 
+### Idiomatic Rust ###
+
+We learn a language while we stick to some idiomatic code.  Here are some
+projects/repositories that can help with this task:
+
+ - [Idiomatic Rust](https://github.com/mre/idiomatic-rust):
+   Guidelines for writing elegant Rust programs.
+   It contains many resources to learn and write Idiomatic Rust programs.
+
+ - [Rust Design Patterns](https://rust-unofficial.github.io/patterns/):
+   This online book, not only show how to write Idiomatic Rust, but also why to
+   write like that and what we need to avoid.
+
+ - [Rust API Guidelines](https://rust-lang.github.io/api-guidelines/):
+   Online book with a set of recommendations on how to design and present APIs
+   for Rust.
+
+ - [Clippy rules](https://rust-lang.github.io/rust-clippy/):
+   _Clippy_ is the official Rust linter.  Even though it will warn us for
+   non-idiomatic Rust (category _style_), it can also give us a hint, why the
+   snippet doesn't follow the Idiomatic Rust.  It deserves some extra reading!
+
 
 Tools
 -----
