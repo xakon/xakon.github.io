@@ -50,6 +50,10 @@ Resources
    CRC Press  
    https://js4ds.org/
 
+#### Online Books ####
+
+ - [The Internals of Deno](https://choubey.gitbook.io/internals-of-deno)
+
 
 ### Sites
 
