@@ -19,6 +19,7 @@ Another one is [solderpunk](gopher://sdf.org/1/users/solderpunk/).
 
 Other useful links:
 
+ - [Highway to the Gopher Zone](https://gopher.zone/)
  - <gopher://gopher.floodgap.com/0/gopher/relevance.txt>
  - <gopher://sdf.org/1/users/d1337/1990s-life>
  - <gopher://gopherpedia.com/1/>
