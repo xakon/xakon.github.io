@@ -21,6 +21,10 @@ Resources
  - [Nim in Action](https://book.picheta.me/):
    It is considered one of the best books to learn [Nim], with funny exercises.
 
+#### Online ####
+
+ - [Nim Days](https://xmonader.github.io/nimdays/)
+
 
 Installation
 ------------
