@@ -191,6 +191,9 @@ List compiled from the following article:
  - [Coding Game](https://www.codingame.com/)
  - [Photohackers](https://protohackers.com/):
    Write network servers to implement network protocols as exercises.
+ - [Coding Challenges](https://codingchallenges.fyi/):
+   A collection of small to large projects to build, presented in steps and
+   further explanations.  A nice candidate for ideas on projects to work.
 
 
 Resources
