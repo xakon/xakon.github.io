@@ -21,6 +21,15 @@ Groups
  - [Zig Embedded Group](https://microzig.tech/)
 
 
+Playgrounds
+-----------
+
+There is no official Zig playground on the Web, but we can use one of the
+following projects to play online with Zig:
+
+ - [Zig Playground](https://labs.iximiuz.com/playgrounds/zig)
+
+
 Others
 ------
 
