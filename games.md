@@ -57,6 +57,13 @@ huge list of clones, remakes, or other copies of old games.
    A huge collection of Solitaire games, implemented in Python.
 
 
+### Online ###
+
+ - [Multi-User Dungeon - British Legends](https://www.british-legends.com/):
+   The predecessors of the MMRPGs, the MUDs are text-based dungeon crawlers.
+   Simply type `telnet british-legends.com 27750` and play on terminal!
+   **NOTE**:  browser support is also given.
+
 ### Adventure
 
  - [Gone Home](http://www.gonehomegame.com/): Ατμοσφαιρικό adventure που θυμίζει
