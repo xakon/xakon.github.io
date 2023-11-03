@@ -7,6 +7,11 @@ Resources
 ### Books
 
  - [Physically Based Rendering: From Theory to Implementation][pbr-book]
+   Now, it's 4th edition is published, which can still be found online.
+   Apart from its excellent material, it has an awesome rendered content,
+   as well.
+
+   The 4th edition can be found at:  <https://pbr-book.org/4ed/>
 
  - [Graphics Programming Black Book][black-book]:
    Michael Abrash's classic masterpiece on graphics.
