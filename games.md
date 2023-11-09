@@ -5,6 +5,13 @@ At <http://archive.org> there is a huge collection of [MS-DOS Games][dos-games].
 Also, at [Games Nostalgia](https://gamesnostalgia.com/), I can find the actual
 games from the past!
 
+Some retro games (like for Amstrad CPC or Amiga) need an emulator to be played.
+There are literally thousands of them.  A GitHub project,
+[Awesome Emulators](https://github.com/DerekTurtleRoe/awesome-emulators), has a
+full list of many of them.  Of course, we can also use
+[MAME](https://www.mamedev.org/) in order to play old games for obsolete
+machines.
+
 [dos-games]:	https://archive.org/details/softwarelibrary_msdos_games
 
 
