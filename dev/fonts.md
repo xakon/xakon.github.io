@@ -65,6 +65,9 @@ Catalogue
  - [TT2020](https://copypaste.wtf/TT2020/):
    An advanced, open source, hyperrealistic, multilingual typewriter font for a
    new decade!  Very elegant font.
+ - [Monaspace](https://monaspace.githubnext.com/):
+   A super-family of 5 related and monospace fonts.  Very elegant, very
+   relaxing.
 
 More fonts can be found and tested at <http://programmingfonts.org>
 
@@ -100,6 +103,7 @@ Monospace
  - DejaVu Sans Mono
  - [JuliaMono](https://juliamono.netlify.app/)
  - [Fantasque Sans Mono](https://github.com/belluzj/fantasque-sans)
+ - [Monaspace](https://monaspace.githubnext.com/):
 
 
 Math Fonts
