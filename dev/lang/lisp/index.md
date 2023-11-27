@@ -66,6 +66,9 @@ Some Common Lisp implementations are:
    There is an excellent collection of resources at <https://picolisp-explored.com/>.
  - [micro Lisp (uLisp)](http://www.ulisp.com/):
    Lisp for microcontrollers.
+ - [Nokolisp](http://timonoko.github.io/Nokolisp.htm):
+   A small Lisp-variant that can run on MS-DOS.
+
 
 
 [fixnum]:	http://download.plt-scheme.org/doc/205/pdf/t-y-scheme.pdf
