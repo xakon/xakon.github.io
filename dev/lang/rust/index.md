@@ -40,6 +40,7 @@ can be found at: [The Little Book of Rust Books](https://lborb.github.io/book/).
    [Crafting Interpreters](http://craftinginterpreters.com/), but the code is
    presented in Rust, of course.
  - [Rust for the Polyglot Programmer](https://www.chiark.greenend.org.uk/~ianmdlvl/rust-polyglot/)
+ - [High Assurance Rust](https://highassurance.rs/)
 
 ### Online Resources
 
