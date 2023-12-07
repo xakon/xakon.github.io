@@ -97,6 +97,8 @@ Linux
  - 0 A.D.
  - [Pingus](https://pingus.seul.org/):  a [Lemmings][lemmings]-clone.
  - [Powder](http://www.zincland.com/powder/)
+ - [Linux Air Combat](https://askmisterwizard.com/2019/LinuxAirCombat/LinuxAirCombat.htm)
+   Flight and air-fighting simulator.
 
 
 [lemmings]:	http://en.wikipedia.org/wiki/Lemmings
