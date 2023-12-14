@@ -10,6 +10,13 @@ GPG can be used for many things, mainly for the following:
  - Signing messages
  - Encrypting files
 
+Many developers use the GNU PGP version, the GnuPG or GPG, to add PGP services
+into their programs (I did it in the past).  GPG doesn't come with a library, we
+merely need to call the external executable with appropriate commands.  For more
+details about this programming interface, there is an interesting, online book:
+
+ - [OpenPGP for Application Developers](https://openpgp.dev/)
+
 ## Generating Keypair
 
 Generating a 4096-bit RSA keypair is considered sufficient for almost everyone
