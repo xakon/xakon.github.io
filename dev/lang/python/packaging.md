@@ -32,4 +32,30 @@ I also had a basic `Makefile` or shell script to do this manually using `pip`.
 I need to find it and copy it here!
 
 
+Installing with `pip`
+---------------------
+
+The simplest approach to install the required dependencies for a project is to
+use [pip](https://github.com/pypa/pip).  In the very interesting article,
+[Use “pip install” safely](https://www.b-list.org/weblog/2023/dec/07/pip-install-safely/),
+the author, James Bennett, suggests to use `pip` with the following parameters:
+
+    $ python3 - m pip install \
+        --require-hashes \
+        --no-deps \
+        --only-binary :all: \
+        -r requirements.txt
+
+The options have the following meaning:
+
+ - `--require-hashes`:  reject dependencies without any hashes, in case
+   something slipped accidentally in the `requirements.txt`.
+
+ - `--no-deps`:  install **only** what it finds in the `requirements.txt` and
+   reject dependencies that pop up and at the moment of the installation.
+
+ - `--only-binary :all:`:  try to install only pre-built _wheels_, avoiding
+   accidental installation from sources, which can run any custom Python code.
+
+
 [pep-441]:	https://py-generic-project.readthedocs.io/en/latest/packaging.html#build-zipapps
