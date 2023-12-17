@@ -9,8 +9,6 @@ TODO: extract links and information and document the following article:
 [Python's New Package Landscape][landscape]
 
 
-[landscape]:	http://andrewsforge.com/article/python-new-package-landscape/
-
 In theory, we can install a Python application using `pip` either in the home
 directory or inside a _Virtual Environment_.
 
@@ -58,4 +56,5 @@ The options have the following meaning:
    accidental installation from sources, which can run any custom Python code.
 
 
+[landscape]:	http://andrewsforge.com/article/python-new-package-landscape/
 [pep-441]:	https://py-generic-project.readthedocs.io/en/latest/packaging.html#build-zipapps
