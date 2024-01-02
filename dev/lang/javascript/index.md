@@ -93,6 +93,20 @@ Resources
 
 ### Tools
 
+ - [Bun]:
+   The new JavaScript runtime, which aims to replace [Node.js], but also other
+   tools, like [npm], [yarn], [jest], and others.  It can even run natively
+   TypeScript and can transpile to JavaScript React JSX templates.
+   It uses the JavaScript engine used by Safari.
+
+   It comes with an enormous library and documentation, including HOW-TO and
+   other guides.
+
+ - [Node.js]:
+   The default JavaScript runtime for the server, which brought the revolution
+   of JavaScript in local environments.  It uses the V8 JavaScript Engine, the
+   one used by Chrome.
+
  - [npm][npm]:
    Standard Package Manager for Node.js.
    Also, a central repository for Node.js packages.
@@ -149,7 +163,10 @@ Resources
 [chai]:		http://chaijs.com/
 [npm]:		https://www.npmjs.com/
 [nvm]:		https://github.com/creationix/nvm
+[yarn]:		https://yarnpkg.com/
 [jsbin]:	https://jsbin.com/
 [codepen]:	https://codepen.io/
 [jsfiddle]:	https://jsfiddle.net/
 [jest]:		https://jestjs.io/
+[Node.js]:	https://nodejs.org/
+[Bun]:		https://bun.sh
