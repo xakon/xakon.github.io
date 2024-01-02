@@ -107,13 +107,13 @@ Resources
    of JavaScript in local environments.  It uses the V8 JavaScript Engine, the
    one used by Chrome.
 
- - [npm][npm]:
-   Standard Package Manager for Node.js.
-   Also, a central repository for Node.js packages.
+ - [npm]:
+   Standard Package Manager for [Node.js].
+   Also, a central repository for [Node.js] packages.
 
- - [nvm][nvm]:
-   Node Version Manager, to keep multiple versions of Node.js,
-   [npm][npm] and other tools, installed on the system.
+ - [nvm]:
+   Node Version Manager, to keep multiple versions of [Node.js],
+   [npm] and other tools, installed on the system.
 
  - [JS Bin][jsbin]:
    Online editor for both HTML/CSS/JavaScript.  Make small changes to code and
@@ -124,9 +124,9 @@ Resources
    and run-time preview of changes on HTML/CSS/JavaScript.
 
  - [JsFiddle][jsfiddle]:
-   Similar to [JsBin][jsbin] and [CodePen][codepen] in features and operations.
+   Similar to [Js Bin][jsbin] and [CodePen][codepen] in features and operations.
 
- - [babel](babel):
+ - [Babel][babel]:
    Transpile ES6 into ES5, which is supported by most browsers.
 
  - [ESLint][eslint] or [JSLint][jslint]:
@@ -137,7 +137,7 @@ Resources
    A much faster alternative is a [Turbopack](https://turbo.build/),
    written in Rust for efficiency and performance.
 
- - [jest][jest]:
+ - [jest]:
    Test runner, assertion library, and mock framework.
 
  - [Mocha][mocha]:
@@ -158,9 +158,12 @@ Resources
 
 
 [good-parts]:	http://javascript.crockford.com/
+[eslint]:	https://eslint.org/
+[jslint]:	https://www.jslint.com/
 [mocha]:	https://mochajs.org/
 [sinon]:	http://sinonjs.org/
 [chai]:		http://chaijs.com/
+[jasmine]:	https://jasmine.github.io/
 [npm]:		https://www.npmjs.com/
 [nvm]:		https://github.com/creationix/nvm
 [yarn]:		https://yarnpkg.com/
@@ -168,5 +171,7 @@ Resources
 [codepen]:	https://codepen.io/
 [jsfiddle]:	https://jsfiddle.net/
 [jest]:		https://jestjs.io/
+[webpack]:	https://webpack.github.io/
+[Babel]:	https://babeljs.io/
 [Node.js]:	https://nodejs.org/
 [Bun]:		https://bun.sh
