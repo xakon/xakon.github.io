@@ -163,6 +163,15 @@ Some sites provide excellent ideas for project or course exercises:
 Some other ideas for projects can be found at <https://github.com/karan/Projects>.
 
 
+### Educational Projects ###
+
+ - [CodeCrafters](https://codecrafters.io/):
+   This application takes a different approach.  You need to build a complex
+   project, in any programming language of choice (many supported), in a
+   controlled fashion:  each project is split in stages, from easy to difficult.
+   There is guidance and support on each stage.
+
+
 ### Katas/Dojos
 
  - <http://codingdojo.org/>
