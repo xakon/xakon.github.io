@@ -130,4 +130,7 @@ Resources
  References
 -----------
 
- - [libvirt](http://www.libvirt.org/)
+ - [libvirt]
+
+
+[libvirt]:      http://www.libvirt.org/
