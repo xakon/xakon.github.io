@@ -33,6 +33,7 @@ Plan:
   OpenBSD	 2	512 MB	80 GB
   NetBSD	 2	512 MB	80 GB
   Gentoo	 2	512 MB	80 GB
+  Alpine     2  512 MB  40 GB
   Raspbian	 2	256 MB	30 GB
   Minix 2	 2?	256 MB	30 GB		(I don't know if Minix supports SMP)
   Minix 3	 2?	256 MB	30 GB		(I don't know if Minix supports SMP)
