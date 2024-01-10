@@ -116,6 +116,14 @@ https://www.online.net/en
 Resources
 ---------
 
+In a nice article, [Chris Siebenmann](https://utcc.utoronto.ca/~cks/),
+summarises how using [libvirt], he managed to change from _VMWare Workstation_
+to a pure open-source installation.  He mentions the use of [libvirt], through
+the [virt-manager], [virt-viewer], and [virsh].  The relevant article is
+[Using Linux's libvirt for my virtualization needs has been okay](https://utcc.utoronto.ca/~cks/space/blog/linux/LibvirtHasBeenOkay).
+
+Other relevant resources are:
+
  - <https://www.cyberciti.biz/faq/install-kvm-server-debian-linux-9-headless-server/>
  - <http://www.cyberciti.biz/faq/how-to-create-bridge-interface-ubuntu-linux/>
  - <https://deltahacker.gr/actsubs-libvirt-qd-cli/>
@@ -131,6 +139,12 @@ Resources
 -----------
 
  - [libvirt]
+ - [virt-manager]
+ - [virsh]
+ - [virt-viewer]
 
 
 [libvirt]:      http://www.libvirt.org/
+[virt-manager]: https://virt-manager.org/
+[virsh]:        https://linux.die.net/man/1/virsh
+[virt-viewer]:  https://gitlab.com/virt-viewer/virt-viewer
