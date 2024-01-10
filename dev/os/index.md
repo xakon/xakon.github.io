@@ -52,6 +52,10 @@ exercises, solutions, videos.
    immediately sold with it!  The article can be found at:
    [Programming for Redox OS](https://dev.to/legolord208/programming-for-redox-os-4124).
 
+ - [Motūrus OS](https://github.com/moturus/motor-os):
+   A simple, fast, and secure operating system for the cloud.
+   Built exclusively in Rust and exposing its ABI also in Rust, not in C.
+
  - [How to write a simple Operating System][mikeos-guide]:
    [MikeOS][mikeos] is a simple, x86-based OS, written in Assembly and with a
    goal to teach fundamentals of OSes to students.  There are also other forks

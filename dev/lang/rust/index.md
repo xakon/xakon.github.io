@@ -154,6 +154,10 @@ mind.
 Other
 -----
 
+ - [Motūrus OS](https://github.com/moturus/motor-os):
+   A simple, fast, and secure operating system for the cloud.
+   Built exclusively in Rust and exposing its ABI also in Rust, not in C.
+
  - [rtForth](https://github.com/chengchangwu/rtforth):  simple Forth implemented in Rust
    for real-time application.
 
