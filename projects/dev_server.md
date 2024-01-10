@@ -27,7 +27,7 @@ all the time:  I expect the final CPU use of the host server to not be that
 high.  Of course, I should be able to easily shut down some of these machines.
 
 Plan:
-		vCPU	RAM	Disk
+		   vCPU	RAM	Disk
 	       ========================
   FreeBSD	 2	512 MB	80 GB
   OpenBSD	 2	512 MB	80 GB
