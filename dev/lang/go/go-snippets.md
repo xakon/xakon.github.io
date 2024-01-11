@@ -40,7 +40,7 @@ for i, iface := range list {
 }
 ```
 
-### Read one line from io.Reader
+### Read one line from `io.Reader`
 
 `bufio.ReadBytes()` is more convenient that `bufio.ReadLine()`.
 
