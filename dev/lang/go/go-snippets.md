@@ -15,7 +15,7 @@ and samples about it.
 
 ## Samples
 
-### Get Local IP addressess
+### Get Local IP addresses
 
 ```Go
 // Get IP addresses
@@ -56,7 +56,7 @@ for i, iface := range list {
    }
 ```
 
-### Read line from stdin
+### Read line from STDIN
 
 Use `bufio` and `os.Stdin`.
 
