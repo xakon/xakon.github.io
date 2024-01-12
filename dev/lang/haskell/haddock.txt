@@ -1,0 +1,93 @@
+Haddock
+=======
+
+https://haskell-haddock.readthedocs.io/[Haddock] is a tool tool for automatically generating
+documentation from annotated Haskell scripts.  It is similar to https://www.doxygen.nl/[Doxygen],
+but works only for Haskell.
+
+Usage
+-----
+
+We generate HTML documentation from our Haskell source by running the `haddock` executable:
+
+[source,shell]
+---
+$ haddock -h -o html/ [FILE]...
+---
+
+Other useful options exist, be sure to check them out.
+
+_Haddock_ looks for any symbol in our code and uses its _annotated comment_ to generate the
+documentation.
+
+We can annotate our types, functions, parameters, variables with specific comments:
+
+One line comment:
+
+[source,haskell]
+----
+-- | Calculate the "Manhattan Distance" of two 2D points.
+distance :: (Int, Int) -> (Int, Int) -> Int
+distance (x, y) (p, t) = abs (x - p) + abs (y - t)
+----
+
+Multi-line comment:
+
+[source,haskell]
+----
+-- | Calculate the "Manhattan Distance" of two 2D points.
+-- More info at: https://en.wikipedia.org/wiki/Taxicab_geometry
+distance :: (Int, Int) -> (Int, Int) -> Int
+distance (x, y) (p, t) = abs (x - p) + abs (y - t)
+----
+
+_Nested comments_ instead of _ordinary comments_:
+
+[source,haskell]
+----
+{-| Calculate the "Manhattan Distance" of two 2D points.
+   More info at: https://en.wikipedia.org/wiki/Taxicab_geometry
+ -}
+distance :: (Int, Int) -> (Int, Int) -> Int
+distance (x, y) (p, t) = abs (x - p) + abs (y - t)
+----
+
+_Annotated comment_ after the symbol:
+
+[source,haskell]
+----
+data Direction =
+   South   | -- ^ Move down
+   East    | -- ^ Move to the right
+   North   | -- ^ Move up
+   West      -- ^ Move to the left
+----
+
+The annotated comments don't have to repeat the `|` or `^` character on each line.
+It is critical to have a space between the `|` or `^` and the _ordinary comments_,
+otherwise it's a parser error.  On the other hand, for _nested comments_, it
+doesn't matter at all, so I prefer not to leave any space between the opening
+comment characters and `|` or `^`.
+
+Especially for documenting a _module_, we can use some extra, optional fields, which will be
+interpreted specially by _Haddock_:
+
+[source,haskell]
+----
+{-|
+   Module: Parser
+   Description: Parse DNS messages.
+   Copyright: (c) John Carter
+   License: MIT
+   Maintainer: jack@example.com
+
+The functions in this module can parse a valid DNS message, or return an error specified the
+problem.
+ -}
+module Parser where
+----
+
+
+////
+# vim: set ft=asciidoc:
+////

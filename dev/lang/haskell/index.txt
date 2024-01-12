@@ -57,6 +57,8 @@ Tools
    https://github.com/nvm-sh/nvm[nvm].
  - https://docs.haskellstack.org/[Stack]:  Package and Project Manager for Haskell.
  - https://github.com/ndmitchell/hlint[HLint]:  Lint for Haskell.
+ - https://haskell-haddock.readthedocs.io[Haddock]:
+   Documentation generator from annotated Haskell script.
  - https://github.com/rgleichman/glance[Glance]:  A visual syntax Haskell.
  - http://haskelltools.org/[Haskell Tools]: GHC based toolset for Haskell programming.
  - https://kowainik.github.io/posts/2018-06-21-haskell-build-tools.html[Haskell: Build Tools]:
