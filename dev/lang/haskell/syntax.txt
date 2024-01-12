@@ -1,10 +1,10 @@
 Syntax
 ------
 
-Haskell's syntax reminds of Lisp and Python:  it omits the parentheses of Lisp,
+Haskell syntax reminds of Lisp and Python:  it omits the parentheses of Lisp,
 whitespace does matter, as in Python.
 
-In a sequence of definitions, each definition must begin in precily the same
+In a sequence of definitions, each definition must begin in precisely the same
 column.  Or explicitly declared as a block, using `{}` (not recommended style).
 
 Function and argument names must begin with lowercase letter.
