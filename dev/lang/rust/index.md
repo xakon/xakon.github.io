@@ -41,6 +41,7 @@ can be found at: [The Little Book of Rust Books](https://lborb.github.io/book/).
    presented in Rust, of course.
  - [Rust for the Polyglot Programmer](https://www.chiark.greenend.org.uk/~ianmdlvl/rust-polyglot/)
  - [High Assurance Rust](https://highassurance.rs/)
+ - [Rust and WebAssembly](https://rustwasm.github.io/docs/book/)
 
 ### Online Resources
 

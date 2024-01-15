@@ -14,6 +14,11 @@ Resources
 - [Home Page](http://webassembly.org/)
 
 
+### Mini-books ###
+
+ - [Rust and WebAssembly](https://rustwasm.github.io/docs/book/)
+
+
 ### Tutorials ###
 
  - [WebAssembly from Scratch: From FizzBuzz to DooM](https://github.com/diekmann/wasm-fizzbuzz):
