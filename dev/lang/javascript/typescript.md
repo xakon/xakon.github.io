@@ -13,6 +13,8 @@ Resources
 
  - [The TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/)
 
+ - [The Concise TypeScript Book](https://github.com/gibbok/typescript-book)
+
 
 [JavaScript]:	https://en.wikipedia.org/wiki/JavaScript
 
