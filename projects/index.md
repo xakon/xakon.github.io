@@ -125,6 +125,10 @@ Some examples follow:
 
  - [Node.js][nodejs]: <https://nodejs.org/>
 
+Also, at [verto.sh](https://www.verto.sh) I can find a large list of
+beginner-friendly projects, in many different languages, where I can pick a few
+projects and start reading and working with their code.
+
 
 [netbsd]:	http://netbsd.org/
 [openbsd]:	https://www.openbsd.org/
