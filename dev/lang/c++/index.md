@@ -25,6 +25,9 @@ ANSI C++
  - [Hacking C++](https://hackingcpp.com/):
    Excellent online reference of STL and other guides for C++.
  - [Infographics & Cheat Sheets](https://hackingcpp.com/cpp/cheat_sheets.html)
+ - [Modern C++ features](https://github.com/AnthonyCalandra/modern-cpp-features):
+   Details of every C++ feature that was introduced in which C++ standard.
+
 
 ### Tutorials ###
 
