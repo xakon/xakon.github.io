@@ -12,5 +12,14 @@ Resources
 
  - [Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/csharp/)
 
+### Online articles ###
+
+ - [.NET on Non-Windows Platforms: A Brief History][two-wrongs]:
+   A very useful and detailed article about how C#, .NET, [Mono], and the rest of the frameworks
+   were born and evolved.  Especially useful to clarify the differences in the names of the
+   platforms, frameworks, languages.
+
 
 [Mono]:		https://www.mono-project.com/
+
+[two-wrongs]:	https://two-wrongs.com/dotnet-on-non-windows-platforms-brief-historic-summary.html
