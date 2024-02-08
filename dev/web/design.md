@@ -64,6 +64,23 @@ Actually, it will not hurt if we add rate-limiting at both levels.
 But it's more important that the load-balancer or the proxy provides such facilities,
 as the rate-limiting at application level is usually more expensive in resources.
 
+### Harass botnets ###
+
+Instead of blocking IP addresses that hit honeypot URLs, we can send enormous data back to the
+botnets, making them crash with out-of-memory errors.  Or, at least, we will let them spend their
+bandwidth without touching our application.
+
+A clever such trick in Nginx could be written like this:
+
+```nginx
+location /wp-login.php {
+    return 301 "https://speed.hetzner.de/10GB.bin";
+}
+```
+
+This idea, found [here](https://genau.qwertqwefsday.eu/notes/9pbhb6nc35), is a safe variation of
+the article of [Jamie Zawinski](https://www.jwz.org/blog/2024/02/harassing-botnets-with-zipbombs/).
+
 ### Web Site as Application ###
 
 Modern browsers can open Web sites as standalone applications, especially useful
