@@ -48,6 +48,22 @@ They can use the `Report-To` header field to send a request, when they spot a
 problem with a web site.  There is also a custom service that supports this
 browser feature, called [report-uri.com](https://report-uri.com/).
 
+### Rate Limiting ###
+
+Each application deployed at the Web needs to support some kind of rate-limiting.
+But, this task shouldn't be handled at the application level, even though it's possible to do it
+with many libraries and frameworks.
+It's better to set the rate-limiting at the load-balancer or the reverse-proxy.
+
+Here is a useful article, [Rate-limiting with Nginx](https://rednafi.com/go/rate_limiting_via_nginx/),
+explaining the technique using a Web application written in Go, and serving content behind an Nginx
+reverse-proxy.  The source code, which could be used as a starting reference point,
+can be found at [Github](https://github.com/rednafi/nginx-ratelimit).
+
+Actually, it will not hurt if we add rate-limiting at both levels.
+But it's more important that the load-balancer or the proxy provides such facilities,
+as the rate-limiting at application level is usually more expensive in resources.
+
 ### Web Site as Application ###
 
 Modern browsers can open Web sites as standalone applications, especially useful
