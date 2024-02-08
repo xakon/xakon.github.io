@@ -159,3 +159,6 @@ Misc
  - [Minibox](https://github.com/ercanersoy/Minibox):
    Small Unix commands for resource limited systems.
    We can build them even for MS-DOS, [FreeDOS](http://freedos.org/), etc.
+
+ - [web2pdf](https://github.com/dvcoolarun/web2pdf):
+   Capture a Web page as PDF.  Useful to keep a track of old Web page styles.
