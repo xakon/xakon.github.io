@@ -89,6 +89,11 @@ enabled.
    A fork of [Gogs](https://gogs.io/), since the latter project doesn't update
    very often lately.
 
+ - [Forgejo](https://forgejo.org/):
+   A self-hosted lightweight software forge.
+   Easy to install and low maintenance, it just does the job.
+   A fork of [Gitea](https://gitea.io/).
+
 
 ### Github Alternatives
 
