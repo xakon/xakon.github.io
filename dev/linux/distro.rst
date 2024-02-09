@@ -85,6 +85,16 @@ Puppy Linux
 innovations in the field.  I always want to play with it and customize one
 similar distribution!
 
+Actually, I was wrong about my previous statement, as this is a common misconception about
+`Puppy Linux`_.  It is not a Linux distribution, but a set of distributions, that they share
+the same philosophy.  Today, `Puppy Linux`_ recognises 3 different types of distributions:
+
+- Official:    distributions built using *Woof* and maintained by `Puppy Linux`_
+- Woof-built:  distributions built with *Woof* that also have additional or modified packages
+- Unofficial or _pupplets_:
+  Remasters that are privately maintained, usually for specific purposes, instead of
+  being on the `Puppy Linux`_ forum.
+
 .. _Puppy Linux: http://www.puppylinux.org/
 
 
