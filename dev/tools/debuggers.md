@@ -4,7 +4,7 @@ Debuggers
 Terminology
 -----------
 
-I'm always confused with the terms used in various debuggers.  It's time to resolve them for goood!
+I'm always confused with the terms used in various debuggers.  It's time to resolve them for good!
 
 breakpoint:
     Stop execution at specified line (function, ...)
