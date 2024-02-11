@@ -111,6 +111,11 @@ terminal-based games.  These games can also be found in the
 
  - [GALAXIS for UNIX](https://gitlab.com/esr/galaxis)
 
+ - [Ski](http://www.catb.org/~esr/ski):
+   A hotdogging game, evade the deadly Yeti on your jet-powered skis.
+
+   Source code can be found [here](https://gitlab.com/esr/ski).
+
 
 [lemmings]:	http://en.wikipedia.org/wiki/Lemmings
 
