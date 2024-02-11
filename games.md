@@ -100,6 +100,13 @@ Linux
  - [Linux Air Combat](https://askmisterwizard.com/2019/LinuxAirCombat/LinuxAirCombat.htm)
    Flight and air-fighting simulator.
 
+The famous [Eric S. Raymond](http://catb.org/) maintains a list of old, open-source,
+terminal-based games.  These games can also be found in the
+[Retrocomputing Museum](http://www.catb.org/retro).
+
+ - [Super Star Trek 2K](http://www.catb.org/~esr/super-star-trek/):
+   Source code can be found [here]((https://gitlab.com/esr/super-star-trek)
+
 
 [lemmings]:	http://en.wikipedia.org/wiki/Lemmings
 
