@@ -109,6 +109,8 @@ terminal-based games.  These games can also be found in the
 
  - [Greed](https://gitlab.com/esr/greed)
 
+ - [GALAXIS for UNIX](https://gitlab.com/esr/galaxis)
+
 
 [lemmings]:	http://en.wikipedia.org/wiki/Lemmings
 
