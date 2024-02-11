@@ -107,6 +107,8 @@ terminal-based games.  These games can also be found in the
  - [Super Star Trek 2K](http://www.catb.org/~esr/super-star-trek/):
    Source code can be found [here]((https://gitlab.com/esr/super-star-trek)
 
+ - [Greed](https://gitlab.com/esr/greed)
+
 
 [lemmings]:	http://en.wikipedia.org/wiki/Lemmings
 
