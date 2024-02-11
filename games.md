@@ -116,6 +116,10 @@ terminal-based games.  These games can also be found in the
 
    Source code can be found [here](https://gitlab.com/esr/ski).
 
+ - [Colossal Cave Adventure](http://www.catb.org/esr/open-adventure/):
+   This is an open-source reimplementation by Eric S. Raymond.
+   The souces can be found [here](https://gitlab.com/esr/open-adventure).
+
 
 [lemmings]:	http://en.wikipedia.org/wiki/Lemmings
 
