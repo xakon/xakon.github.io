@@ -120,6 +120,13 @@ terminal-based games.  These games can also be found in the
    This is an open-source reimplementation by Eric S. Raymond.
    The souces can be found [here](https://gitlab.com/esr/open-adventure).
 
+ - [VMS-Empire](https://gitlab.com/esr/vms-empire):
+   A simulation of a full-scale war between two emperors.  This game is the ancestor of
+   all the multiplayer 4X simulations, like _Civilization_ and _Master of Orion_.
+   This code originated under VMS, but has been forward-ported to modern ANSI C.
+   It is known to run not only on Linux, but other POSIX-like systems, even under
+   Windows and macOS.
+
 
 [lemmings]:	http://en.wikipedia.org/wiki/Lemmings
 
