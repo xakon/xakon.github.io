@@ -127,6 +127,9 @@ terminal-based games.  These games can also be found in the
    It is known to run not only on Linux, but other POSIX-like systems, even under
    Windows and macOS.
 
+ - [BS 2.0](https://gitlab.com/esr/bs) (Battleships 2.0):
+   An open-source reimplementation by Eric S. Raymond.
+
 
 [lemmings]:	http://en.wikipedia.org/wiki/Lemmings
 
