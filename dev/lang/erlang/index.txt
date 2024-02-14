@@ -84,6 +84,11 @@ Some recommended books about Erlang are:
 
  - Mnesia User's Guide[http://www.erlang.org/doc/apps/mnesia/]
 
+Online Books
+++++++++++++
+
+ - https://blog.stenmans.org/theBeamBook/[The Erlang Runtime System]
+
 Projects
 ~~~~~~~~
 
