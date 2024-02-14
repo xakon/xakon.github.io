@@ -10,7 +10,7 @@ Resources
 
  - [The Erlang Runtime System](https://blog.stenmans.org/theBeamBook/)
 
- - [BEAM Wisdons](http://beam-wisdoms.clau.se/):
+ - [BEAM Wisdoms](http://beam-wisdoms.clau.se/):
    A collection of easy to read articles, as well as in-depth knowledge about
    the internals of the VM, memory layout, opcodes, etc.
 
