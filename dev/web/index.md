@@ -83,6 +83,10 @@ Resources
  * [verlure](https://github.com/bbangert/velruse):
    Simplifying third-party authentication for web applications.
 
+ * [Plausible](https://plausible.io/):
+   Another, very popular, alternative to Google's Analytics.
+   There is also a community edition, where we can host and run it ourselves.
+
  * [Piwik](http://piwik.org/): An alternative to Google's Analytics,
    running locally on the deployed web server.  There is also a handfull
    [demo](http://demo.piwik.org/).
