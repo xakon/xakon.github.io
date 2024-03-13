@@ -60,7 +60,7 @@ For example, creating an array of the elements:
 
 Putting elements inside a JSON object:
 
-    jq '{ "first_naem": .[0], "last_name": .[2] }'
+    jq '{ "first_name": .[0], "last_name": .[2] }'
     jq '{ title: .title, number: .number, labels: .labels }'
 
 There are built-in functions that manipulate the generated data:
