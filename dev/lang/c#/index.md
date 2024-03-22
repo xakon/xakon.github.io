@@ -20,6 +20,14 @@ Resources
    platforms, frameworks, languages.
 
 
+Installation
+------------
+
+### Debian ###
+
+Steps at [official docs](https://learn.microsoft.com/en-gb/dotnet/core/install/linux-debian).
+
+
 [Mono]:		https://www.mono-project.com/
 
 [two-wrongs]:	https://two-wrongs.com/dotnet-on-non-windows-platforms-brief-historic-summary.html
