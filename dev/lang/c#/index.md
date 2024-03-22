@@ -27,6 +27,12 @@ Installation
 
 Steps at [official docs](https://learn.microsoft.com/en-gb/dotnet/core/install/linux-debian).
 
+Tools
+-----
+
+ - [nuget.org](http://www.nuget.org/):
+   Packages to install.
+
 
 [Mono]:		https://www.mono-project.com/
 
