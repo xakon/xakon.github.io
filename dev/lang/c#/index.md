@@ -10,7 +10,16 @@ on and for other platforms.
 Resources
 ---------
 
+ - [Official documentation](https://docs.microsoft.com/en-us/dotnet/csharp/)
  - [Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/csharp/)
+ - [.NET](https://dotnet.microsoft.com/learn/dotnet/)
+ - [.NET Core](https://www.microsoft.com/net/core)
+ - [Mono](http://www.mono-project.com/)
+ - [Learn C#](http://www.learncs.org/):
+   Interactive, in-browser tutorial that introduces to the core concepts of
+   programming in C#
+ - [Try.NET](https://dotnet.microsoft.com/platform/try-dotnet):
+   Online code runner and playground
 
 ### Online articles ###
 
