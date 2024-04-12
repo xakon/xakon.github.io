@@ -21,6 +21,16 @@ Many of them are amazing applications, that could stand on its own.
  - [SLIME](https://common-lisp.net/project/slime/)
 
 
+Command-Line Options
+--------------------
+
+Some useful command-line options are:
+
+ - `-nw`:		start Emacs in the terminal (no GUI)
+ - `-Q`:		start Emacs without loading any configuration
+ - `--batch`:	execute the rest of the command-line arguments and quit
+
+
 Shortcuts
 ---------
 

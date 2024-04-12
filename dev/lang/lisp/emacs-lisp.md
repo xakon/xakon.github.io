@@ -1,6 +1,11 @@
 Emacs Lisp (elisp)
 ==================
 
+We can easily test some *elisp* commands either in a scratch buffer or at the
+command-line, by passing to Emacs the following arguments:
+
+    $ emacs --batch --eval '...'
+
 A symbol in Emacs Lisp can be **both** a value **and** a function at the same
 time.  A function that evaluates while pressing keys is called
 *interactive function* or *command*.
