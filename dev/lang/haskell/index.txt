@@ -97,6 +97,7 @@ Books
  - https://www.manning.com/books/get-programming-with-haskell[Get Programming with Haskell]
  - http://haskellbook.com[Haskell Programming]
  - http://book.realworldhaskell.org/[Real World Haskell]
+ - https://www.haskellcraft.com/[Haskell: the Craft of Functional Programming]
  - https://www.haskell.org/tutorial/[Gentle Introduction to Haskell 98]
  - https://www.vacationlabs.com/haskell/[Haskell without the theory]
  - https://www.manning.com/books/haskell-in-depth[Haskell in Depth]
