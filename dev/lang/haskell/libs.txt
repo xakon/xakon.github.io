@@ -16,6 +16,14 @@ Some of them might deserve special sections and further description.
    together and performed as a single atomic operation.
 
 
+Web Development
+---------------
+
+ - `mig`:  A library to write Web applications.
+   Information can be found in the online book, https://anton-k.github.io/mig/[Mig by example].
+
+
+
 ////
 # vim: set ft=asciidoc:
 ////
