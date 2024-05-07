@@ -9,9 +9,11 @@ Graphical
 
  - [Firefox](https://www.mozilla.org/en-GB/firefox/)
 
- - [Diloo](https://www.dillo.org/):
+ - [Dillo](https://www.dillo.org/):
    A lightweight browser that is built using the [Fast Light Toolkit (FLTK)[FLTK].
    It lacks many features but it works pretty well on basic web pages.
+   The original domain might be unavailable, but we can now find the project at
+   <https://dillo-browser.github.io/>.
 
  - [NetSurf](https://www.netsurf-browser.org/):
    Small as mouse, fast as cheetah and available for free.
