@@ -56,6 +56,9 @@ Testing
  - [Model Bakery](https://github.com/model-bakers/model_bakery):
    Object factory for Django.  En masse creating objects by automatically
    populating unrelated to a test fields.
+ - [Factory Boy](https://factoryboy.readthedocs.io/en/stable/):
+   An alternative library to create test objects.  Commonly used together with
+   [Faker](https://github.com/joke2k/faker/).
  - [Playwright](https://github.com/microsoft/playwright-python):
    An alternative to [Selenium](https://www.selenium.dev/) to test web
    application in the browser.  Implemented by Microsoft, it promises faster
