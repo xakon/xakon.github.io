@@ -93,6 +93,9 @@ Resources
 
 ### Tools
 
+ - [JSDoc]:
+   Documenting JavaScript packages, functions, variables.
+
  - [Bun]:
    The new JavaScript runtime, which aims to replace [Node.js], but also other
    tools, like [npm], [yarn], [jest], and others.  It can even run natively
@@ -175,3 +178,4 @@ Resources
 [Babel]:	https://babeljs.io/
 [Node.js]:	https://nodejs.org/
 [Bun]:		https://bun.sh
+[JSDoc]:    https://jsdoc.app/
