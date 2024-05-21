@@ -50,6 +50,10 @@ I got the following lists from a great answer at [StackOverflow][so-answer].
 
  - [Lisp Koans](https://github.com/google/lisp-koans)
 
+ - [Symbolics Lisp Machine Museum](https://smbx.org/):
+   Symbolics used to be a pioneer in Lisp programming, producing hardware dedicated to run Lisp
+   programs.  The online museum is an effort to preserve its legacy, especially at harware level.
+
 ### Implementations
 
 A Scheme implementation suitable for beginners is [PLT Scheme](http://www.plt-scheme.org/).
