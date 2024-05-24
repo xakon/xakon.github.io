@@ -81,6 +81,8 @@ can be found at: [The Little Book of Rust Books](https://lborb.github.io/book/).
 
 ### Tutorials ###
 
+ - [100 Exercises to Learn Rust](https://rust-exercises.com/):
+   Learn the language using a set of online exercises.
  - [Rust Tutorials](http://www.rust-tutorials.com/)
  - [A Gentle Introduction To Rust](https://stevedonovan.github.io/rust-gentle-intro/readme.html)
  - [Rust-101](https://www.ralfj.de/projects/rust-101/):
