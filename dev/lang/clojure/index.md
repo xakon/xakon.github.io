@@ -13,6 +13,9 @@ References
 Resources
 ---------
 
+ - [Try Clojure](https://tryclojure.org/):
+   Online REPL to play with the language.
+
 ### Tutorials ###
 
  - [Casting SPELs in LISP](http://www.lisperati.com/clojure-spels/casting.html):
