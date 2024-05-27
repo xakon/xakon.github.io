@@ -90,6 +90,9 @@ Linux
 -----
 
  - Nethack
+   There is a public server, <alt.org>, where we can play Nethack online:
+   `telnet alt.org` or `ssh nethack@alt.org`.  More information at
+   <https://alt.org/nethack/>.
  - Angband
  - Battle of Wesnoth
  - PlaneShift
