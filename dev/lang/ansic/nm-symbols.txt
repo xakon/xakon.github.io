@@ -1,0 +1,21 @@
+List of `nm' letter codes
+=========================
+
+A  A global, absolute symbol.
+B  A global "bss" (uninitialized data) symbol.
+C  A "common" symbol, representing uninitialized data.
+D  A global symbol naming initialized data.
+N  A debugger symbol.
+R  A read-only data symbol.
+T  A global text symbol.
+U  An undefined symbol.
+V  A weak object.
+W  A weak reference.
+a  A local absolute symbol.
+b  A local "bss" (uninitialized data) symbol.
+d  A local data symbol.
+r  A local read-only data symbol.
+t  A local text symbol.
+v  A weak object that is undefined.
+w  A weak symbol that is undefined.
+?  None of the above.
