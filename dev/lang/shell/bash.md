@@ -38,6 +38,8 @@ It can be really helpful while copying text from terminal to paste it, for examp
    xUnit Test Framework.
  - [roundup](https://bmizerany.github.io/roundup/):
    Test framework.
+ - [Sharness](https://github.com/mlafeldt/Sharness):
+   Another TAP unit shell library, with many features.
  - [shellspec](https://github.com/shellspec/shellspec):
    BDD framework for any POSIX-compliant shell.
  - [bats](https://github.com/sstephenson/bats):
@@ -49,6 +51,13 @@ It can be really helpful while copying text from terminal to paste it, for examp
    [Test Anything Protocol (TAP](https://testanything.org/) output.
    We can run the tests with any TAP-compatible test harness, like Perl's
    `prove`.
+
+   Another TAP parser which can be used with shell scripts is
+   [tapview](https://gitlab.com/esr/tapview).
+
+In general, the TAP website has a list of
+[shell test libraries](https://testanything.org/producers.html#shell) (“producers”),
+if they are needed in a project.
 
 
 ## Terminal
