@@ -25,6 +25,8 @@ workshops, etc.
 ### Cheatsheets ###
 
  - [Go modules cheat sheet](https://encore.dev/guide/go.mod)
+ - [Go Data Structures](https://github.com/Workiva/go-datastructures):
+   Collection of useful, performant, and thread-safe Go data-structures.
 
 
 ### Books
